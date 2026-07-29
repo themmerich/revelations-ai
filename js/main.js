@@ -91,7 +91,6 @@
     });
     if (rebuildHero) {
       setHeroWord(document.getElementById("heroWord1"), t("hero.word1"));
-      setHeroWord(document.getElementById("heroWord2"), t("hero.word2"));
     }
     langToggle.textContent = lang === "de" ? "EN" : "DE";
   }
@@ -127,7 +126,7 @@
 
   /* ---------------- Hero text ---------------- */
   document.querySelectorAll("[data-split]").forEach(function (el) {
-    var word = el.id === "heroWord1" ? t("hero.word1") : el.id === "heroWord2" ? t("hero.word2") : el.textContent;
+    var word = el.id === "heroWord1" ? t("hero.word1") : el.textContent;
     el.textContent = "";
     word.split("").forEach(function (ch) {
       var span = document.createElement("span");
