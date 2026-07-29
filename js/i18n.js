@@ -5,8 +5,8 @@
 
 window.TRANSLATIONS = {
   "title.page": {
-    de: "DER IMAGINEER — Clive Barker × Fable 5",
-    en: "THE IMAGINEER — Clive Barker × Fable 5"
+    de: "Revelations — Clive Barker × Fable 5",
+    en: "Revelations — Clive Barker × Fable 5"
   },
 
   /* Nav */
@@ -16,11 +16,14 @@ window.TRANSLATIONS = {
   "nav.galerie": { de: "Galerie", en: "Gallery" },
 
   /* Hero */
-  "hero.word1": { de: "DER", en: "THE" },
-  "hero.word2": { de: "IMAGINEER", en: "IMAGINEER" },
+  "hero.word1": { de: "REVELATIONS", en: "REVELATIONS" },
   "hero.eyebrow": {
     de: "Ein interaktives Porträt · aus dem Archiv von clivebarker.info",
     en: "An interactive portrait · drawn from the archive at clivebarker.info"
+  },
+  "hero.subtitle": {
+    de: "Die offizielle Clive-Barker-Website",
+    en: "The Official Clive Barker Website"
   },
   "hero.lede": {
     de: "Clive Barker — Autor, Regisseur, Maler. Ein halbes Jahrhundert zwischen Himmel, Hölle und allem, was dazwischen träumt.",
