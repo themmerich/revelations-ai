@@ -1,5 +1,5 @@
 /* ============================================================
-   Motion & Interaktion — GSAP-Choreografie
+   Motion & Interaktion — GSAP-Choreografie + i18n
    Claude Fable 5 (Anthropic)
    ============================================================ */
 
@@ -9,25 +9,41 @@
   var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 
+  /* ---------------- Language state ---------------- */
+  var T = window.TRANSLATIONS || {};
+  var lang = "de";
+  try {
+    var stored = localStorage.getItem("imagineer-lang");
+    if (stored === "en" || stored === "de") lang = stored;
+  } catch (e) { /* storage unavailable — stay with default */ }
+
+  function t(key) {
+    return (T[key] && T[key][lang]) || "";
+  }
+
   /* ---------------- Gallery data ---------------- */
   var ARTWORKS = [
-    { file: "patriarch",       title: "Patriarch",                      medium: "Öl auf Leinwand · 48 × 60″" },
-    { file: "suspension",      title: "Suspension",                     medium: "Tusche auf Papier · 22 × 30″" },
-    { file: "thebeliever",     title: "The Believer",                   medium: "Öl auf Papier · 41 × 30″" },
-    { file: "ouroborous",      title: "Ouroborous",                     medium: "Öl auf Leinwand · 30 × 24″" },
-    { file: "daemon",          title: "Daemon",                         medium: "Tusche auf Papier · 11,5 × 8,25″" },
-    { file: "deathmaiden",     title: "Death and the Maiden",           medium: "Tusche auf Papier · 14 × 17″" },
-    { file: "stitchling",      title: "A Stitchling",                   medium: "Acryl & Tusche auf Papier · 30 × 22″" },
-    { file: "wolfskin",        title: "A Man in the Skin of a Wolf",    medium: "Tusche auf Papier · 17 × 11″" },
-    { file: "demon10",         title: "Demon",                          medium: "Papier · 23,25 × 16,5″" },
-    { file: "mementomori",     title: "Memento Mori",                   medium: "Tusche auf Papier · 24 × 18″" },
-    { file: "sorcerers",       title: "Sorcerers",                      medium: "Tusche auf Papier · 24 × 18″" },
-    { file: "belial",          title: "Belial",                         medium: "Tusche auf Papier · 11,75 × 8,5″" },
-    { file: "starfalling",     title: "Star Falling",                   medium: "Tusche auf Papier · 14 × 10,5″" },
-    { file: "immacolata",      title: "Immacolata",                     medium: "Tusche auf Papier · Weaveworld" },
-    { file: "shadwellunmasks", title: "Shadwell Unmasks Himself",       medium: "Tusche auf Papier · Weaveworld" },
-    { file: "joelsghost",      title: "Joel's Ghost",                   medium: "Öl auf Leinwand · 37 × 37″" }
+    { file: "patriarch",       title: "Patriarch",                   mediumDe: "Öl auf Leinwand · 48 × 60″",                mediumEn: "Oil on canvas · 48 × 60″" },
+    { file: "suspension",      title: "Suspension",                  mediumDe: "Tusche auf Papier · 22 × 30″",              mediumEn: "Ink on paper · 22 × 30″" },
+    { file: "thebeliever",     title: "The Believer",                mediumDe: "Öl auf Papier · 41 × 30″",                  mediumEn: "Oil on paper · 41 × 30″" },
+    { file: "ouroborous",      title: "Ouroborous",                  mediumDe: "Öl auf Leinwand · 30 × 24″",                mediumEn: "Oil on canvas · 30 × 24″" },
+    { file: "daemon",          title: "Daemon",                      mediumDe: "Tusche auf Papier · 11,5 × 8,25″",          mediumEn: "Ink on paper · 11.5 × 8.25″" },
+    { file: "deathmaiden",     title: "Death and the Maiden",        mediumDe: "Tusche auf Papier · 14 × 17″",              mediumEn: "Ink on paper · 14 × 17″" },
+    { file: "stitchling",      title: "A Stitchling",                mediumDe: "Acryl & Tusche auf Papier · 30 × 22″",      mediumEn: "Acrylic & ink on paper · 30 × 22″" },
+    { file: "wolfskin",        title: "A Man in the Skin of a Wolf", mediumDe: "Tusche auf Papier · 17 × 11″",              mediumEn: "Ink on paper · 17 × 11″" },
+    { file: "demon10",         title: "Demon",                       mediumDe: "Papier · 23,25 × 16,5″",                    mediumEn: "Paper · 23.25 × 16.5″" },
+    { file: "mementomori",     title: "Memento Mori",                mediumDe: "Tusche auf Papier · 24 × 18″",              mediumEn: "Ink on paper · 24 × 18″" },
+    { file: "sorcerers",       title: "Sorcerers",                   mediumDe: "Tusche auf Papier · 24 × 18″",              mediumEn: "Ink on paper · 24 × 18″" },
+    { file: "belial",          title: "Belial",                      mediumDe: "Tusche auf Papier · 11,75 × 8,5″",          mediumEn: "Ink on paper · 11.75 × 8.5″" },
+    { file: "starfalling",     title: "Star Falling",                mediumDe: "Tusche auf Papier · 14 × 10,5″",            mediumEn: "Ink on paper · 14 × 10.5″" },
+    { file: "immacolata",      title: "Immacolata",                  mediumDe: "Tusche auf Papier · Weaveworld",            mediumEn: "Ink on paper · Weaveworld" },
+    { file: "shadwellunmasks", title: "Shadwell Unmasks Himself",    mediumDe: "Tusche auf Papier · Weaveworld",            mediumEn: "Ink on paper · Weaveworld" },
+    { file: "joelsghost",      title: "Joel's Ghost",                mediumDe: "Öl auf Leinwand · 37 × 37″",                mediumEn: "Oil on canvas · 37 × 37″" }
   ];
+
+  function artMedium(art) {
+    return lang === "en" ? art.mediumEn : art.mediumDe;
+  }
 
   var track = document.getElementById("galleryTrack");
   ARTWORKS.forEach(function (art, i) {
@@ -39,14 +55,57 @@
       '<div class="artitem__frame"><img src="assets/art/' + art.file + '.jpg" alt="Clive Barker — ' + art.title + '" loading="lazy" /></div>' +
       '<figcaption class="artitem__caption">' +
       '<span class="artitem__title">' + art.title + "</span>" +
-      '<span class="artitem__meta mono">' + art.medium + "<br />© Clive Barker</span>" +
+      '<span class="artitem__meta mono">' + artMedium(art) + "<br />© Clive Barker</span>" +
       "</figcaption>";
     track.appendChild(item);
   });
   var endCard = document.createElement("div");
   endCard.className = "gallery__end";
-  endCard.innerHTML = "Tausende weitere Werke schlummern im Archiv &mdash; dies ist nur ein Spalt in der Tür.";
+  endCard.setAttribute("data-i18n", "galerie.end");
   track.appendChild(endCard);
+
+  /* ---------------- Apply language ---------------- */
+  var langToggle = document.getElementById("langToggle");
+
+  function setHeroWord(el, text) {
+    el.innerHTML = "";
+    text.split("").forEach(function (ch) {
+      var span = document.createElement("span");
+      span.className = "char";
+      span.textContent = ch;
+      span.style.transform = "translateY(0)";
+      el.appendChild(span);
+    });
+  }
+
+  function applyLanguage(rebuildHero) {
+    document.documentElement.lang = lang;
+    document.title = t("title.page");
+    document.querySelectorAll("[data-i18n]").forEach(function (el) {
+      var html = t(el.getAttribute("data-i18n"));
+      if (html) el.innerHTML = html;
+    });
+    document.querySelectorAll(".artitem").forEach(function (item) {
+      var art = ARTWORKS[parseInt(item.getAttribute("data-idx"), 10)];
+      item.querySelector(".artitem__meta").innerHTML = artMedium(art) + "<br />© Clive Barker";
+    });
+    if (rebuildHero) {
+      setHeroWord(document.getElementById("heroWord1"), t("hero.word1"));
+      setHeroWord(document.getElementById("heroWord2"), t("hero.word2"));
+    }
+    langToggle.textContent = lang === "de" ? "EN" : "DE";
+  }
+
+  langToggle.addEventListener("click", function () {
+    lang = lang === "de" ? "en" : "de";
+    try { localStorage.setItem("imagineer-lang", lang); } catch (e) { /* ignore */ }
+    applyLanguage(true);
+    ScrollTrigger.refresh();
+  });
+
+  // Initial pass: translate static content; hero chars are built below for the
+  // intro animation, so only rebuild them here if a non-default language loads.
+  applyLanguage(false);
 
   /* ---------------- Loader ---------------- */
   var loader = document.getElementById("loader");
@@ -68,9 +127,9 @@
 
   /* ---------------- Hero text ---------------- */
   document.querySelectorAll("[data-split]").forEach(function (el) {
-    var chars = el.textContent.split("");
+    var word = el.id === "heroWord1" ? t("hero.word1") : el.id === "heroWord2" ? t("hero.word2") : el.textContent;
     el.textContent = "";
-    chars.forEach(function (ch) {
+    word.split("").forEach(function (ch) {
       var span = document.createElement("span");
       span.className = "char";
       span.textContent = ch;
@@ -214,11 +273,11 @@
       cx(e.clientX); cy(e.clientY);
     }, { passive: true });
 
-    function bindCursor(selector, label) {
+    function bindCursor(selector, labelKey) {
       document.querySelectorAll(selector).forEach(function (el) {
         el.addEventListener("mouseenter", function () {
           cursor.classList.add("is-hover");
-          cursorLabel.textContent = label;
+          cursorLabel.textContent = labelKey ? t(labelKey) : "";
         });
         el.addEventListener("mouseleave", function () {
           cursor.classList.remove("is-hover");
@@ -227,7 +286,8 @@
       });
     }
     bindCursor("a", "");
-    bindCursor(".artitem", "Öffnen");
+    bindCursor(".nav__lang", "");
+    bindCursor(".artitem", "cursor.open");
     bindCursor(".workrow", "");
   }
 
@@ -244,7 +304,7 @@
     lightboxImg.src = "assets/art/" + art.file + ".jpg";
     lightboxImg.alt = "Clive Barker — " + art.title;
     lightboxTitle.textContent = art.title;
-    lightboxMeta.textContent = art.medium;
+    lightboxMeta.textContent = artMedium(art);
     lightbox.classList.add("is-open");
     lightbox.setAttribute("aria-hidden", "false");
     gsap.to(backdrop, { opacity: 1, duration: 0.4 });
