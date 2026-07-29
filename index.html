@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>DER IMAGINEER — Clive Barker × Fable 5</title>
+<meta name="description" content="Eine interaktive Hommage an das Universum von Clive Barker — entworfen und gebaut von Claude Fable 5 (Anthropic)." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=IBM+Plex+Mono:wght@300;400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- Loader -->
+<div class="loader" id="loader">
+  <div class="loader__inner">
+    <span class="loader__word">REVELATIONS</span>
+    <span class="loader__count" id="loaderCount">00</span>
+  </div>
+</div>
+
+<!-- Fixed Three.js stage -->
+<canvas id="stage"></canvas>
+
+<!-- Grain overlay -->
+<div class="grain" aria-hidden="true"></div>
+
+<!-- Custom cursor -->
+<div class="cursor" id="cursor" aria-hidden="true"><span class="cursor__label" id="cursorLabel"></span></div>
+
+<!-- Navigation -->
+<header class="nav" id="nav">
+  <a class="nav__logo" href="#top" data-scroll>C·B</a>
+  <nav class="nav__links">
+    <a href="#bio" data-scroll>Biografie</a>
+    <a href="#werke" data-scroll>Werke</a>
+    <a href="#film" data-scroll>Film</a>
+    <a href="#galerie" data-scroll>Galerie</a>
+    <a href="#fable" data-scroll class="nav__fable">Fable&nbsp;5</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <p class="hero__eyebrow mono reveal-line">Ein interaktives Porträt · aus dem Archiv von clivebarker.info</p>
+    <h1 class="hero__title" aria-label="Der Imagineer">
+      <span class="hero__line"><span class="hero__word" data-split>DER</span></span>
+      <span class="hero__line hero__line--indent"><span class="hero__word hero__word--italic" data-split>IMAGINEER</span></span>
+    </h1>
+    <div class="hero__sub">
+      <p class="hero__lede reveal-line">Clive Barker — Autor, Regisseur, Maler. Ein halbes Jahrhundert
+      zwischen Himmel, Hölle und allem, was dazwischen träumt.</p>
+      <p class="hero__meta mono reveal-line">Liverpool, 1952 — Los Angeles, heute</p>
+    </div>
+    <div class="hero__scrollhint mono" aria-hidden="true">
+      <span>Scrollen</span>
+      <span class="hero__scrollline"></span>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>Horror&nbsp;·&nbsp;Fantasy&nbsp;·&nbsp;Malerei&nbsp;·&nbsp;Film&nbsp;·&nbsp;Theater&nbsp;·&nbsp;Literatur&nbsp;·&nbsp;</span>
+      <span>Horror&nbsp;·&nbsp;Fantasy&nbsp;·&nbsp;Malerei&nbsp;·&nbsp;Film&nbsp;·&nbsp;Theater&nbsp;·&nbsp;Literatur&nbsp;·&nbsp;</span>
+      <span>Horror&nbsp;·&nbsp;Fantasy&nbsp;·&nbsp;Malerei&nbsp;·&nbsp;Film&nbsp;·&nbsp;Theater&nbsp;·&nbsp;Literatur&nbsp;·&nbsp;</span>
+      <span>Horror&nbsp;·&nbsp;Fantasy&nbsp;·&nbsp;Malerei&nbsp;·&nbsp;Film&nbsp;·&nbsp;Theater&nbsp;·&nbsp;Literatur&nbsp;·&nbsp;</span>
+    </div>
+  </div>
+
+  <!-- BIO -->
+  <section class="section bio" id="bio">
+    <div class="section__head">
+      <span class="section__num mono">01</span>
+      <h2 class="section__title"><em>Biografie</em></h2>
+    </div>
+    <div class="bio__grid">
+      <figure class="bio__figure reveal-img">
+        <div class="bio__imgwrap">
+          <img src="assets/art/joelsghost.jpg" alt="Clive Barker — Joel's Ghost, Öl auf Leinwand" data-parallax />
+        </div>
+        <figcaption class="mono">Joel&rsquo;s Ghost · Öl auf Leinwand · © Clive Barker</figcaption>
+      </figure>
+      <div class="bio__text">
+        <p class="bio__lead reveal">Geboren am 5. Oktober 1952 in Liverpool, begann Clive Barker im
+        Theater — als Dramatiker, Regisseur und Bühnenbildner —, bevor er Mitte der Achtziger mit den
+        <em>Books of Blood</em> die Horrorliteratur neu vermaß.</p>
+        <p class="reveal">Was folgte, war kein Genre-Handwerk, sondern eine eigene Kosmologie: Romane wie
+        <em>Weaveworld</em> und <em>Imajica</em> öffneten Türen in Welten, die gleichzeitig monströs und
+        zärtlich sind. 1987 setzte er mit <em>Hellraiser</em> seine eigene Novelle in Bilder um und schuf
+        eine der ikonischsten Mythologien des modernen Kinos.</p>
+        <p class="reveal">Weniger bekannt, aber vielleicht am nächsten an seinem Kern: Barker malt. Tausende
+        Leinwände und Tuschezeichnungen — Dämonen, Heilige, Zwischenwesen — bilden das visuelle Rückgrat
+        seines Schaffens, allen voran die hunderte Ölgemälde des <em>Abarat</em>-Zyklus.</p>
+        <ul class="bio__facts mono">
+          <li class="reveal"><span>1952</span> Geboren in Liverpool, England</li>
+          <li class="reveal"><span>1984</span> Books of Blood, Bände I–III</li>
+          <li class="reveal"><span>1987</span> Hellraiser — Regiedebüt</li>
+          <li class="reveal"><span>2002</span> Abarat — Roman &amp; Gemäldezyklus</li>
+          <li class="reveal"><span>2005</span> International Horror Guild Award für seine Kunst</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- WERKE -->
+  <section class="section werke" id="werke">
+    <div class="section__head">
+      <span class="section__num mono">02</span>
+      <h2 class="section__title">Geschriebene <em>Welten</em></h2>
+    </div>
+    <p class="section__intro reveal">Sechs Bücher, sechs Kontinente einer einzigen Imagination.
+    Mit der Maus über die Titel fahren — Barkers eigene Bilder antworten.</p>
+    <ul class="worklist">
+      <li class="workrow" data-img="assets/art/mementomori.jpg">
+        <a class="workrow__inner">
+          <span class="workrow__num mono">B–01</span>
+          <span class="workrow__title">Books of Blood</span>
+          <span class="workrow__meta mono">1984–85 · Erzählungen</span>
+        </a>
+      </li>
+      <li class="workrow" data-img="assets/art/weaveworld.jpg">
+        <a class="workrow__inner">
+          <span class="workrow__num mono">B–02</span>
+          <span class="workrow__title">Weaveworld</span>
+          <span class="workrow__meta mono">1987 · Roman</span>
+        </a>
+      </li>
+      <li class="workrow" data-img="assets/art/sorcerers.jpg">
+        <a class="workrow__inner">
+          <span class="workrow__num mono">B–03</span>
+          <span class="workrow__title">The Great and Secret Show</span>
+          <span class="workrow__meta mono">1989 · Roman</span>
+        </a>
+      </li>
+      <li class="workrow" data-img="assets/art/immacolata.jpg">
+        <a class="workrow__inner">
+          <span class="workrow__num mono">B–04</span>
+          <span class="workrow__title">Imajica</span>
+          <span class="workrow__meta mono">1991 · Roman</span>
+        </a>
+      </li>
+      <li class="workrow" data-img="assets/art/starfalling.jpg">
+        <a class="workrow__inner">
+          <span class="workrow__num mono">B–05</span>
+          <span class="workrow__title">The Thief of Always</span>
+          <span class="workrow__meta mono">1992 · Fabel</span>
+        </a>
+      </li>
+      <li class="workrow" data-img="assets/art/patriarch.jpg">
+        <a class="workrow__inner">
+          <span class="workrow__num mono">B–06</span>
+          <span class="workrow__title">Abarat</span>
+          <span class="workrow__meta mono">2002– · Zyklus</span>
+        </a>
+      </li>
+    </ul>
+    <div class="workpreview" id="workPreview" aria-hidden="true">
+      <img src="assets/art/mementomori.jpg" alt="" id="workPreviewImg" />
+      <span class="workpreview__credit mono">© Clive Barker</span>
+    </div>
+  </section>
+
+  <!-- FILM -->
+  <section class="section film" id="film">
+    <div class="section__head">
+      <span class="section__num mono">03</span>
+      <h2 class="section__title">Bewegte <em>Alpträume</em></h2>
+    </div>
+    <div class="film__grid">
+      <article class="filmcard reveal">
+        <span class="filmcard__year mono">1987</span>
+        <h3 class="filmcard__title">Hellraiser</h3>
+        <p class="filmcard__text">Nach der eigenen Novelle <em>The Hellbound Heart</em>. Barkers
+        Regiedebüt erschuf die Zenobiten — Priester eines Schmerzes, der wie Religion aussieht.</p>
+        <span class="filmcard__role mono">Buch &amp; Regie</span>
+      </article>
+      <article class="filmcard reveal">
+        <span class="filmcard__year mono">1990</span>
+        <h3 class="filmcard__title">Nightbreed</h3>
+        <p class="filmcard__text">Die Verfilmung von <em>Cabal</em>: Midian, die Zuflucht der Monster —
+        eine Liebeserklärung an alle, die anders gebaut sind.</p>
+        <span class="filmcard__role mono">Buch &amp; Regie</span>
+      </article>
+      <article class="filmcard reveal">
+        <span class="filmcard__year mono">1992</span>
+        <h3 class="filmcard__title">Candyman</h3>
+        <p class="filmcard__text">Basierend auf seiner Erzählung <em>The Forbidden</em>. Urbaner Mythos,
+        fünfmal in den Spiegel gesprochen.</p>
+        <span class="filmcard__role mono">Vorlage &amp; Produktion</span>
+      </article>
+      <article class="filmcard reveal">
+        <span class="filmcard__year mono">1995</span>
+        <h3 class="filmcard__title">Lord of Illusions</h3>
+        <p class="filmcard__text">Detektiv Harry D&rsquo;Amour zwischen Bühnenmagie und echter Schwarzkunst —
+        Noir, wie nur Barker ihn träumt.</p>
+        <span class="filmcard__role mono">Buch &amp; Regie</span>
+      </article>
+    </div>
+  </section>
+
+  <!-- GALERIE (horizontal) -->
+  <section class="gallery" id="galerie">
+    <div class="gallery__pin" id="galleryPin">
+      <div class="gallery__head">
+        <span class="section__num mono">04</span>
+        <h2 class="section__title">Die <em>Galerie</em></h2>
+        <p class="gallery__hint mono">Scrollen — die Wand bewegt sich · Klick öffnet das Werk</p>
+      </div>
+      <div class="gallery__track" id="galleryTrack">
+        <!-- items injected by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- FABLE 5 -->
+  <section class="section fable" id="fable">
+    <div class="section__head">
+      <span class="section__num mono">05</span>
+      <h2 class="section__title">Gebaut von <em>Fable&nbsp;5</em></h2>
+    </div>
+    <div class="fable__grid">
+      <div class="fable__text">
+        <p class="bio__lead reveal">Diese Seite ist ein Experiment: Was passiert, wenn man Anthropics
+        Modell <strong>Claude Fable&nbsp;5</strong> das Archiv eines Imagineers übergibt und sagt —
+        <em>bau daraus einen Ort.</em></p>
+        <p class="reveal">Fable&nbsp;5 hat das Konzept entworfen, die Texte geschrieben, die Gemälde
+        kuratiert, die Three.js-Bühne programmiert und jede Animation choreografiert. Kein Template,
+        kein Baukasten — ein Modell, ein Prompt, eine Nacht in Barkers Kosmos.</p>
+        <ul class="fable__stack mono">
+          <li class="reveal"><span>Modell</span> Claude Fable 5 · Anthropic</li>
+          <li class="reveal"><span>3D</span> Three.js — Partikelnebel &amp; Licht</li>
+          <li class="reveal"><span>Motion</span> GSAP — ScrollTrigger-Choreografie</li>
+          <li class="reveal"><span>Quelle</span> clivebarker.info — Revelations-Archiv</li>
+        </ul>
+      </div>
+      <div class="fable__mark reveal" aria-hidden="true">
+        <div class="fable__sigil">
+          <span class="fable__f">F</span>
+          <span class="fable__five">5</span>
+        </div>
+        <p class="mono">Mythos-Klasse · Anthropic · 2026</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p class="footer__big">Alles Fleisch<br /><em>ist Geschichte.</em></p>
+    <div class="footer__meta mono">
+      <p>Sämtliche Gemälde &amp; Zeichnungen © Clive Barker · mit Dank an das Revelations-Archiv (clivebarker.info)</p>
+      <p>Konzept, Text, Code &amp; Motion: Claude Fable 5 · Anthropic · 2026 — inoffizielles Fan-Projekt</p>
+    </div>
+  </footer>
+
+</main>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <div class="lightbox__backdrop" id="lightboxBackdrop"></div>
+  <figure class="lightbox__figure">
+    <img src="" alt="" id="lightboxImg" />
+    <figcaption>
+      <span class="lightbox__title" id="lightboxTitle"></span>
+      <span class="lightbox__meta mono" id="lightboxMeta"></span>
+      <span class="lightbox__credit mono">© Clive Barker</span>
+    </figcaption>
+  </figure>
+  <button class="lightbox__close mono" id="lightboxClose" aria-label="Schließen">Schließen ✕</button>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.158.0/three.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollToPlugin.min.js"></script>
+<script src="js/scene.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
