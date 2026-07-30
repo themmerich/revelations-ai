@@ -14,6 +14,24 @@ window.TRANSLATIONS = {
   "nav.werke":   { de: "Werke", en: "Works" },
   "nav.film":    { de: "Film", en: "Film" },
   "nav.galerie": { de: "Galerie", en: "Gallery" },
+  "nav.news":    { de: "News", en: "News" },
+
+  /* News page */
+  "title.news": {
+    de: "News — Revelations · Clive Barker × Fable 5",
+    en: "News — Revelations · Clive Barker × Fable 5"
+  },
+  "news.eyebrow": {
+    de: "Aus dem Revelations-Archiv · clivebarker.info",
+    en: "From the Revelations archive · clivebarker.info"
+  },
+  "news.title": { de: "Die <em>Chronik</em>", en: "The <em>Chronicle</em>" },
+  "news.lede": {
+    de: "Sechs Jahre aus Barkers Kosmos — Bücher, Filme, Spiele, Kunst und Auftritte, Monat für Monat. Zusammengefasst nach dem News-Archiv von Phil &amp; Sarah; jeder Eintrag führt zur Quelle.",
+    en: "Six years of Barker's cosmos — books, films, games, art and appearances, month by month. Condensed from Phil &amp; Sarah's news archive; every entry links to its source."
+  },
+  "news.range": { de: "August 2020 — Juli 2026", en: "August 2020 — July 2026" },
+  "news.back": { de: "← Zurück zur Hauptseite", en: "← Back to the main page" },
 
   /* Hero */
   "hero.word1": { de: "REVELATIONS", en: "REVELATIONS" },
