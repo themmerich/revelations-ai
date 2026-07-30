@@ -15,7 +15,6 @@ window.TRANSLATIONS = {
   "nav.film":    { de: "Film", en: "Film" },
   "nav.galerie": { de: "Galerie", en: "Gallery" },
   "nav.news":    { de: "News", en: "News" },
-  "nav.novels":  { de: "Romane", en: "Novels" },
 
   /* Novels pages */
   "title.novels": {
@@ -44,6 +43,23 @@ window.TRANSLATIONS = {
     en: "Novel not found — back to the overview."
   },
   "novel.coverHint": { de: "Klick vergrößert das Cover", en: "Click to enlarge a cover" },
+
+  /* Stories pages */
+  "title.stories": {
+    de: "Erzählungen & Novellen — Revelations · Clive Barker × Fable 5",
+    en: "Short Stories & Novellas — Revelations · Clive Barker × Fable 5"
+  },
+  "stories.eyebrow": {
+    de: "25 Titel · 1984 — 2015 · nach dem Revelations-Archiv",
+    en: "25 titles · 1984 — 2015 · after the Revelations archive"
+  },
+  "stories.title": { de: "Die <em>Erzählungen</em>", en: "The <em>Stories</em>" },
+  "stories.lede": {
+    de: "Von den Books of Blood bis zu den späten Miniaturen: Barkers kurze Formen — Erzählungen, Novellen, Fabeln und Fragmente. Jede Karte führt zur Detailseite mit Barkers eigenen Anmerkungen und den Ausgaben aus dem Archiv.",
+    en: "From the Books of Blood to the late miniatures: Barker's short forms — stories, novellas, fables and fragments. Each card opens a detail page with Barker's own notes and the editions from the archive."
+  },
+  "story.coversUkus": { de: "Ausgaben & Erscheinungsorte (UK & US)", en: "Editions & appearances (UK & US)" },
+  "story.backToList": { de: "← Alle Erzählungen", en: "← All stories" },
 
   /* News page */
   "title.news": {
@@ -121,6 +137,7 @@ window.TRANSLATIONS = {
   "werke.c1":  { de: "Die Romane", en: "The Novels" },
   "werke.c1m": { de: "14 Romane · 1985–2015 · eigene Seiten", en: "14 novels · 1985–2015 · own pages" },
   "werke.c2":  { de: "Erzählungen &amp; Novellen", en: "Short Stories &amp; Novellas" },
+  "werke.c2m": { de: "25 Titel · 1984–2015 · eigene Seiten", en: "25 titles · 1984–2015 · own pages" },
   "werke.c3":  { de: "Poesie", en: "Poetry" },
   "werke.c4":  { de: "Kunstbücher", en: "Art Books" },
   "werke.c5":  { de: "Graphic Novels &amp; Comics", en: "Graphic Novels &amp; Comics" },
