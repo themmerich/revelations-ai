@@ -240,27 +240,6 @@
     });
   });
 
-  /* ---------------- Work row hover preview ---------------- */
-  var preview = document.getElementById("workPreview");
-  var previewImg = document.getElementById("workPreviewImg");
-  gsap.set(preview, { x: -600, y: -600 });
-  var previewX = gsap.quickTo(preview, "x", { duration: 0.45, ease: "power3" });
-  var previewY = gsap.quickTo(preview, "y", { duration: 0.45, ease: "power3" });
-
-  document.querySelectorAll(".workrow").forEach(function (row) {
-    row.addEventListener("mouseenter", function () {
-      previewImg.src = row.getAttribute("data-img");
-      gsap.to(preview, { opacity: 1, rotate: gsap.utils.random(-4, 4), duration: 0.35 });
-    });
-    row.addEventListener("mouseleave", function () {
-      gsap.to(preview, { opacity: 0, duration: 0.3 });
-    });
-  });
-  window.addEventListener("mousemove", function (e) {
-    previewX(e.clientX);
-    previewY(e.clientY);
-  }, { passive: true });
-
   /* ---------------- Custom cursor ---------------- */
   var cursor = document.getElementById("cursor");
   var cursorLabel = document.getElementById("cursorLabel");
