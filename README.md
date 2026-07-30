@@ -18,6 +18,7 @@ Dann `http://localhost:4173` öffnen.
 - **Three.js** (r158) — fixe 3D-Bühne: Partikelnebel, driftende Glut, Wireframe-Geometrien, Maus-Parallaxe, scrollgekoppelte Kamera
 - **GSAP 3.12** + ScrollTrigger + ScrollToPlugin — Loader-Sequenz, Char-Split-Hero, Scroll-Reveals, gepinnte Horizontal-Galerie, Hover-Preview, Lightbox
 - **Zweisprachig (DE/EN)** — Umschalter in der Navigation, Dictionary in `js/i18n.js`, Auswahl wird in `localStorage` gemerkt
+- **News-Chronik** (`news.html`) — 83 Meldungen von August 2020 bis Juli 2026, in eigenen Worten zusammengefasst nach dem News-Archiv auf clivebarker.info; jeder Eintrag verlinkt auf die Original-Quelle
 - Kein Build-Schritt, kein Framework — HTML/CSS/Vanilla JS
 
 ## Inhalte & Rechte
@@ -32,8 +33,10 @@ Dann `http://localhost:4173` öffnen.
 
 ```
 index.html        Markup & Sektionen (Hero, Biografie, Werke, Film, Galerie, Fable 5)
+news.html         News-Chronik 2020–2026 (Daten & Rendering in js/news.js)
 css/style.css     Design-System: Ink/Bone/Blood/Gold, Cormorant Garamond + IBM Plex Mono
 js/i18n.js        Übersetzungs-Dictionary DE/EN
+js/news.js        News-Daten (DE/EN) & Rendering der Chronik-Seite
 js/scene.js       Three.js-Bühne
 js/main.js        GSAP-Choreografie, Galerie-Daten, Lightbox, Custom Cursor, Sprachumschaltung
 assets/art/       17 Werke von Clive Barker (© Clive Barker)
