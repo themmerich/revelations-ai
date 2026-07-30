@@ -15,6 +15,35 @@ window.TRANSLATIONS = {
   "nav.film":    { de: "Film", en: "Film" },
   "nav.galerie": { de: "Galerie", en: "Gallery" },
   "nav.news":    { de: "News", en: "News" },
+  "nav.novels":  { de: "Romane", en: "Novels" },
+
+  /* Novels pages */
+  "title.novels": {
+    de: "Die Romane — Revelations · Clive Barker × Fable 5",
+    en: "The Novels — Revelations · Clive Barker × Fable 5"
+  },
+  "novels.eyebrow": {
+    de: "Vierzehn Romane · 1985 — 2015 · nach dem Revelations-Archiv",
+    en: "Fourteen novels · 1985 — 2015 · after the Revelations archive"
+  },
+  "novels.title": { de: "Die <em>Romane</em>", en: "The <em>Novels</em>" },
+  "novels.lede": {
+    de: "Vom Faust-Pakt des Debüts bis zum letzten Evangelium des Höllenpriesters: jeder Roman ein eigener Kontinent. Jede Karte führt zur Detailseite mit Barkers eigenen Anmerkungen und den Covern aus aller Welt.",
+    en: "From the Faustian bargain of the debut to the hell priest's final gospel: every novel a continent of its own. Each card opens a detail page with Barker's own notes and covers from around the world."
+  },
+  "novel.eyebrow": { de: "Roman", en: "Novel" },
+  "novel.synopsis": { de: "Worum es geht", en: "The story" },
+  "novel.cliveOn": { de: "Clive über das Buch", en: "Clive on the book" },
+  "novel.coversUkus": { de: "UK & US — Ausgaben", en: "UK & US editions" },
+  "novel.coversWorld": { de: "Rest der Welt", en: "Rest of the world" },
+  "novel.backToList": { de: "← Alle Romane", en: "← All novels" },
+  "novel.prev": { de: "← Voriger", en: "← Previous" },
+  "novel.next": { de: "Nächster →", en: "Next →" },
+  "novel.notFound": {
+    de: "Roman nicht gefunden — zurück zur Übersicht.",
+    en: "Novel not found — back to the overview."
+  },
+  "novel.coverHint": { de: "Klick vergrößert das Cover", en: "Click to enlarge a cover" },
 
   /* News page */
   "title.news": {
@@ -86,15 +115,19 @@ window.TRANSLATIONS = {
   /* Werke */
   "werke.title": { de: "Geschriebene <em>Welten</em>", en: "Written <em>Worlds</em>" },
   "werke.intro": {
-    de: "Sechs Bücher, sechs Kontinente einer einzigen Imagination. Mit der Maus über die Titel fahren — Barkers eigene Bilder antworten.",
-    en: "Six books, six continents of a single imagination. Hover over the titles — Barker's own paintings answer."
+    de: "Barkers geschriebenes Werk, sortiert wie im Revelations-Archiv: Die Romane haben hier eigene Seiten — die übrigen Kategorien führen direkt ins Archiv.",
+    en: "Barker's written work, ordered as in the Revelations archive: the novels have their own pages here — the remaining categories lead straight into the archive."
   },
-  "werke.m1": { de: "1984–85 · Erzählungen", en: "1984–85 · Stories" },
-  "werke.m2": { de: "1987 · Roman", en: "1987 · Novel" },
-  "werke.m3": { de: "1989 · Roman", en: "1989 · Novel" },
-  "werke.m4": { de: "1991 · Roman", en: "1991 · Novel" },
-  "werke.m5": { de: "1992 · Fabel", en: "1992 · Fable" },
-  "werke.m6": { de: "2002– · Zyklus", en: "2002– · Cycle" },
+  "werke.c1":  { de: "Die Romane", en: "The Novels" },
+  "werke.c1m": { de: "14 Romane · 1985–2015 · eigene Seiten", en: "14 novels · 1985–2015 · own pages" },
+  "werke.c2":  { de: "Erzählungen &amp; Novellen", en: "Short Stories &amp; Novellas" },
+  "werke.c3":  { de: "Poesie", en: "Poetry" },
+  "werke.c4":  { de: "Kunstbücher", en: "Art Books" },
+  "werke.c5":  { de: "Graphic Novels &amp; Comics", en: "Graphic Novels &amp; Comics" },
+  "werke.c6":  { de: "Sachbücher", en: "Non-Fiction" },
+  "werke.c7":  { de: "Anthologien", en: "Anthologies" },
+  "werke.c8":  { de: "Theater", en: "Theatre" },
+  "werke.archive": { de: "Revelations-Archiv ↗", en: "Revelations archive ↗" },
 
   /* Film */
   "film.title": { de: "Bewegte <em>Alpträume</em>", en: "Moving <em>Nightmares</em>" },
