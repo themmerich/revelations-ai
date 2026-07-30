@@ -20,6 +20,7 @@ Dann `http://localhost:4173` öffnen.
 - **Zweisprachig (DE/EN)** — Umschalter in der Navigation, Dictionary in `js/i18n.js`, Auswahl wird in `localStorage` gemerkt
 - **News-Chronik** (`news.html`) — 83 Meldungen von August 2020 bis Juli 2026, in eigenen Worten zusammengefasst nach dem News-Archiv auf clivebarker.info; jeder Eintrag verlinkt auf die Original-Quelle
 - **Die Romane** (`novels.html` + `novel.html?b=<slug>`) — alle 14 Romane (1985–2015) mit eigener Synopsis (DE/EN), paraphrasierten Barker-Anmerkungen samt Quellenangabe und 134 Buchcovern (UK/US-Ausgaben + internationale Ausgaben) aus dem Revelations-Archiv
+- **Erzählungen & Novellen** (`stories.html` + `story.html?s=<slug>`) — alle 25 kurzen Formen (1984–2015), von den Books of Blood bis Tonight, Again, mit Synopsis (DE/EN), Barker-Anmerkungen und 105 Covern/Erscheinungsorten
 - Kein Build-Schritt, kein Framework — HTML/CSS/Vanilla JS
 
 ## Inhalte & Rechte
@@ -37,11 +38,14 @@ index.html        Markup & Sektionen (Hero, Biografie, Werke, Film, Galerie, Fab
 news.html         News-Chronik 2020–2026 (Daten & Rendering in js/news.js)
 novels.html       Romane-Übersicht (14 Romane, 1985–2015)
 novel.html        Roman-Detailseite (per ?b=<slug>, Rendering in js/novels.js)
+stories.html      Erzählungen-Übersicht (25 Titel, 1984–2015)
+story.html        Erzählungs-Detailseite (per ?s=<slug>, Rendering in js/stories.js)
 css/style.css     Design-System: Ink/Bone/Blood/Gold, Cormorant Garamond + IBM Plex Mono
 js/i18n.js        Übersetzungs-Dictionary DE/EN
 js/news.js        News-Daten (DE/EN) & Rendering der Chronik-Seite
 js/novels.js      Romane-Daten (DE/EN) & Rendering von Übersicht + Detailseite
-assets/covers/    134 Buchcover, je Roman ein Ordner (Quelle: clivebarker.info)
+js/stories.js     Erzählungen-Daten (DE/EN) & Rendering von Übersicht + Detailseite
+assets/covers/    239 Buchcover: je Roman ein Ordner, Erzählungen unter stories/ (Quelle: clivebarker.info)
 js/scene.js       Three.js-Bühne
 js/main.js        GSAP-Choreografie, Galerie-Daten, Lightbox, Custom Cursor, Sprachumschaltung
 assets/art/       17 Werke von Clive Barker (© Clive Barker)

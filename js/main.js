@@ -116,7 +116,8 @@
   });
 
   introTl
-    .to(".loader__word", { opacity: 1, letterSpacing: "0.75em", duration: 1.1, ease: "power2.out" })
+    .to(".loader__word", { opacity: 1, letterSpacing: "0.16em", duration: 1.1, ease: "power2.out" })
+    .to(".loader__credit", { opacity: 1, duration: 0.7, ease: "power2.out" }, "-=0.5")
     .to(counter, {
       v: 100, duration: 0.9, ease: "power1.inOut",
       onUpdate: function () { countEl.textContent = String(Math.round(counter.v)).padStart(2, "0"); }
