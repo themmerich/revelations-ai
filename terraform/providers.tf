@@ -1,5 +1,12 @@
 terraform {
-  required_version = ">= 1.5"
+  required_version = ">= 1.10"
+
+  backend "s3" {
+    bucket       = "clive-barker-ai-tfstate-202533533588"
+    key          = "clive-barker-ai/terraform.tfstate"
+    region       = "eu-central-1"
+    use_lockfile = true
+  }
 
   required_providers {
     aws = {
