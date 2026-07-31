@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Theater — Revelations · Clive Barker × Fable 5</title>
+<meta name="description" content="Clive Barkers Theater: die Stücksammlungen Incarnations und Forms of Heaven sowie die Playscript-Einzelausgaben — nach dem Revelations-Archiv." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=IBM+Plex+Mono:wght@300;400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- Fixed Three.js stage -->
+<canvas id="stage"></canvas>
+
+<!-- Grain overlay -->
+<div class="grain" aria-hidden="true"></div>
+
+<!-- Custom cursor -->
+<div class="cursor" id="cursor" aria-hidden="true"><span class="cursor__label" id="cursorLabel"></span></div>
+
+<!-- Navigation -->
+<header class="nav" id="nav">
+  <a class="nav__logo" href="index.html">C·B</a>
+  <nav class="nav__links">
+    <a href="index.html#bio" data-i18n="nav.bio">Biografie</a>
+    <a href="index.html#werke" data-i18n="nav.werke">Werke</a>
+    <a href="index.html#film" data-i18n="nav.film">Film</a>
+    <a href="index.html#galerie" data-i18n="nav.galerie">Galerie</a>
+    <a href="news.html" data-i18n="nav.news">News</a>
+    <a href="index.html#fable" class="nav__fable">Fable&nbsp;5</a>
+    <button class="nav__lang mono" id="langToggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+
+<main>
+
+  <!-- THEATRE HERO -->
+  <section class="newshero">
+    <p class="hero__eyebrow mono reveal-line" data-i18n="theatre.eyebrow">Bühne · Incarnations, Forms of Heaven & Playscripts · nach dem Revelations-Archiv</p>
+    <h1 class="newshero__title reveal-line" data-i18n="theatre.title">Das <em>Theater</em></h1>
+    <div class="newshero__sub">
+      <p class="newshero__lede reveal-line" data-i18n="theatre.lede">Bevor die Books of Blood erschienen, stand Barker
+      jahrelang auf und hinter Londoner Bühnen — als Dramatiker und Regisseur der Dog Company. Zwei Sammelbände und
+      eine wachsende Reihe von Playscript-Einzelausgaben halten dieses Kapitel im Druck.</p>
+    </div>
+  </section>
+
+  <!-- INCARNATIONS FEATURE -->
+  <section class="noveldetail">
+    <div class="section__head">
+      <span class="section__num mono">T–01</span>
+      <h2 class="section__title">Incar<em>nations</em> <span class="section__year mono">1995</span></h2>
+    </div>
+    <div class="noveldetail__grid">
+      <figure class="noveldetail__leadwrap reveal-news">
+        <div class="bio__imgwrap"><img src="assets/covers/theatre/incarnationsush1.JPG" alt="Incarnations — US-Erstausgabe, HarperPrism 1995" /></div>
+        <figcaption class="mono">HarperPrism, New York, 1995 · US first edition</figcaption>
+      </figure>
+      <div class="noveldetail__text">
+        <h2 class="noveldetail__h mono" data-i18n="novel.synopsis">Worum es geht</h2>
+        <p class="noveldetail__syn" data-i18n="theatre.inSyn">Drei Stücke aus den Theaterjahren: Colossus über den
+        Maler Goya, die dunkle Romanze Frankenstein in Love und The History of the Devil, in dem der Teufel
+        vor Gericht steht. 1995 bei HarperPrism erstmals gesammelt.</p>
+        <h2 class="noveldetail__h mono" data-i18n="novel.cliveOn">Clive über das Buch</h2>
+        <ul class="novelnotes">
+          <li class="novelnote reveal-news">
+            <p data-i18n="theatre.inN1">Im Vorwort beschrieb Barker das Erzählen als Überstreifen fremder Häute:
+            Je unähnlicher ihm die geliehenen Gesichter — ein visionärer Maler wie Goya, der Teufel selbst —,
+            desto spannender der Blick durch ihre Augen.</p>
+            <p class="novelnote__src mono">Introduction to Incarnations, 1995</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="theatre.inN2">Zur Veröffentlichung lud er Theatergruppen ausdrücklich ein, die Stücke zu
+            inszenieren — Amateure wie Profis; die Rechte stellte er bewusst offen zur Verfügung.</p>
+            <p class="novelnote__src mono">AOL-Transkript, 1997</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="coversection">
+      <div class="coversection__head">
+        <h2 class="section__title section__title--small" data-i18n="theatre.inEditions">Ausgaben</h2>
+        <p class="mono coversection__hint" data-i18n="novel.coverHint">Klick vergrößert das Cover</p>
+      </div>
+      <div class="coverrow">
+        <figure class="coverfig" data-title="Incarnations">
+          <img src="assets/covers/theatre/incarnationsush1.JPG" alt="Incarnations — US hardback, 1995" loading="lazy" />
+          <figcaption class="mono">HarperPrism, US hardback, 1995</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Incarnations">
+          <img src="assets/covers/theatre/incarnationsukh1.JPG" alt="Incarnations — UK hardback, 1996" loading="lazy" />
+          <figcaption class="mono">HarperCollins, UK hardback, 1996</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Incarnations">
+          <img src="assets/covers/theatre/incarnusp1.JPG" alt="Incarnations — US paperback, 1998" loading="lazy" />
+          <figcaption class="mono">HarperPrism, US paperback, 1998</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- FORMS OF HEAVEN FEATURE -->
+  <section class="noveldetail">
+    <div class="section__head">
+      <span class="section__num mono">T–02</span>
+      <h2 class="section__title">Forms of <em>Heaven</em> <span class="section__year mono">1996</span></h2>
+    </div>
+    <div class="noveldetail__grid">
+      <figure class="noveldetail__leadwrap reveal-news">
+        <div class="bio__imgwrap"><img src="assets/covers/theatre/formsheavenush1.JPG" alt="Forms of Heaven — US-Erstausgabe, HarperPrism 1996" /></div>
+        <figcaption class="mono">HarperPrism, New York, 1996 · US first edition</figcaption>
+      </figure>
+      <div class="noveldetail__text">
+        <h2 class="noveldetail__h mono" data-i18n="novel.synopsis">Worum es geht</h2>
+        <p class="noveldetail__syn" data-i18n="theatre.fhSyn">Der zweite Band der gesammelten Stücke: die
+        Clowns-Tragödie Crazyface, das Liverpool-Stück Paradise Street und Subtle Bodies — wieder mit Barkers
+        eigener Einladung, das Material auf die Bühne zu holen.</p>
+        <h2 class="noveldetail__h mono" data-i18n="novel.cliveOn">Clive über das Buch</h2>
+        <ul class="novelnotes">
+          <li class="novelnote reveal-news">
+            <p data-i18n="theatre.fhN1">Zwei Jahre nach den Sammlungen freute sich Barker über Inszenierungen
+            rund um die Welt — zeitgleich liefen Produktionen in Amerika, Schweden, Deutschland, England und
+            Schottland.</p>
+            <p class="novelnote__src mono">People Online, 1998</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="theatre.fhN2">Sein erklärtes Ziel war, Menschen ans Lesen von Theaterstücken zu bringen:
+            Wo keine Bühne erreichbar ist, soll das Stück im Kopf der Leser gespielt werden.</p>
+            <p class="novelnote__src mono">Toronto Sun, 1996</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="coversection">
+      <div class="coversection__head">
+        <h2 class="section__title section__title--small" data-i18n="theatre.inEditions">Ausgaben</h2>
+      </div>
+      <div class="coverrow">
+        <figure class="coverfig" data-title="Forms of Heaven">
+          <img src="assets/covers/theatre/formsheavenush1.JPG" alt="Forms of Heaven — US hardback, 1996" loading="lazy" />
+          <figcaption class="mono">HarperPrism, US hardback, 1996</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Forms of Heaven">
+          <img src="assets/covers/theatre/formsheavenukh1.JPG" alt="Forms of Heaven — UK hardback, 1997" loading="lazy" />
+          <figcaption class="mono">HarperCollins, UK hardback, 1997</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- PLAYSCRIPTS -->
+  <section class="noveldetail">
+    <div class="section__head">
+      <span class="section__num mono">T–03</span>
+      <h2 class="section__title" data-i18n="theatre.scriptsTitle">Die <em>Playscripts</em></h2>
+    </div>
+    <p class="section__intro reveal-news" data-i18n="theatre.scriptsIntro">Seit 2017 bringt das Clive Barker Archive
+    (Phil &amp; Sarah Stokes) einzelne Stücke als Taschenbuch-Playscripts heraus — darunter frühe Arbeiten wie
+    The Magician und Hunters in the Snow. Schon zuvor druckten Magazine einzelne Stücke: The History of the Devil
+    erschien 1991 in Pandemonium, A Clowns' Sodom 1992 im Magazin Dread.</p>
+    <div class="coversection">
+      <div class="coverrow">
+        <figure class="coverfig" data-title="The Magician">
+          <img src="assets/covers/theatre/playscriptsmagician.jpg" alt="The Magician — Playscript, 2017" loading="lazy" />
+          <figcaption class="mono">The Magician · The Clive Barker Archive, 2017</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="The History of the Devil">
+          <img src="assets/covers/theatre/playscriptshistory.jpg" alt="The History of the Devil — Playscript, 2017" loading="lazy" />
+          <figcaption class="mono">The History of the Devil · The Clive Barker Archive, 2017</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Hunters in the Snow">
+          <img src="assets/covers/theatre/playscriptshunters.jpg" alt="Hunters in the Snow — Playscript, 2018" loading="lazy" />
+          <figcaption class="mono">Hunters in the Snow · The Clive Barker Archive, 2018</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Crazyface">
+          <img src="assets/covers/theatre/playscriptscrazy.jpg" alt="Crazyface — Playscript, 2018" loading="lazy" />
+          <figcaption class="mono">Crazyface · The Clive Barker Archive, 2018</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Nightlives">
+          <img src="assets/covers/theatre/playscriptsnightlives.jpg" alt="Nightlives — Playscript, 2021" loading="lazy" />
+          <figcaption class="mono">Nightlives · The Clive Barker Archive, 2021</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Frankenstein in Love">
+          <img src="assets/covers/theatre/playscriptsfrankenstein.jpg" alt="Frankenstein in Love — Playscript, 2021" loading="lazy" />
+          <figcaption class="mono">Frankenstein in Love · The Clive Barker Archive, 2021</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Pandemonium">
+          <img src="assets/covers/theatre/pandemonium1us1.JPG" alt="Pandemonium — Eclipse Books, 1991" loading="lazy" />
+          <figcaption class="mono" data-i18n="theatre.cPandemonium">Pandemonium · Eclipse Books, 1991 — mit The History of the Devil</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Dread No 5">
+          <img src="assets/covers/theatre/dread5.JPG" alt="Dread No 5 — Phantom Press, 1992" loading="lazy" />
+          <figcaption class="mono" data-i18n="theatre.cDread">Dread No 5 · Phantom Press, 1992 — mit A Clowns' Sodom</figcaption>
+        </figure>
+      </div>
+    </div>
+    <p class="coversection__credit mono">Cover-Abbildungen: Revelations-Archiv (clivebarker.info) · Artwork teils © Clive Barker, teils © der jeweiligen Verlage</p>
+    <p class="news-backwrap"><a class="news-backlink mono" href="index.html#werke" data-i18n="poetry.back">← Zurück zu den Werken</a></p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__meta mono">
+      <p data-i18n="footer.m1">Sämtliche Gemälde &amp; Zeichnungen © Clive Barker · mit Dank an das Revelations-Archiv (clivebarker.info)</p>
+      <p data-i18n="footer.m2">Konzept, Text, Code &amp; Motion: Claude Fable 5 · Anthropic · 2026 — inoffizielles Fan-Projekt</p>
+    </div>
+  </footer>
+
+</main>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <div class="lightbox__backdrop" id="lightboxBackdrop"></div>
+  <figure class="lightbox__figure">
+    <img src="" alt="" id="lightboxImg" />
+    <figcaption>
+      <span class="lightbox__title" id="lightboxTitle"></span>
+      <span class="lightbox__meta mono" id="lightboxMeta"></span>
+      <span class="lightbox__credit mono">Revelations-Archiv · clivebarker.info</span>
+    </figcaption>
+  </figure>
+  <button class="lightbox__close mono" id="lightboxClose" aria-label="Schließen" data-i18n="lb.close">Schließen ✕</button>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.158.0/three.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/scene.js"></script>
+<script src="js/theatre.js"></script>
+</body>
+</html>

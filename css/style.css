@@ -806,6 +806,13 @@ main { position: relative; z-index: 10; }
 }
 .novelpager__link:hover { color: var(--gold); }
 
+.section__year {
+  font-size: 0.75rem;
+  color: var(--blood-bright);
+  margin-left: 0.8rem;
+  letter-spacing: 0.18em;
+}
+
 /* ---------- Poetry page ---------- */
 .poemsbib .section__intro { max-width: 52ch; }
 .poemlist { border-top: 1px solid rgba(233, 225, 210, 0.16); }

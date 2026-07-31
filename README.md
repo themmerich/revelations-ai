@@ -22,6 +22,7 @@ Dann `http://localhost:4173` öffnen.
 - **Die Romane** (`novels.html` + `novel.html?b=<slug>`) — alle 14 Romane (1985–2015) mit eigener Synopsis (DE/EN), paraphrasierten Barker-Anmerkungen samt Quellenangabe und 134 Buchcovern (UK/US-Ausgaben + internationale Ausgaben) aus dem Revelations-Archiv
 - **Erzählungen & Novellen** (`stories.html` + `story.html?s=<slug>`) — alle 25 kurzen Formen (1984–2015), von den Books of Blood bis Tonight, Again, mit Synopsis (DE/EN), Barker-Anmerkungen und 105 Covern/Erscheinungsorten
 - **Poesie** (`poetry.html`) — der Band Rare Flesh (2003, mit David Armstrong) samt Entstehungsgeschichte und die Bibliografie einzeln veröffentlichter Gedichte (nur Titel und Fundorte, keine Gedichttexte)
+- **Theater** (`theatre.html`) — die Stücksammlungen Incarnations (1995) und Forms of Heaven (1996) mit Synopsis und Barker-Anmerkungen sowie die Playscript-Einzelausgaben des Clive Barker Archive (2017–2021)
 - Kein Build-Schritt, kein Framework — HTML/CSS/Vanilla JS
 
 ## Inhalte & Rechte
@@ -42,6 +43,7 @@ novel.html        Roman-Detailseite (per ?b=<slug>, Rendering in js/novels.js)
 stories.html      Erzählungen-Übersicht (25 Titel, 1984–2015)
 story.html        Erzählungs-Detailseite (per ?s=<slug>, Rendering in js/stories.js)
 poetry.html       Poesie: Rare Flesh + Gedicht-Bibliografie (Logik in js/poetry.js)
+theatre.html      Theater: Incarnations, Forms of Heaven + Playscripts (Logik in js/theatre.js)
 css/style.css     Design-System: Ink/Bone/Blood/Gold, Cormorant Garamond + IBM Plex Mono
 js/i18n.js        Übersetzungs-Dictionary DE/EN
 js/news.js        News-Daten (DE/EN) & Rendering der Chronik-Seite
