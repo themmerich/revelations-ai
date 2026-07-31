@@ -103,6 +103,53 @@ window.TRANSLATIONS = {
   "poetry.asALife": { de: "überarbeitet als »A Life«:", en: "revised as 'A Life':" },
   "poetry.back": { de: "← Zurück zu den Werken", en: "← Back to the works" },
 
+  /* Theatre page */
+  "title.theatre": {
+    de: "Theater — Revelations · Clive Barker × Fable 5",
+    en: "Theatre — Revelations · Clive Barker × Fable 5"
+  },
+  "theatre.eyebrow": {
+    de: "Bühne · Incarnations, Forms of Heaven & Playscripts · nach dem Revelations-Archiv",
+    en: "Stage · Incarnations, Forms of Heaven & playscripts · after the Revelations archive"
+  },
+  "theatre.title": { de: "Das <em>Theater</em>", en: "The <em>Theatre</em>" },
+  "theatre.lede": {
+    de: "Bevor die Books of Blood erschienen, stand Barker jahrelang auf und hinter Londoner Bühnen — als Dramatiker und Regisseur der Dog Company. Zwei Sammelbände und eine wachsende Reihe von Playscript-Einzelausgaben halten dieses Kapitel im Druck.",
+    en: "Before the Books of Blood appeared, Barker spent years on and behind London stages — as playwright and director of the Dog Company. Two collections and a growing series of playscript editions keep that chapter in print."
+  },
+  "theatre.inSyn": {
+    de: "Drei Stücke aus den Theaterjahren: Colossus über den Maler Goya, die dunkle Romanze Frankenstein in Love und The History of the Devil, in dem der Teufel vor Gericht steht. 1995 bei HarperPrism erstmals gesammelt.",
+    en: "Three plays from the theatre years: Colossus, about the painter Goya, the dark romance Frankenstein in Love, and The History of the Devil, which puts the Devil on trial. First collected by HarperPrism in 1995."
+  },
+  "theatre.inN1": {
+    de: "Im Vorwort beschrieb Barker das Erzählen als Überstreifen fremder Häute: Je unähnlicher ihm die geliehenen Gesichter — ein visionärer Maler wie Goya, der Teufel selbst —, desto spannender der Blick durch ihre Augen.",
+    en: "In his introduction Barker described storytelling as putting on other skins: the less the borrowed faces resemble him — a visionary painter like Goya, the Devil himself — the more interesting the view through their eyes."
+  },
+  "theatre.inN2": {
+    de: "Zur Veröffentlichung lud er Theatergruppen ausdrücklich ein, die Stücke zu inszenieren — Amateure wie Profis; die Rechte stellte er bewusst offen zur Verfügung.",
+    en: "On publication he explicitly invited theatre companies — amateur and professional alike — to stage the plays, deliberately keeping the rights open."
+  },
+  "theatre.inEditions": { de: "Ausgaben", en: "Editions" },
+  "theatre.fhSyn": {
+    de: "Der zweite Band der gesammelten Stücke: die Clowns-Tragödie Crazyface, das Liverpool-Stück Paradise Street und Subtle Bodies — wieder mit Barkers eigener Einladung, das Material auf die Bühne zu holen.",
+    en: "The second volume of collected plays: the clown tragedy Crazyface, the Liverpool piece Paradise Street and Subtle Bodies — again carrying Barker's own invitation to bring the material to the stage."
+  },
+  "theatre.fhN1": {
+    de: "Zwei Jahre nach den Sammlungen freute sich Barker über Inszenierungen rund um die Welt — zeitgleich liefen Produktionen in Amerika, Schweden, Deutschland, England und Schottland.",
+    en: "Two years after the collections, Barker delighted in productions springing up worldwide — running simultaneously in America, Sweden, Germany, England and Scotland."
+  },
+  "theatre.fhN2": {
+    de: "Sein erklärtes Ziel war, Menschen ans Lesen von Theaterstücken zu bringen: Wo keine Bühne erreichbar ist, soll das Stück im Kopf der Leser gespielt werden.",
+    en: "His declared aim was to get people reading plays: where no stage is within reach, the play should be performed inside the reader's head."
+  },
+  "theatre.scriptsTitle": { de: "Die <em>Playscripts</em>", en: "The <em>Playscripts</em>" },
+  "theatre.scriptsIntro": {
+    de: "Seit 2017 bringt das Clive Barker Archive (Phil &amp; Sarah Stokes) einzelne Stücke als Taschenbuch-Playscripts heraus — darunter frühe Arbeiten wie The Magician und Hunters in the Snow. Schon zuvor druckten Magazine einzelne Stücke: The History of the Devil erschien 1991 in Pandemonium, A Clowns' Sodom 1992 im Magazin Dread.",
+    en: "Since 2017 the Clive Barker Archive (Phil &amp; Sarah Stokes) has issued individual plays as paperback playscripts — among them early works like The Magician and Hunters in the Snow. Magazines printed single plays even earlier: The History of the Devil appeared in Pandemonium in 1991, A Clowns' Sodom in Dread in 1992."
+  },
+  "theatre.cPandemonium": { de: "Pandemonium · Eclipse Books, 1991 — mit The History of the Devil", en: "Pandemonium · Eclipse Books, 1991 — includes The History of the Devil" },
+  "theatre.cDread": { de: "Dread No 5 · Phantom Press, 1992 — mit A Clowns' Sodom", en: "Dread No 5 · Phantom Press, 1992 — includes A Clowns' Sodom" },
+
   /* News page */
   "title.news": {
     de: "News — Revelations · Clive Barker × Fable 5",
@@ -187,6 +234,7 @@ window.TRANSLATIONS = {
   "werke.c6":  { de: "Sachbücher", en: "Non-Fiction" },
   "werke.c7":  { de: "Anthologien", en: "Anthologies" },
   "werke.c8":  { de: "Theater", en: "Theatre" },
+  "werke.c8m": { de: "Incarnations, Forms of Heaven & Playscripts · eigene Seite", en: "Incarnations, Forms of Heaven & playscripts · own page" },
   "werke.archive": { de: "Revelations-Archiv ↗", en: "Revelations archive ↗" },
 
   /* Film */
