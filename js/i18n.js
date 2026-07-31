@@ -61,6 +61,48 @@ window.TRANSLATIONS = {
   "story.coversUkus": { de: "Ausgaben & Erscheinungsorte (UK & US)", en: "Editions & appearances (UK & US)" },
   "story.backToList": { de: "← Alle Erzählungen", en: "← All stories" },
 
+  /* Poetry page */
+  "title.poetry": {
+    de: "Poesie — Revelations · Clive Barker × Fable 5",
+    en: "Poetry — Revelations · Clive Barker × Fable 5"
+  },
+  "poetry.eyebrow": {
+    de: "Lyrik · Rare Flesh & einzeln veröffentlichte Gedichte · nach dem Revelations-Archiv",
+    en: "Poetry · Rare Flesh & individually published poems · after the Revelations archive"
+  },
+  "poetry.title": { de: "Die <em>Poesie</em>", en: "The <em>Poetry</em>" },
+  "poetry.lede": {
+    de: "Barkers leiseste Disziplin: ein einziger Gedichtband — und dutzende Gedichte, verstreut über Romane, Anthologien und Fanzines. Aus Respekt vor den Rechten stehen hier Titel und Fundorte, nicht die Texte selbst.",
+    en: "Barker's quietest discipline: a single volume of verse — and dozens of poems scattered across novels, anthologies and fanzines. Out of respect for the rights, this page lists titles and sources, not the texts themselves."
+  },
+  "poetry.rfSyn": {
+    de: "Barkers einziger eigenständiger Lyrikband: lange und sehr kurze Gedichte neben den Fotografien von David Armstrong — zwei Werke, die einander nicht illustrieren, sondern ergänzen. Erschienen 2003 bei Rizzoli/Universe.",
+    en: "Barker's only standalone volume of verse: long and very short poems alongside the photographs of David Armstrong — two bodies of work that complement rather than illustrate each other. Published by Rizzoli/Universe in 2003."
+  },
+  "poetry.rfN1": {
+    de: "Barker betonte das Gleichgewicht der beiden Hälften: Seine Verse illustrieren Armstrongs Bilder nicht, und die Bilder bebildern nicht die Verse — beide fügen sich zu einem Ganzen.",
+    en: "Barker stressed the balance of the two halves: his verses don't illustrate Armstrong's images, nor do the images illustrate the verses — the two fit together as one whole."
+  },
+  "poetry.rfN2": {
+    de: "Angekündigt hatte er das Projekt als gemeinsames Buch mit seinem damaligen Partner: dessen Fotografien, dazu Prosa- und Gedichtstücke aus seiner Feder.",
+    en: "He announced the project as a joint book with his then partner: the photographs his, the prose and poetry pieces Barker's own."
+  },
+  "poetry.rfN3": {
+    de: "Die Vorgeschichte führt über Gauntlet Press: Geplant war der Band dort zunächst als »Tar Babies«, wanderte dann aber zu Rizzoli — das Gauntlet-Projekt erschien nie.",
+    en: "Its prehistory runs through Gauntlet Press: first planned there as 'Tar Babies', the book moved to Rizzoli — and the Gauntlet project never appeared."
+  },
+  "poetry.editions": { de: "Ausgaben &amp; Entwürfe", en: "Editions &amp; designs" },
+  "poetry.cUnused": { de: "Unbenutzter Cover-Entwurf", en: "Unused cover design" },
+  "poetry.cTar": { de: "Tar Babies · Gauntlet Press, nie erschienen", en: "Tar Babies · Gauntlet Press, never published" },
+  "poetry.poemsTitle": { de: "Einzeln veröffentlichte <em>Gedichte</em>", en: "Individually published <em>Poems</em>" },
+  "poetry.poemsIntro": {
+    de: "Viele Gedichte stecken in den Romanen selbst, allen voran im Abarat-Zyklus. Diese Bibliografie folgt dem Archiv und nennt die Titel, die darüber hinaus eigenständig oder erneut erschienen sind — mit ihren Fundorten.",
+    en: "Many poems live inside the novels themselves, above all the Abarat cycle. This bibliography follows the archive and lists the titles that additionally appeared on their own or anew — with their sources."
+  },
+  "poetry.andMore": { de: "u. v. m.", en: "and more" },
+  "poetry.asALife": { de: "überarbeitet als »A Life«:", en: "revised as 'A Life':" },
+  "poetry.back": { de: "← Zurück zu den Werken", en: "← Back to the works" },
+
   /* News page */
   "title.news": {
     de: "News — Revelations · Clive Barker × Fable 5",
@@ -139,6 +181,7 @@ window.TRANSLATIONS = {
   "werke.c2":  { de: "Erzählungen &amp; Novellen", en: "Short Stories &amp; Novellas" },
   "werke.c2m": { de: "25 Titel · 1984–2015 · eigene Seiten", en: "25 titles · 1984–2015 · own pages" },
   "werke.c3":  { de: "Poesie", en: "Poetry" },
+  "werke.c3m": { de: "Rare Flesh & Gedicht-Bibliografie · eigene Seite", en: "Rare Flesh & poem bibliography · own page" },
   "werke.c4":  { de: "Kunstbücher", en: "Art Books" },
   "werke.c5":  { de: "Graphic Novels &amp; Comics", en: "Graphic Novels &amp; Comics" },
   "werke.c6":  { de: "Sachbücher", en: "Non-Fiction" },
