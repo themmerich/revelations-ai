@@ -1,7 +1,13 @@
 data "aws_caller_identity" "current" {}
 
 locals {
-  github_repo  = "themmerich/revelations-ai"
+  github_repo = "themmerich/revelations-ai"
+
+  # GitHub sendet den sub-Claim ID-qualifiziert (owner@id/repo@id), damit
+  # umbenannte Accounts/Repos keine alten Vertrauensstellungen erben.
+  # Die IDs sind unveränderlich (gh api repos/<repo> → .id / .owner.id).
+  github_repo_with_ids = "themmerich@3725151/revelations-ai@1316493452"
+
   state_bucket = "clive-barker-ai-tfstate-${data.aws_caller_identity.current.account_id}"
 }
 
@@ -34,7 +40,10 @@ data "aws_iam_policy_document" "github_assume" {
     condition {
       test     = "StringEquals"
       variable = "token.actions.githubusercontent.com:sub"
-      values   = ["repo:${local.github_repo}:ref:refs/heads/main"]
+      values = [
+        "repo:${local.github_repo}:ref:refs/heads/main",
+        "repo:${local.github_repo_with_ids}:ref:refs/heads/main",
+      ]
     }
   }
 }
