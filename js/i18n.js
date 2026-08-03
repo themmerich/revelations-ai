@@ -15,6 +15,7 @@ window.TRANSLATIONS = {
   "nav.film":    { de: "Film", en: "Film" },
   "nav.galerie": { de: "Galerie", en: "Gallery" },
   "nav.news":    { de: "News", en: "News" },
+  "nav.contact": { de: "Kontakt", en: "Contact" },
 
   /* Novels pages */
   "title.novels": {
@@ -271,21 +272,33 @@ window.TRANSLATIONS = {
     en: "Thousands more works sleep in the archive &mdash; this is only a crack in the door."
   },
 
-  /* Fable */
-  "fable.title": { de: "Gebaut von <em>Fable&nbsp;5</em>", en: "Built by <em>Fable&nbsp;5</em>" },
-  "fable.lead": {
-    de: "Diese Seite ist ein Experiment: Was passiert, wenn man Anthropics Modell <strong>Claude Fable&nbsp;5</strong> das Archiv eines Imagineers übergibt und sagt — <em>bau daraus einen Ort.</em>",
-    en: "This site is an experiment: what happens when you hand Anthropic's model <strong>Claude Fable&nbsp;5</strong> the archive of an imagineer and say — <em>build a place from it.</em>"
+  /* Kontakt */
+  "contact.title": { de: "Kontakt &amp; <em>Kanäle</em>", en: "Contact &amp; <em>channels</em>" },
+  "contact.lead": {
+    de: "Clives offizielle Kanäle betreuen <strong>Phil &amp; Sarah Stokes</strong> vom Revelations-Archiv — die erste Adresse für professionelle Anfragen, Theaterproduktionen und Original-Kunst.",
+    en: "Clive's official channels are run by <strong>Phil &amp; Sarah Stokes</strong> of the Revelations archive — the first port of call for professional enquiries, theatre productions and original art."
   },
-  "fable.p1": {
-    de: "Fable&nbsp;5 hat das Konzept entworfen, die Texte geschrieben, die Gemälde kuratiert, die Three.js-Bühne programmiert und jede Animation choreografiert. Kein Template, kein Baukasten — ein Modell, ein Prompt, eine Nacht in Barkers Kosmos.",
-    en: "Fable&nbsp;5 designed the concept, wrote the copy, curated the paintings, programmed the Three.js stage and choreographed every animation. No template, no site builder — one model, one prompt, one night in Barker's cosmos."
+  "contact.p1": {
+    de: "Bitte beachten: Clive selbst kann Zuschriften nicht mehr persönlich beantworten und keine zugesandten Bookplates signieren. Alle Anfragen laufen über Phil &amp; Sarah.",
+    en: "Please note: Clive himself can no longer reply to letters personally or sign bookplates sent to him. All enquiries go through Phil &amp; Sarah."
   },
-  "fable.s1": { de: "<span>Modell</span> Claude Fable 5 · Anthropic", en: "<span>Model</span> Claude Fable 5 · Anthropic" },
-  "fable.s2": { de: "<span>3D</span> Three.js — Partikelnebel &amp; Licht", en: "<span>3D</span> Three.js — particle fog &amp; light" },
-  "fable.s3": { de: "<span>Motion</span> GSAP — ScrollTrigger-Choreografie", en: "<span>Motion</span> GSAP — ScrollTrigger choreography" },
-  "fable.s4": { de: "<span>Quelle</span> clivebarker.info — Revelations-Archiv", en: "<span>Source</span> clivebarker.info — Revelations archive" },
-  "fable.sigil": { de: "Mythos-Klasse · Anthropic · 2026", en: "Mythos class · Anthropic · 2026" },
+  "contact.s1": {
+    de: "<span>E-Mail</span> <a href='mailto:philandsarah@clivebarker.info'>philandsarah@clivebarker.info</a>",
+    en: "<span>Email</span> <a href='mailto:philandsarah@clivebarker.info'>philandsarah@clivebarker.info</a>"
+  },
+  "contact.s2": {
+    de: "<span>Archiv</span> <a href='https://www.clivebarkerarchive.com/' target='_blank' rel='noopener'>clivebarkerarchive.com</a> — Publikationen &amp; Kunst",
+    en: "<span>Archive</span> <a href='https://www.clivebarkerarchive.com/' target='_blank' rel='noopener'>clivebarkerarchive.com</a> — publications &amp; art"
+  },
+  "contact.s3": {
+    de: "<span>Newsletter</span> <a href='http://eepurl.com/ckJF1j' target='_blank' rel='noopener'>Archiv-Newsletter abonnieren</a>",
+    en: "<span>Newsletter</span> <a href='http://eepurl.com/ckJF1j' target='_blank' rel='noopener'>sign up to the Archive newsletter</a>"
+  },
+  "contact.s4": {
+    de: "<span>Social</span> <a href='https://www.facebook.com/officialclivebarker' target='_blank' rel='noopener'>Facebook</a> · <a href='https://twitter.com/RealCliveBarker' target='_blank' rel='noopener'>@RealCliveBarker</a> · <a href='https://www.instagram.com/_philandsarah/' target='_blank' rel='noopener'>Instagram</a>",
+    en: "<span>Social</span> <a href='https://www.facebook.com/officialclivebarker' target='_blank' rel='noopener'>Facebook</a> · <a href='https://twitter.com/RealCliveBarker' target='_blank' rel='noopener'>@RealCliveBarker</a> · <a href='https://www.instagram.com/_philandsarah/' target='_blank' rel='noopener'>Instagram</a>"
+  },
+  "contact.sigil": { de: "Revelations · clivebarker.info · seit 1998", en: "Revelations · clivebarker.info · since 1998" },
 
   /* Footer */
   "footer.big": {
