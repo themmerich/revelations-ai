@@ -13,7 +13,7 @@
 
   /* ---------------- Language state ---------------- */
   var T = window.TRANSLATIONS || {};
-  var lang = "de";
+  var lang = "en";
   try {
     var stored = localStorage.getItem("imagineer-lang");
     if (stored === "en" || stored === "de") lang = stored;
