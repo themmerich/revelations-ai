@@ -1,0 +1,12 @@
+# Textdateien überall mit LF auschecken, damit lokale Terraform-Applies
+# (Windows) und CI (Linux) identische Datei-Hashes sehen und S3-Uploads
+# nicht zwischen CRLF und LF hin- und herspringen.
+* text=auto eol=lf
+
+# Binärdateien nie anfassen
+*.jpg binary
+*.JPG binary
+*.jpeg binary
+*.png binary
+*.webp binary
+*.ico binary
