@@ -104,6 +104,33 @@ window.TRANSLATIONS = {
   "poetry.asALife": { de: "überarbeitet als »A Life«:", en: "revised as 'A Life':" },
   "poetry.back": { de: "← Zurück zu den Werken", en: "← Back to the works" },
 
+  /* Interviews page */
+  "title.interviews": {
+    de: "Interviews — Revelations · Clive Barker × Fable 5",
+    en: "Interviews — Revelations · Clive Barker × Fable 5"
+  },
+  "interviews.eyebrow": {
+    de: "37 Gespräche · 1998 — 2022 · nach dem Revelations-Archiv",
+    en: "37 conversations · 1998 — 2022 · after the Revelations archive"
+  },
+  "interviews.title": { de: "Die <em>Interviews</em>", en: "The <em>Interviews</em>" },
+  "interviews.lede": {
+    de: "Seit 1998 führen Phil &amp; Sarah Stokes, die Hüter des Revelations-Archivs, lange Gespräche mit Clive Barker — über Bücher im Entstehen, Gemälde, Filme und alles dazwischen. Eigene Detailseiten folgen; bis dahin führt jeder Titel direkt ins Archiv.",
+    en: "Since 1998 Phil &amp; Sarah Stokes, keepers of the Revelations archive, have held long conversations with Clive Barker — about books in progress, paintings, films and everything in between. Detail pages of our own will follow; until then every title leads straight into the archive."
+  },
+  "interviews.revelTitle": { de: "Die Revelations-<em>Gespräche</em>", en: "The Revelations <em>Conversations</em>" },
+  "interviews.revelIntro": {
+    de: "Alle Interviews des Archivs in umgekehrter Chronologie — vom jüngsten Gespräch zurück bis zum ersten aus dem Jahr 1998.",
+    en: "All the archive's interviews in reverse chronology — from the latest conversation back to the first, from 1998."
+  },
+  "interviews.archiveTag": { de: "Archiv ↗", en: "archive ↗" },
+  "interviews.archiveTitle": { de: "Das Archiv <em>nach Jahren</em>", en: "The Archive <em>by Year</em>" },
+  "interviews.archiveIntro": {
+    de: "Darüber hinaus sammelt das Revelations-Archiv Interviews aus Presse, Radio und Fernsehen — Jahr für Jahr, von den frühen Achtzigern bis heute. Jede Jahreszahl führt ins Archiv.",
+    en: "Beyond these, the Revelations archive collects interviews from press, radio and television — year by year, from the early eighties to today. Every year links into the archive."
+  },
+  "interviews.back": { de: "← Zurück zu den Werken", en: "← Back to the works" },
+
   /* Theatre page */
   "title.theatre": {
     de: "Theater — Revelations · Clive Barker × Fable 5",
@@ -247,6 +274,8 @@ window.TRANSLATIONS = {
   "werke.c7":  { de: "Anthologien", en: "Anthologies" },
   "werke.c8":  { de: "Theater", en: "Theatre" },
   "werke.c8m": { de: "Incarnations, Forms of Heaven & Playscripts · eigene Seite", en: "Incarnations, Forms of Heaven & playscripts · own page" },
+  "werke.c9": { de: "Interviews", en: "Interviews" },
+  "werke.c9m": { de: "37 Revelations-Gespräche · 1998–2022 · eigene Seite", en: "37 Revelations conversations · 1998–2022 · own page" },
   "werke.archive": { de: "Revelations-Archiv ↗", en: "Revelations archive ↗" },
 
   /* Film */
