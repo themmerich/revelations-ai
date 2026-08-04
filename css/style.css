@@ -842,6 +842,46 @@ main { position: relative; z-index: 10; }
   .poemrow { grid-template-columns: 1fr; gap: 0.3rem; }
   .poemrow__where { text-align: left; }
 }
+/* ---------- Interviews page ---------- */
+.intsection .section__intro { max-width: 52ch; }
+.intlist { border-top: 1px solid rgba(233, 225, 210, 0.16); }
+.introw { border-bottom: 1px solid rgba(233, 225, 210, 0.1); }
+.introw__inner {
+  display: grid;
+  grid-template-columns: 2.6rem minmax(0, 1fr) auto;
+  align-items: baseline;
+  gap: 1rem 1.5rem;
+  padding: 1rem 0.4rem;
+  transition: padding-left 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+}
+a.introw__inner { cursor: pointer; }
+.introw:hover a.introw__inner { padding-left: 1.2rem; }
+.introw__num { color: var(--blood-bright); font-size: 0.6rem; }
+.introw__title {
+  font-family: var(--font-display);
+  font-size: clamp(1.15rem, 1.8vw, 1.5rem);
+  line-height: 1.3;
+  transition: color 0.3s ease;
+}
+.introw:hover a.introw__inner .introw__title { color: var(--gold); }
+.introw__date {
+  font-size: 0.6rem;
+  color: var(--bone-dim);
+  text-align: right;
+  line-height: 1.7;
+}
+@media (max-width: 800px) {
+  .introw__inner { grid-template-columns: 2.6rem 1fr; gap: 0.3rem 1rem; }
+  .introw__date { grid-column: 2; text-align: left; }
+}
+.yeargrid { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+.yearlink {
+  font-size: 0.62rem;
+  padding: 0.55rem 0.95rem;
+  border: 1px solid rgba(233, 225, 210, 0.18);
+  transition: color 0.3s ease, border-color 0.3s ease;
+}
+.yearlink:hover { color: var(--gold); border-color: var(--gold); }
 .noveldetail__grid--noimg { grid-template-columns: 1fr; }
 @media (max-width: 900px) {
   .noveldetail__grid { grid-template-columns: 1fr; }
