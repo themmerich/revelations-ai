@@ -201,22 +201,33 @@ window.TRANSLATIONS = {
     en: "Joel&rsquo;s Ghost · Oil on canvas · © Clive Barker"
   },
   "bio.lead": {
-    de: "Geboren am 5. Oktober 1952 in Liverpool, begann Clive Barker im Theater — als Dramatiker, Regisseur und Bühnenbildner —, bevor er Mitte der Achtziger mit den <em>Books of Blood</em> die Horrorliteratur neu vermaß.",
-    en: "Born in Liverpool on 5 October 1952, Clive Barker began in the theatre — as playwright, director and stage designer — before the <em>Books of Blood</em> redrew the map of horror fiction in the mid-eighties."
+    de: "Geboren am 5. Oktober 1952 in Liverpool als Sohn einer Malerin und eines Personalleiters, studierte Clive Barker Englisch und Philosophie an der University of Liverpool. Seine ersten Welten baute er auf der Bühne: 1978 gründete er mit Schulfreunden die Avantgarde-Truppe The Dog Company, für die er Stücke wie <em>The History of the Devil</em> und <em>Frankenstein in Love</em> schrieb — unter den Darstellern: Doug Bradley, der spätere Pinhead.",
+    en: "Born in Liverpool on 5 October 1952 to a painter and a personnel director, Clive Barker read English and philosophy at the University of Liverpool. He built his first worlds on stage: in 1978 he founded the avant-garde troupe The Dog Company with old schoolmates, writing plays like <em>The History of the Devil</em> and <em>Frankenstein in Love</em> — among the performers: Doug Bradley, the future Pinhead."
   },
   "bio.p1": {
-    de: "Was folgte, war kein Genre-Handwerk, sondern eine eigene Kosmologie: Romane wie <em>Weaveworld</em> und <em>Imajica</em> öffneten Türen in Welten, die gleichzeitig monströs und zärtlich sind. 1987 setzte er mit <em>Hellraiser</em> seine eigene Novelle in Bilder um und schuf eine der ikonischsten Mythologien des modernen Kinos.",
-    en: "What followed was not genre craft but a cosmology of his own: novels like <em>Weaveworld</em> and <em>Imajica</em> opened doors into worlds at once monstrous and tender. In 1987 he brought his own novella to the screen as <em>Hellraiser</em>, creating one of modern cinema's most iconic mythologies."
+    de: "Mitte der Achtziger vermaß er mit den <em>Books of Blood</em> (1984–85) die Horrorliteratur neu; Stephen King attestierte ihm, die Zukunft des Horrors zu sein. Was folgte, war kein Genre-Handwerk, sondern eine eigene Kosmologie: Dem Romandebüt <em>The Damnation Game</em> (1985) folgten <em>Weaveworld</em>, <em>The Great and Secret Show</em> und das weltenumspannende <em>Imajica</em> — Türen in Welten, die gleichzeitig monströs und zärtlich sind.",
+    en: "In the mid-eighties the <em>Books of Blood</em> (1984–85) redrew the map of horror fiction; Stephen King famously called him the future of horror. What followed was not genre craft but a cosmology of his own: his debut novel <em>The Damnation Game</em> (1985) led to <em>Weaveworld</em>, <em>The Great and Secret Show</em> and the world-spanning <em>Imajica</em> — doors into worlds at once monstrous and tender."
   },
   "bio.p2": {
-    de: "Weniger bekannt, aber vielleicht am nächsten an seinem Kern: Barker malt. Tausende Leinwände und Tuschezeichnungen — Dämonen, Heilige, Zwischenwesen — bilden das visuelle Rückgrat seines Schaffens, allen voran die hunderte Ölgemälde des <em>Abarat</em>-Zyklus.",
-    en: "Less known, yet perhaps closest to his core: Barker paints. Thousands of canvases and ink drawings — demons, saints, in-between beings — form the visual backbone of his work, above all the hundreds of oil paintings of the <em>Abarat</em> cycle."
+    de: "1987 setzte er mit <em>Hellraiser</em> seine Novelle <em>The Hellbound Heart</em> selbst in Bilder um und schuf eine der ikonischsten Mythologien des modernen Kinos. Es folgten <em>Nightbreed</em> (1990) und <em>Lord of Illusions</em> (1995); seine Erzählung <em>The Forbidden</em> wurde als <em>Candyman</em> verfilmt, und als Executive Producer begleitete er das Oscar-prämierte <em>Gods and Monsters</em> (1998) wie auch das <em>Hellraiser</em>-Remake von 2022.",
+    en: "In 1987 he brought his own novella <em>The Hellbound Heart</em> to the screen as <em>Hellraiser</em>, creating one of modern cinema's most iconic mythologies. <em>Nightbreed</em> (1990) and <em>Lord of Illusions</em> (1995) followed; his story <em>The Forbidden</em> became <em>Candyman</em>, and as executive producer he shepherded the Oscar-winning <em>Gods and Monsters</em> (1998) as well as the 2022 <em>Hellraiser</em> remake."
+  },
+  "bio.p3": {
+    de: "Weniger bekannt, aber vielleicht am nächsten an seinem Kern: Barker malt. Tausende Leinwände und Tuschezeichnungen — Dämonen, Heilige, Zwischenwesen — bilden das visuelle Rückgrat seines Schaffens, allen voran die hunderte Ölgemälde des <em>Abarat</em>-Zyklus. Ausstellungen in New York, Chicago und Los Angeles sowie die achtbändige Werkschau <em>Imaginer</em> dokumentieren dieses Parallelwerk.",
+    en: "Less known, yet perhaps closest to his core: Barker paints. Thousands of canvases and ink drawings — demons, saints, in-between beings — form the visual backbone of his work, above all the hundreds of oil paintings of the <em>Abarat</em> cycle. Exhibitions in New York, Chicago and Los Angeles, along with the eight-volume <em>Imaginer</em> series, document this parallel body of work."
+  },
+  "bio.p4": {
+    de: "Barker, der seit seinen frühen Zwanzigern offen schwul lebt, überstand 2012 nach einem toxischen Schock ein tagelanges Koma — und schrieb weiter. Seit 2024 hat er sich von Conventions und öffentlichen Auftritten zurückgezogen, um sich ganz dem Schreiben zu widmen: Rund dreißig Projekte liegen auf seinem Schreibtisch, darunter das vierte <em>Abarat</em>-Buch.",
+    en: "Openly gay since his early twenties, Barker survived a days-long coma after toxic shock in 2012 — and kept writing. Since 2024 he has withdrawn from conventions and public appearances to devote himself entirely to writing: some thirty projects sit on his desk, among them the fourth <em>Abarat</em> book."
   },
   "bio.f1": { de: "<span>1952</span> Geboren in Liverpool, England", en: "<span>1952</span> Born in Liverpool, England" },
-  "bio.f2": { de: "<span>1984</span> Books of Blood, Bände I–III", en: "<span>1984</span> Books of Blood, volumes I–III" },
-  "bio.f3": { de: "<span>1987</span> Hellraiser — Regiedebüt", en: "<span>1987</span> Hellraiser — directorial debut" },
-  "bio.f4": { de: "<span>2002</span> Abarat — Roman &amp; Gemäldezyklus", en: "<span>2002</span> Abarat — novel &amp; painting cycle" },
-  "bio.f5": { de: "<span>2005</span> International Horror Guild Award für seine Kunst", en: "<span>2005</span> International Horror Guild Award for his art" },
+  "bio.f2": { de: "<span>1978</span> Mitgründung der Theatergruppe The Dog Company", en: "<span>1978</span> Co-founded the theatre troupe The Dog Company" },
+  "bio.f3": { de: "<span>1984</span> Books of Blood — World Fantasy Award", en: "<span>1984</span> Books of Blood — World Fantasy Award" },
+  "bio.f4": { de: "<span>1985</span> The Damnation Game — Romandebüt", en: "<span>1985</span> The Damnation Game — debut novel" },
+  "bio.f5": { de: "<span>1987</span> Hellraiser — Regiedebüt", en: "<span>1987</span> Hellraiser — directorial debut" },
+  "bio.f6": { de: "<span>1998</span> Gods and Monsters — Executive Producer", en: "<span>1998</span> Gods and Monsters — executive producer" },
+  "bio.f7": { de: "<span>2002</span> Abarat — Roman &amp; Gemäldezyklus", en: "<span>2002</span> Abarat — novel &amp; painting cycle" },
+  "bio.f8": { de: "<span>2012</span> Lifetime Achievement Award der Horror Writers Association", en: "<span>2012</span> Horror Writers Association Lifetime Achievement Award" },
 
   /* Werke */
   "werke.title": { de: "Geschriebene <em>Welten</em>", en: "Written <em>Worlds</em>" },
