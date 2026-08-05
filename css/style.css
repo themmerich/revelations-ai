@@ -882,6 +882,80 @@ a.introw__inner { cursor: pointer; }
   transition: color 0.3s ease, border-color 0.3s ease;
 }
 .yearlink:hover { color: var(--gold); border-color: var(--gold); }
+
+/* ---------- Interview detail page ---------- */
+.ivnote {
+  font-size: 0.58rem;
+  color: var(--bone-dim);
+  margin-bottom: 2rem;
+}
+.ivnote a { color: var(--gold); }
+.ivtext {
+  max-width: 74ch;
+  margin-bottom: clamp(2.5rem, 6vh, 4rem);
+}
+.ivturn { margin-bottom: 1.6rem; }
+.ivturn__who {
+  display: block;
+  font-size: 0.58rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+.ivturn--rev .ivturn__who { color: var(--gold); }
+.ivturn--clive .ivturn__who { color: var(--blood-bright); }
+.ivturn--rev p {
+  font-size: 0.92rem;
+  line-height: 1.75;
+  color: var(--bone-dim);
+  font-style: italic;
+}
+.ivturn--clive p {
+  font-family: var(--font-display);
+  font-size: clamp(1.15rem, 1.6vw, 1.35rem);
+  line-height: 1.65;
+}
+.ivturn--cont { margin-top: -0.6rem; }
+.ivnarr {
+  font-size: 0.92rem;
+  line-height: 1.75;
+  font-style: italic;
+  color: var(--bone-dim);
+  border-left: 1px solid rgba(233, 225, 210, 0.25);
+  padding-left: 1.2rem;
+  margin: 2.2rem 0;
+}
+.ivfig { margin: 0.4rem 0 1.6rem; }
+.ivfig--left {
+  float: left;
+  width: clamp(160px, 34%, 260px);
+  margin: 0.4rem 1.6rem 1.2rem 0;
+}
+.ivfig--right {
+  float: right;
+  width: clamp(160px, 34%, 260px);
+  margin: 0.4rem 0 1.2rem 1.6rem;
+}
+.ivfig--center {
+  float: none;
+  clear: both;
+  width: clamp(220px, 55%, 380px);
+  margin: 2.2rem auto;
+}
+.ivrow {
+  clear: both;
+  display: flex;
+  flex-wrap: wrap;
+  gap: clamp(1rem, 2vw, 1.8rem);
+  margin: 2.2rem 0;
+}
+.ivrow .coverfig { width: clamp(140px, 28%, 220px); }
+.ivtext::after { content: ""; display: block; clear: both; }
+.ivpending { max-width: 60ch; margin-bottom: 2.5rem; }
+.ivpending .noveldetail__syn { margin-bottom: 1.2rem; }
+@media (max-width: 640px) {
+  .ivfig--left, .ivfig--right { float: none; width: 70%; margin: 1.6rem auto; }
+}
 .noveldetail__grid--noimg { grid-template-columns: 1fr; }
 @media (max-width: 900px) {
   .noveldetail__grid { grid-template-columns: 1fr; }

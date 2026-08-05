@@ -29,7 +29,7 @@
      slug: künftige Detailseite · ext: Seite im Revelations-Archiv */
   var ARCHIVE_BASE = "https://www.clivebarker.info/";
   var INTERVIEWS = [
-    { slug: "fear-love-story-and-time", title: "Fear, Love, Story... and Time", ext: "intsrevel37.html", date: { de: "Frühjahr 2022", en: "Spring 2022" } },
+    { slug: "fear-love-story-and-time", title: "Fear, Love, Story... and Time", ext: "intsrevel37.html", local: true, date: { de: "Frühjahr 2022", en: "Spring 2022" } },
     { slug: "talking-of-the-painting-of-the-abarat", title: "Talking Of The Painting Of The Abarat", ext: "intsrevel36.html", date: { de: "März 2021", en: "March 2021" } },
     { slug: "on-the-way-to-heaven", title: "On The Way To Heaven, We Had A Picnic Of Ideas...", ext: "intsrevel35.html", date: { de: "November 2020", en: "November 2020" } },
     { slug: "plucking-apples-of-silver-and-gold", title: "Plucking Apples Of Silver And Gold", ext: "intsrevel34.html", date: { de: "April 2020", en: "April 2020" } },
@@ -94,9 +94,42 @@
     { label: "2025", ext: "ints25.html" }, { label: "2026", ext: "ints26.html" }
   ];
 
+  /* ---------------- Interview-Detail: Bilder & Anker ----------------
+     Die Volltexte liegen in js/interview-texts.js (manuell gepflegt).
+     Bilder werden nach dem Absatz eingesetzt, der den Anker enthält —
+     Positionen und Bildfolge wie auf der Archivseite. */
+  var DETAILS = {
+    "fear-love-story-and-time": {
+      placements: [
+        { anchor: "preposterous", pos: "center", imgs: [{ f: "cbdarkworlds.jpg", t: "Clive Barker's Dark Worlds", c: "Abrams/Cernunnos, 2022" }] },
+        { anchor: "taught to be impartial", pos: "left", imgs: [{ f: "tunnel.jpg", t: "The Tunnel", c: "© Clive Barker" }] },
+        { anchor: "part of everything else", pos: "right", imgs: [{ f: "harvey4.jpg", t: "What Do You Dream? (version)", c: "© Clive Barker" }] },
+        { anchor: "argue about that one", pos: "left", imgs: [{ f: "lulutransformed2.jpg", t: "Lulu Transformed", c: "© Clive Barker" }] },
+        { anchor: "variety of storytelling styles", pos: "right", imgs: [{ f: "bob3cover.jpg", t: "Books of Blood, Volume 3", c: "© Clive Barker" }] },
+        { anchor: "another project in another medium", pos: "left", imgs: [{ f: "quietmen2.jpg", t: "Quiet Men", c: "© Clive Barker" }] },
+        { anchor: "presents itself as a form of narrative", pos: "right", imgs: [{ f: "img9551.jpg", t: "Untitled", c: "© Clive Barker" }] },
+        { anchor: "doing something twice", pos: "right", imgs: [{ f: "self_portrait_clive_web.jpg", t: "Self Portrait", c: "© Clive Barker" }] },
+        { anchor: "needs to go away and think", pos: "center", imgs: [{ f: "lightmorning.jpg", t: "The Light of Morning", c: "© Clive Barker" }] },
+        {
+          anchor: "mystery of the womb", pos: "row",
+          imgs: [
+            { f: "axis10.jpg", t: "Axis (Primal Goddess)", c: "© Clive Barker" },
+            { f: "axis11.jpg", t: "Axis (Christ Condition)", c: "© Clive Barker" },
+            { f: "axis12.jpg", t: "Axis (Modern Man)", c: "© Clive Barker" }
+          ]
+        }
+      ]
+    }
+  };
+
+  function imgPath(slug, file) {
+    return "assets/interviews/" + slug + "/" + file;
+  }
+
   /* ---------------- Rendering ---------------- */
   var list = document.getElementById("interviewList");
   var yearGrid = document.getElementById("yearGrid");
+  var detail = document.getElementById("interviewDetail");
 
   function renderList() {
     var html = "";
@@ -106,8 +139,12 @@
         '<span class="introw__num mono">' + num + "</span>" +
         '<span class="introw__title">' + iv.title + "</span>" +
         '<span class="introw__date mono">' + pick(iv.date) +
-        (iv.ext ? " · " + t("interviews.archiveTag") : "") + "</span>";
-      if (iv.ext) {
+        (iv.local ? " · " + t("interviews.ownTag") : iv.ext ? " · " + t("interviews.archiveTag") : "") + "</span>";
+      if (iv.local) {
+        html +=
+          '<li class="introw reveal-news"><a class="introw__inner" href="interview.html?i=' + iv.slug + '">' +
+          inner + "</a></li>";
+      } else if (iv.ext) {
         html +=
           '<li class="introw reveal-news"><a class="introw__inner" href="' + ARCHIVE_BASE + iv.ext +
           '" target="_blank" rel="noopener">' + inner + "</a></li>";
@@ -117,6 +154,176 @@
     });
     list.innerHTML = html;
     bindHoverCursor(".introw a");
+  }
+
+  /* ---------------- Detail: Text-Parser ---------------- */
+  function escapeHtml(s) {
+    return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  }
+  function normalize(s) {
+    return s.replace(/[‘’]/g, "'").replace(/[“”]/g, '"').toLowerCase();
+  }
+
+  function parseTurns(raw, title) {
+    var text = raw.replace(/\r/g, "");
+    text = text.replace(/!\[[^\]]*\]\([^)]*\)/g, "");          // Markdown-Bilder entfernen
+    text = text.replace(/\[([^\]]+)\]\([^)]*\)/g, "$1");        // Links auf Linktext reduzieren
+    text = text.replace(/\[\]\([^)]*\)/g, "");                  // leere Link-Reste entfernen
+    var turns = [];
+    text.split(/\n\s*\n/).forEach(function (para) {
+      var p = para.replace(/^#+\s*/, "").replace(/\s*\n\s*/g, " ").trim();
+      if (!p) return;
+      if (normalize(p) === normalize(title)) return;            // Titelzeile überspringen
+      var m = p.match(/^(Revelations|Clive):\s*/);
+      if (m) {
+        turns.push({ who: m[1] === "Clive" ? "clive" : "rev", text: p.slice(m[0].length) });
+      } else if (/^[“"]/.test(p)) {
+        turns.push({ who: "cont", text: p });                   // Fortsetzung von Clives Antwort
+      } else {
+        turns.push({ who: "narr", text: p });                   // erzählender Zwischentext
+      }
+    });
+    return turns;
+  }
+
+  function figureMarkup(slug, img, cls) {
+    return (
+      '<figure class="coverfig ivfig' + (cls ? " " + cls : "") + '" data-title="' + img.t + '">' +
+      '<img src="' + imgPath(slug, img.f) + '" alt="' + img.t + '" loading="lazy" />' +
+      '<figcaption class="mono">' + img.t + " · " + img.c + "</figcaption>" +
+      "</figure>"
+    );
+  }
+
+  function placementMarkup(slug, pl) {
+    if (pl.pos === "row") {
+      return '<div class="ivrow">' + pl.imgs.map(function (img) { return figureMarkup(slug, img, ""); }).join("") + "</div>";
+    }
+    var cls = pl.pos === "left" ? "ivfig--left" : pl.pos === "right" ? "ivfig--right" : "ivfig--center";
+    return figureMarkup(slug, pl.imgs[0], cls);
+  }
+
+  /* ---------------- Detail: Rendering ---------------- */
+  function renderDetail() {
+    var params = new URLSearchParams(window.location.search);
+    var slug = params.get("i");
+    var idx = INTERVIEWS.findIndex(function (iv) { return iv.slug === slug && iv.local; });
+    if (idx === -1) idx = INTERVIEWS.findIndex(function (iv) { return iv.local; });
+    var iv = INTERVIEWS[idx];
+    var cfg = DETAILS[iv.slug] || { placements: [] };
+    var no = INTERVIEWS.length - idx;
+    var raw = (window.INTERVIEW_TEXTS && window.INTERVIEW_TEXTS[iv.slug]) || "";
+
+    document.title = iv.title + " — Revelations · Clive Barker";
+
+    var body = "";
+    if (raw.trim()) {
+      var turns = parseTurns(raw, iv.title);
+      // Bilder nach Anker-Absätzen einsetzen
+      var used = [];
+      var html = "";
+      turns.forEach(function (turn) {
+        var safe = escapeHtml(turn.text);
+        if (turn.who === "rev") {
+          html += '<div class="ivturn ivturn--rev"><span class="ivturn__who mono">Revelations</span><p>' + safe + "</p></div>";
+        } else if (turn.who === "clive") {
+          html += '<div class="ivturn ivturn--clive"><span class="ivturn__who mono">Clive Barker</span><p>' + safe + "</p></div>";
+        } else if (turn.who === "cont") {
+          html += '<div class="ivturn ivturn--clive ivturn--cont"><p>' + safe + "</p></div>";
+        } else {
+          html += '<p class="ivnarr">' + safe + "</p>";
+        }
+        var np = normalize(turn.text);
+        cfg.placements.forEach(function (pl, pi) {
+          if (used.indexOf(pi) === -1 && np.indexOf(normalize(pl.anchor)) !== -1) {
+            used.push(pi);
+            html += placementMarkup(iv.slug, pl);
+          }
+        });
+      });
+      // Nicht verankerte Bilder ans Ende
+      cfg.placements.forEach(function (pl, pi) {
+        if (used.indexOf(pi) === -1) html += placementMarkup(iv.slug, pl);
+      });
+      body =
+        '<p class="ivnote mono">' + t("interview.langNote") + "</p>" +
+        '<div class="ivtext">' + html + "</div>";
+    } else {
+      // Volltext noch nicht eingepflegt: Hinweis + Bildergalerie
+      var gallery = cfg.placements.map(function (pl) {
+        return pl.imgs.map(function (img) { return figureMarkup(iv.slug, img, ""); }).join("");
+      }).join("");
+      body =
+        '<div class="ivpending">' +
+        '<p class="noveldetail__syn">' + t("interview.pending1") + "</p>" +
+        '<p class="ivnote mono">' + t("interview.pending2") + "</p>" +
+        '<p class="ivnote mono"><a href="' + ARCHIVE_BASE + iv.ext + '" target="_blank" rel="noopener">' + t("interview.readOrig") + "</a></p>" +
+        "</div>" +
+        '<div class="coverrow">' + gallery + "</div>";
+    }
+
+    detail.innerHTML =
+      '<section class="newshero novelhero">' +
+      '<p class="hero__eyebrow mono">' + t("interview.kind") + " " + no + " · " + pick(iv.date) + " · Phil &amp; Sarah Stokes</p>" +
+      '<h1 class="novelhero__title">' + iv.title + "</h1>" +
+      "</section>" +
+      '<section class="noveldetail ivdetail">' +
+      body +
+      '<p class="coversection__credit mono">' + t("interview.credit") + "</p>" +
+      '<nav class="novelpager">' +
+      '<a class="novelpager__link mono" href="interviews.html">' + t("interview.backToList") + "</a>" +
+      '<a class="novelpager__link mono" href="' + ARCHIVE_BASE + iv.ext + '" target="_blank" rel="noopener">' + t("interview.readOrig") + "</a>" +
+      "</nav>" +
+      "</section>";
+
+    bindHoverCursor(".novelpager__link");
+    bindHoverCursor(".coverfig");
+    bindLightbox();
+  }
+
+  /* ---------------- Lightbox (Detailseite) ---------------- */
+  function bindLightbox() {
+    var lightbox = document.getElementById("lightbox");
+    if (!lightbox || lightbox.dataset.bound) return;
+    lightbox.dataset.bound = "1";
+    var lightboxImg = document.getElementById("lightboxImg");
+    var lightboxTitle = document.getElementById("lightboxTitle");
+    var lightboxMeta = document.getElementById("lightboxMeta");
+    var backdrop = document.getElementById("lightboxBackdrop");
+    var closeBtn = document.getElementById("lightboxClose");
+
+    function open(fig) {
+      var img = fig.querySelector("img");
+      lightboxImg.src = img.src;
+      lightboxImg.alt = img.alt;
+      lightboxTitle.textContent = fig.getAttribute("data-title") || "";
+      lightboxMeta.textContent = fig.querySelector("figcaption").textContent;
+      lightbox.classList.add("is-open");
+      lightbox.setAttribute("aria-hidden", "false");
+      gsap.to(backdrop, { opacity: 1, duration: 0.4 });
+      gsap.fromTo(".lightbox__figure",
+        { opacity: 0, y: 40, scale: 0.96 },
+        { opacity: 1, y: 0, scale: 1, duration: 0.6, ease: "power3.out", delay: 0.1 });
+    }
+    function close() {
+      gsap.to(".lightbox__figure", { opacity: 0, y: 20, duration: 0.3, ease: "power2.in" });
+      gsap.to(backdrop, {
+        opacity: 0, duration: 0.35, delay: 0.1,
+        onComplete: function () {
+          lightbox.classList.remove("is-open");
+          lightbox.setAttribute("aria-hidden", "true");
+        }
+      });
+    }
+    detail.addEventListener("click", function (e) {
+      var fig = e.target.closest(".coverfig");
+      if (fig) open(fig);
+    });
+    backdrop.addEventListener("click", close);
+    closeBtn.addEventListener("click", close);
+    window.addEventListener("keydown", function (e) {
+      if (e.key === "Escape") close();
+    });
   }
 
   function renderYears() {
@@ -136,13 +343,16 @@
 
   function applyLanguage() {
     document.documentElement.lang = lang;
-    document.title = t("title.interviews");
     document.querySelectorAll("[data-i18n]").forEach(function (el) {
       var html = t(el.getAttribute("data-i18n"));
       if (html) el.innerHTML = html;
     });
-    renderList();
-    renderYears();
+    if (list) {
+      document.title = t("title.interviews");
+      renderList();
+    }
+    if (yearGrid) renderYears();
+    if (detail) renderDetail();
     langToggle.textContent = lang === "de" ? "EN" : "DE";
   }
 
