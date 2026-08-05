@@ -885,15 +885,17 @@ a.introw__inner { cursor: pointer; }
 
 /* ---------- Interview detail page ---------- */
 .ivnote {
+  max-width: 56rem;
+  margin: 0 auto 2rem;
   font-size: 0.58rem;
   color: var(--bone-dim);
-  margin-bottom: 2rem;
 }
 .ivnote a { color: var(--gold); }
 .ivtext {
-  max-width: 74ch;
-  margin-bottom: clamp(2.5rem, 6vh, 4rem);
+  max-width: 56rem;
+  margin: 0 auto clamp(2.5rem, 6vh, 4rem);
 }
+.ivpending { margin-left: auto; margin-right: auto; }
 .ivturn { margin-bottom: 1.6rem; }
 .ivturn__who {
   display: block;
