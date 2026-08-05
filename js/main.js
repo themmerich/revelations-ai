@@ -181,13 +181,15 @@
       });
     });
 
-    // Work rows cascade
-    gsap.fromTo(".workrow",
-      { opacity: 0, y: 34 },
-      {
-        opacity: 1, y: 0, duration: 0.9, ease: "power3.out", stagger: 0.08,
-        scrollTrigger: { trigger: ".worklist", start: "top 82%" }
-      });
+    // Work rows cascade (per list — index has several worklists)
+    gsap.utils.toArray(".worklist").forEach(function (listEl) {
+      gsap.fromTo(listEl.querySelectorAll(".workrow"),
+        { opacity: 0, y: 34 },
+        {
+          opacity: 1, y: 0, duration: 0.9, ease: "power3.out", stagger: 0.08,
+          scrollTrigger: { trigger: listEl, start: "top 82%" }
+        });
+    });
 
     // Section titles drift in
     gsap.utils.toArray(".section__head").forEach(function (el) {
