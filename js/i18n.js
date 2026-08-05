@@ -14,6 +14,7 @@ window.TRANSLATIONS = {
   "nav.werke":   { de: "Werke", en: "Works" },
   "nav.film":    { de: "Film", en: "Film" },
   "nav.galerie": { de: "Galerie", en: "Gallery" },
+  "nav.interviews": { de: "Interviews", en: "Interviews" },
   "nav.news":    { de: "News", en: "News" },
   "nav.contact": { de: "Kontakt", en: "Contact" },
 
@@ -129,7 +130,7 @@ window.TRANSLATIONS = {
     de: "Darüber hinaus sammelt das Revelations-Archiv Interviews aus Presse, Radio und Fernsehen — Jahr für Jahr, von den frühen Achtzigern bis heute. Jede Jahreszahl führt ins Archiv.",
     en: "Beyond these, the Revelations archive collects interviews from press, radio and television — year by year, from the early eighties to today. Every year links into the archive."
   },
-  "interviews.back": { de: "← Zurück zu den Werken", en: "← Back to the works" },
+  "interviews.back": { de: "← Zurück zur Übersicht", en: "← Back to the overview" },
 
   /* Theatre page */
   "title.theatre": {
@@ -274,9 +275,18 @@ window.TRANSLATIONS = {
   "werke.c7":  { de: "Anthologien", en: "Anthologies" },
   "werke.c8":  { de: "Theater", en: "Theatre" },
   "werke.c8m": { de: "Incarnations, Forms of Heaven & Playscripts · eigene Seite", en: "Incarnations, Forms of Heaven & playscripts · own page" },
-  "werke.c9": { de: "Interviews", en: "Interviews" },
-  "werke.c9m": { de: "37 Revelations-Gespräche · 1998–2022 · eigene Seite", en: "37 Revelations conversations · 1998–2022 · own page" },
   "werke.archive": { de: "Revelations-Archiv ↗", en: "Revelations archive ↗" },
+
+  /* Interviews section (home) */
+  "iv.title": { de: "Die <em>Interviews</em>", en: "The <em>Interviews</em>" },
+  "iv.intro": {
+    de: "Kaum ein Autor hat so bereitwillig und so lange über die eigene Arbeit gesprochen: Seit 1998 führen Phil &amp; Sarah Stokes vom Revelations-Archiv fortlaufend Gespräche mit Barker — flankiert von hunderten Interviews aus Presse, Radio und Fernsehen.",
+    en: "Few authors have talked about their own work so willingly and for so long: since 1998 Phil &amp; Sarah Stokes of the Revelations archive have held an ongoing series of conversations with Barker — flanked by hundreds of interviews from press, radio and television."
+  },
+  "iv.r1": { de: "Die Revelations-Gespräche", en: "The Revelations Conversations" },
+  "iv.r1m": { de: "37 Gespräche · 1998–2022 · eigene Seite", en: "37 conversations · 1998–2022 · own page" },
+  "iv.r2": { de: "Das Archiv nach Jahren", en: "The Archive by Year" },
+  "iv.r2m": { de: "Presse, Radio &amp; TV · bis 1985 — 2026 · eigene Seite", en: "Press, radio &amp; TV · to 1985 — 2026 · own page" },
 
   /* Film */
   "film.title": { de: "Bewegte <em>Alpträume</em>", en: "Moving <em>Nightmares</em>" },
