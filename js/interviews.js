@@ -174,7 +174,7 @@
       var p = para.replace(/^#+\s*/, "").replace(/\s*\n\s*/g, " ").trim();
       if (!p) return;
       if (normalize(p) === normalize(title)) return;            // Titelzeile überspringen
-      var m = p.match(/^(Revelations|Clive):\s*/);
+      var m = p.match(/^(Revelations|Clive)\s*:\s*/);
       if (m) {
         turns.push({ who: m[1] === "Clive" ? "clive" : "rev", text: p.slice(m[0].length) });
       } else if (/^[“"]/.test(p)) {
