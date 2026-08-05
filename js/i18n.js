@@ -131,6 +131,28 @@ window.TRANSLATIONS = {
     en: "Beyond these, the Revelations archive collects interviews from press, radio and television — year by year, from the early eighties to today. Every year links into the archive."
   },
   "interviews.back": { de: "← Zurück zur Übersicht", en: "← Back to the overview" },
+  "interviews.ownTag": { de: "eigene Seite", en: "own page" },
+
+  /* Interview detail page */
+  "interview.kind": { de: "Revelations-Gespräch Nr.", en: "Revelations conversation No." },
+  "interview.langNote": {
+    de: "Wiedergegeben im englischen Originalwortlaut · Text © Phil &amp; Sarah Stokes, clivebarker.info",
+    en: "Reproduced in the original English wording · text © Phil &amp; Sarah Stokes, clivebarker.info"
+  },
+  "interview.pending1": {
+    de: "Der Wortlaut dieses Gesprächs ist noch nicht eingebunden — bis dahin: die Bilder der Archivseite und der Link zum Original.",
+    en: "The text of this conversation has not been added yet — until then: the images from the archive page and the link to the original."
+  },
+  "interview.pending2": {
+    de: "Zum Einpflegen den Originaltext in js/interview-texts.js einfügen — die Seite formatiert ihn automatisch.",
+    en: "To add it, paste the original text into js/interview-texts.js — the page formats it automatically."
+  },
+  "interview.readOrig": { de: "Zum Original im Revelations-Archiv ↗", en: "Read the original at the Revelations archive ↗" },
+  "interview.backToList": { de: "← Alle Interviews", en: "← All interviews" },
+  "interview.credit": {
+    de: "Text © Phil &amp; Sarah Stokes · Bilder: Revelations-Archiv (clivebarker.info) · Artwork © Clive Barker bzw. der jeweiligen Verlage",
+    en: "Text © Phil &amp; Sarah Stokes · images: Revelations archive (clivebarker.info) · artwork © Clive Barker or the respective publishers"
+  },
 
   /* Theatre page */
   "title.theatre": {

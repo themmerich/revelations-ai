@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Interview — Revelations · Clive Barker × Fable 5</title>
+<meta name="description" content="Detailseite eines Revelations-Interviews mit Clive Barker: Zusammenfassung, Themen und Bilder — nach dem Revelations-Archiv." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=IBM+Plex+Mono:wght@300;400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- Fixed Three.js stage -->
+<canvas id="stage"></canvas>
+
+<!-- Grain overlay -->
+<div class="grain" aria-hidden="true"></div>
+
+<!-- Custom cursor -->
+<div class="cursor" id="cursor" aria-hidden="true"><span class="cursor__label" id="cursorLabel"></span></div>
+
+<!-- Navigation -->
+<header class="nav" id="nav">
+  <a class="nav__logo" href="index.html">C·B</a>
+  <nav class="nav__links">
+    <a href="index.html#bio" data-i18n="nav.bio">Biografie</a>
+    <a href="index.html#werke" data-i18n="nav.werke">Werke</a>
+    <a href="index.html#film" data-i18n="nav.film">Film</a>
+    <a href="index.html#interviews" data-i18n="nav.interviews">Interviews</a>
+    <a href="index.html#galerie" data-i18n="nav.galerie">Galerie</a>
+    <a href="news.html" data-i18n="nav.news">News</a>
+    <a href="index.html#contact" class="nav__contact" data-i18n="nav.contact">Kontakt</a>
+    <button class="nav__lang mono" id="langToggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+
+<main>
+  <div id="interviewDetail">
+    <!-- rendered by js/interviews.js -->
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__meta mono">
+      <p data-i18n="footer.m1">Sämtliche Gemälde &amp; Zeichnungen © Clive Barker · mit Dank an das Revelations-Archiv (clivebarker.info)</p>
+      <p data-i18n="footer.m2">Konzept, Text, Code &amp; Motion: Claude Fable 5 · Anthropic · 2026 — inoffizielles Fan-Projekt</p>
+    </div>
+  </footer>
+</main>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <div class="lightbox__backdrop" id="lightboxBackdrop"></div>
+  <figure class="lightbox__figure">
+    <img src="" alt="" id="lightboxImg" />
+    <figcaption>
+      <span class="lightbox__title" id="lightboxTitle"></span>
+      <span class="lightbox__meta mono" id="lightboxMeta"></span>
+      <span class="lightbox__credit mono">Revelations-Archiv · clivebarker.info</span>
+    </figcaption>
+  </figure>
+  <button class="lightbox__close mono" id="lightboxClose" aria-label="Schließen" data-i18n="lb.close">Schließen ✕</button>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.158.0/three.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/scene.js"></script>
+<script src="js/interview-texts.js?v=1"></script>
+<script src="js/interviews.js?v=2"></script>
+</body>
+</html>
