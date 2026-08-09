@@ -101,17 +101,17 @@
   var DETAILS = {
     "fear-love-story-and-time": {
       placements: [
-        { anchor: "preposterous", pos: "center", imgs: [{ f: "cbdarkworlds.jpg", t: "Clive Barker's Dark Worlds", c: "Abrams/Cernunnos, 2022" }] },
-        { anchor: "taught to be impartial", pos: "left", imgs: [{ f: "tunnel.jpg", t: "The Tunnel", c: "© Clive Barker" }] },
-        { anchor: "part of everything else", pos: "right", imgs: [{ f: "harvey4.jpg", t: "What Do You Dream? (version)", c: "© Clive Barker" }] },
-        { anchor: "argue about that one", pos: "left", imgs: [{ f: "lulutransformed2.jpg", t: "Lulu Transformed", c: "© Clive Barker" }] },
-        { anchor: "variety of storytelling styles", pos: "right", imgs: [{ f: "bob3cover.jpg", t: "Books of Blood, Volume 3", c: "© Clive Barker" }] },
-        { anchor: "another project in another medium", pos: "left", imgs: [{ f: "quietmen2.jpg", t: "Quiet Men", c: "© Clive Barker" }] },
-        { anchor: "presents itself as a form of narrative", pos: "right", imgs: [{ f: "img9551.jpg", t: "Untitled", c: "© Clive Barker" }] },
-        { anchor: "doing something twice", pos: "right", imgs: [{ f: "self_portrait_clive_web.jpg", t: "Self Portrait", c: "© Clive Barker" }] },
-        { anchor: "needs to go away and think", pos: "center", imgs: [{ f: "lightmorning.jpg", t: "The Light of Morning", c: "© Clive Barker" }] },
+        { anchor: { en: "preposterous", de: "nicht absurd wäre" }, pos: "center", imgs: [{ f: "cbdarkworlds.jpg", t: "Clive Barker's Dark Worlds", c: "Abrams/Cernunnos, 2022" }] },
+        { anchor: { en: "taught to be impartial", de: "unparteiisch zu sein" }, pos: "left", imgs: [{ f: "tunnel.jpg", t: "The Tunnel", c: "© Clive Barker" }] },
+        { anchor: { en: "part of everything else", de: "teil von allem anderen" }, pos: "right", imgs: [{ f: "harvey4.jpg", t: "What Do You Dream? (version)", c: "© Clive Barker" }] },
+        { anchor: { en: "argue about that one", de: "gestritten haben wie über sacrament" }, pos: "left", imgs: [{ f: "lulutransformed2.jpg", t: "Lulu Transformed", c: "© Clive Barker" }] },
+        { anchor: { en: "variety of storytelling styles", de: "vielfalt der erzählstile" }, pos: "right", imgs: [{ f: "bob3cover.jpg", t: "Books of Blood, Volume 3", c: "© Clive Barker" }] },
+        { anchor: { en: "another project in another medium", de: "anderen projekt in einem anderen medium" }, pos: "left", imgs: [{ f: "quietmen2.jpg", t: "Quiet Men", c: "© Clive Barker" }] },
+        { anchor: { en: "presents itself as a form of narrative", de: "als eine form von erzählung" }, pos: "right", imgs: [{ f: "img9551.jpg", t: "Untitled", c: "© Clive Barker" }] },
+        { anchor: { en: "doing something twice", de: "etwas zweimal zu tun" }, pos: "right", imgs: [{ f: "self_portrait_clive_web.jpg", t: "Self Portrait", c: "© Clive Barker" }] },
+        { anchor: { en: "needs to go away and think", de: "weggehen und darüber nachdenken muss" }, pos: "center", imgs: [{ f: "lightmorning.jpg", t: "The Light of Morning", c: "© Clive Barker" }] },
         {
-          anchor: "mystery of the womb", pos: "row",
+          anchor: { en: "mystery of the womb", de: "mysterium des mutterleibs" }, pos: "row",
           imgs: [
             { f: "axis10.jpg", t: "Axis (Primal Goddess)", c: "© Clive Barker" },
             { f: "axis11.jpg", t: "Axis (Christ Condition)", c: "© Clive Barker" },
@@ -161,7 +161,11 @@
     return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
   }
   function normalize(s) {
-    return s.replace(/[‘’]/g, "'").replace(/[“”]/g, '"').toLowerCase();
+    return s.replace(/[‘’‚]/g, "'").replace(/[„“”]/g, '"').toLowerCase();
+  }
+  /* Anker/Text je Sprache: Objekt {de,en} oder einfacher String (nur EN) */
+  function pickAnchor(a) {
+    return typeof a === "string" ? a : pick(a);
   }
 
   function parseTurns(raw, title) {
@@ -177,7 +181,7 @@
       var m = p.match(/^(Revelations|Clive)\s*:\s*/);
       if (m) {
         turns.push({ who: m[1] === "Clive" ? "clive" : "rev", text: p.slice(m[0].length) });
-      } else if (/^[“"]/.test(p)) {
+      } else if (/^[„“”"»«]/.test(p)) {
         turns.push({ who: "cont", text: p });                   // Fortsetzung von Clives Antwort
       } else {
         turns.push({ who: "narr", text: p });                   // erzählender Zwischentext
@@ -212,7 +216,11 @@
     var iv = INTERVIEWS[idx];
     var cfg = DETAILS[iv.slug] || { placements: [] };
     var no = INTERVIEWS.length - idx;
-    var raw = (window.INTERVIEW_TEXTS && window.INTERVIEW_TEXTS[iv.slug]) || "";
+    /* Übersetzte Fassungen liegen unter "<slug>:<lang>"; ohne Übersetzung
+       fällt die Seite auf das englische Original zurück. */
+    var TEXTS = window.INTERVIEW_TEXTS || {};
+    var translated = lang !== "en" && !!TEXTS[iv.slug + ":" + lang];
+    var raw = (translated ? TEXTS[iv.slug + ":" + lang] : TEXTS[iv.slug]) || "";
 
     document.title = iv.title + " — Revelations · Clive Barker";
 
@@ -235,7 +243,7 @@
         }
         var np = normalize(turn.text);
         cfg.placements.forEach(function (pl, pi) {
-          if (used.indexOf(pi) === -1 && np.indexOf(normalize(pl.anchor)) !== -1) {
+          if (used.indexOf(pi) === -1 && np.indexOf(normalize(pickAnchor(pl.anchor))) !== -1) {
             used.push(pi);
             html += placementMarkup(iv.slug, pl);
           }
@@ -246,7 +254,7 @@
         if (used.indexOf(pi) === -1) html += placementMarkup(iv.slug, pl);
       });
       body =
-        '<p class="ivnote mono">' + t("interview.langNote") + "</p>" +
+        '<p class="ivnote mono">' + t(translated ? "interview.transNote" : "interview.langNote") + "</p>" +
         '<div class="ivtext">' + html + "</div>";
     } else {
       // Volltext noch nicht eingepflegt: Hinweis + Bildergalerie
