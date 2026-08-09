@@ -30,6 +30,9 @@
   /* ---------------- News data (newest first) ----------------
      d: "YYYY-MM" · de/en: summary · u: source link */
   var NEWS = [
+    { d: "2026-08", de: "Clive erhält den World Fantasy Award für sein Lebenswerk — überreicht wird die Ehrung im Oktober auf der 52. World Fantasy Convention in Oakland; ebenfalls geehrt wird Joyce Carol Oates.", en: "Clive is announced as a recipient of the World Fantasy Award for Lifetime Achievement — to be presented at the 52nd World Fantasy Convention in Oakland this October, alongside fellow honouree Joyce Carol Oates.", u: "https://wfc2026.org/2026-world-fantasy-awards-final-ballot/" },
+    { d: "2026-08", de: "Neue Details zum Hellraiser-Spukhaus der Halloween Horror Nights: Labyrinth-Eingang mit Lament-Box, Cenobiten aus den ersten beiden Filmen — und ein handschriftliches Lob von Clive.", en: "Fresh details on the Hellraiser haunted house at Halloween Horror Nights: a Labyrinth entrance with the Lament Configuration, Cenobites from the first two films — and handwritten praise from Clive.", u: "https://www.clivebarker.info/halloweenhorror.html#hhn2026" },
+
     { d: "2026-07", de: "Clive stellt eine Auswahl von Leinwandarbeiten und Skizzen zum Verkauf ins Archiv.", en: "Clive releases a selection of canvases and sketches for sale through the Archive.", u: "https://www.clivebarkerarchive.com/store?category=Original+Art" },
     { d: "2026-07", de: "Bleeding Cool zeigt Cover und Innenseiten der kommenden Hellraiser-Comics von Boom! Studios.", en: "Bleeding Cool previews covers and interior art from Boom! Studios' upcoming Hellraiser comics.", u: "https://bleedingcool.com/comics/exclusive-boom-studios-official-september-2026-full-solicits-siktc50/" },
 
