@@ -135,9 +135,13 @@ window.TRANSLATIONS = {
 
   /* Interview detail page */
   "interview.kind": { de: "Revelations-Gespräch Nr.", en: "Revelations conversation No." },
+  "interview.transNote": {
+    de: "Deutsche Übersetzung des Gesprächs · Original und Text © Phil &amp; Sarah Stokes, clivebarker.info",
+    en: "Translation of the conversation · original and text © Phil &amp; Sarah Stokes, clivebarker.info"
+  },
   "interview.langNote": {
-    de: "Wiedergegeben im englischen Originalwortlaut · Text © Phil &amp; Sarah Stokes, clivebarker.info",
-    en: "Reproduced in the original English wording · text © Phil &amp; Sarah Stokes, clivebarker.info"
+    de: "Das Gespräch selbst folgt als Primärquelle im englischen Originalwortlaut — so, wie Clive Barker es gesagt hat. Text © Phil &amp; Sarah Stokes, clivebarker.info",
+    en: "The conversation itself follows as a primary source in the original English — as Clive Barker spoke it. Text © Phil &amp; Sarah Stokes, clivebarker.info"
   },
   "interview.pending1": {
     de: "Der Wortlaut dieses Gesprächs ist noch nicht eingebunden — bis dahin: die Bilder der Archivseite und der Link zum Original.",
