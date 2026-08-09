@@ -30,7 +30,7 @@
   var ARCHIVE_BASE = "https://www.clivebarker.info/";
   var INTERVIEWS = [
     { slug: "fear-love-story-and-time", title: "Fear, Love, Story... and Time", ext: "intsrevel37.html", local: true, date: { de: "Frühjahr 2022", en: "Spring 2022" } },
-    { slug: "talking-of-the-painting-of-the-abarat", title: "Talking Of The Painting Of The Abarat", ext: "intsrevel36.html", date: { de: "März 2021", en: "March 2021" } },
+    { slug: "talking-of-the-painting-of-the-abarat", title: "Talking Of The Painting Of The Abarat", ext: "intsrevel36.html", local: true, date: { de: "März 2021", en: "March 2021" } },
     { slug: "on-the-way-to-heaven", title: "On The Way To Heaven, We Had A Picnic Of Ideas...", ext: "intsrevel35.html", date: { de: "November 2020", en: "November 2020" } },
     { slug: "plucking-apples-of-silver-and-gold", title: "Plucking Apples Of Silver And Gold", ext: "intsrevel34.html", date: { de: "April 2020", en: "April 2020" } },
     { slug: "out-of-the-depths", title: "Out Of The Depths", ext: "intsrevel33.html", date: { de: "Januar 2019", en: "January 2019" } },
@@ -118,6 +118,24 @@
             { f: "axis12.jpg", t: "Axis (Modern Man)", c: "© Clive Barker" }
           ]
         }
+      ]
+    },
+    /* Jedes Bild folgt — wie im Archiv — auf den Absatz, in dem Clive das
+       Bild bespricht; der Anker ist jeweils dessen Schlusswendung. */
+    "talking-of-the-painting-of-the-abarat": {
+      placements: [
+        { anchor: "this is an image of that", pos: "center", imgs: [{ f: "carrionbird.jpg", t: "The Carrion Bird", c: "© Clive Barker" }] },
+        { anchor: "glorious invasion of colours", pos: "left", imgs: [{ f: "dayofcolours.jpg", t: "The Day of Colours", c: "© Clive Barker" }] },
+        { anchor: "hence, the world walks", pos: "right", imgs: [{ f: "worldwalks.jpg", t: "The World Walks", c: "© Clive Barker" }] },
+        { anchor: "sister is a part of that narrative", pos: "left", imgs: [{ f: "matersister.jpg", t: "Mater Motley’s Sister", c: "© Clive Barker" }] },
+        { anchor: "on the lower half", pos: "right", imgs: [{ f: "killingforroot.jpg", t: "Killing for the Root", c: "© Clive Barker" }] },
+        { anchor: "maggots, too, can be forgiving", pos: "left", imgs: [{ f: "infestation.jpg", t: "Infestation", c: "© Clive Barker" }] },
+        { anchor: "he has no access to", pos: "right", imgs: [{ f: "londonghost.jpg", t: "London Ghost", c: "© Clive Barker" }] },
+        { anchor: "have a smile on your face", pos: "left", imgs: [{ f: "materfool.jpg", t: "One of Mater Motley’s Fools", c: "© Clive Barker" }] },
+        { anchor: "uprights of blackened wood there are ghosts", pos: "right", imgs: [{ f: "ghostsfire.jpg", t: "Ghosts in a Fire", c: "© Clive Barker" }] },
+        { anchor: "it isn't, it's a philosopher", pos: "left", imgs: [{ f: "goodanimal.jpg", t: "The Good Animal", c: "© Clive Barker" }] },
+        { anchor: "sails away without her", pos: "right", imgs: [{ f: "plainship.jpg", t: "Captain Plain’s Ship", c: "© Clive Barker" }] },
+        { anchor: "a sense of that's a breaking wave", pos: "center", imgs: [{ f: "chickentownsale.jpg", t: "The Sea Comes to Chickentown", c: "© Clive Barker" }] }
       ]
     }
   };
