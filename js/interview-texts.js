@@ -313,3 +313,67 @@ Clive: „Hier ist etwas Seltsames, das ich gestern gelernt habe. Das Versagen d
 
 „In Abarat sind die Stunden ein Archipel; in der Kunst sind die Vergangenheit, die Zukunft und der träumende Moment dazwischen ein einziger unsterblicher Tag; in The Thief of Always bedeutet ein Tag in dem einen Haus ein verlorenes Jahr in einem anderen; und in Chiliad sitze ich an einem Fluss, der sowohl in die Zukunft fließt als auch zurück in eine brutale alte Welt, während ich davon träume, dass die Toten aus der Verwesung geboren werden, um zurückzureisen zum Mysterium des Mutterleibs."
 `;
+
+/* ------------------------------------------------------------
+   Talking Of The Painting Of The Abarat · März 2021
+   Quelle: https://www.clivebarker.info/intsrevel36.html
+   ------------------------------------------------------------ */
+window.INTERVIEW_TEXTS["talking-of-the-painting-of-the-abarat"] = `
+By Phil & Sarah Stokes, 27 March 2021
+
+As Clive prepared to release a number of works on paper for sale through the Archive, he talked us through each piece and their stories, giving some teaser information on Abarats 4 and 5 and confirming the Theatre Of Blood television project with Mick Garris along the way.
+
+Revelations : "Let's talk through the pieces, starting with The Carrion Bird, shall we?"
+
+Clive : "The first thing I wanted to say is that I think the selection is great because it’s a range of styles, and it’s a range of tones. There's a lot of connective tissue here - it's interesting, these pictures we've picked, because there's so much here of Abarat.
+
+"The Carrion Bird does relate to Abarat but it doesn’t relate to anything that’s happened in Abarat yet, though it will. I know what’s going to happen in Book Five because I’ve drafted Book Four now and so I know what’s going to happen in Book Five.
+
+"There are three matters which are the matters of Abarat: the matter of Love; the matter of War; and the matter of Time, yes? And so what happens in the fifth book is that all three of those things collide and Carrion’s own forces – in terms of the Carrion Birds, after which he’s named – manifest themselves. And this is an image of that."
+
+Clive : "The Day of Colours is also an Abarat picture – because another thing that also happens is that the world of Chickentown gets invaded by the hallucinatory. I can’t say more about that yet but it’s a glorious invasion of colours."
+
+Clive : "The World Walks: I’ve done cities like this before, right? Usually works on paper – convoluted, perhaps even Tuscan towns, or certainly Italian towns, in which you see heaped, as it were, buildings and greenery all together. "And Mater Motley: her war is the second of those three things – the matter of Love, the matter of War, the matter of Time. Mater Motley’s war is not just against Abarat, it’s against everything, and one of the ways that Abarat defends itself is by walking; islands getting up and walking. Hence, The World Walks. "
+
+Clive : "Mater Motley’s Sister – I don’t want to give too much away about this, because it’s spoiling something! But Mater Motley – you know, we know very little about Mater Motley’s background. We know what she did – she set fire to the house and so on, the Midnight Palace, but we don’t really know much about her family, we don’t know much about her love affairs, which are going to be very important in these books, hence the matter of Love – the matter of Love is almost more pertinent to Mater Motley, of all people, than it is to anybody else – and Mater Motley’s sister is a part of that narrative."
+
+Clive : "Killing for the Root is an alchemical image. It belongs with a series of alchemical images I did in black and white for The Illusions Suite. The idea of the picture being cut in half so you have two wounding forces, mutually wounding forces, on the top side. And on the night side of that, something which is either a very early foetal form of a human being or a late foetal form, that is a post-human form, on the lower half."
+
+Clive : "The title on the next picture is Infestation. Infestations – parasitic infestations particularly – are at the very root of things that distress me. And there are billions of that thing, that creature which is painted four, five, six times on that sheet. To give you an example: when we go to Kauai, there are not feral dogs but dogs that have lost their homes and they stay on the beach, they live on the beach, yes? And whenever we would go to Kauai they would find us. And always they are tick-infested, their ears are cities of ticks – hundreds and hundreds and hundreds of them, so we would clean their ears always when we got there and kill the ticks. And I cannot think of a more offensive and disgusting image than that kind of infestation: of things that are very elaborate but are also very numerous.
+
+"So you think of these pale white and blue things, which are probably less than a centimetre in length – I’m talking about the ones in the Infestation painting – less than a centimetre in length, but there are millions of them. And in very extreme cases, in Abarat 4, people become walking infestations of that thing. It’s the worst of bad magic, yes? It’s what Mater Motley does when she’s in a mood!
+
+"Parasitic life is fascinating to me and particularly those particular kinds of parasites (and I’m addressing this in the book) those kind of parasites that eat the interior of their hosts in a certain order, so as to keep the host alive for the longest time. And in a remarkably large number of cases they exit the host – one of two ways – either grossly, because suddenly you have this eruption of larvae, of maggots from a body or else, this happens a lot, they leave the body and leave it intact so the creature then goes on to continue its life – which is rather wonderful in its way! Maggots, too, can be forgiving..."
+
+Clive : "London Ghost – I think that’s sort of explicable – you know I’ve been writing a lot about London because of these stories, and I think you can probably now talk about the fact that I’m doing these Theatre of Blood stories with Mick Garris. This is Clive Barker’s Theatre of Blood. It is ten new, utterly new, stories written in the tradition, if you will, of The Books of Blood, directly in that tradition. In other words, in my head even though we’re changing media I am thinking that these are ten more stories to become the seventh Book of Blood, if you will. And it was Mick’s idea to call it the Theatre of Blood, which I think is perfect.
+
+"Two of them are set in London, and London has always been a city of ghosts and this, I think, is a nineteenth century ghost, judging by his top hat, and that’s all there is to say about him, I think. He doesn’t have a place in the narrative, per se, but he’s there.
+
+"The background is actually ink droplets on water, and then I roughed in the figure itself, let it dry and then overdrew it with oil pastel. I think what’s interesting about London Ghost is how perversely bright the pinks are – they imply that outside that cold (I would suggest that figure is a cold figure), a happiness is going on that he has no access to."
+
+Clive : "This is one of Mater Motley’s fools: 'fools' in the sense that, in Velasquez’s paintings that represent the Spanish kings, the fools in it are very often deformed in some way or another. The famous one, Las Meninas, with all the daughters that’s painted from a point of view with reflections in the mirror and a view into a back room – I think it’s in the Prado? – it’s huge and you can see Velasquez, and they’re all lined up, these little duchesses or princesses, and there are fools there amongst them who are the same size as the children. It’s also very knowing of the children themselves with a very ‘look at me, I’m a princess’ look on their faces, but they also have those formal dresses which make them look like little women, and the girls are probably no more than five, right? And the look on their faces is very, ‘I’m being painted’ you know?
+
+"Unlike this one – you’re very unlikely to be a fool for Mater Motley and have a smile on your face!"
+
+Clive : "This is actually, I have no other title for it than Ghosts in a Fire. It’s actually spirits – again Abarat, and I don’t know if I’ll have this in the book or not – there’s a cloud of black smoke on the left hand side of the painting that refers, I guess, to the fire, but within these uprights of blackened wood there are ghosts..."
+
+Clive : "This is The Good Animal, because another thing that’s going to happen in Abarat is that the look of things is going to be addressed very much more clearly – the things that look monstrous are not always monstrous, yeah? And this is a creature which I suppose if you look at it, with its scorpion tail and its bat-like wings and its certainly bat-like face against the moon, looks like it’s just a monster. But it isn’t, it’s a philosopher."
+
+Clive : "Captain Plain and his ship are at the opening passages of Abarat Four and – how do I explain this without giving too much away – it’s a red ship obviously, so it’s an Abaratian ship and Captain Plain can’t wait for his bride because she’s late and he sails away without her, and that’s part of that narrative."
+
+Clive : "The Sea Comes to Chickentown, which we know the moment of obviously. I wanted to paint something I’d never really tried before, which was to paint a relatively realistic picture of a wave breaking – which is sort of hard to do, I found! And I realised that I couldn’t do my usual thing of painting under-layers – the water had to be transparent, or near-transparent which means I could only get one layer of colour on it – does that make sense?
+
+"So this is a painting made of two colours, blue and white, with just a little bit of green in there as well. There’s only one layer of colour on it as you can see in the physical image – it might be worth taking a closer look at the paper and seeing how little paint there is because this is a piece of pure painting, representational painting. And sometimes less is much, much harder to do than more – and this was a son of a bitch! And I roughed it out first and then I thought I was ready and I wasn’t, and I tried a second time and it came off – I do think you get a sense of that’s a breaking wave."
+
+Clive : "Again, I like the paintings in this selection immensely. I think looking at them like this, you don’t even really notice that they’re works on paper, they could be works on canvas. They’re just nice images, I think, of a very wide variety of things. There’s a little Basquiat in the burned ghosts picture, for instance. The media, just so you know, are all acrylic and water and, on occasion, collage. And then my over-drawing is always oil pastel."
+
+Revelations : "A painting like One of Mater Motley's Fools has many of the same characteristics of one of your canvases though, scratching to reveal under-colours, etc."
+
+Clive : "Yes, I think that’s the most extreme of them, isn’t it, on the other hand a piece like The Day of Colours is very thin – it’s again colour onto water and actually Indian ink in terms of the figure."
+
+Revelations : "And it's a big piece, it's imposing..."
+
+Clive : "Yes, I think it’s important that people know that because when you get a frame around that it’s going to be quite a big piece of work, you’re going to need a big wall for that one!
+
+"On the other hand The World Walks, for instance, which I really do like, is smaller but looks very dense – and the back colour again is very simple, I think there’s yellow, white and blue in there, something like that? And I think there’s only one layer – do you have it in front of you? I think in some places there’s no paint, expanses of white space on it."
+`;
