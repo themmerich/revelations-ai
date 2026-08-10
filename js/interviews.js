@@ -124,18 +124,18 @@
        Bild bespricht; der Anker ist jeweils dessen Schlusswendung. */
     "talking-of-the-painting-of-the-abarat": {
       placements: [
-        { anchor: "this is an image of that", pos: "center", imgs: [{ f: "carrionbird.jpg", t: "The Carrion Bird", c: "© Clive Barker" }] },
-        { anchor: "glorious invasion of colours", pos: "left", imgs: [{ f: "dayofcolours.jpg", t: "The Day of Colours", c: "© Clive Barker" }] },
-        { anchor: "hence, the world walks", pos: "right", imgs: [{ f: "worldwalks.jpg", t: "The World Walks", c: "© Clive Barker" }] },
-        { anchor: "sister is a part of that narrative", pos: "left", imgs: [{ f: "matersister.jpg", t: "Mater Motley’s Sister", c: "© Clive Barker" }] },
-        { anchor: "on the lower half", pos: "right", imgs: [{ f: "killingforroot.jpg", t: "Killing for the Root", c: "© Clive Barker" }] },
-        { anchor: "maggots, too, can be forgiving", pos: "left", imgs: [{ f: "infestation.jpg", t: "Infestation", c: "© Clive Barker" }] },
-        { anchor: "he has no access to", pos: "right", imgs: [{ f: "londonghost.jpg", t: "London Ghost", c: "© Clive Barker" }] },
-        { anchor: "have a smile on your face", pos: "left", imgs: [{ f: "materfool.jpg", t: "One of Mater Motley’s Fools", c: "© Clive Barker" }] },
-        { anchor: "uprights of blackened wood there are ghosts", pos: "right", imgs: [{ f: "ghostsfire.jpg", t: "Ghosts in a Fire", c: "© Clive Barker" }] },
-        { anchor: "it isn't, it's a philosopher", pos: "left", imgs: [{ f: "goodanimal.jpg", t: "The Good Animal", c: "© Clive Barker" }] },
-        { anchor: "sails away without her", pos: "right", imgs: [{ f: "plainship.jpg", t: "Captain Plain’s Ship", c: "© Clive Barker" }] },
-        { anchor: "a sense of that's a breaking wave", pos: "center", imgs: [{ f: "chickentownsale.jpg", t: "The Sea Comes to Chickentown", c: "© Clive Barker" }] }
+        { anchor: { en: "this is an image of that", de: "dies ist ein bild davon" }, pos: "center", imgs: [{ f: "carrionbird.jpg", t: "The Carrion Bird", c: "© Clive Barker" }] },
+        { anchor: { en: "glorious invasion of colours", de: "glorreiche invasion der farben" }, pos: "left", imgs: [{ f: "dayofcolours.jpg", t: "The Day of Colours", c: "© Clive Barker" }] },
+        { anchor: { en: "hence, the world walks", de: "daher: the world walks" }, pos: "right", imgs: [{ f: "worldwalks.jpg", t: "The World Walks", c: "© Clive Barker" }] },
+        { anchor: { en: "sister is a part of that narrative", de: "schwester ist teil dieser erzählung" }, pos: "left", imgs: [{ f: "matersister.jpg", t: "Mater Motley’s Sister", c: "© Clive Barker" }] },
+        { anchor: { en: "on the lower half", de: "post-menschliche form" }, pos: "right", imgs: [{ f: "killingforroot.jpg", t: "Killing for the Root", c: "© Clive Barker" }] },
+        { anchor: { en: "maggots, too, can be forgiving", de: "auch maden können vergeben" }, pos: "left", imgs: [{ f: "infestation.jpg", t: "Infestation", c: "© Clive Barker" }] },
+        { anchor: { en: "he has no access to", de: "zu dem er keinen zugang hat" }, pos: "right", imgs: [{ f: "londonghost.jpg", t: "London Ghost", c: "© Clive Barker" }] },
+        { anchor: { en: "have a smile on your face", de: "kaum ein lächeln im gesicht tragen" }, pos: "left", imgs: [{ f: "materfool.jpg", t: "One of Mater Motley’s Fools", c: "© Clive Barker" }] },
+        { anchor: { en: "uprights of blackened wood there are ghosts", de: "aus verkohltem holz sind geister" }, pos: "right", imgs: [{ f: "ghostsfire.jpg", t: "Ghosts in a Fire", c: "© Clive Barker" }] },
+        { anchor: { en: "it isn't, it's a philosopher", de: "es ist ein philosoph" }, pos: "left", imgs: [{ f: "goodanimal.jpg", t: "The Good Animal", c: "© Clive Barker" }] },
+        { anchor: { en: "sails away without her", de: "segelt ohne sie davon" }, pos: "right", imgs: [{ f: "plainship.jpg", t: "Captain Plain’s Ship", c: "© Clive Barker" }] },
+        { anchor: { en: "a sense of that's a breaking wave", de: "eindruck einer brechenden welle" }, pos: "center", imgs: [{ f: "chickentownsale.jpg", t: "The Sea Comes to Chickentown", c: "© Clive Barker" }] }
       ]
     }
   };
