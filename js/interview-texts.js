@@ -377,3 +377,66 @@ Clive : "Yes, I think it’s important that people know that because when you ge
 
 "On the other hand The World Walks, for instance, which I really do like, is smaller but looks very dense – and the back colour again is very simple, I think there’s yellow, white and blue in there, something like that? And I think there’s only one layer – do you have it in front of you? I think in some places there’s no paint, expanses of white space on it."
 `;
+
+/* ------------------------------------------------------------
+   Deutsche Fassung (vom Auftraggeber geliefert)
+   ------------------------------------------------------------ */
+window.INTERVIEW_TEXTS["talking-of-the-painting-of-the-abarat:de"] = `
+Von Phil & Sarah Stokes, 27. März 2021
+
+Während Clive eine Reihe von Arbeiten auf Papier für den Verkauf über das Archiv vorbereitete, ging er mit uns jedes einzelne Stück und dessen Geschichte durch, gab dabei einige Teaser-Informationen zu Abarat 4 und 5 und bestätigte nebenbei das Fernsehprojekt Theatre Of Blood mit Mick Garris.
+
+Revelations: „Lass uns die Stücke durchgehen – fangen wir mit The Carrion Bird an, ja?"
+
+Clive: „Das Erste, was ich sagen wollte, ist, dass ich die Auswahl großartig finde, weil sie eine Bandbreite an Stilen und eine Bandbreite an Tönen umfasst. Es gibt hier viel Bindegewebe – es ist interessant, diese Bilder, die wir ausgewählt haben, weil so viel Abarat darin steckt.
+
+„The Carrion Bird bezieht sich durchaus auf Abarat, aber nicht auf etwas, das in Abarat schon geschehen wäre – es wird aber geschehen. Ich weiß, was in Buch Fünf passieren wird, denn ich habe Buch Vier inzwischen im Entwurf fertig, und deshalb weiß ich, was in Buch Fünf passiert.
+
+„Es gibt drei Angelegenheiten, die die Angelegenheiten des Abarat sind: die Sache der Liebe, die Sache des Krieges und die Sache der Zeit, ja? Und was im fünften Buch geschieht, ist, dass alle drei aufeinanderprallen und Carrions eigene Kräfte – in Gestalt der Carrion Birds, der Aasvögel, nach denen er benannt ist – sich manifestieren. Und dies ist ein Bild davon."
+
+Clive: „The Day of Colours ist ebenfalls ein Abarat-Bild – denn eine weitere Sache, die geschieht, ist, dass die Welt von Chickentown vom Halluzinatorischen überfallen wird. Mehr kann ich dazu noch nicht sagen, aber es ist eine glorreiche Invasion der Farben."
+
+Clive: „The World Walks: Ich habe schon früher Städte wie diese gemalt, richtig? Meist Arbeiten auf Papier – verschachtelte, vielleicht sogar toskanische Städte, jedenfalls italienische Städte, in denen man Gebäude und Grün gleichsam aufgetürmt beieinander sieht. Und Mater Motley: Ihr Krieg ist die zweite dieser drei Angelegenheiten – die Sache der Liebe, die Sache des Krieges, die Sache der Zeit. Mater Motleys Krieg richtet sich nicht nur gegen das Abarat, er richtet sich gegen alles, und eine der Arten, wie sich das Abarat verteidigt, ist das Gehen: Inseln, die aufstehen und losgehen. Daher: The World Walks."
+
+Clive: „Mater Motley's Sister – hier will ich nicht zu viel verraten, denn das würde etwas verderben! Aber Mater Motley – wisst ihr, wir wissen sehr wenig über Mater Motleys Hintergrund. Wir wissen, was sie getan hat – sie hat das Haus in Brand gesteckt und so weiter, den Mitternachtspalast –, aber wir wissen nicht wirklich viel über ihre Familie, wir wissen wenig über ihre Liebschaften, die in diesen Büchern sehr wichtig sein werden, daher die Sache der Liebe – die Sache der Liebe betrifft Mater Motley, ausgerechnet sie, fast mehr als irgendjemanden sonst –, und Mater Motleys Schwester ist Teil dieser Erzählung."
+
+Clive: „Killing for the Root ist ein alchemistisches Bild. Es gehört zu einer Serie alchemistischer Bilder, die ich in Schwarzweiß für die Illusions Suite gemacht habe. Die Idee des Bildes ist die Zweiteilung: In der oberen Hälfte zwei verwundende Kräfte, sich gegenseitig verwundende Kräfte. Und auf der Nachtseite davon, in der unteren Hälfte, etwas, das entweder eine sehr frühe fötale Form eines Menschen ist oder eine späte fötale Form – also eine post-menschliche Form."
+
+Clive: „Der Titel des nächsten Bildes ist Infestation. Befall – parasitärer Befall im Besonderen – gehört zur Wurzel der Dinge, die mich verstören. Und es gibt Milliarden von diesem Ding, dieser Kreatur, die vier-, fünf-, sechsmal auf diesem Blatt gemalt ist. Um euch ein Beispiel zu geben: Wenn wir nach Kauai fahren, gibt es dort keine verwilderten Hunde, aber Hunde, die ihr Zuhause verloren haben, und die bleiben am Strand, sie leben am Strand, ja? Und wann immer wir nach Kauai kamen, fanden sie uns. Und immer sind sie von Zecken befallen, ihre Ohren sind Städte aus Zecken – Hunderte und Aberhunderte davon –, also haben wir ihnen, wenn wir ankamen, immer die Ohren gereinigt und die Zecken getötet. Und ich kann mir kein anstößigeres und ekelhafteres Bild vorstellen als diese Art von Befall: Dinge, die sehr ausgeklügelt, aber zugleich sehr zahlreich sind.
+
+„Stellt euch also diese blassen, weiß-blauen Dinger vor, die wahrscheinlich weniger als einen Zentimeter lang sind – ich spreche von denen auf dem Infestation-Gemälde –, weniger als einen Zentimeter lang, aber es gibt Millionen davon. Und in sehr extremen Fällen, in Abarat 4, werden Menschen zu wandelnden Brutstätten dieses Dings. Es ist das Schlimmste an schlechter Magie, ja? Es ist das, was Mater Motley tut, wenn sie schlechte Laune hat!
+
+„Parasitäres Leben fasziniert mich, und besonders jene Arten von Parasiten (und ich behandle das im Buch), die das Innere ihrer Wirte in einer bestimmten Reihenfolge fressen, um den Wirt so lange wie möglich am Leben zu erhalten. Und in bemerkenswert vielen Fällen verlassen sie den Wirt auf eine von zwei Arten – entweder auf abstoßende Weise, weil es plötzlich diesen Ausbruch von Larven, von Maden aus einem Körper gibt, oder aber, und das kommt oft vor, sie verlassen den Körper und lassen ihn intakt zurück, sodass das Geschöpf sein Leben weiterleben kann – was auf seine Weise ziemlich wunderbar ist! Auch Maden können vergeben..."
+
+Clive: „London Ghost – das erklärt sich, denke ich, halbwegs von selbst – ihr wisst, ich habe wegen dieser Geschichten viel über London geschrieben, und ich denke, man kann jetzt wohl darüber sprechen, dass ich diese Theatre-of-Blood-Geschichten mit Mick Garris mache. Es ist Clive Barker's Theatre of Blood. Es sind zehn neue, vollkommen neue Geschichten, geschrieben in der Tradition, wenn man so will, der Books of Blood, unmittelbar in dieser Tradition. Mit anderen Worten: In meinem Kopf – auch wenn wir das Medium wechseln – denke ich mir das als zehn weitere Geschichten, die sozusagen das siebte Book of Blood werden. Und es war Micks Idee, es Theatre of Blood zu nennen, was ich perfekt finde.
+
+„Zwei davon spielen in London, und London war schon immer eine Stadt der Geister, und dies ist, denke ich, ein Geist aus dem neunzehnten Jahrhundert, seinem Zylinder nach zu urteilen, und mehr gibt es über ihn, glaube ich, nicht zu sagen. Er hat keinen Platz in der Erzählung an sich, aber er ist da.
+
+„Der Hintergrund besteht tatsächlich aus Tintentropfen auf Wasser, und dann habe ich die Figur selbst grob angelegt, sie trocknen lassen und anschließend mit Ölpastell überzeichnet. Ich finde, das Interessante an London Ghost ist, wie pervers leuchtend die Rosatöne sind – sie deuten an, dass außerhalb dieser Kälte (ich würde sagen, diese Figur ist eine kalte Figur) ein Glück stattfindet, zu dem er keinen Zugang hat."
+
+Clive: „Dies ist einer von Mater Motleys Narren: ‚Narren' in dem Sinne, wie in Velázquez' Gemälden, die die spanischen Könige darstellen, die Narren darin sehr oft auf die eine oder andere Weise deformiert sind. Das berühmte, Las Meninas, mit all den Töchtern, das aus einem Blickwinkel mit Spiegelungen im Spiegel und einem Blick in einen Hinterraum gemalt ist – ich glaube, es hängt im Prado? –, es ist riesig, und man kann Velázquez sehen, und sie stehen alle aufgereiht, diese kleinen Herzoginnen oder Prinzessinnen, und unter ihnen sind Narren, die dieselbe Größe haben wie die Kinder. Es zeigt auch eine große Bewusstheit der Kinder selbst, mit einem sehr ‚Seht mich an, ich bin eine Prinzessin'-Ausdruck auf ihren Gesichtern, aber sie tragen auch diese förmlichen Kleider, die sie wie kleine Frauen aussehen lassen, und die Mädchen sind wahrscheinlich nicht älter als fünf, richtig? Und der Ausdruck auf ihren Gesichtern ist ganz ‚Ich werde gerade gemalt', versteht ihr?
+
+„Anders als bei diesem hier – als Narr für Mater Motley wird man kaum ein Lächeln im Gesicht tragen!"
+
+Clive: „Für dieses hier habe ich tatsächlich keinen anderen Titel als Ghosts in a Fire. Es sind wirklich Geister – wieder Abarat, und ich weiß nicht, ob es das ins Buch schafft oder nicht –, auf der linken Seite des Gemäldes ist eine schwarze Rauchwolke, die sich, nehme ich an, auf das Feuer bezieht, aber zwischen diesen aufrechten Stämmen aus verkohltem Holz sind Geister..."
+
+Clive: „Dies ist The Good Animal, denn eine weitere Sache, die im Abarat geschehen wird, ist, dass das Aussehen der Dinge sehr viel deutlicher zum Thema wird – die Dinge, die monströs aussehen, sind nicht immer monströs, ja? Und dies ist ein Geschöpf, das, wenn man es betrachtet, mit seinem Skorpionschwanz und seinen fledermausartigen Flügeln und seinem eindeutig fledermausartigen Gesicht vor dem Mond, aussieht, als wäre es einfach ein Monster. Aber das ist es nicht – es ist ein Philosoph."
+
+Clive: „Captain Plain und sein Schiff stehen in den Eröffnungspassagen von Abarat Vier, und – wie erkläre ich das, ohne zu viel zu verraten – es ist offensichtlich ein rotes Schiff, also ein abaratisches Schiff, und Captain Plain kann nicht auf seine Braut warten, weil sie zu spät kommt, und er segelt ohne sie davon, und das ist Teil dieser Erzählung."
+
+Clive: „The Sea Comes to Chickentown – den Moment kennen wir natürlich. Ich wollte etwas malen, das ich vorher nie wirklich versucht hatte: ein relativ realistisches Bild einer brechenden Welle – was ziemlich schwer ist, wie ich feststellen musste! Und mir wurde klar, dass ich nicht wie üblich mit Unterschichten arbeiten konnte – das Wasser musste transparent oder beinahe transparent sein, was bedeutet, dass ich nur eine einzige Farbschicht auftragen konnte – ergibt das Sinn?
+
+„Dies ist also ein Gemälde aus zwei Farben, Blau und Weiß, mit nur einem kleinen bisschen Grün darin. Es liegt nur eine Farbschicht darauf, wie man am physischen Bild sehen kann – es lohnt sich vielleicht, das Papier genauer anzusehen und zu erkennen, wie wenig Farbe darauf ist, denn dies ist ein Stück reiner Malerei, gegenständlicher Malerei. Und manchmal ist weniger sehr viel schwerer zu machen als mehr – und dieses Ding war ein Biest! Ich habe es erst grob skizziert und dachte dann, ich sei bereit, und war es nicht, und beim zweiten Versuch hat es geklappt – ich finde schon, dass man den Eindruck einer brechenden Welle bekommt."
+
+Clive: „Noch einmal: Ich mag die Gemälde in dieser Auswahl ungemein. Wenn man sie so betrachtet, fällt einem, glaube ich, gar nicht wirklich auf, dass es Arbeiten auf Papier sind – es könnten Arbeiten auf Leinwand sein. Es sind einfach schöne Bilder, finde ich, von einer sehr großen Bandbreite an Dingen. Im Bild mit den verbrannten Geistern steckt zum Beispiel ein wenig Basquiat. Die Medien sind, nur damit ihr es wisst, durchweg Acryl und Wasser und gelegentlich Collage. Und meine Überzeichnung ist immer Ölpastell."
+
+Revelations: „Ein Gemälde wie One of Mater Motley's Fools hat allerdings viele Merkmale einer deiner Leinwände – das Kratzen, um darunterliegende Farben freizulegen und so weiter."
+
+Clive: „Ja, ich glaube, das ist das extremste von ihnen, nicht wahr? Andererseits ist ein Stück wie The Day of Colours sehr dünn – wieder Farbe auf Wasser, und bei der Figur tatsächlich Tusche."
+
+Revelations: „Und es ist ein großes Stück, es ist imposant..."
+
+Clive: „Ja, ich finde es wichtig, dass die Leute das wissen, denn wenn man da einen Rahmen drumherum hat, wird das ein ziemlich großes Werk – dafür braucht man eine große Wand!
+
+„Andererseits ist zum Beispiel The World Walks, das ich wirklich sehr mag, kleiner, wirkt aber sehr dicht – und die Hintergrundfarbe ist wieder sehr einfach, ich glaube, da sind Gelb, Weiß und Blau drin, so etwas in der Art? Und ich glaube, es ist nur eine Schicht – habt ihr es vor euch? Ich glaube, an manchen Stellen ist gar keine Farbe, weiße Flächen darauf."
+`;
