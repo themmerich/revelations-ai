@@ -314,28 +314,51 @@ window.TRANSLATIONS = {
   "iv.r2": { de: "Das Archiv nach Jahren", en: "The Archive by Year" },
   "iv.r2m": { de: "Presse, Radio &amp; TV · bis 1985 — 2026 · eigene Seite", en: "Press, radio &amp; TV · to 1985 — 2026 · own page" },
 
-  /* Film */
+  /* Film — Gliederung nach dem Revelations-Archiv (filmsindex.html) */
   "film.title": { de: "Bewegte <em>Alpträume</em>", en: "Moving <em>Nightmares</em>" },
+  "film.intro": {
+    de: "Barker hat drei Kinofilme selbst inszeniert — der Rest seines Kinos entstand aus seinen Stoffen in fremder Hand: zwei Reihen, die ihn überdauerten, und ein halbes Dutzend Adaptionen für Leinwand und Fernsehen.",
+    en: "Barker directed three features himself — the rest of his cinema grew out of his material in other hands: two franchises that outlived him on screen, and half a dozen adaptations for cinema and television."
+  },
+  "film.dirHead": { de: "Von Barker inszeniert", en: "Directed by Barker" },
+  "film.strandHead": { de: "Nach Barkers Stoffen", en: "From Barker's material" },
+  "film.t0": {
+    de: "Zwei Kurzfilme aus Liverpooler Jahren, in Schwarzweiß und ohne Ton gedreht — Barkers erste Bilder, Jahre vor dem ersten Buch.",
+    en: "Two shorts from the Liverpool years, shot in black and white without sound — Barker's first images, years before the first book."
+  },
+  "film.r0": { de: "Regie · Kurzfilme", en: "Director · shorts" },
   "film.t1": {
     de: "Nach der eigenen Novelle <em>The Hellbound Heart</em>. Barkers Regiedebüt erschuf die Zenobiten — Priester eines Schmerzes, der wie Religion aussieht.",
     en: "From his own novella <em>The Hellbound Heart</em>. Barker's directorial debut created the Cenobites — priests of a pain that looks like religion."
   },
   "film.r1": { de: "Buch &amp; Regie", en: "Writer &amp; director" },
   "film.t2": {
-    de: "Die Verfilmung von <em>Cabal</em>: Midian, die Zuflucht der Monster — eine Liebeserklärung an alle, die anders gebaut sind.",
-    en: "The film of <em>Cabal</em>: Midian, sanctuary of the monsters — a love letter to everyone built differently."
+    de: "Die Verfilmung von <em>Cabal</em>: Midian, die Zuflucht der Monster — eine Liebeserklärung an alle, die anders gebaut sind. 2014 stellte eine jahrelange Fankampagne Barkers eigene Fassung wieder her.",
+    en: "The film of <em>Cabal</em>: Midian, sanctuary of the monsters — a love letter to everyone built differently. In 2014 years of fan campaigning restored Barker's own cut."
   },
-  "film.r2": { de: "Buch &amp; Regie", en: "Writer &amp; director" },
+  "film.r2": { de: "Buch &amp; Regie · Director&rsquo;s Cut 2014", en: "Writer &amp; director · 2014 director&rsquo;s cut" },
   "film.t3": {
-    de: "Basierend auf seiner Erzählung <em>The Forbidden</em>. Urbaner Mythos, fünfmal in den Spiegel gesprochen.",
-    en: "Based on his story <em>The Forbidden</em>. Urban myth, spoken five times into the mirror."
+    de: "Ein Musikvideo für Lemmy: Pinhead pokert um seine Seele. Barkers kürzeste Regiearbeit — und seine vergnügteste.",
+    en: "A music video for Lemmy: Pinhead plays poker for his soul. Barker's shortest turn as director — and his most cheerful."
   },
-  "film.r3": { de: "Vorlage &amp; Produktion", en: "Source &amp; producer" },
+  "film.r3": { de: "Regie · Musikvideo", en: "Director · music video" },
   "film.t4": {
     de: "Detektiv Harry D&rsquo;Amour zwischen Bühnenmagie und echter Schwarzkunst — Noir, wie nur Barker ihn träumt.",
     en: "Detective Harry D&rsquo;Amour caught between stage magic and the real black arts — noir as only Barker dreams it."
   },
   "film.r4": { de: "Buch &amp; Regie", en: "Writer &amp; director" },
+  "film.s1": { de: "Die Hellraiser-Reihe", en: "The Hellraiser sequels" },
+  "film.s1m": { de: "10 Fortsetzungen · 1988–2022 · Archiv ↗", en: "10 sequels · 1988–2022 · archive ↗" },
+  "film.s2": { de: "Die Candyman-Filme", en: "The Candyman films" },
+  "film.s2m": { de: "4 Filme · 1992–2020 · Archiv ↗", en: "4 films · 1992–2020 · archive ↗" },
+  "film.s3": { de: "Weitere Verfilmungen", en: "Further adaptations" },
+  "film.s3m": { de: "6 Filme · 1985–2024 · Archiv ↗", en: "6 films · 1985–2024 · archive ↗" },
+  "film.s4": { de: "Fernsehadaptionen", en: "Television adaptations" },
+  "film.s4m": { de: "6 Produktionen · 1986–2020 · Archiv ↗", en: "6 productions · 1986–2020 · archive ↗" },
+  "film.s5": { de: "Als Executive Producer", en: "As executive producer" },
+  "film.s5m": { de: "Gods and Monsters &amp; The Plague · 1998–2006 · Archiv ↗", en: "Gods and Monsters &amp; The Plague · 1998–2006 · archive ↗" },
+  "film.s6": { de: "Dokumentationen &amp; Porträts", en: "Documentaries &amp; portraits" },
+  "film.s6m": { de: "15 Filme · 1990–2018 · Archiv ↗", en: "15 films · 1990–2018 · archive ↗" },
 
   /* Galerie */
   "galerie.title": { de: "Die <em>Galerie</em>", en: "The <em>Gallery</em>" },
