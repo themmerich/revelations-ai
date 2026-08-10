@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Galerie — Revelations · Clive Barker × Fable 5</title>
+<meta name="description" content="Clive Barkers Malerei und Zeichnung: eine kuratierte Werkschau mit Wegweisern in die Portfolios und das Art Archive des Revelations-Archivs." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=IBM+Plex+Mono:wght@300;400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css?v=11" />
+</head>
+<body>
+
+<!-- Fixed Three.js stage -->
+<canvas id="stage"></canvas>
+
+<!-- Grain overlay -->
+<div class="grain" aria-hidden="true"></div>
+
+<!-- Custom cursor -->
+<div class="cursor" id="cursor" aria-hidden="true"><span class="cursor__label" id="cursorLabel"></span></div>
+
+<!-- Navigation -->
+<header class="nav" id="nav">
+  <a class="nav__logo" href="index.html">C·B</a>
+  <nav class="nav__links">
+    <a href="news.html" data-i18n="nav.news">News</a>
+    <a href="index.html#bio" data-i18n="nav.bio">Biografie</a>
+    <a href="index.html#werke" data-i18n="nav.werke">Werke</a>
+    <a href="index.html#film" data-i18n="nav.film">Film</a>
+    <a href="index.html#interviews" data-i18n="nav.interviews">Interviews</a>
+    <a href="gallery.html" class="is-active" data-i18n="nav.galerie" aria-current="page">Galerie</a>
+    <a href="index.html#contact" class="nav__contact" data-i18n="nav.contact">Kontakt</a>
+    <button class="nav__lang mono" id="langToggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+
+<main>
+
+  <!-- GALLERY HERO -->
+  <section class="newshero">
+    <p class="hero__eyebrow mono reveal-line" data-i18n="gal.eyebrow">Malerei &amp; Zeichnung · kuratiert aus dem Revelations-Archiv</p>
+    <h1 class="newshero__title reveal-line" data-i18n="gal.title">Die <em>Galerie</em></h1>
+    <div class="newshero__sub">
+      <p class="newshero__lede reveal-line" data-i18n="gal.lede">Bevor Barker schreibt, malt er. Tausende Leinwände und
+      Blätter sind in fünf Jahrzehnten entstanden — das Revelations-Archiv verzeichnet allein im Art Archive fast
+      zweitausend Werke. Diese Auswahl ist ein Gang durch die Säle; die Wegweiser unten führen tiefer.</p>
+    </div>
+  </section>
+
+  <!-- THE WALL -->
+  <section class="noveldetail galwall">
+    <div class="section__head">
+      <span class="section__num mono">G–01</span>
+      <h2 class="section__title" data-i18n="gal.wallTitle">Die <em>Werkschau</em></h2>
+    </div>
+    <div class="gfilter mono" id="galleryFilter">
+      <!-- chips rendered by js/gallery.js -->
+    </div>
+    <div class="gwall" id="galleryWall">
+      <!-- works rendered by js/gallery.js -->
+    </div>
+    <p class="coversection__credit mono" data-i18n="gal.credit">Sämtliche Werke © Clive Barker · Abbildungen mit Dank an das Revelations-Archiv (clivebarker.info)</p>
+  </section>
+
+  <!-- PORTFOLIOS -->
+  <section class="noveldetail intsection">
+    <div class="section__head">
+      <span class="section__num mono">G–02</span>
+      <h2 class="section__title" data-i18n="gal.pfTitle">Die <em>Portfolios</em></h2>
+    </div>
+    <p class="section__intro reveal-news" data-i18n="gal.pfIntro">Zu seinen Romanen zeichnet Barker ganze Bildwelten,
+    lange bevor sie erscheinen. Das Archiv bündelt sie als Portfolios — Figurenstudien, Schauplätze, Cover-Entwürfe.</p>
+    <ul class="worklist" id="portfolioList">
+      <!-- rendered by js/gallery.js -->
+    </ul>
+  </section>
+
+  <!-- DEEPER INTO THE ARCHIVE -->
+  <section class="noveldetail intsection">
+    <div class="section__head">
+      <span class="section__num mono">G–03</span>
+      <h2 class="section__title" data-i18n="gal.arTitle">Tiefer ins <em>Archiv</em></h2>
+    </div>
+    <p class="section__intro reveal-news" data-i18n="gal.arIntro">Wer weitergehen will: Das Revelations-Archiv hält den
+    ganzen Bestand — samt Werkanalysen, Atelierfotos und der Geschichte von drei Jahrzehnten Ausstellungen.</p>
+    <ul class="worklist" id="archiveList">
+      <!-- rendered by js/gallery.js -->
+    </ul>
+    <p class="news-backwrap"><a class="news-backlink mono" href="index.html#galerie" data-i18n="gal.back">← Zurück zur Übersicht</a></p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__meta mono">
+      <p data-i18n="footer.m1">Sämtliche Gemälde &amp; Zeichnungen © Clive Barker · mit Dank an das Revelations-Archiv (clivebarker.info)</p>
+      <p data-i18n="footer.m2">Konzept, Text, Code &amp; Motion: Claude Fable 5 · Anthropic · 2026 — inoffizielles Fan-Projekt</p>
+    </div>
+  </footer>
+
+</main>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <div class="lightbox__backdrop" id="lightboxBackdrop"></div>
+  <figure class="lightbox__figure">
+    <img src="" alt="" id="lightboxImg" />
+    <figcaption>
+      <span class="lightbox__title" id="lightboxTitle"></span>
+      <span class="lightbox__meta mono" id="lightboxMeta"></span>
+      <span class="lightbox__credit mono">© Clive Barker</span>
+    </figcaption>
+  </figure>
+  <button class="lightbox__close mono" id="lightboxClose" aria-label="Schließen" data-i18n="lb.close">Schließen ✕</button>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.158.0/three.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="js/i18n.js?v=8"></script>
+<script src="js/scene.js"></script>
+<script src="js/gallery.js?v=1"></script>
+</body>
+</html>

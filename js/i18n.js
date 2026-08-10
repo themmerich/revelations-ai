@@ -360,16 +360,47 @@ window.TRANSLATIONS = {
   "film.s6": { de: "Dokumentationen &amp; Porträts", en: "Documentaries &amp; portraits" },
   "film.s6m": { de: "15 Filme · 1990–2018 · Archiv ↗", en: "15 films · 1990–2018 · archive ↗" },
 
-  /* Galerie */
+  /* Galerie (Startseite) */
   "galerie.title": { de: "Die <em>Galerie</em>", en: "The <em>Gallery</em>" },
-  "galerie.hint": {
-    de: "Scrollen — die Wand bewegt sich · Klick öffnet das Werk",
-    en: "Scroll — the wall moves · click opens the work"
+  "galerie.intro": {
+    de: "Bevor Barker schreibt, malt er — tausende Leinwände und Blätter in fünf Jahrzehnten. Sechs davon hängen hier; die ganze Werkschau hat eine eigene Seite.",
+    en: "Before Barker writes, he paints — thousands of canvases and works on paper across five decades. Six of them hang here; the full show has a page of its own."
   },
-  "galerie.end": {
-    de: "Tausende weitere Werke schlummern im Archiv &mdash; dies ist nur ein Spalt in der Tür.",
-    en: "Thousands more works sleep in the archive &mdash; this is only a crack in the door."
+  "galerie.more": {
+    de: "Zur Galerie — die ganze Werkschau →",
+    en: "Enter the gallery — the full show →"
   },
+
+  /* Galerie-Seite (gallery.html) */
+  "title.gallery": {
+    de: "Galerie — Revelations · Clive Barker × Fable 5",
+    en: "Gallery — Revelations · Clive Barker × Fable 5"
+  },
+  "gal.eyebrow": {
+    de: "Malerei &amp; Zeichnung · kuratiert aus dem Revelations-Archiv",
+    en: "Painting &amp; drawing · curated from the Revelations archive"
+  },
+  "gal.title": { de: "Die <em>Galerie</em>", en: "The <em>Gallery</em>" },
+  "gal.lede": {
+    de: "Bevor Barker schreibt, malt er. Tausende Leinwände und Blätter sind in fünf Jahrzehnten entstanden — das Revelations-Archiv verzeichnet allein im Art Archive fast zweitausend Werke. Diese Auswahl ist ein Gang durch die Säle; die Wegweiser unten führen tiefer.",
+    en: "Before Barker writes, he paints. Five decades have produced thousands of canvases and works on paper — the Art Archive alone at Revelations catalogues nearly two thousand. This selection is a walk through the halls; the signposts below lead deeper."
+  },
+  "gal.wallTitle": { de: "Die <em>Werkschau</em>", en: "The <em>Selection</em>" },
+  "gal.credit": {
+    de: "Sämtliche Werke © Clive Barker · Abbildungen mit Dank an das Revelations-Archiv (clivebarker.info)",
+    en: "All works © Clive Barker · images courtesy of the Revelations archive (clivebarker.info)"
+  },
+  "gal.pfTitle": { de: "Die <em>Portfolios</em>", en: "The <em>Portfolios</em>" },
+  "gal.pfIntro": {
+    de: "Zu seinen Romanen zeichnet Barker ganze Bildwelten, lange bevor sie erscheinen. Das Archiv bündelt sie als Portfolios — Figurenstudien, Schauplätze, Cover-Entwürfe.",
+    en: "For his novels Barker draws entire image-worlds long before publication. The archive gathers them as portfolios — character studies, places, cover roughs."
+  },
+  "gal.arTitle": { de: "Tiefer ins <em>Archiv</em>", en: "Deeper into the <em>Archive</em>" },
+  "gal.arIntro": {
+    de: "Wer weitergehen will: Das Revelations-Archiv hält den ganzen Bestand — samt Werkanalysen, Atelierfotos und der Geschichte von drei Jahrzehnten Ausstellungen.",
+    en: "For those who want to go further: the Revelations archive holds the whole collection — with analyses, studio shots and the history of three decades of exhibitions."
+  },
+  "gal.back": { de: "← Zurück zur Übersicht", en: "← Back to the overview" },
 
   /* Kontakt */
   "contact.title": { de: "Kontakt &amp; <em>Kanäle</em>", en: "Contact &amp; <em>channels</em>" },

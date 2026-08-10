@@ -21,48 +21,35 @@
     return (T[key] && T[key][lang]) || "";
   }
 
-  /* ---------------- Gallery data ---------------- */
+  /* ---------------- Galerie-Vorschau ----------------
+     Sechs Werke als ruhiges Raster — die volle Werkschau
+     lebt auf gallery.html (js/gallery.js). */
   var ARTWORKS = [
-    { file: "patriarch",       title: "Patriarch",                   mediumDe: "Öl auf Leinwand · 48 × 60″",                mediumEn: "Oil on canvas · 48 × 60″" },
-    { file: "suspension",      title: "Suspension",                  mediumDe: "Tusche auf Papier · 22 × 30″",              mediumEn: "Ink on paper · 22 × 30″" },
-    { file: "thebeliever",     title: "The Believer",                mediumDe: "Öl auf Papier · 41 × 30″",                  mediumEn: "Oil on paper · 41 × 30″" },
-    { file: "ouroborous",      title: "Ouroborous",                  mediumDe: "Öl auf Leinwand · 30 × 24″",                mediumEn: "Oil on canvas · 30 × 24″" },
-    { file: "daemon",          title: "Daemon",                      mediumDe: "Tusche auf Papier · 11,5 × 8,25″",          mediumEn: "Ink on paper · 11.5 × 8.25″" },
-    { file: "deathmaiden",     title: "Death and the Maiden",        mediumDe: "Tusche auf Papier · 14 × 17″",              mediumEn: "Ink on paper · 14 × 17″" },
-    { file: "stitchling",      title: "A Stitchling",                mediumDe: "Acryl & Tusche auf Papier · 30 × 22″",      mediumEn: "Acrylic & ink on paper · 30 × 22″" },
-    { file: "wolfskin",        title: "A Man in the Skin of a Wolf", mediumDe: "Tusche auf Papier · 17 × 11″",              mediumEn: "Ink on paper · 17 × 11″" },
-    { file: "demon10",         title: "Demon",                       mediumDe: "Papier · 23,25 × 16,5″",                    mediumEn: "Paper · 23.25 × 16.5″" },
-    { file: "mementomori",     title: "Memento Mori",                mediumDe: "Tusche auf Papier · 24 × 18″",              mediumEn: "Ink on paper · 24 × 18″" },
-    { file: "sorcerers",       title: "Sorcerers",                   mediumDe: "Tusche auf Papier · 24 × 18″",              mediumEn: "Ink on paper · 24 × 18″" },
-    { file: "belial",          title: "Belial",                      mediumDe: "Tusche auf Papier · 11,75 × 8,5″",          mediumEn: "Ink on paper · 11.75 × 8.5″" },
-    { file: "starfalling",     title: "Star Falling",                mediumDe: "Tusche auf Papier · 14 × 10,5″",            mediumEn: "Ink on paper · 14 × 10.5″" },
-    { file: "immacolata",      title: "Immacolata",                  mediumDe: "Tusche auf Papier · Weaveworld",            mediumEn: "Ink on paper · Weaveworld" },
-    { file: "shadwellunmasks", title: "Shadwell Unmasks Himself",    mediumDe: "Tusche auf Papier · Weaveworld",            mediumEn: "Ink on paper · Weaveworld" },
-    { file: "joelsghost",      title: "Joel's Ghost",                mediumDe: "Öl auf Leinwand · 37 × 37″",                mediumEn: "Oil on canvas · 37 × 37″" }
+    { file: "father",         title: "The Father Of Us All", mediumDe: "Art Archive",                  mediumEn: "Art Archive" },
+    { file: "patriarch",      title: "Patriarch",            mediumDe: "Öl auf Leinwand · 48 × 60″",   mediumEn: "Oil on canvas · 48 × 60″" },
+    { file: "mater1",         title: "Mater Motley",         mediumDe: "Abarat-Zyklus",                mediumEn: "The Abarat cycle" },
+    { file: "suspension",     title: "Suspension",           mediumDe: "Tusche auf Papier · 22 × 30″", mediumEn: "Ink on paper · 22 × 30″" },
+    { file: "shunasassi",     title: "Shuna Sassi",          mediumDe: "Zu Nightbreed",                mediumEn: "For Nightbreed" },
+    { file: "mephistopheles", title: "Mephistopheles",       mediumDe: "Art Archive",                  mediumEn: "Art Archive" }
   ];
 
   function artMedium(art) {
     return lang === "en" ? art.mediumEn : art.mediumDe;
   }
 
-  var track = document.getElementById("galleryTrack");
+  var preview = document.getElementById("galleryPreview");
   ARTWORKS.forEach(function (art, i) {
     var item = document.createElement("figure");
-    item.className = "artitem";
+    item.className = "gpv reveal";
     item.setAttribute("data-idx", i);
     item.innerHTML =
-      '<span class="artitem__idx">' + String(i + 1).padStart(2, "0") + " / " + ARTWORKS.length + "</span>" +
-      '<div class="artitem__frame"><img src="assets/art/' + art.file + '.jpg" alt="Clive Barker — ' + art.title + '" loading="lazy" /></div>' +
-      '<figcaption class="artitem__caption">' +
-      '<span class="artitem__title">' + art.title + "</span>" +
-      '<span class="artitem__meta mono">' + artMedium(art) + "<br />© Clive Barker</span>" +
+      '<div class="gpv__frame"><img src="assets/art/' + art.file + '.jpg" alt="Clive Barker — ' + art.title + '" loading="lazy" /></div>' +
+      '<figcaption class="gpv__caption">' +
+      '<span class="gpv__title">' + art.title + "</span>" +
+      '<span class="gpv__meta mono">' + artMedium(art) + "</span>" +
       "</figcaption>";
-    track.appendChild(item);
+    preview.appendChild(item);
   });
-  var endCard = document.createElement("div");
-  endCard.className = "gallery__end";
-  endCard.setAttribute("data-i18n", "galerie.end");
-  track.appendChild(endCard);
 
   /* ---------------- Apply language ---------------- */
   var langToggle = document.getElementById("langToggle");
@@ -85,9 +72,9 @@
       var html = t(el.getAttribute("data-i18n"));
       if (html) el.innerHTML = html;
     });
-    document.querySelectorAll(".artitem").forEach(function (item) {
+    document.querySelectorAll(".gpv").forEach(function (item) {
       var art = ARTWORKS[parseInt(item.getAttribute("data-idx"), 10)];
-      item.querySelector(".artitem__meta").innerHTML = artMedium(art) + "<br />© Clive Barker";
+      item.querySelector(".gpv__meta").textContent = artMedium(art);
     });
     if (rebuildHero) {
       setHeroWord(document.getElementById("heroWord1"), t("hero.word1"));
@@ -201,33 +188,6 @@
         });
     });
 
-    // Horizontal gallery
-    var pin = document.getElementById("galleryPin");
-    var getScroll = function () { return track.scrollWidth - window.innerWidth; };
-
-    gsap.to(track, {
-      x: function () { return -getScroll(); },
-      ease: "none",
-      scrollTrigger: {
-        trigger: pin,
-        start: "top top",
-        end: function () { return "+=" + getScroll(); },
-        pin: true,
-        scrub: 0.85,
-        invalidateOnRefresh: true
-      }
-    });
-
-    // Slight vertical stagger of art items while scrubbing
-    gsap.utils.toArray(".artitem").forEach(function (item, i) {
-      gsap.fromTo(item,
-        { y: i % 2 === 0 ? 18 : -18 },
-        {
-          y: i % 2 === 0 ? -18 : 18, ease: "none",
-          scrollTrigger: { trigger: pin, start: "top top", end: "bottom top", scrub: 1.2 }
-        });
-    });
-
     ScrollTrigger.refresh();
   }
 
@@ -268,7 +228,7 @@
     }
     bindCursor("a", "");
     bindCursor(".nav__lang", "");
-    bindCursor(".artitem", "cursor.open");
+    bindCursor(".gpv", "cursor.open");
     bindCursor(".workrow", "");
   }
 
@@ -305,8 +265,8 @@
     });
   }
 
-  track.addEventListener("click", function (e) {
-    var item = e.target.closest(".artitem");
+  preview.addEventListener("click", function (e) {
+    var item = e.target.closest(".gpv");
     if (item) openLightbox(parseInt(item.getAttribute("data-idx"), 10));
   });
   backdrop.addEventListener("click", closeLightbox);
