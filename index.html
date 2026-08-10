@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=IBM+Plex+Mono:wght@300;400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="css/style.css?v=9" />
+<link rel="stylesheet" href="css/style.css?v=11" />
 </head>
 <body>
 
@@ -317,18 +317,18 @@
     </ul>
   </section>
 
-  <!-- GALERIE (horizontal) -->
-  <section class="gallery" id="galerie">
-    <div class="gallery__pin" id="galleryPin">
-      <div class="gallery__head">
-        <span class="section__num mono">05</span>
-        <h2 class="section__title" data-i18n="galerie.title">Die <em>Galerie</em></h2>
-        <p class="gallery__hint mono" data-i18n="galerie.hint">Scrollen — die Wand bewegt sich · Klick öffnet das Werk</p>
-      </div>
-      <div class="gallery__track" id="galleryTrack">
-        <!-- items injected by JS -->
-      </div>
+  <!-- GALERIE (Vorschau) -->
+  <section class="section gallery" id="galerie">
+    <div class="section__head">
+      <span class="section__num mono">05</span>
+      <h2 class="section__title" data-i18n="galerie.title">Die <em>Galerie</em></h2>
     </div>
+    <p class="section__intro reveal" data-i18n="galerie.intro">Bevor Barker schreibt, malt er — tausende Leinwände
+    und Blätter in fünf Jahrzehnten. Sechs davon hängen hier; die ganze Werkschau hat eine eigene Seite.</p>
+    <div class="gpreview" id="galleryPreview">
+      <!-- items injected by JS -->
+    </div>
+    <p class="gpreview__more reveal"><a class="news-backlink mono" href="gallery.html" data-i18n="galerie.more">Zur Galerie — die ganze Werkschau →</a></p>
   </section>
 
   <!-- KONTAKT -->
@@ -390,8 +390,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollToPlugin.min.js"></script>
-<script src="js/i18n.js?v=6"></script>
+<script src="js/i18n.js?v=8"></script>
 <script src="js/scene.js"></script>
-<script src="js/main.js"></script>
+<script src="js/main.js?v=3"></script>
 </body>
 </html>
