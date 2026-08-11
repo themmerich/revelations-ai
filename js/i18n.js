@@ -105,6 +105,90 @@ window.TRANSLATIONS = {
   "poetry.asALife": { de: "überarbeitet als »A Life«:", en: "revised as 'A Life':" },
   "poetry.back": { de: "← Zurück zu den Werken", en: "← Back to the works" },
 
+  /* Art books page */
+  "title.artbooks": {
+    de: "Kunstbücher — Revelations · Clive Barker × Fable 5",
+    en: "Art Books — Revelations · Clive Barker × Fable 5"
+  },
+  "art.eyebrow": {
+    de: "Kunstbücher · Illustrator, Visions of Heaven and Hell &amp; Imaginer · nach dem Revelations-Archiv",
+    en: "Art books · Illustrator, Visions of Heaven and Hell &amp; Imaginer · after the Revelations archive"
+  },
+  "art.title": { de: "Die <em>Kunstbücher</em>", en: "The <em>Art Books</em>" },
+  "art.lede": {
+    de: "Barker malt und zeichnet, seit er schreibt — meist bevor er schreibt. Drei Buchprojekte machen dieses Parallelwerk zugänglich: die frühen Illustrator-Bände, der Rizzoli-Band Visions of Heaven and Hell und die achtbändige Werkschau Imaginer.",
+    en: "Barker has painted and drawn for as long as he has written — usually before he writes. Three book projects open up this parallel body of work: the early Illustrator volumes, the Rizzoli tome Visions of Heaven and Hell, and the eight-volume survey Imaginer."
+  },
+  "art.editions": { de: "Ausgaben", en: "Editions" },
+  "art.ilSyn": {
+    de: "Die ersten Bücher, die Barkers Skizzen und Zeichnungen sammelten: <em>Clive Barker, Illustrator</em> (1990) und <em>Illustrator II</em> (1993), beide bei Eclipse erschienen und von Fred Burke herausgegeben. Hier stehen die Entwürfe zu Geschichten, Romanen und Filmen neben Figuren, die nirgendwo sonst auftauchen — Pinhead und die Nightbreed, wie sie zuerst gedacht waren.",
+    en: "The first books to collect Barker's sketches and drawings: <em>Clive Barker, Illustrator</em> (1990) and <em>Illustrator II</em> (1993), both published by Eclipse and edited by Fred Burke. Here the studies for stories, novels and films sit alongside figures that appear nowhere else — Pinhead and the Nightbreed as they were first imagined."
+  },
+  "art.ilVoices": { de: "Aus dem Archiv", en: "From the archive" },
+  "art.ilN1": {
+    de: "Angekündigt hatte Barker das Projekt schon 1989: ein großformatiges Kunstbuch seiner Arbeiten, aufgesetzt gemeinsam mit Steve Niles — fertig werde es in ein paar Jahren.",
+    en: "Barker announced the project as early as 1989: a large-format art book of his work, set up together with Steve Niles — to be ready in a couple of years."
+  },
+  "art.ilN2": {
+    de: "Steve Bissette beschrieb die Blätter im Vorwort des ersten Bandes als Saatgut: Skizzen und Doodles, aus denen später Erzählungen, Romane und Filme wurden — der Beleg, wie sehr Barkers Schreiben im Zeichnen wurzelt.",
+    en: "In his introduction to the first volume, Steve Bissette described the pages as seeds: sketches and doodles that later grew into stories, novels and films — proof of how deeply Barker's writing is rooted in drawing."
+  },
+  "art.ilN3": {
+    de: "Herausgeber Fred Burke nannte den ersten Band rückblickend einen Einführungskurs. Dazwischen lag die Ausstellung in der Bess Cutler Gallery in New York (1993), die Barker über Nacht zum gefragten Maler machte — der zweite Band geht dieser Verwandlung nach.",
+    en: "Editor Fred Burke later called the first volume an introductory course. In between came the 1993 exhibition at New York's Bess Cutler Gallery, which turned Barker into a sought-after painter overnight — the second volume traces that transformation."
+  },
+  "art.cIl200": {
+    de: "Eclipse, USA, 1990 · 200 Ex., signiert, mit Original-Zeichnung",
+    en: "Eclipse, USA, 1990 · 200 copies, signed, with original artwork"
+  },
+  "art.vSyn": {
+    de: "Der große Rizzoli-Band von 2005: knapp 400 Farbabbildungen auf rund 400 Seiten, mit zwölf ausklappbaren Tafeln und Goldschnitt. Designerin Alicia Mikles, die auch die Abarat-Bücher gestaltete, ordnete Gemälde und Zeichnungen aus drei Jahrzehnten in zehn thematische Kapitel — von den Abarat-Inseln bis zur erotischen Kunst.",
+    en: "The big Rizzoli tome of 2005: close to 400 colour images across some 400 pages, with twelve gatefolds and gilded edges. Designer Alicia Mikles, who also designed the Abarat books, arranged paintings and drawings from three decades into ten thematic chapters — from the Abarat islands to the erotic art."
+  },
+  "art.vN1": {
+    de: "Ein Buch der Bilder, nicht der Worte, so wollte Barker es: Man solle sich mit seiner Lieblingsmusik zurücklehnen, das Buch aufschlagen und eine Weile träumen.",
+    en: "A book of pictures, not of words, was what Barker wanted: sit back with your favourite music on, open the book, and dream a while."
+  },
+  "art.vN2": {
+    de: "Die Kapitelstruktur verdankt das Buch Alicia Mikles: Sie legte Bilder nebeneinander und fand Bildfäden, die Barker in seinen eigenen Arbeiten nie gesehen hatte — erst im Nebeneinander entdeckte er die Spirale, die zwei Bilder verband.",
+    en: "The chapter structure is Alicia Mikles' doing: she laid images side by side and found threads of imagery Barker had never seen in his own work — only in the pairing did he spot the spiral connecting two pictures."
+  },
+  "art.vN3": {
+    de: "Ein Bild fehlte beinahe: Den Besitzer des Gemäldes <em>The Arsonist</em> konnte Barker trotz Suche nie ausfindig machen — reproduziert wurde es notgedrungen von einem kleinen Dia.",
+    en: "One picture nearly went missing: despite his search, Barker never tracked down the owner of the painting <em>The Arsonist</em> — it had to be reproduced from a small transparency."
+  },
+  "art.vN4": {
+    de: "Über den Goldschnitt, der die Seiten anfangs zusammenkleben ließ, und die geplante limitierte Ausgabe sprach Barker Ende 2005 auch mit der deutschen Fanseite That&rsquo;s Clive! — der Verlag empfahl, die Seiten einmal rasch durchzufächern.",
+    en: "In late 2005 Barker also talked to the German fan site That&rsquo;s Clive! about the gilded edges that initially made the pages stick together, and about the planned limited edition — the publisher's advice: fan the pages through quickly once."
+  },
+  "art.cVProofs": {
+    de: "Rizzoli/Universe, USA, 2005 · Druckfahnen",
+    en: "Rizzoli/Universe, USA, 2005 · printer's page proofs"
+  },
+  "art.imTitle": { de: "Die <em>Imaginer</em>-Reihe", en: "The <em>Imaginer</em> Series" },
+  "art.imSyn": {
+    de: "Acht Bände, rund 1600 Seiten: die Werkschau der Ölgemälde von 1993 bis 2012, sämtlich neu und hochauflösend fotografiert. Die ersten beiden Bände gab Thomas Negovan bei Century Guild heraus, per Kickstarter finanziert; ab Band 3 führten Phil &amp; Sarah Stokes die Reihe im Clive Barker Archive zu Ende. Jeder Band erschien limitiert auf 1000 Exemplare, dazu je 100 Deluxe-Ausgaben in Leder mit Schmuckkassette.",
+    en: "Eight volumes, some 1,600 pages: the survey of the oil paintings from 1993 to 2012, all newly captured in high resolution. Thomas Negovan published the first two volumes through Century Guild, funded via Kickstarter; from volume 3 on, Phil &amp; Sarah Stokes carried the series to completion at the Clive Barker Archive. Each volume was limited to 1,000 copies, plus 100 deluxe leatherbound editions in a clamshell case."
+  },
+  "art.imN1": {
+    de: "Die neuen Reproduktionen nannte Barker eine Offenbarung: Er verglich sie mit den Original-Leinwänden — Farben, Texturen und der Fluss des Pinsels seien so genau getroffen, dass ihn das Betrachten daran erinnerte, wie er die Bilder gemalt hatte.",
+    en: "Barker called the new reproductions a revelation: comparing them with the original canvases, he found the colours, textures and flow of the brush captured so faithfully that studying them reminded him of how the paintings had been made."
+  },
+  "art.imN2": {
+    de: "Für Barker beantwortet die Reihe die Frage nach dem Ursprung: Er war Bildkünstler, bevor er Autor wurde — Imaginer sei das fehlende Element, das allem anderen vorausgeht. Wer wissen wolle, woher seine Ideen kommen, finde hier die Antwort.",
+    en: "For Barker the series answers the question of origin: he was a visual artist before he was a literary one — Imaginer is the missing element that precedes everything else. Anyone wanting to know where his ideas come from will find the answer here."
+  },
+  "art.imN3": {
+    de: "Beim fünften Band fehlten ihm die Worte: der schönste der Reihe bis dahin — und eines der schönsten Kunstbücher, die er je gesehen habe.",
+    en: "Volume five left him lost for words: the most beautiful of the series so far — and one of the most beautiful art books he had ever seen."
+  },
+  "art.imN4": {
+    de: "Die fertige Reihe erinnerte ihn an seine Lieblingsbücher der Kindheit: zwölf üppig illustrierte Enzyklopädie-Bände, darunter eine seitenlange Darstellung des Amazonas von der Quelle bis zum Meer — wenn es einen Einfluss auf seine Fantastik gebe, auf den er zeigen könne, dann diese Seite.",
+    en: "The completed series reminded him of his favourite books as a child: twelve lavishly illustrated encyclopaedia volumes, among them a page-long depiction of the Amazon from source to sea — if there is one influence on his fantastic fiction he can point to, it is that page."
+  },
+  "art.imEditions": { de: "Die acht Bände", en: "The eight volumes" },
+  "art.back": { de: "← Zurück zu den Werken", en: "← Back to the works" },
+
   /* Interviews page */
   "title.interviews": {
     de: "Interviews — Revelations · Clive Barker × Fable 5",
@@ -296,6 +380,7 @@ window.TRANSLATIONS = {
   "werke.c3":  { de: "Poesie", en: "Poetry" },
   "werke.c3m": { de: "Rare Flesh & Gedicht-Bibliografie · eigene Seite", en: "Rare Flesh & poem bibliography · own page" },
   "werke.c4":  { de: "Kunstbücher", en: "Art Books" },
+  "werke.c4m": { de: "Illustrator, Visions &amp; Imaginer · eigene Seite", en: "Illustrator, Visions &amp; Imaginer · own page" },
   "werke.c5":  { de: "Graphic Novels &amp; Comics", en: "Graphic Novels &amp; Comics" },
   "werke.c6":  { de: "Sachbücher", en: "Non-Fiction" },
   "werke.c7":  { de: "Anthologien", en: "Anthologies" },
