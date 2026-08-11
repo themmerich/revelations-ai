@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Anthologien — Revelations · Clive Barker × Fable 5</title>
+<meta name="description" content="Clive Barkers Sammelbände: The Essential Clive Barker, First Tales, Tonight, Again und The Body Book — nach dem Revelations-Archiv." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=IBM+Plex+Mono:wght@300;400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css?v=11" />
+</head>
+<body>
+
+<!-- Fixed Three.js stage -->
+<canvas id="stage"></canvas>
+
+<!-- Grain overlay -->
+<div class="grain" aria-hidden="true"></div>
+
+<!-- Custom cursor -->
+<div class="cursor" id="cursor" aria-hidden="true"><span class="cursor__label" id="cursorLabel"></span></div>
+
+<!-- Navigation -->
+<header class="nav" id="nav">
+  <a class="nav__logo" href="index.html">C·B</a>
+  <nav class="nav__links">
+    <a href="news.html" data-i18n="nav.news">News</a>
+    <a href="index.html#bio" data-i18n="nav.bio">Biografie</a>
+    <a href="index.html#werke" data-i18n="nav.werke">Werke</a>
+    <a href="index.html#film" data-i18n="nav.film">Film</a>
+    <a href="index.html#interviews" data-i18n="nav.interviews">Interviews</a>
+    <a href="index.html#galerie" data-i18n="nav.galerie">Galerie</a>
+    <a href="index.html#contact" class="nav__contact" data-i18n="nav.contact">Kontakt</a>
+    <button class="nav__lang mono" id="langToggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+
+<main>
+
+  <!-- ANTHOLOGIES HERO -->
+  <section class="newshero">
+    <p class="hero__eyebrow mono reveal-line" data-i18n="anth.eyebrow">Anthologien · The Essential, First Tales, Tonight, Again &amp; The Body Book · nach dem Revelations-Archiv</p>
+    <h1 class="newshero__title reveal-line" data-i18n="anth.title">Die <em>Anthologien</em></h1>
+    <div class="newshero__sub">
+      <p class="newshero__lede reveal-line" data-i18n="anth.lede">Vier Sammelbände, vier Blickwinkel auf dasselbe Werk:
+      die große Werkbilanz von 1999, die frühesten Jugenderzählungen, die erotischen Kurzgeschichten — und zwei
+      Geschichten vom Aufstand des Fleisches, neu gebunden.</p>
+    </div>
+  </section>
+
+  <!-- THE ESSENTIAL CLIVE BARKER -->
+  <section class="noveldetail">
+    <div class="section__head">
+      <span class="section__num mono">AN–01</span>
+      <h2 class="section__title">The Essential <em>Clive Barker</em></h2>
+    </div>
+    <div class="noveldetail__grid">
+      <figure class="noveldetail__leadwrap reveal-news">
+        <div class="bio__imgwrap"><img src="assets/covers/anthology/essentialukh1.JPG" alt="The Essential Clive Barker — UK-Erstausgabe, 1999" /></div>
+        <figcaption class="mono">HarperCollins, UK, 1999 · UK first edition</figcaption>
+      </figure>
+      <div class="noveldetail__text">
+        <h2 class="noveldetail__h mono" data-i18n="novel.synopsis">Worum es geht</h2>
+        <p class="noveldetail__syn" data-i18n="anth.esSyn">Die Werkbilanz zur Halbzeit: über siebzig Auszüge aus Romanen
+        und Theaterstücken, dazu vier vollständige Erzählungen — von Barker selbst ausgewählt und in dreizehn thematische
+        Kapitel geordnet. Den Kern bildet eine 12.000 Wörter lange Einleitung über seine Arbeitsweise und die Kindheit,
+        die ihn zum Schriftsteller machte. HarperCollins, 1999.</p>
+        <h2 class="noveldetail__h mono" data-i18n="novel.cliveOn">Clive über das Buch</h2>
+        <ul class="novelnotes">
+          <li class="novelnote reveal-news">
+            <p data-i18n="anth.esN1">Für die Auswahl zog sich Barker mit sämtlichen eigenen Büchern auf die Hawaii-Insel
+            Kaua&rsquo;i zurück und las alles neu — mit der Frage, was ihm nach zwanzig Jahren wirklich wesentlich ist.</p>
+            <p class="novelnote__src mono">Channel 4 Big Breakfast, 1999</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="anth.esN2">Dabei überraschte ihn, wie wenig Horror er fand: weit weniger Spezialeffekte als
+            gedacht — und Bücher, die vor allem von Menschen handeln.</p>
+            <p class="novelnote__src mono">The Scotsman, 1999</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="anth.esN3">Beim Wiederlesen entdeckte er Geschichten in Geschichten: Erzählungen, die in
+            Romanen eingebettet lagen und sich herauslösen ließen — wie die Zelim-Episode aus Galilee, die er in voller
+            Länge übernahm.</p>
+            <p class="novelnote__src mono">Revelations-Interview, 1999</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="anth.esN4">Ein Buch mit doppeltem Zweck, sagte Barker: eine Einführung für Leser, die sein Werk
+            noch nicht kennen — und für alle anderen die Retrospektive zur Karrieremitte, das Material, an dem er
+            gemessen werden will.</p>
+            <p class="novelnote__src mono">IGN For Men, 1999</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="coversection">
+      <div class="coversection__head">
+        <h2 class="section__title section__title--small" data-i18n="art.editions">Ausgaben</h2>
+        <p class="mono coversection__hint" data-i18n="novel.coverHint">Klick vergrößert das Cover</p>
+      </div>
+      <div class="coverrow">
+        <figure class="coverfig" data-title="The Essential Clive Barker">
+          <img src="assets/covers/anthology/essentialukh1.JPG" alt="The Essential Clive Barker — UK hardback, 1999" loading="lazy" />
+          <figcaption class="mono">HarperCollins, UK, 1999 · UK hardback</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="The Essential Clive Barker">
+          <img src="assets/covers/anthology/essentialush1.jpg" alt="The Essential Clive Barker — US hardback, 1999" loading="lazy" />
+          <figcaption class="mono">HarperCollins, USA, 1999 · US hardback</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="The Essential Clive Barker">
+          <img src="assets/covers/anthology/essentialukp1.JPG" alt="The Essential Clive Barker — UK paperback, 2000" loading="lazy" />
+          <figcaption class="mono">HarperCollins, UK, 2000 · UK paperback</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="The Essential Clive Barker">
+          <img src="assets/covers/anthology/essentialukpr1.JPG" alt="The Essential Clive Barker — UK page proofs, 1999" loading="lazy" />
+          <figcaption class="mono" data-i18n="anth.cEsProof">HarperCollins, UK, 1999 · Korrekturfahnen</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="The Essential Clive Barker">
+          <img src="assets/covers/anthology/essentialuspr2.JPG" alt="The Essential Clive Barker — US proof, 1999" loading="lazy" />
+          <figcaption class="mono" data-i18n="anth.cEsUsProof">HarperCollins, USA, 1999 · US-Korrekturfahne</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="The Essential Clive Barker">
+          <img src="assets/covers/anthology/essentialuka.jpg" alt="The Essential Clive Barker — unused UK cover artwork, 1999" loading="lazy" />
+          <figcaption class="mono" data-i18n="anth.cEsUnused">Unbenutzter Cover-Entwurf der UK-Ausgabe</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- FIRST TALES -->
+  <section class="noveldetail">
+    <div class="section__head">
+      <span class="section__num mono">AN–02</span>
+      <h2 class="section__title">Clive Barker&rsquo;s <em>First Tales</em></h2>
+    </div>
+    <div class="noveldetail__grid">
+      <figure class="noveldetail__leadwrap reveal-news">
+        <div class="bio__imgwrap"><img src="assets/covers/anthology/firsttalesush1.jpg" alt="Clive Barker's First Tales — US trade edition, 2013" /></div>
+        <figcaption class="mono">SeraphimInk, USA, 2013 · US trade edition</figcaption>
+      </figure>
+      <div class="noveldetail__text">
+        <h2 class="noveldetail__h mono" data-i18n="novel.synopsis">Worum es geht</h2>
+        <p class="noveldetail__syn" data-i18n="anth.ftSyn">Barkers Anfänge zwischen zwei Buchdeckeln: <em>The Wood on the
+        Hill</em> und <em>The Candle in the Cloud</em>, zwei Erzählungen aus seiner Liverpooler Jugend, 2013 gesammelt
+        bei SeraphimInk erschienen — dem Verlag seiner eigenen Firma Seraphim.</p>
+        <h2 class="noveldetail__h mono" data-i18n="novel.cliveOn">Clive über das Buch</h2>
+        <ul class="novelnotes">
+          <li class="novelnote reveal-news">
+            <p data-i18n="anth.ftN1">In seiner Anmerkung zum Band beschreibt Barker die beiden Geschichten als die zwei
+            Grundformen der Fantastik: Hier bricht das Unirdische in unsere Welt ein (The Wood on the Hill), dort reisen
+            Menschen aus unserer Welt in eine andere (The Candle in the Cloud) — Yin und Yang, entgegengesetzte Kräfte
+            mit demselben Ziel: Offenbarung.</p>
+            <p class="novelnote__src mono">Author&rsquo;s Note · First Tales, 2013</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="coversection">
+      <div class="coversection__head">
+        <h2 class="section__title section__title--small" data-i18n="art.editions">Ausgaben</h2>
+        <p class="mono coversection__hint" data-i18n="novel.coverHint">Klick vergrößert das Cover</p>
+      </div>
+      <div class="coverrow">
+        <figure class="coverfig" data-title="Clive Barker's First Tales">
+          <img src="assets/covers/anthology/firsttalesush1.jpg" alt="First Tales — US trade edition, 2013" loading="lazy" />
+          <figcaption class="mono">SeraphimInk, USA, 2013 · US trade edition</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Clive Barker's First Tales">
+          <img src="assets/covers/anthology/firsttalesusl1.jpg" alt="First Tales — US numbered edition of 400, 2013" loading="lazy" />
+          <figcaption class="mono" data-i18n="anth.cFtNum">SeraphimInk, USA, 2013 · 400 signierte, nummerierte Ex.</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Clive Barker's First Tales">
+          <img src="assets/covers/anthology/firsttalesusl2.jpg" alt="First Tales — US lettered edition of 26, 2013" loading="lazy" />
+          <figcaption class="mono" data-i18n="anth.cFtLet">SeraphimInk, USA, 2013 · 26 signierte Ex. mit Buchstaben</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- TONIGHT, AGAIN -->
+  <section class="noveldetail">
+    <div class="section__head">
+      <span class="section__num mono">AN–03</span>
+      <h2 class="section__title">Tonight, <em>Again</em></h2>
+    </div>
+    <div class="noveldetail__grid">
+      <figure class="noveldetail__leadwrap reveal-news">
+        <div class="bio__imgwrap"><img src="assets/covers/anthology/tonightushb1.jpg" alt="Tonight, Again — US trade edition, 2015" /></div>
+        <figcaption class="mono">Subterranean Press, USA, 2015 · US trade edition</figcaption>
+      </figure>
+      <div class="noveldetail__text">
+        <h2 class="noveldetail__h mono" data-i18n="novel.synopsis">Worum es geht</h2>
+        <p class="noveldetail__syn" data-i18n="anth.taSyn">Über dreißig kurze erotische Erzählungen, 2015 bei
+        Subterranean Press erschienen; 2018 folgte die britische Ausgabe bei SST Publications. Der Band steht am Ende
+        einer zwanzigjährigen Suche nach der richtigen Form: Unterwegs hieß die geplante Sammlung The Scarlet Gospels,
+        Journeyman und Black Is The Devil&rsquo;s Rainbow.</p>
+        <h2 class="noveldetail__h mono" data-i18n="novel.cliveOn">Clive über das Buch</h2>
+        <ul class="novelnotes">
+          <li class="novelnote reveal-news">
+            <p data-i18n="anth.taN1">Schon 1996 rang Barker mit seinem Verlag um die kurze Form: Ein Roman verkaufe sich
+            fünfmal besser, hieß es — dabei liebe er Kurzgeschichten, das Schreiben wie das Lesen, und die Absagen
+            frustrierten ihn maßlos.</p>
+            <p class="novelnote__src mono">Interview, 1996</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="anth.taN2">2001 sollte die Sammlung noch The Scarlet Gospels heißen — mit einer gleichnamigen
+            Novelle als Herzstück, aus der Jahre später der Roman wurde.</p>
+            <p class="novelnote__src mono">Lost Souls, 2001</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="anth.taN3">Auch gegenüber der deutschen Fanseite That&rsquo;s Clive! bestätigte er 2005: Die
+            unveröffentlichten Kurzgeschichten kommen später in einem eigenen Band.</p>
+            <p class="novelnote__src mono">That&rsquo;s Clive!, 2005</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="coversection">
+      <div class="coversection__head">
+        <h2 class="section__title section__title--small" data-i18n="art.editions">Ausgaben</h2>
+        <p class="mono coversection__hint" data-i18n="novel.coverHint">Klick vergrößert das Cover</p>
+      </div>
+      <div class="coverrow">
+        <figure class="coverfig" data-title="Tonight, Again">
+          <img src="assets/covers/anthology/tonightushb1.jpg" alt="Tonight, Again — US trade edition, 2015" loading="lazy" />
+          <figcaption class="mono">Subterranean Press, USA, 2015 · US trade edition</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Tonight, Again">
+          <img src="assets/covers/anthology/tonightusl2.jpg" alt="Tonight, Again — US numbered edition of 224, 2016" loading="lazy" />
+          <figcaption class="mono" data-i18n="anth.cTaNum">Subterranean Press, USA, 2016 · 224 signierte, nummerierte Ex.</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Tonight, Again">
+          <img src="assets/covers/anthology/tonightusl1.jpg" alt="Tonight, Again — US lettered edition of 26, 2016" loading="lazy" />
+          <figcaption class="mono" data-i18n="anth.cTaLet">Subterranean Press, USA, 2016 · 26 signierte Ex. mit Buchstaben</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Tonight, Again">
+          <img src="assets/covers/anthology/tonightukhb1.jpg" alt="Tonight, Again — UK limited edition of 600, 2018" loading="lazy" />
+          <figcaption class="mono" data-i18n="anth.cTaUk">SST Publications, UK, 2018 · limitiert auf 600 Ex.</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Tonight, Again">
+          <img src="assets/covers/anthology/tonightukpr1.jpg" alt="Tonight, Again — UK advance proof, 2018" loading="lazy" />
+          <figcaption class="mono" data-i18n="anth.cTaProof">SST Publications, UK, 2018 · Vorab-Korrekturfahne</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- THE BODY BOOK -->
+  <section class="noveldetail">
+    <div class="section__head">
+      <span class="section__num mono">AN–04</span>
+      <h2 class="section__title">The <em>Body Book</em></h2>
+    </div>
+    <div class="noveldetail__grid">
+      <figure class="noveldetail__leadwrap reveal-news">
+        <div class="bio__imgwrap"><img src="assets/covers/anthology/bodybookush1.jpg" alt="The Body Book — US signed, numbered edition, 2017" /></div>
+        <figcaption class="mono">Dark Regions Press, USA, 2017 · signed, numbered edition</figcaption>
+      </figure>
+      <div class="noveldetail__text">
+        <h2 class="noveldetail__h mono" data-i18n="novel.synopsis">Worum es geht</h2>
+        <p class="noveldetail__syn" data-i18n="anth.bbSyn">Zwei Geschichten aus den Books of Blood über den Aufstand des
+        Fleisches, neu gebunden: <em>The Body Politic</em> — die Hände eines Mannes kündigen ihm die Gefolgschaft — und
+        <em>In the Flesh</em>. Dark Regions Press brachte den illustrierten Band 2017 in drei limitierten, signierten
+        Hardcover-Ausgaben heraus, 2018 folgte das Taschenbuch.</p>
+      </div>
+    </div>
+
+    <div class="coversection">
+      <div class="coversection__head">
+        <h2 class="section__title section__title--small" data-i18n="art.editions">Ausgaben</h2>
+        <p class="mono coversection__hint" data-i18n="novel.coverHint">Klick vergrößert das Cover</p>
+      </div>
+      <div class="coverrow">
+        <figure class="coverfig" data-title="The Body Book">
+          <img src="assets/covers/anthology/bodybookush1.jpg" alt="The Body Book — US signed, numbered edition of 500, 2017" loading="lazy" />
+          <figcaption class="mono" data-i18n="anth.cBbNum">Dark Regions Press, USA, 2017 · 500 signierte, nummerierte Ex.</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="The Body Book">
+          <img src="assets/covers/anthology/bodybookusl2.jpg" alt="The Body Book — US ultra-deluxe lettered edition of 13, 2017" loading="lazy" />
+          <figcaption class="mono" data-i18n="anth.cBbLet">Dark Regions Press, USA, 2017 · 13 Ex. in Schmuckkassette</figcaption>
+        </figure>
+      </div>
+    </div>
+    <p class="coversection__credit mono">Cover-Abbildungen: Revelations-Archiv (clivebarker.info) · Artwork © Clive Barker bzw. der jeweiligen Verlage</p>
+    <p class="news-backwrap"><a class="news-backlink mono" href="index.html#werke" data-i18n="art.back">← Zurück zu den Werken</a></p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__meta mono">
+      <p data-i18n="footer.m1">Sämtliche Gemälde &amp; Zeichnungen © Clive Barker · mit Dank an das Revelations-Archiv (clivebarker.info)</p>
+      <p data-i18n="footer.m2">Konzept, Text, Code &amp; Motion: Claude Fable 5 · Anthropic · 2026 — inoffizielles Fan-Projekt</p>
+    </div>
+  </footer>
+
+</main>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <div class="lightbox__backdrop" id="lightboxBackdrop"></div>
+  <figure class="lightbox__figure">
+    <img src="" alt="" id="lightboxImg" />
+    <figcaption>
+      <span class="lightbox__title" id="lightboxTitle"></span>
+      <span class="lightbox__meta mono" id="lightboxMeta"></span>
+      <span class="lightbox__credit mono">Revelations-Archiv · clivebarker.info</span>
+    </figcaption>
+  </figure>
+  <button class="lightbox__close mono" id="lightboxClose" aria-label="Schließen" data-i18n="lb.close">Schließen ✕</button>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.158.0/three.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="js/i18n.js?v=10"></script>
+<script src="js/scene.js"></script>
+<script src="js/anthologies.js"></script>
+</body>
+</html>
