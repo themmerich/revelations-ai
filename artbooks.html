@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Kunstbücher — Revelations · Clive Barker × Fable 5</title>
+<meta name="description" content="Clive Barkers Kunstbücher: Illustrator I & II, Visions of Heaven and Hell und die achtbändige Imaginer-Reihe — nach dem Revelations-Archiv." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=IBM+Plex+Mono:wght@300;400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css?v=11" />
+</head>
+<body>
+
+<!-- Fixed Three.js stage -->
+<canvas id="stage"></canvas>
+
+<!-- Grain overlay -->
+<div class="grain" aria-hidden="true"></div>
+
+<!-- Custom cursor -->
+<div class="cursor" id="cursor" aria-hidden="true"><span class="cursor__label" id="cursorLabel"></span></div>
+
+<!-- Navigation -->
+<header class="nav" id="nav">
+  <a class="nav__logo" href="index.html">C·B</a>
+  <nav class="nav__links">
+    <a href="news.html" data-i18n="nav.news">News</a>
+    <a href="index.html#bio" data-i18n="nav.bio">Biografie</a>
+    <a href="index.html#werke" data-i18n="nav.werke">Werke</a>
+    <a href="index.html#film" data-i18n="nav.film">Film</a>
+    <a href="index.html#interviews" data-i18n="nav.interviews">Interviews</a>
+    <a href="index.html#galerie" data-i18n="nav.galerie">Galerie</a>
+    <a href="index.html#contact" class="nav__contact" data-i18n="nav.contact">Kontakt</a>
+    <button class="nav__lang mono" id="langToggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+
+<main>
+
+  <!-- ART BOOKS HERO -->
+  <section class="newshero">
+    <p class="hero__eyebrow mono reveal-line" data-i18n="art.eyebrow">Kunstbücher · Illustrator, Visions of Heaven and Hell &amp; Imaginer · nach dem Revelations-Archiv</p>
+    <h1 class="newshero__title reveal-line" data-i18n="art.title">Die <em>Kunstbücher</em></h1>
+    <div class="newshero__sub">
+      <p class="newshero__lede reveal-line" data-i18n="art.lede">Barker malt und zeichnet, seit er schreibt — meist bevor er
+      schreibt. Drei Buchprojekte machen dieses Parallelwerk zugänglich: die frühen Illustrator-Bände, der Rizzoli-Band
+      Visions of Heaven and Hell und die achtbändige Werkschau Imaginer.</p>
+    </div>
+  </section>
+
+  <!-- ILLUSTRATOR I & II -->
+  <section class="noveldetail">
+    <div class="section__head">
+      <span class="section__num mono">A–01</span>
+      <h2 class="section__title">Illustrator <em>I &amp; II</em></h2>
+    </div>
+    <div class="noveldetail__grid">
+      <figure class="noveldetail__leadwrap reveal-news">
+        <div class="bio__imgwrap"><img src="assets/covers/art/illuslettered.JPG" alt="Clive Barker, Illustrator — limitierte Ausgabe von 200 Exemplaren, 1990" /></div>
+        <figcaption class="mono">Eclipse, USA, 1990 · limited edition of 200</figcaption>
+      </figure>
+      <div class="noveldetail__text">
+        <h2 class="noveldetail__h mono" data-i18n="novel.synopsis">Worum es geht</h2>
+        <p class="noveldetail__syn" data-i18n="art.ilSyn">Die ersten Bücher, die Barkers Skizzen und Zeichnungen sammelten:
+        <em>Clive Barker, Illustrator</em> (1990) und <em>Illustrator II</em> (1993), beide bei Eclipse erschienen und von
+        Fred Burke herausgegeben. Hier stehen die Entwürfe zu Geschichten, Romanen und Filmen neben Figuren, die nirgendwo
+        sonst auftauchen — Pinhead und die Nightbreed, wie sie zuerst gedacht waren.</p>
+        <h2 class="noveldetail__h mono" data-i18n="art.ilVoices">Aus dem Archiv</h2>
+        <ul class="novelnotes">
+          <li class="novelnote reveal-news">
+            <p data-i18n="art.ilN1">Angekündigt hatte Barker das Projekt schon 1989: ein großformatiges Kunstbuch seiner
+            Arbeiten, aufgesetzt gemeinsam mit Steve Niles — fertig werde es in ein paar Jahren.</p>
+            <p class="novelnote__src mono">Comic Buyer&rsquo;s Guide, 1989</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="art.ilN2">Steve Bissette beschrieb die Blätter im Vorwort des ersten Bandes als Saatgut: Skizzen
+            und Doodles, aus denen später Erzählungen, Romane und Filme wurden — der Beleg, wie sehr Barkers Schreiben
+            im Zeichnen wurzelt.</p>
+            <p class="novelnote__src mono">Introduction · Clive Barker, Illustrator, 1990</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="art.ilN3">Herausgeber Fred Burke nannte den ersten Band rückblickend einen Einführungskurs.
+            Dazwischen lag die Ausstellung in der Bess Cutler Gallery in New York (1993), die Barker über Nacht zum
+            gefragten Maler machte — der zweite Band geht dieser Verwandlung nach.</p>
+            <p class="novelnote__src mono">Illustrator II: The Art of Clive Barker, 1993</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="coversection">
+      <div class="coversection__head">
+        <h2 class="section__title section__title--small" data-i18n="art.editions">Ausgaben</h2>
+        <p class="mono coversection__hint" data-i18n="novel.coverHint">Klick vergrößert das Cover</p>
+      </div>
+      <div class="coverrow">
+        <figure class="coverfig" data-title="Clive Barker, Illustrator">
+          <img src="assets/covers/art/illuslettered.JPG" alt="Illustrator — signed limited edition of 200, 1990" loading="lazy" />
+          <figcaption class="mono" data-i18n="art.cIl200">Eclipse, USA, 1990 · 200 Ex., signiert, mit Original-Zeichnung</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Clive Barker, Illustrator">
+          <img src="assets/covers/art/illustrator1us1.JPG" alt="Illustrator — US hardback, 1990" loading="lazy" />
+          <figcaption class="mono">Eclipse, USA, 1990 · US hardback</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Illustrator II">
+          <img src="assets/covers/art/illustrator2sl.JPG" alt="Illustrator II — US slipcased hardback, 1993" loading="lazy" />
+          <figcaption class="mono">Eclipse, USA, 1993 · slipcased hardback</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Illustrator II">
+          <img src="assets/covers/art/illustrator2h.JPG" alt="Illustrator II — US hardback, 1993" loading="lazy" />
+          <figcaption class="mono">Eclipse, USA, 1993 · US hardback</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Illustrator II">
+          <img src="assets/covers/art/illustrator2us1.JPG" alt="Illustrator II — US paperback, 1993" loading="lazy" />
+          <figcaption class="mono">Eclipse, USA, 1993 · US paperback</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- VISIONS OF HEAVEN AND HELL -->
+  <section class="noveldetail">
+    <div class="section__head">
+      <span class="section__num mono">A–02</span>
+      <h2 class="section__title">Visions of <em>Heaven and Hell</em></h2>
+    </div>
+    <div class="noveldetail__grid">
+      <figure class="noveldetail__leadwrap reveal-news">
+        <div class="bio__imgwrap"><img src="assets/covers/art/visions.jpg" alt="Visions of Heaven and Hell — US-Erstausgabe, 2005" /></div>
+        <figcaption class="mono">Rizzoli/Universe, USA, 2005 · US first edition</figcaption>
+      </figure>
+      <div class="noveldetail__text">
+        <h2 class="noveldetail__h mono" data-i18n="novel.synopsis">Worum es geht</h2>
+        <p class="noveldetail__syn" data-i18n="art.vSyn">Der große Rizzoli-Band von 2005: knapp 400 Farbabbildungen auf
+        rund 400 Seiten, mit zwölf ausklappbaren Tafeln und Goldschnitt. Designerin Alicia Mikles, die auch die
+        Abarat-Bücher gestaltete, ordnete Gemälde und Zeichnungen aus drei Jahrzehnten in zehn thematische Kapitel —
+        von den Abarat-Inseln bis zur erotischen Kunst.</p>
+        <h2 class="noveldetail__h mono" data-i18n="novel.cliveOn">Clive über das Buch</h2>
+        <ul class="novelnotes">
+          <li class="novelnote reveal-news">
+            <p data-i18n="art.vN1">Ein Buch der Bilder, nicht der Worte, so wollte Barker es: Man solle sich mit seiner
+            Lieblingsmusik zurücklehnen, das Buch aufschlagen und eine Weile träumen.</p>
+            <p class="novelnote__src mono">Fantasy Worlds, 2005</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="art.vN2">Die Kapitelstruktur verdankt das Buch Alicia Mikles: Sie legte Bilder nebeneinander und
+            fand Bildfäden, die Barker in seinen eigenen Arbeiten nie gesehen hatte — erst im Nebeneinander entdeckte er
+            die Spirale, die zwei Bilder verband.</p>
+            <p class="novelnote__src mono">Fangoria, 2005</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="art.vN3">Ein Bild fehlte beinahe: Den Besitzer des Gemäldes <em>The Arsonist</em> konnte Barker
+            trotz Suche nie ausfindig machen — reproduziert wurde es notgedrungen von einem kleinen Dia.</p>
+            <p class="novelnote__src mono">Revelations-Interview, 2005</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="art.vN4">Über den Goldschnitt, der die Seiten anfangs zusammenkleben ließ, und die geplante
+            limitierte Ausgabe sprach Barker Ende 2005 auch mit der deutschen Fanseite That&rsquo;s Clive! — der Verlag empfahl,
+            die Seiten einmal rasch durchzufächern.</p>
+            <p class="novelnote__src mono">That&rsquo;s Clive!, 2005</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="coversection">
+      <div class="coversection__head">
+        <h2 class="section__title section__title--small" data-i18n="art.editions">Ausgaben</h2>
+        <p class="mono coversection__hint" data-i18n="novel.coverHint">Klick vergrößert das Cover</p>
+      </div>
+      <div class="coverrow">
+        <figure class="coverfig" data-title="Visions of Heaven and Hell">
+          <img src="assets/covers/art/visions.jpg" alt="Visions of Heaven and Hell — US first edition, 2005" loading="lazy" />
+          <figcaption class="mono">Rizzoli/Universe, USA, 2005 · US first edition</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Visions of Heaven and Hell">
+          <img src="assets/covers/art/visionsuspr1.jpg" alt="Visions of Heaven and Hell — printer's page proofs, 2005" loading="lazy" />
+          <figcaption class="mono" data-i18n="art.cVProofs">Rizzoli/Universe, USA, 2005 · Druckfahnen</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- IMAGINER SERIES -->
+  <section class="noveldetail">
+    <div class="section__head">
+      <span class="section__num mono">A–03</span>
+      <h2 class="section__title" data-i18n="art.imTitle">Die <em>Imaginer</em>-Reihe</h2>
+    </div>
+    <div class="noveldetail__grid">
+      <figure class="noveldetail__leadwrap reveal-news">
+        <div class="bio__imgwrap"><img src="assets/covers/art/jun2020imaginer.jpg" alt="Imaginer, Bände I bis VIII — reguläre und Deluxe-Ausgaben" /></div>
+        <figcaption class="mono">Imaginer I–VIII · 2014–2020</figcaption>
+      </figure>
+      <div class="noveldetail__text">
+        <h2 class="noveldetail__h mono" data-i18n="novel.synopsis">Worum es geht</h2>
+        <p class="noveldetail__syn" data-i18n="art.imSyn">Acht Bände, rund 1600 Seiten: die Werkschau der Ölgemälde von
+        1993 bis 2012, sämtlich neu und hochauflösend fotografiert. Die ersten beiden Bände gab Thomas Negovan bei
+        Century Guild heraus, per Kickstarter finanziert; ab Band 3 führten Phil &amp; Sarah Stokes die Reihe im Clive
+        Barker Archive zu Ende. Jeder Band erschien limitiert auf 1000 Exemplare, dazu je 100 Deluxe-Ausgaben in Leder
+        mit Schmuckkassette.</p>
+        <h2 class="noveldetail__h mono" data-i18n="novel.cliveOn">Clive über das Buch</h2>
+        <ul class="novelnotes">
+          <li class="novelnote reveal-news">
+            <p data-i18n="art.imN1">Die neuen Reproduktionen nannte Barker eine Offenbarung: Er verglich sie mit den
+            Original-Leinwänden — Farben, Texturen und der Fluss des Pinsels seien so genau getroffen, dass ihn das
+            Betrachten daran erinnerte, wie er die Bilder gemalt hatte.</p>
+            <p class="novelnote__src mono">Facebook, 2014</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="art.imN2">Für Barker beantwortet die Reihe die Frage nach dem Ursprung: Er war Bildkünstler,
+            bevor er Autor wurde — Imaginer sei das fehlende Element, das allem anderen vorausgeht. Wer wissen wolle,
+            woher seine Ideen kommen, finde hier die Antwort.</p>
+            <p class="novelnote__src mono">The Hollywood Reporter, 2014</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="art.imN3">Beim fünften Band fehlten ihm die Worte: der schönste der Reihe bis dahin — und eines
+            der schönsten Kunstbücher, die er je gesehen habe.</p>
+            <p class="novelnote__src mono">Revelations-Interview, 2017</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="art.imN4">Die fertige Reihe erinnerte ihn an seine Lieblingsbücher der Kindheit: zwölf üppig
+            illustrierte Enzyklopädie-Bände, darunter eine seitenlange Darstellung des Amazonas von der Quelle bis zum
+            Meer — wenn es einen Einfluss auf seine Fantastik gebe, auf den er zeigen könne, dann diese Seite.</p>
+            <p class="novelnote__src mono">Revelations-Interview, 2020</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="coversection">
+      <div class="coversection__head">
+        <h2 class="section__title section__title--small" data-i18n="art.imEditions">Die acht Bände</h2>
+        <p class="mono coversection__hint" data-i18n="novel.coverHint">Klick vergrößert das Cover</p>
+      </div>
+      <div class="coverrow">
+        <figure class="coverfig" data-title="Imaginer Vol. I">
+          <img src="assets/covers/art/imaginerusl1.jpg" alt="Imaginer I — US limited edition, 2014" loading="lazy" />
+          <figcaption class="mono">Vol. I · Century Guild, USA, 2014</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Imaginer Vol. II">
+          <img src="assets/covers/art/imaginer2usl1.jpg" alt="Imaginer II — US limited edition, 2014" loading="lazy" />
+          <figcaption class="mono">Vol. II · Century Guild, USA, 2014</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Imaginer Vol. III">
+          <img src="assets/covers/art/imaginer3ukl1.jpg" alt="Imaginer III — UK limited edition, 2016" loading="lazy" />
+          <figcaption class="mono">Vol. III · Clive Barker Archive, UK, 2016</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Imaginer Vol. IV">
+          <img src="assets/covers/art/imaginer4ukl1.jpg" alt="Imaginer IV — UK limited edition, 2017" loading="lazy" />
+          <figcaption class="mono">Vol. IV · Clive Barker Archive, UK, 2017</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Imaginer Vol. V">
+          <img src="assets/covers/art/imaginer5ukl1.jpg" alt="Imaginer V — UK limited edition, 2018" loading="lazy" />
+          <figcaption class="mono">Vol. V · Clive Barker Archive, UK, 2018</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Imaginer Vol. VI">
+          <img src="assets/covers/art/imaginer6ukl1.jpg" alt="Imaginer VI — UK limited edition, 2018" loading="lazy" />
+          <figcaption class="mono">Vol. VI · Clive Barker Archive, UK, 2018</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Imaginer Vol. VII">
+          <img src="assets/covers/art/imaginer7ukl1.jpg" alt="Imaginer VII — UK limited edition, 2019" loading="lazy" />
+          <figcaption class="mono">Vol. VII · Clive Barker Archive, UK, 2019</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Imaginer Vol. VIII">
+          <img src="assets/covers/art/imaginer8ukl1.jpg" alt="Imaginer VIII — UK limited edition, 2020" loading="lazy" />
+          <figcaption class="mono">Vol. VIII · Clive Barker Archive, UK, 2020</figcaption>
+        </figure>
+      </div>
+    </div>
+    <p class="coversection__credit mono">Cover-Abbildungen: Revelations-Archiv (clivebarker.info) · Artwork © Clive Barker bzw. der jeweiligen Verlage</p>
+    <p class="news-backwrap"><a class="news-backlink mono" href="index.html#werke" data-i18n="art.back">← Zurück zu den Werken</a></p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__meta mono">
+      <p data-i18n="footer.m1">Sämtliche Gemälde &amp; Zeichnungen © Clive Barker · mit Dank an das Revelations-Archiv (clivebarker.info)</p>
+      <p data-i18n="footer.m2">Konzept, Text, Code &amp; Motion: Claude Fable 5 · Anthropic · 2026 — inoffizielles Fan-Projekt</p>
+    </div>
+  </footer>
+
+</main>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <div class="lightbox__backdrop" id="lightboxBackdrop"></div>
+  <figure class="lightbox__figure">
+    <img src="" alt="" id="lightboxImg" />
+    <figcaption>
+      <span class="lightbox__title" id="lightboxTitle"></span>
+      <span class="lightbox__meta mono" id="lightboxMeta"></span>
+      <span class="lightbox__credit mono">Revelations-Archiv · clivebarker.info</span>
+    </figcaption>
+  </figure>
+  <button class="lightbox__close mono" id="lightboxClose" aria-label="Schließen" data-i18n="lb.close">Schließen ✕</button>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.158.0/three.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="js/i18n.js?v=9"></script>
+<script src="js/scene.js"></script>
+<script src="js/artbooks.js"></script>
+</body>
+</html>
