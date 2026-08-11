@@ -189,6 +189,80 @@ window.TRANSLATIONS = {
   "art.imEditions": { de: "Die acht Bände", en: "The eight volumes" },
   "art.back": { de: "← Zurück zu den Werken", en: "← Back to the works" },
 
+  /* Anthologies page */
+  "title.anthologies": {
+    de: "Anthologien — Revelations · Clive Barker × Fable 5",
+    en: "Anthologies — Revelations · Clive Barker × Fable 5"
+  },
+  "anth.eyebrow": {
+    de: "Anthologien · The Essential, First Tales, Tonight, Again &amp; The Body Book · nach dem Revelations-Archiv",
+    en: "Anthologies · The Essential, First Tales, Tonight, Again &amp; The Body Book · after the Revelations archive"
+  },
+  "anth.title": { de: "Die <em>Anthologien</em>", en: "The <em>Anthologies</em>" },
+  "anth.lede": {
+    de: "Vier Sammelbände, vier Blickwinkel auf dasselbe Werk: die große Werkbilanz von 1999, die frühesten Jugenderzählungen, die erotischen Kurzgeschichten — und zwei Geschichten vom Aufstand des Fleisches, neu gebunden.",
+    en: "Four collections, four angles on the same body of work: the grand 1999 stock-taking, the earliest tales of his youth, the erotic short fiction — and two stories of the flesh in revolt, newly bound."
+  },
+  "anth.esSyn": {
+    de: "Die Werkbilanz zur Halbzeit: über siebzig Auszüge aus Romanen und Theaterstücken, dazu vier vollständige Erzählungen — von Barker selbst ausgewählt und in dreizehn thematische Kapitel geordnet. Den Kern bildet eine 12.000 Wörter lange Einleitung über seine Arbeitsweise und die Kindheit, die ihn zum Schriftsteller machte. HarperCollins, 1999.",
+    en: "The mid-career stock-taking: more than seventy excerpts from the novels and plays, plus four complete short stories — selected by Barker himself and arranged into thirteen thematic chapters. At its core sits a 12,000-word introduction on his working methods and the childhood that made him a writer. HarperCollins, 1999."
+  },
+  "anth.esN1": {
+    de: "Für die Auswahl zog sich Barker mit sämtlichen eigenen Büchern auf die Hawaii-Insel Kaua&rsquo;i zurück und las alles neu — mit der Frage, was ihm nach zwanzig Jahren wirklich wesentlich ist.",
+    en: "To make the selection, Barker retreated to the Hawaiian island of Kaua&rsquo;i with all of his own books and reread everything — asking what, after twenty years, was truly essential to him."
+  },
+  "anth.esN2": {
+    de: "Dabei überraschte ihn, wie wenig Horror er fand: weit weniger Spezialeffekte als gedacht — und Bücher, die vor allem von Menschen handeln.",
+    en: "What surprised him was how little horror he found: far fewer special effects than expected — and books that are above all about human beings."
+  },
+  "anth.esN3": {
+    de: "Beim Wiederlesen entdeckte er Geschichten in Geschichten: Erzählungen, die in Romanen eingebettet lagen und sich herauslösen ließen — wie die Zelim-Episode aus Galilee, die er in voller Länge übernahm.",
+    en: "Rereading, he discovered stories within stories: tales embedded inside novels that could be lifted out whole — like the Zelim section from Galilee, which he took over in its entirety."
+  },
+  "anth.esN4": {
+    de: "Ein Buch mit doppeltem Zweck, sagte Barker: eine Einführung für Leser, die sein Werk noch nicht kennen — und für alle anderen die Retrospektive zur Karrieremitte, das Material, an dem er gemessen werden will.",
+    en: "A book with a double purpose, Barker said: an introduction for readers new to his work — and for everyone else the mid-career retrospective, the material he wants to be judged on."
+  },
+  "anth.cEsProof": { de: "HarperCollins, UK, 1999 · Korrekturfahnen", en: "HarperCollins, UK, 1999 · UK page proofs" },
+  "anth.cEsUsProof": { de: "HarperCollins, USA, 1999 · US-Korrekturfahne", en: "HarperCollins, USA, 1999 · US proof" },
+  "anth.cEsUnused": { de: "Unbenutzter Cover-Entwurf der UK-Ausgabe", en: "Unused cover artwork for the UK edition" },
+  "anth.ftSyn": {
+    de: "Barkers Anfänge zwischen zwei Buchdeckeln: <em>The Wood on the Hill</em> und <em>The Candle in the Cloud</em>, zwei Erzählungen aus seiner Liverpooler Jugend, 2013 gesammelt bei SeraphimInk erschienen — dem Verlag seiner eigenen Firma Seraphim.",
+    en: "Barker's beginnings between two covers: <em>The Wood on the Hill</em> and <em>The Candle in the Cloud</em>, two tales from his Liverpool youth, collected in 2013 by SeraphimInk — the imprint of his own company Seraphim."
+  },
+  "anth.ftN1": {
+    de: "In seiner Anmerkung zum Band beschreibt Barker die beiden Geschichten als die zwei Grundformen der Fantastik: Hier bricht das Unirdische in unsere Welt ein (The Wood on the Hill), dort reisen Menschen aus unserer Welt in eine andere (The Candle in the Cloud) — Yin und Yang, entgegengesetzte Kräfte mit demselben Ziel: Offenbarung.",
+    en: "In his note to the volume, Barker describes the two stories as the two essential structures of the fantastique: here the unearthly breaks into our world (The Wood on the Hill), there people from our world journey into another (The Candle in the Cloud) — yin and yang, opposing forces with the same end: revelation."
+  },
+  "anth.cFtNum": { de: "SeraphimInk, USA, 2013 · 400 signierte, nummerierte Ex.", en: "SeraphimInk, USA, 2013 · 400 signed, numbered copies" },
+  "anth.cFtLet": { de: "SeraphimInk, USA, 2013 · 26 signierte Ex. mit Buchstaben", en: "SeraphimInk, USA, 2013 · 26 signed, lettered copies" },
+  "anth.taSyn": {
+    de: "Über dreißig kurze erotische Erzählungen, 2015 bei Subterranean Press erschienen; 2018 folgte die britische Ausgabe bei SST Publications. Der Band steht am Ende einer zwanzigjährigen Suche nach der richtigen Form: Unterwegs hieß die geplante Sammlung The Scarlet Gospels, Journeyman und Black Is The Devil&rsquo;s Rainbow.",
+    en: "More than thirty short erotic tales, published by Subterranean Press in 2015; a British edition from SST Publications followed in 2018. The book stands at the end of a twenty-year search for the right form: along the way the planned collection was called The Scarlet Gospels, Journeyman and Black Is The Devil&rsquo;s Rainbow."
+  },
+  "anth.taN1": {
+    de: "Schon 1996 rang Barker mit seinem Verlag um die kurze Form: Ein Roman verkaufe sich fünfmal besser, hieß es — dabei liebe er Kurzgeschichten, das Schreiben wie das Lesen, und die Absagen frustrierten ihn maßlos.",
+    en: "As early as 1996 Barker wrestled with his publisher over the short form: a novel would sell five times as many copies, they said — while he loved short stories, writing them as much as reading them, and the refusals frustrated him no end."
+  },
+  "anth.taN2": {
+    de: "2001 sollte die Sammlung noch The Scarlet Gospels heißen — mit einer gleichnamigen Novelle als Herzstück, aus der Jahre später der Roman wurde.",
+    en: "In 2001 the collection was still to be called The Scarlet Gospels — with a novella of that name at its heart, which years later grew into the novel."
+  },
+  "anth.taN3": {
+    de: "Auch gegenüber der deutschen Fanseite That&rsquo;s Clive! bestätigte er 2005: Die unveröffentlichten Kurzgeschichten kommen später in einem eigenen Band.",
+    en: "He also confirmed it to the German fan site That&rsquo;s Clive! in 2005: the uncollected short stories would be gathered into a volume of their own at a later point."
+  },
+  "anth.cTaNum": { de: "Subterranean Press, USA, 2016 · 224 signierte, nummerierte Ex.", en: "Subterranean Press, USA, 2016 · 224 signed, numbered copies" },
+  "anth.cTaLet": { de: "Subterranean Press, USA, 2016 · 26 signierte Ex. mit Buchstaben", en: "Subterranean Press, USA, 2016 · 26 signed, lettered copies" },
+  "anth.cTaUk": { de: "SST Publications, UK, 2018 · limitiert auf 600 Ex.", en: "SST Publications, UK, 2018 · limited to 600 copies" },
+  "anth.cTaProof": { de: "SST Publications, UK, 2018 · Vorab-Korrekturfahne", en: "SST Publications, UK, 2018 · advance proof" },
+  "anth.bbSyn": {
+    de: "Zwei Geschichten aus den Books of Blood über den Aufstand des Fleisches, neu gebunden: <em>The Body Politic</em> — die Hände eines Mannes kündigen ihm die Gefolgschaft — und <em>In the Flesh</em>. Dark Regions Press brachte den illustrierten Band 2017 in drei limitierten, signierten Hardcover-Ausgaben heraus, 2018 folgte das Taschenbuch.",
+    en: "Two stories from the Books of Blood about the flesh in revolt, newly bound: <em>The Body Politic</em> — a man's hands renounce their allegiance — and <em>In the Flesh</em>. Dark Regions Press published the illustrated volume in 2017 in three limited, signed hardback editions, with a paperback following in 2018."
+  },
+  "anth.cBbNum": { de: "Dark Regions Press, USA, 2017 · 500 signierte, nummerierte Ex.", en: "Dark Regions Press, USA, 2017 · 500 signed, numbered copies" },
+  "anth.cBbLet": { de: "Dark Regions Press, USA, 2017 · 13 Ex. in Schmuckkassette", en: "Dark Regions Press, USA, 2017 · 13 traycased copies" },
+
   /* Interviews page */
   "title.interviews": {
     de: "Interviews — Revelations · Clive Barker × Fable 5",
@@ -384,6 +458,7 @@ window.TRANSLATIONS = {
   "werke.c5":  { de: "Graphic Novels &amp; Comics", en: "Graphic Novels &amp; Comics" },
   "werke.c6":  { de: "Sachbücher", en: "Non-Fiction" },
   "werke.c7":  { de: "Anthologien", en: "Anthologies" },
+  "werke.c7m": { de: "4 Sammelbände · 1999–2017 · eigene Seite", en: "4 collections · 1999–2017 · own page" },
   "werke.c8":  { de: "Theater", en: "Theatre" },
   "werke.c8m": { de: "Incarnations, Forms of Heaven & Playscripts · eigene Seite", en: "Incarnations, Forms of Heaven & playscripts · own page" },
   "werke.archive": { de: "Revelations-Archiv ↗", en: "Revelations archive ↗" },
