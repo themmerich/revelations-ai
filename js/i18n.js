@@ -369,6 +369,124 @@ window.TRANSLATIONS = {
   "nf.cE4": { de: "Hi-Fructose, Vol. 33, 2014 · Giger-Nachruf", en: "Hi-Fructose, Vol. 33, 2014 · Giger remembrance" },
   "nf.cE5": { de: "Candyman auf Vinyl, One Way Static, 2014 · Liner Notes", en: "Candyman on vinyl, One Way Static, 2014 · liner notes" },
 
+  /* Proofs page */
+  "title.proofs": {
+    de: "Proofs — Revelations · The official Clive Barker Website",
+    en: "Proofs — Revelations · The official Clive Barker Website"
+  },
+  "pr.eyebrow": {
+    de: "Proofs · Korrekturfahnen &amp; Vorabdrucke · nach dem Revelations-Archiv",
+    en: "Proofs · uncorrected proofs &amp; advance copies · after the Revelations archive"
+  },
+  "pr.title": { de: "Die <em>Proofs</em>", en: "The <em>Proofs</em>" },
+  "pr.lede": {
+    de: "Die unscheinbarsten Bücher des Archivs sind die begehrtesten: Korrekturfahnen, Vorabexemplare und spiralgebundene Typoskripte, gedruckt in Kleinstauflagen für Lektoren und Rezensenten — manche existieren nur ein einziges Mal.",
+    en: "The plainest books in the archive are the most coveted: uncorrected proofs, advance copies and spiralbound typescripts, printed in tiny runs for editors and reviewers — some of which exist only once."
+  },
+  "pr.archiveNotes": { de: "Aus dem Archiv", en: "From the archive" },
+  "pr.selected": { de: "Ausgewählte Proofs", en: "Selected proofs" },
+  "pr.nH": { de: "Die <em>Romane</em>", en: "The <em>Novels</em>" },
+  "pr.nLead": { de: "Als &bdquo;The Art&ldquo; · Typoskript-Proofs von The Great and Secret Show, 1988", en: "As &lsquo;The Art&rsquo; · typescript proofs of The Great and Secret Show, 1988" },
+  "pr.nSyn": {
+    de: "Bevor ein Roman in den Handel kommt, geht er als Proof durch die Welt: unkorrigierte Fahnen für Lektorat und Presse, meist broschiert, oft mit Behelfsumschlag. Das Revelations-Archiv verzeichnet sie von The Damnation Game (1985) bis The Scarlet Gospels (2015) — samt Preisführer für Sammler.",
+    en: "Before a novel reaches the shops it travels the world as a proof: uncorrected sheets for editors and press, usually in paperback, often with a makeshift cover. The Revelations archive records them from The Damnation Game (1985) to The Scarlet Gospels (2015) — complete with a collectors' price guide."
+  },
+  "pr.nN1": {
+    de: "The Great and Secret Show zirkulierte 1988 zuerst als spiralgebundenes, unkorrigiertes Typoskript — noch unter dem Arbeitstitel The Art.",
+    en: "The Great and Secret Show first circulated in 1988 as a spiralbound, uncorrected typescript — still under its working title, The Art."
+  },
+  "pr.nN2": {
+    de: "Vom Weaveworld-Vorabdruck bei Collins existieren zwei Varianten mit identischem Umschlag: Beide nennen sich &bdquo;Special advance reader&rsquo;s sample: Parts 1–4&ldquo; — die eine enthält nur das erste Buch, die andere den kompletten Text.",
+    en: "The Collins advance of Weaveworld exists in two variants with identical covers: both call themselves &lsquo;Special advance reader&rsquo;s sample: Parts 1–4&rsquo; — one contains only Book One, the other the complete text."
+  },
+  "pr.nN3": {
+    de: "Für Abarat ließ HarperCollins die losen Seitenfahnen auch gelocht, gebunden und einzeln nummeriert kursieren — Vorboten des vierfarbigen Bilderromans.",
+    en: "For Abarat, HarperCollins also circulated the loose page proofs punched, bound and individually numbered — heralds of the full-colour illustrated novel."
+  },
+  "pr.nN4": {
+    de: "Das teuerste Stück der Rubrik ist das älteste: Die Korrekturfahne der UK-Erstausgabe von The Damnation Game führt der Archiv-Preisführer mit 300 bis 350 Dollar.",
+    en: "The most expensive piece in the section is the oldest: the archive's price guide lists the proof of the UK first edition of The Damnation Game at $300 to $350."
+  },
+  "pr.cN1": { de: "Weidenfeld &amp; Nicolson, UK, 1985 · Korrekturfahne", en: "Weidenfeld &amp; Nicolson, UK, 1985 · paperback proof" },
+  "pr.cN2": { de: "Poseidon, USA, 1987 · Proof, 3.500 Ex.", en: "Poseidon, USA, 1987 · proof, 3,500 copies" },
+  "pr.cN3": { de: "Pocket Books, USA, 1988 · Vorabdruck in Box", en: "Pocket Books, USA, 1988 · boxed advance printing" },
+  "pr.cN4": { de: "Als &bdquo;The Art&ldquo;, 1988 · Typoskript, spiralgebunden", en: "As &lsquo;The Art&rsquo;, 1988 · spiralbound typescript" },
+  "pr.cN5": { de: "HarperCollins, UK, 1991 · Korrekturfahne", en: "HarperCollins, UK, 1991 · paperback proof" },
+  "pr.cN6": { de: "HarperCollins, UK, 1996 · Seitenfahnen, spiralgebunden", en: "HarperCollins, UK, 1996 · spiralbound page proofs" },
+  "pr.cN7": { de: "HarperCollins, USA, 2001 · nummerierte Seitenfahnen", en: "HarperCollins, USA, 2001 · numbered page proofs" },
+  "pr.cN8": { de: "Earthling, USA, 2015 · Proof der limitierten Ausgabe", en: "Earthling, USA, 2015 · proof of the limited edition" },
+  "pr.bLead": { de: "Books of Blood 1–3, Ace/Putnam, USA, 1988 · Proof des Sammelbands", en: "Books of Blood 1–3, Ace/Putnam, USA, 1988 · proof of the collected volume" },
+  "pr.bSyn": {
+    de: "Auch die Erzählungssammlungen, die Barker berühmt machten, liefen vorab durch die Redaktionen: Berkley und Poseidon druckten Mitte der Achtziger broschierte Proofs der sechs Bände, dazu kamen Sammel- und Auslandsausgaben — bis hin zur deutschen Fahne von Droemer Knaur.",
+    en: "The story collections that made Barker famous also passed through the editorial offices first: in the mid-eighties Berkley and Poseidon printed paperback proofs of the six volumes, joined by collected and foreign editions — down to the German proof from Droemer Knaur."
+  },
+  "pr.bN1": {
+    de: "Das kurioseste Stück: Poseidon druckte 1986 einen Vorab-Proof, der aus The Inhuman Condition allein die Erzählung Revelations enthält — plus eine zweiseitige Würdigung von Stephen King.",
+    en: "The oddest piece: in 1986 Poseidon printed a preview proof containing just one tale from The Inhuman Condition — Revelations — plus a two-page appreciation by Stephen King."
+  },
+  "pr.bN2": {
+    de: "Auch der deutsche Markt bekam seine Fahne: Droemer Knaur zog 1986 in München einen broschierten Proof des ersten Blutbuchs ab.",
+    en: "The German market got its proof too: in 1986 Droemer Knaur in Munich ran off a paperback proof of the first Book of Blood."
+  },
+  "pr.bN3": {
+    de: "Der Ace/Putnam-Proof des Sammelbands von 1988 enthält bereits das Postscript On Jerusalem Street — den Epilog, mit dem sich der Kreis der Blutbücher schließt.",
+    en: "The 1988 Ace/Putnam proof of the collected volume already contains the postscript On Jerusalem Street — the epilogue that closes the circle of the Books of Blood."
+  },
+  "pr.cB1": { de: "Berkley, USA, 1986 · Vol. Two, Korrekturfahne", en: "Berkley, USA, 1986 · Vol. Two, paperback proof" },
+  "pr.cB2": { de: "Berkley, USA, 1986 · Vol. Three, Korrekturfahne", en: "Berkley, USA, 1986 · Vol. Three, paperback proof" },
+  "pr.cB3": { de: "Poseidon, USA, 1986 · Preview-Proof mit King-Würdigung", en: "Poseidon, USA, 1986 · preview proof with King appreciation" },
+  "pr.cB4": { de: "In The Flesh, Poseidon, USA, 1985 · Korrekturfahne", en: "In The Flesh, Poseidon, USA, 1985 · paperback proof" },
+  "pr.cB5": { de: "Droemer Knaur, München, 1986 · deutsche Fahne", en: "Droemer Knaur, Munich, 1986 · German proof" },
+  "pr.cB6": { de: "Ace/Putnam, USA, 1988 · Sammelband-Proof", en: "Ace/Putnam, USA, 1988 · collected-volume proof" },
+  "pr.sH": { de: "Erzählungen, Poesie, <em>Kunst &amp; Theater</em>", en: "Short Stories, Poetry, <em>Art &amp; Theatre</em>" },
+  "pr.sLead": { de: "Cabal, Poseidon, USA, 1988 · Typoskript-Proofs, spiralgebunden", en: "Cabal, Poseidon, USA, 1988 · spiralbound typescript proofs" },
+  "pr.sSyn": {
+    de: "Die kurze Form streut am weitesten: Novellen wie Cabal und The Hellbound Heart, Beiträge zu Anthologien von Cutting Edge bis Dark Delicacies, dazu die Fahnen der Gedichte, Theaterstücke und Kunstbände — vom Incarnations-Proof bis zu den Druckfahnen von Visions of Heaven and Hell.",
+    en: "The short form scatters furthest: novellas like Cabal and The Hellbound Heart, contributions to anthologies from Cutting Edge to Dark Delicacies, plus the proofs of the poems, plays and art books — from the Incarnations proof to the printer's proofs of Visions of Heaven and Hell."
+  },
+  "pr.sN1": {
+    de: "Cabal lief wie The Art zuerst als unkorrigiertes, spiralgebundenes Typoskript durch das Haus Poseidon — im Preisführer des Archivs mit rund 300 Dollar notiert.",
+    en: "Like The Art, Cabal first went through Poseidon as an uncorrected spiralbound typescript — listed in the archive's price guide at around $300."
+  },
+  "pr.sN2": {
+    de: "Von den Seitenfahnen der Hellbound-Heart-Ausgabe bei Earthling existiert genau ein Exemplar — das Extremste, was der Begriff Kleinstauflage hergibt.",
+    en: "Exactly one copy exists of the page proofs for Earthling's Hellbound Heart edition — the smallest a small print run can get."
+  },
+  "pr.sN3": {
+    de: "Selbst die Theaterstücke und Kunstbände gingen in Fahnen: Incarnations als HarperPrism-Proof von 1995, Visions of Heaven and Hell als Druckfahnen von Rizzoli/Universe.",
+    en: "Even the plays and art books went out in proofs: Incarnations as a 1995 HarperPrism proof, Visions of Heaven and Hell as printer's page proofs from Rizzoli/Universe."
+  },
+  "pr.cS1": { de: "Poseidon, USA, 1988 · Typoskript, spiralgebunden", en: "Poseidon, USA, 1988 · spiralbound typescript" },
+  "pr.cS2": { de: "Earthling, USA, 2007 · Seitenfahnen, Einzelstück", en: "Earthling, USA, 2007 · page proofs, single copy" },
+  "pr.cS3": { de: "Subterranean Press, USA, 2013 · Korrekturfahne", en: "Subterranean Press, USA, 2013 · paperback proof" },
+  "pr.cS4": { de: "Bad Moon Books, USA, 2009 · Korrekturfahne", en: "Bad Moon Books, USA, 2009 · paperback proof" },
+  "pr.cS5": { de: "HarperPrism, USA, 1995 · Korrekturfahne", en: "HarperPrism, USA, 1995 · paperback proof" },
+  "pr.cS6": { de: "Rizzoli/Universe, USA, 2005 · Druckfahnen", en: "Rizzoli/Universe, USA, 2005 · printer's page proofs" },
+  "pr.rH": { de: "Bücher <em>über Clive</em>", en: "Books <em>about Clive</em>" },
+  "pr.rLead": { de: "The Dark Fantastic, HarperCollins, UK, 2001 · Seitenfahnen vor der Endfassung", en: "The Dark Fantastic, HarperCollins, UK, 2001 · page proofs before final updates" },
+  "pr.rSyn": {
+    de: "Auch die Sekundärliteratur läuft in Fahnen: die Biografie The Dark Fantastic, der Werkschau-Band Shadows in Eden, Bücher mit Barkers Einleitungen von Ramsey Campbells Scared Stiff bis Bradburys Dark Carnival — und Interviewbände wie Faces of Fear.",
+    en: "The secondary literature travels in proofs as well: the biography The Dark Fantastic, the career survey Shadows in Eden, books with Barker's introductions from Ramsey Campbell's Scared Stiff to Bradbury's Dark Carnival — and interview volumes like Faces of Fear."
+  },
+  "pr.rN1": {
+    de: "Das seltenste Stück der Rubrik: ein spiralgebundener Proof der Weird Tales No 292 mit eingeklebten Illustrationen und Probeumschlag — es existiert ein einziges Exemplar.",
+    en: "The rarest piece in the section: a spiralbound proof of Weird Tales No 292 with pasted-in illustrations and a proof colour cover — a single copy exists."
+  },
+  "pr.rN2": {
+    de: "Kleinstauflagen mit Ansage: Vom A4-Proof der King-Rat-Ausgabe entstanden sieben Exemplare, von den digitalen Fahnen des Painter-Taschenbuchs vier, von Bradburys Dark Carnival bei Gauntlet zwölf.",
+    en: "Tiny runs by design: seven copies were made of the A4 proof of the King Rat edition, four of the digital proofs for the Painter paperback, twelve of Bradbury's Dark Carnival at Gauntlet."
+  },
+  "pr.rN3": {
+    de: "Von Shadows in Eden, der ersten großen Werkschau, hat sich sogar der Produktions-Mock-up erhalten: ein Layout-Proof der ersten siebzig Seiten.",
+    en: "Of Shadows in Eden, the first major career survey, even the production mock-up survives: a layout proof of the book's first seventy pages."
+  },
+  "pr.cR1": { de: "Underwood Miller, USA, 1990 · Layout-Mock-up", en: "Underwood Miller, USA, 1990 · production mock-up" },
+  "pr.cR2": { de: "HarperCollins, UK, 2001 · Seitenfahnen, spiralgebunden", en: "HarperCollins, UK, 2001 · spiralbound page proofs" },
+  "pr.cR3": { de: "Scream Press, USA, 1986 · World-Fantasy-Convention-Proof", en: "Scream Press, USA, 1986 · World Fantasy Convention proof" },
+  "pr.cR4": { de: "Gauntlet Press, USA, 2001 · 12 Exemplare", en: "Gauntlet Press, USA, 2001 · 12 copies" },
+  "pr.cR5": { de: "Earthling, USA, 2005 · A4-Proof, 7 Exemplare", en: "Earthling, USA, 2005 · A4 proof, 7 copies" },
+  "pr.cR6": { de: "Weird Tales No 292, 1988 · Einzelstück", en: "Weird Tales No 292, 1988 · single copy" },
+
   /* Interviews page */
   "title.interviews": {
     de: "Interviews — Revelations · The official Clive Barker Website",
@@ -568,6 +686,8 @@ window.TRANSLATIONS = {
   "werke.c7m": { de: "4 Sammelbände · 1999–2017 · eigene Seite", en: "4 collections · 1999–2017 · own page" },
   "werke.c8":  { de: "Theater", en: "Theatre" },
   "werke.c8m": { de: "Incarnations, Forms of Heaven & Playscripts · eigene Seite", en: "Incarnations, Forms of Heaven & playscripts · own page" },
+  "werke.c9":  { de: "Proofs", en: "Proofs" },
+  "werke.c9m": { de: "Korrekturfahnen &amp; Vorabdrucke · eigene Seite", en: "Uncorrected proofs &amp; advance copies · own page" },
   "werke.archive": { de: "Revelations-Archiv ↗", en: "Revelations archive ↗" },
 
   /* Interviews section (home) */

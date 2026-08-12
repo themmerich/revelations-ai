@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Proofs — Revelations · The official Clive Barker Website</title>
+<meta name="description" content="Korrekturfahnen und Vorabdrucke aus Clive Barkers Werk: Romane, Books of Blood, Erzählungen und Bücher über Clive — nach dem Revelations-Archiv." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=IBM+Plex+Mono:wght@300;400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+<link rel="stylesheet" href="css/style.css?v=11" />
+</head>
+<body>
+
+<!-- Fixed Three.js stage -->
+<canvas id="stage"></canvas>
+
+<!-- Grain overlay -->
+<div class="grain" aria-hidden="true"></div>
+
+<!-- Custom cursor -->
+<div class="cursor" id="cursor" aria-hidden="true"><span class="cursor__label" id="cursorLabel"></span></div>
+
+<!-- Navigation -->
+<header class="nav" id="nav">
+  <a class="nav__logo" href="index.html">C·B</a>
+  <nav class="nav__links">
+    <a href="news.html" data-i18n="nav.news">News</a>
+    <a href="index.html#bio" data-i18n="nav.bio">Biografie</a>
+    <a href="index.html#werke" data-i18n="nav.werke">Werke</a>
+    <a href="index.html#film" data-i18n="nav.film">Film</a>
+    <a href="index.html#interviews" data-i18n="nav.interviews">Interviews</a>
+    <a href="index.html#galerie" data-i18n="nav.galerie">Galerie</a>
+    <a href="index.html#contact" class="nav__contact" data-i18n="nav.contact">Kontakt</a>
+    <button class="nav__lang mono" id="langToggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+
+<main>
+
+  <!-- PROOFS HERO -->
+  <section class="newshero">
+    <p class="hero__eyebrow mono reveal-line" data-i18n="pr.eyebrow">Proofs · Korrekturfahnen &amp; Vorabdrucke · nach dem Revelations-Archiv</p>
+    <h1 class="newshero__title reveal-line" data-i18n="pr.title">Die <em>Proofs</em></h1>
+    <div class="newshero__sub">
+      <p class="newshero__lede reveal-line" data-i18n="pr.lede">Die unscheinbarsten Bücher des Archivs sind die
+      begehrtesten: Korrekturfahnen, Vorabexemplare und spiralgebundene Typoskripte, gedruckt in Kleinstauflagen für
+      Lektoren und Rezensenten — manche existieren nur ein einziges Mal.</p>
+    </div>
+  </section>
+
+  <!-- NOVELS -->
+  <section class="noveldetail">
+    <div class="section__head">
+      <span class="section__num mono">PR–01</span>
+      <h2 class="section__title" data-i18n="pr.nH">Die <em>Romane</em></h2>
+    </div>
+    <div class="noveldetail__grid">
+      <figure class="noveldetail__leadwrap reveal-news">
+        <div class="bio__imgwrap"><img src="assets/covers/proofs/artpr2.jpg" alt="The Great and Secret Show — spiralgebundene Typoskript-Proofs unter dem Titel The Art, 1988" /></div>
+        <figcaption class="mono" data-i18n="pr.nLead">Als &bdquo;The Art&ldquo; · Typoskript-Proofs von The Great and Secret Show, 1988</figcaption>
+      </figure>
+      <div class="noveldetail__text">
+        <h2 class="noveldetail__h mono" data-i18n="novel.synopsis">Worum es geht</h2>
+        <p class="noveldetail__syn" data-i18n="pr.nSyn">Bevor ein Roman in den Handel kommt, geht er als Proof durch die
+        Welt: unkorrigierte Fahnen für Lektorat und Presse, meist broschiert, oft mit Behelfsumschlag. Das
+        Revelations-Archiv verzeichnet sie von The Damnation Game (1985) bis The Scarlet Gospels (2015) — samt
+        Preisführer für Sammler.</p>
+        <h2 class="noveldetail__h mono" data-i18n="pr.archiveNotes">Aus dem Archiv</h2>
+        <ul class="novelnotes">
+          <li class="novelnote reveal-news">
+            <p data-i18n="pr.nN1">The Great and Secret Show zirkulierte 1988 zuerst als spiralgebundenes, unkorrigiertes
+            Typoskript — noch unter dem Arbeitstitel The Art.</p>
+            <p class="novelnote__src mono">Revelations-Archiv · Proofs</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="pr.nN2">Vom Weaveworld-Vorabdruck bei Collins existieren zwei Varianten mit identischem
+            Umschlag: Beide nennen sich &bdquo;Special advance reader&rsquo;s sample: Parts 1–4&ldquo; — die eine
+            enthält nur das erste Buch, die andere den kompletten Text.</p>
+            <p class="novelnote__src mono">Collins, UK · 1987</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="pr.nN3">Für Abarat ließ HarperCollins die losen Seitenfahnen auch gelocht, gebunden und
+            einzeln nummeriert kursieren — Vorboten des vierfarbigen Bilderromans.</p>
+            <p class="novelnote__src mono">HarperCollins, USA · 2001</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="pr.nN4">Das teuerste Stück der Rubrik ist das älteste: Die Korrekturfahne der UK-Erstausgabe
+            von The Damnation Game führt der Archiv-Preisführer mit 300 bis 350 Dollar.</p>
+            <p class="novelnote__src mono">Weidenfeld &amp; Nicolson, UK · 1985</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="coversection">
+      <div class="coversection__head">
+        <h2 class="section__title section__title--small" data-i18n="pr.selected">Ausgewählte Proofs</h2>
+        <p class="mono coversection__hint" data-i18n="novel.coverHint">Klick vergrößert das Cover</p>
+      </div>
+      <div class="coverrow">
+        <figure class="coverfig" data-title="The Damnation Game">
+          <img src="assets/covers/proofs/damnatpruk1.JPG" alt="The Damnation Game — UK-Korrekturfahne, Weidenfeld &amp; Nicolson, 1985" loading="lazy" />
+          <figcaption class="mono" data-i18n="pr.cN1">Weidenfeld &amp; Nicolson, UK, 1985 · Korrekturfahne</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Weaveworld">
+          <img src="assets/covers/proofs/weaveuspr1.JPG" alt="Weaveworld — US-Proof des handkorrigierten Typoskripts, Poseidon, 1987" loading="lazy" />
+          <figcaption class="mono" data-i18n="pr.cN2">Poseidon, USA, 1987 · Proof, 3.500 Ex.</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Weaveworld">
+          <img src="assets/covers/proofs/weavebox.JPG" alt="Weaveworld — Special advance printing in Box, Pocket Books, 1988" loading="lazy" />
+          <figcaption class="mono" data-i18n="pr.cN3">Pocket Books, USA, 1988 · Vorabdruck in Box</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="The Great and Secret Show — als &bdquo;The Art&ldquo;">
+          <img src="assets/covers/proofs/artpr2.jpg" alt="The Great and Secret Show als The Art — Typoskript-Proofs, 1988" loading="lazy" />
+          <figcaption class="mono" data-i18n="pr.cN4">Als &bdquo;The Art&ldquo;, 1988 · Typoskript, spiralgebunden</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Imajica">
+          <img src="assets/covers/proofs/imajicaukpr1.JPG" alt="Imajica — UK-Korrekturfahne, HarperCollins, 1991" loading="lazy" />
+          <figcaption class="mono" data-i18n="pr.cN5">HarperCollins, UK, 1991 · Korrekturfahne</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Sacrament">
+          <img src="assets/covers/proofs/sacukpr1.jpg" alt="Sacrament — spiralgebundene UK-Seitenfahnen, HarperCollins, 1996" loading="lazy" />
+          <figcaption class="mono" data-i18n="pr.cN6">HarperCollins, UK, 1996 · Seitenfahnen, spiralgebunden</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Abarat">
+          <img src="assets/covers/proofs/abaratusprnum.jpg" alt="Abarat — nummerierte, gebundene Seitenfahnen, HarperCollins, 2001" loading="lazy" />
+          <figcaption class="mono" data-i18n="pr.cN7">HarperCollins, USA, 2001 · nummerierte Seitenfahnen</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="The Scarlet Gospels">
+          <img src="assets/covers/proofs/scarletuspr2.jpg" alt="The Scarlet Gospels — spiralgebundener Proof der limitierten Ausgabe, Earthling, 2015" loading="lazy" />
+          <figcaption class="mono" data-i18n="pr.cN8">Earthling, USA, 2015 · Proof der limitierten Ausgabe</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOOKS OF BLOOD -->
+  <section class="noveldetail">
+    <div class="section__head">
+      <span class="section__num mono">PR–02</span>
+      <h2 class="section__title">Books <em>of Blood</em></h2>
+    </div>
+    <div class="noveldetail__grid">
+      <figure class="noveldetail__leadwrap reveal-news">
+        <div class="bio__imgwrap"><img src="assets/covers/proofs/bob123uspr1.JPG" alt="Books of Blood 1–3 — US-Proof des Sammelbands, Ace/Putnam, 1988" /></div>
+        <figcaption class="mono" data-i18n="pr.bLead">Books of Blood 1–3, Ace/Putnam, USA, 1988 · Proof des Sammelbands</figcaption>
+      </figure>
+      <div class="noveldetail__text">
+        <h2 class="noveldetail__h mono" data-i18n="novel.synopsis">Worum es geht</h2>
+        <p class="noveldetail__syn" data-i18n="pr.bSyn">Auch die Erzählungssammlungen, die Barker berühmt machten,
+        liefen vorab durch die Redaktionen: Berkley und Poseidon druckten Mitte der Achtziger broschierte Proofs der
+        sechs Bände, dazu kamen Sammel- und Auslandsausgaben — bis hin zur deutschen Fahne von Droemer Knaur.</p>
+        <h2 class="noveldetail__h mono" data-i18n="pr.archiveNotes">Aus dem Archiv</h2>
+        <ul class="novelnotes">
+          <li class="novelnote reveal-news">
+            <p data-i18n="pr.bN1">Das kurioseste Stück: Poseidon druckte 1986 einen Vorab-Proof, der aus The Inhuman
+            Condition allein die Erzählung Revelations enthält — plus eine zweiseitige Würdigung von Stephen King.</p>
+            <p class="novelnote__src mono">Poseidon Press, USA · 1986</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="pr.bN2">Auch der deutsche Markt bekam seine Fahne: Droemer Knaur zog 1986 in München einen
+            broschierten Proof des ersten Blutbuchs ab.</p>
+            <p class="novelnote__src mono">Droemer Knaur, München · 1986</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="pr.bN3">Der Ace/Putnam-Proof des Sammelbands von 1988 enthält bereits das Postscript On
+            Jerusalem Street — den Epilog, mit dem sich der Kreis der Blutbücher schließt.</p>
+            <p class="novelnote__src mono">Ace/Putnam, USA · 1988</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="coversection">
+      <div class="coversection__head">
+        <h2 class="section__title section__title--small" data-i18n="pr.selected">Ausgewählte Proofs</h2>
+        <p class="mono coversection__hint" data-i18n="novel.coverHint">Klick vergrößert das Cover</p>
+      </div>
+      <div class="coverrow">
+        <figure class="coverfig" data-title="Books of Blood, Volume Two">
+          <img src="assets/covers/proofs/bob2uspr1.jpg" alt="Books of Blood Volume Two — US-Proof, Berkley, 1986" loading="lazy" />
+          <figcaption class="mono" data-i18n="pr.cB1">Berkley, USA, 1986 · Vol. Two, Korrekturfahne</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Books of Blood, Volume Three">
+          <img src="assets/covers/proofs/bob3uspr1.JPG" alt="Books of Blood Volume Three — US-Proof, Berkley, 1986" loading="lazy" />
+          <figcaption class="mono" data-i18n="pr.cB2">Berkley, USA, 1986 · Vol. Three, Korrekturfahne</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="The Inhuman Condition — Preview-Proof">
+          <img src="assets/covers/proofs/inhconduspr1.JPG" alt="A Special Preview Tale from The Inhuman Condition — Proof mit Stephen-King-Würdigung, Poseidon, 1986" loading="lazy" />
+          <figcaption class="mono" data-i18n="pr.cB3">Poseidon, USA, 1986 · Preview-Proof mit King-Würdigung</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="In the Flesh">
+          <img src="assets/covers/proofs/bob5uspr1.JPG" alt="In the Flesh — US-Proof, Poseidon, 1985" loading="lazy" />
+          <figcaption class="mono" data-i18n="pr.cB4">In The Flesh, Poseidon, USA, 1985 · Korrekturfahne</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Das erste Buch des Blutes">
+          <img src="assets/covers/proofs/bob1germpr1.JPG" alt="Books of Blood Volume One — deutsche Korrekturfahne, Droemer Knaur, 1986" loading="lazy" />
+          <figcaption class="mono" data-i18n="pr.cB5">Droemer Knaur, München, 1986 · deutsche Fahne</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Books of Blood, Volumes 1–3">
+          <img src="assets/covers/proofs/bob123uspr1.JPG" alt="Books of Blood 1–3 — US-Proof des Sammelbands, Ace/Putnam, 1988" loading="lazy" />
+          <figcaption class="mono" data-i18n="pr.cB6">Ace/Putnam, USA, 1988 · Sammelband-Proof</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- SHORT STORIES, POETRY, ART, THEATRE -->
+  <section class="noveldetail">
+    <div class="section__head">
+      <span class="section__num mono">PR–03</span>
+      <h2 class="section__title" data-i18n="pr.sH">Erzählungen, Poesie, <em>Kunst &amp; Theater</em></h2>
+    </div>
+    <div class="noveldetail__grid">
+      <figure class="noveldetail__leadwrap reveal-news">
+        <div class="bio__imgwrap"><img src="assets/covers/proofs/cabalmanu.JPG" alt="Cabal — unkorrigierte, spiralgebundene Typoskript-Proofs, Poseidon, 1988" /></div>
+        <figcaption class="mono" data-i18n="pr.sLead">Cabal, Poseidon, USA, 1988 · Typoskript-Proofs, spiralgebunden</figcaption>
+      </figure>
+      <div class="noveldetail__text">
+        <h2 class="noveldetail__h mono" data-i18n="novel.synopsis">Worum es geht</h2>
+        <p class="noveldetail__syn" data-i18n="pr.sSyn">Die kurze Form streut am weitesten: Novellen wie Cabal und The
+        Hellbound Heart, Beiträge zu Anthologien von Cutting Edge bis Dark Delicacies, dazu die Fahnen der Gedichte,
+        Theaterstücke und Kunstbände — vom Incarnations-Proof bis zu den Druckfahnen von Visions of Heaven and Hell.</p>
+        <h2 class="noveldetail__h mono" data-i18n="pr.archiveNotes">Aus dem Archiv</h2>
+        <ul class="novelnotes">
+          <li class="novelnote reveal-news">
+            <p data-i18n="pr.sN1">Cabal lief wie The Art zuerst als unkorrigiertes, spiralgebundenes Typoskript durch
+            das Haus Poseidon — im Preisführer des Archivs mit rund 300 Dollar notiert.</p>
+            <p class="novelnote__src mono">Poseidon Press, USA · 1988</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="pr.sN2">Von den Seitenfahnen der Hellbound-Heart-Ausgabe bei Earthling existiert genau ein
+            Exemplar — das Extremste, was der Begriff Kleinstauflage hergibt.</p>
+            <p class="novelnote__src mono">Earthling Publications, USA · 2007</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="pr.sN3">Selbst die Theaterstücke und Kunstbände gingen in Fahnen: Incarnations als
+            HarperPrism-Proof von 1995, Visions of Heaven and Hell als Druckfahnen von Rizzoli/Universe.</p>
+            <p class="novelnote__src mono">HarperPrism 1995 · Rizzoli/Universe 2005</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="coversection">
+      <div class="coversection__head">
+        <h2 class="section__title section__title--small" data-i18n="pr.selected">Ausgewählte Proofs</h2>
+        <p class="mono coversection__hint" data-i18n="novel.coverHint">Klick vergrößert das Cover</p>
+      </div>
+      <div class="coverrow">
+        <figure class="coverfig" data-title="Cabal">
+          <img src="assets/covers/proofs/cabalmanu.JPG" alt="Cabal — Typoskript-Proofs, Poseidon, 1988" loading="lazy" />
+          <figcaption class="mono" data-i18n="pr.cS1">Poseidon, USA, 1988 · Typoskript, spiralgebunden</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="The Hellbound Heart">
+          <img src="assets/covers/proofs/hellboundhuspages1.jpg" alt="The Hellbound Heart — Seitenfahnen, Earthling, 2007, Einzelstück" loading="lazy" />
+          <figcaption class="mono" data-i18n="pr.cS2">Earthling, USA, 2007 · Seitenfahnen, Einzelstück</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Chiliad: A Meditation">
+          <img src="assets/covers/proofs/chiliaduspr2.jpg" alt="Chiliad — US-Proof, Subterranean Press, 2013" loading="lazy" />
+          <figcaption class="mono" data-i18n="pr.cS3">Subterranean Press, USA, 2013 · Korrekturfahne</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Mr. Maximillian Bacchus">
+          <img src="assets/covers/proofs/bacchuspr1.jpg" alt="The Adventures of Mr. Maximillian Bacchus — Proof, Bad Moon Books, 2009" loading="lazy" />
+          <figcaption class="mono" data-i18n="pr.cS4">Bad Moon Books, USA, 2009 · Korrekturfahne</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Incarnations">
+          <img src="assets/covers/proofs/incarnuspr1.JPG" alt="Incarnations — US-Proof, HarperPrism, 1995" loading="lazy" />
+          <figcaption class="mono" data-i18n="pr.cS5">HarperPrism, USA, 1995 · Korrekturfahne</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Visions of Heaven and Hell">
+          <img src="assets/covers/proofs/visionsuspr1.jpg" alt="Visions of Heaven and Hell — Druckfahnen, Rizzoli/Universe, 2005" loading="lazy" />
+          <figcaption class="mono" data-i18n="pr.cS6">Rizzoli/Universe, USA, 2005 · Druckfahnen</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- RELATED BOOKS -->
+  <section class="noveldetail">
+    <div class="section__head">
+      <span class="section__num mono">PR–04</span>
+      <h2 class="section__title" data-i18n="pr.rH">Bücher <em>über Clive</em></h2>
+    </div>
+    <div class="noveldetail__grid">
+      <figure class="noveldetail__leadwrap reveal-news">
+        <div class="bio__imgwrap"><img src="assets/covers/proofs/darkfanukpr1.JPG" alt="Clive Barker: The Dark Fantastic — spiralgebundene UK-Seitenfahnen, HarperCollins, 2001" /></div>
+        <figcaption class="mono" data-i18n="pr.rLead">The Dark Fantastic, HarperCollins, UK, 2001 · Seitenfahnen vor der Endfassung</figcaption>
+      </figure>
+      <div class="noveldetail__text">
+        <h2 class="noveldetail__h mono" data-i18n="novel.synopsis">Worum es geht</h2>
+        <p class="noveldetail__syn" data-i18n="pr.rSyn">Auch die Sekundärliteratur läuft in Fahnen: die Biografie The
+        Dark Fantastic, der Werkschau-Band Shadows in Eden, Bücher mit Barkers Einleitungen von Ramsey Campbells Scared
+        Stiff bis Bradburys Dark Carnival — und Interviewbände wie Faces of Fear.</p>
+        <h2 class="noveldetail__h mono" data-i18n="pr.archiveNotes">Aus dem Archiv</h2>
+        <ul class="novelnotes">
+          <li class="novelnote reveal-news">
+            <p data-i18n="pr.rN1">Das seltenste Stück der Rubrik: ein spiralgebundener Proof der Weird Tales No 292 mit
+            eingeklebten Illustrationen und Probeumschlag — es existiert ein einziges Exemplar.</p>
+            <p class="novelnote__src mono">Terminus Publishing, USA · 1988</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="pr.rN2">Kleinstauflagen mit Ansage: Vom A4-Proof der King-Rat-Ausgabe entstanden sieben
+            Exemplare, von den digitalen Fahnen des Painter-Taschenbuchs vier, von Bradburys Dark Carnival bei Gauntlet
+            zwölf.</p>
+            <p class="novelnote__src mono">Earthling 2005 · Archive 2018 · Gauntlet 2001</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="pr.rN3">Von Shadows in Eden, der ersten großen Werkschau, hat sich sogar der
+            Produktions-Mock-up erhalten: ein Layout-Proof der ersten siebzig Seiten.</p>
+            <p class="novelnote__src mono">Underwood Miller, USA · 1990</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="coversection">
+      <div class="coversection__head">
+        <h2 class="section__title section__title--small" data-i18n="pr.selected">Ausgewählte Proofs</h2>
+        <p class="mono coversection__hint" data-i18n="novel.coverHint">Klick vergrößert das Cover</p>
+      </div>
+      <div class="coverrow">
+        <figure class="coverfig" data-title="Shadows in Eden">
+          <img src="assets/covers/proofs/shadowsproof.jpg" alt="Shadows in Eden — Produktions-Mock-up, Underwood Miller, 1990" loading="lazy" />
+          <figcaption class="mono" data-i18n="pr.cR1">Underwood Miller, USA, 1990 · Layout-Mock-up</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Clive Barker: The Dark Fantastic">
+          <img src="assets/covers/proofs/darkfanukpr1.JPG" alt="The Dark Fantastic — UK-Seitenfahnen, HarperCollins, 2001" loading="lazy" />
+          <figcaption class="mono" data-i18n="pr.cR2">HarperCollins, UK, 2001 · Seitenfahnen, spiralgebunden</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Scared Stiff — Ramsey Campbell">
+          <img src="assets/covers/proofs/scaredstiffwfc.JPG" alt="Scared Stiff von Ramsey Campbell — World-Fantasy-Convention-Proof, Scream Press, 1986" loading="lazy" />
+          <figcaption class="mono" data-i18n="pr.cR3">Scream Press, USA, 1986 · World-Fantasy-Convention-Proof</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Dark Carnival — Ray Bradbury">
+          <img src="assets/covers/proofs/darkcarnival.JPG" alt="Dark Carnival von Ray Bradbury — Proof, Gauntlet Press, 2001, 12 Exemplare" loading="lazy" />
+          <figcaption class="mono" data-i18n="pr.cR4">Gauntlet Press, USA, 2001 · 12 Exemplare</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="King Rat — China Miéville">
+          <img src="assets/covers/proofs/kingratuspr.jpg" alt="King Rat von China Miéville — gebundener A4-Proof, Earthling, 2005, 7 Exemplare" loading="lazy" />
+          <figcaption class="mono" data-i18n="pr.cR5">Earthling, USA, 2005 · A4-Proof, 7 Exemplare</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Weird Tales, No 292">
+          <img src="assets/covers/proofs/weirdproof.JPG" alt="Weird Tales No 292 — spiralgebundener Proof mit eingeklebten Illustrationen, 1988, Einzelstück" loading="lazy" />
+          <figcaption class="mono" data-i18n="pr.cR6">Weird Tales No 292, 1988 · Einzelstück</figcaption>
+        </figure>
+      </div>
+    </div>
+    <p class="coversection__credit mono">Cover-Abbildungen: Revelations-Archiv (clivebarker.info) · Artwork © Clive Barker bzw. der jeweiligen Verlage</p>
+    <p class="news-backwrap"><a class="news-backlink mono" href="index.html#werke" data-i18n="art.back">← Zurück zu den Werken</a></p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__meta mono">
+      <p data-i18n="footer.m1">Sämtliche Gemälde &amp; Zeichnungen © Clive Barker · mit Dank an das Revelations-Archiv (clivebarker.info)</p>
+      <p data-i18n="footer.m2">Konzept, Text, Code &amp; Motion: Claude Fable 5 · Anthropic · 2026 — inoffizielles Fan-Projekt</p>
+    </div>
+  </footer>
+
+</main>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <div class="lightbox__backdrop" id="lightboxBackdrop"></div>
+  <figure class="lightbox__figure">
+    <img src="" alt="" id="lightboxImg" />
+    <figcaption>
+      <span class="lightbox__title" id="lightboxTitle"></span>
+      <span class="lightbox__meta mono" id="lightboxMeta"></span>
+      <span class="lightbox__credit mono">Revelations-Archiv · clivebarker.info</span>
+    </figcaption>
+  </figure>
+  <button class="lightbox__close mono" id="lightboxClose" aria-label="Schließen" data-i18n="lb.close">Schließen ✕</button>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.158.0/three.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="js/i18n.js?v=10"></script>
+<script src="js/scene.js"></script>
+<script src="js/proofs.js"></script>
+</body>
+</html>
