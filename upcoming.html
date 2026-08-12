@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Upcoming — Revelations · The official Clive Barker Website</title>
+<meta name="description" content="Clive Barkers kommende Projekte: Deep Hill, Fear Eternal, die Abarat-Bände, Serien und Spiele in Arbeit — und die nie realisierten Projekte im Schatten. Nach dem Revelations-Archiv." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=IBM+Plex+Mono:wght@300;400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+<link rel="stylesheet" href="css/style.css?v=11" />
+</head>
+<body>
+
+<!-- Fixed Three.js stage -->
+<canvas id="stage"></canvas>
+
+<!-- Grain overlay -->
+<div class="grain" aria-hidden="true"></div>
+
+<!-- Custom cursor -->
+<div class="cursor" id="cursor" aria-hidden="true"><span class="cursor__label" id="cursorLabel"></span></div>
+
+<!-- Navigation -->
+<header class="nav" id="nav">
+  <a class="nav__logo" href="index.html">C·B</a>
+  <nav class="nav__links">
+    <a href="news.html" data-i18n="nav.news">News</a>
+    <a href="index.html#bio" data-i18n="nav.bio">Biografie</a>
+    <a href="index.html#werke" data-i18n="nav.werke">Werke</a>
+    <a href="index.html#film" data-i18n="nav.film">Film</a>
+    <a href="index.html#upcoming" data-i18n="nav.upcoming">Upcoming</a>
+    <a href="index.html#interviews" data-i18n="nav.interviews">Interviews</a>
+    <a href="index.html#galerie" data-i18n="nav.galerie">Galerie</a>
+    <a href="index.html#contact" class="nav__contact" data-i18n="nav.contact">Kontakt</a>
+    <button class="nav__lang mono" id="langToggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+
+<main>
+
+  <!-- UPCOMING HERO -->
+  <section class="newshero">
+    <p class="hero__eyebrow mono reveal-line" data-i18n="up.eyebrow">Upcoming · in Arbeit &amp; im Schatten · nach dem Revelations-Archiv</p>
+    <h1 class="newshero__title reveal-line" data-i18n="up.title">Was <em>kommt</em></h1>
+    <div class="newshero__sub">
+      <p class="newshero__lede reveal-line" data-i18n="up.lede">Seit den Achtzigern erzählt Barker in jedem Interview
+      von hundertundein Projekten, die er in Arbeit hat. Manche werden Welterfolge — andere lauern bis heute im
+      Schatten. Das Archiv führt beides: die Werke in Arbeit und die Geister der Angekündigten.</p>
+    </div>
+  </section>
+
+  <!-- BOOKS IN PROGRESS -->
+  <section class="noveldetail" id="buecher">
+    <div class="section__head">
+      <span class="section__num mono">UP–01</span>
+      <h2 class="section__title" data-i18n="up.bH">Bücher <em>in Arbeit</em></h2>
+    </div>
+    <div class="noveldetail__grid">
+      <figure class="noveldetail__leadwrap reveal-news">
+        <div class="bio__imgwrap"><img src="assets/covers/upcoming/thetriberests.jpg" alt="The Tribe Rests — Abarat-Gemälde von Clive Barker" /></div>
+        <figcaption class="mono" data-i18n="up.bLead">The Tribe Rests · Abarat-Gemälde © Clive Barker</figcaption>
+      </figure>
+      <div class="noveldetail__text">
+        <h2 class="noveldetail__h mono" data-i18n="novel.synopsis">Worum es geht</h2>
+        <p class="noveldetail__syn" data-i18n="up.bSyn">Nach Jahren der Krankheit und Stille meldete sich Barker 2020
+        zurück — mit gleich vier Buchprojekten: einem neuen Roman, einer großen Erzählsammlung, einem halben
+        Jahrhundert Poesie und den letzten beiden Abarat-Bänden.</p>
+        <h2 class="noveldetail__h mono" data-i18n="up.projects">Die Projekte</h2>
+        <ul class="novelnotes">
+          <li class="novelnote reveal-news">
+            <p data-i18n="up.bN1">Deep Hill begann als Halloween-Roman mit dem Arbeitstitel Scarebaby. Als Barker das
+            redigierte Manuskript zurückbekam, erkannte er sein Buch nicht wieder, zog es zurück und begann von vorn:
+            größer, dunkler, eine unheimliche Invasion in einer Kleinstadt in Pennsylvania — eines der beängstigendsten
+            Bücher, sagt er, die er je geschrieben habe, getrieben von der Wut über den Verfall unserer Kultur.</p>
+            <p class="novelnote__src mono">Revelations 2019/2020 · Daily Telegraph, 2020</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="up.bN2">Fear Eternal sammelt verstreute und neue Kurzgeschichten samt der Novelle Mercy and
+            the Jackal — von den Nightbreed Chronicles über die Tortured-Souls-Erzählungen bis Chiliad. Barker nennt es
+            das Nächste an einem Books of Blood, das er seit den Books of Blood geschrieben hat.</p>
+            <p class="novelnote__src mono">Revelations, 2020 · Den of Geek, 2020</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="up.bN3">The Presence of This Breath versammelt über 250 Gedichte aus fünf Jahrzehnten,
+            herausgegeben von Paulo Andreas Lorca. Eine Kostprobe las Barker vorab am Telefon ein — mit gelegentlichen
+            Einwürfen seines Papageis Malingo.</p>
+            <p class="novelnote__src mono">Revelations, September 2020</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="up.bN4">Und die Abarat-Saga wartet auf ihre Vollendung: Band vier trägt den Arbeitstitel Kry
+            Rising, Band fünf Until The End Of Time — im Atelier stapeln sich weit über 500 fertige Gemälde für die
+            Inseln.</p>
+            <p class="novelnote__src mono">Revelations-Archiv · Current Book Projects</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- FILM & TV IN PROGRESS -->
+  <section class="noveldetail" id="filmtv">
+    <div class="section__head">
+      <span class="section__num mono">UP–02</span>
+      <h2 class="section__title" data-i18n="up.fH">Film &amp; TV <em>in Arbeit</em></h2>
+    </div>
+    <div class="noveldetail__grid">
+      <figure class="noveldetail__leadwrap reveal-news">
+        <div class="bio__imgwrap"><img src="assets/covers/damnation-game/damnatukh1.JPG" alt="The Damnation Game — UK-Erstausgabe; der Roman ist seit 2001 als Kinofilm in Entwicklung" /></div>
+        <figcaption class="mono" data-i18n="up.fLead">Die Vorlage: The Damnation Game · seit 2001 als Kinofilm in Entwicklung</figcaption>
+      </figure>
+      <div class="noveldetail__text">
+        <h2 class="noveldetail__h mono" data-i18n="novel.synopsis">Worum es geht</h2>
+        <p class="noveldetail__syn" data-i18n="up.fSyn">Fürs Kino sind Adaptionen von The Damnation Game, Abarat, The
+        Thief of Always, Mr. Maximillian Bacchus und Tortured Souls in Entwicklung; fürs Fernsehen Serien zu
+        Hellraiser, Nightbreed, Theatre of Blood, Weaveworld, Imajica und Lord of Illusions.</p>
+        <h2 class="noveldetail__h mono" data-i18n="up.projects">Die Projekte</h2>
+        <ul class="novelnotes">
+          <li class="novelnote reveal-news">
+            <p data-i18n="up.fN1">HBO entwickelt seit 2020 eine Hellraiser-Serie: David Gordon Green soll den Piloten
+            inszenieren, Mark Verheiden und Michael Dougherty schreiben. Kurz vor Halloween 2020 stieg Barker selbst
+            als Executive Producer ein — die Mythologie solle zu ihren Wurzeln zurückkehren, zur dunkelsten Form des
+            Bösen und der Kraft, ihr zu widerstehen.</p>
+            <p class="novelnote__src mono">Deadline, April &amp; Oktober 2020</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="up.fN2">Nightbreed soll als Serie auferstehen: Seit 2018 arbeiten Morgan Creek, Syfy und
+            Universal Cable Productions daran, Michael Dougherty schreibt und inszeniert, Barker produziert. Die Kultur,
+            sagt er, habe endlich zu Nightbreed aufgeschlossen — sie sei bereit, die Monster zu umarmen.</p>
+            <p class="novelnote__src mono">Morgan Creek, 2018 · Revelations, 2012</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="up.fN3">Der Dauerläufer: The Damnation Game wurde 2001 von Phoenix Pictures gekauft und
+            wanderte zu Warner — samt 40-Millionen-Gerüchten um Paul Newman und Sean Connery, die Barker selbst amüsiert
+            bezweifelte. Für ihn bleibt der Stoff ideal fürs Kino: ein Faust ohne Teufel, der auf altmodische Art
+            erschrecken soll.</p>
+            <p class="novelnote__src mono">Daily Variety, 2001 · Revelations, 2001</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- GAMES & ATTRACTIONS -->
+  <section class="noveldetail" id="games">
+    <div class="section__head">
+      <span class="section__num mono">UP–03</span>
+      <h2 class="section__title" data-i18n="up.gH">Games &amp; <em>Attraktionen</em></h2>
+    </div>
+    <div class="noveldetail__grid">
+      <figure class="noveldetail__leadwrap reveal-news">
+        <div class="bio__imgwrap"><img src="assets/covers/upcoming/hrrevivalbundle.jpg" alt="Hellraiser: Revival — Collector's-Edition-Bundles, Boss Team Games, 2025" /></div>
+        <figcaption class="mono" data-i18n="up.gLead">Hellraiser: Revival · Collector&rsquo;s Editions, Boss Team Games, 2025</figcaption>
+      </figure>
+      <div class="noveldetail__text">
+        <h2 class="noveldetail__h mono" data-i18n="novel.synopsis">Worum es geht</h2>
+        <p class="noveldetail__syn" data-i18n="up.gSyn">Die Cenobiten wechseln das Medium: Im Juli 2025 kündigten Saber
+        Interactive und Boss Team Games mit Hellraiser: Revival das erste große Hellraiser-Spiel an — und für 2026 ist
+        die Mythologie bei Universals Halloween Horror Nights angekündigt.</p>
+        <h2 class="noveldetail__h mono" data-i18n="up.projects">Die Projekte</h2>
+        <ul class="novelnotes">
+          <li class="novelnote reveal-news">
+            <p data-i18n="up.gN1">Hellraiser: Revival wird ein Single-Player-Spiel für PC, PlayStation 5 und Xbox
+            Series: Spieler Aidan muss mit der Macht einer mysteriösen Puzzle-Box — der Genesis Configuration — seine
+            Freundin aus dem Labyrinth befreien und sich dem Kult der Cenobiten stellen. Barker beschreibt die Arbeit am
+            ersten echten Hellraiser-Spiel als Expedition in die dunkelsten Winkel seiner Vorstellung.</p>
+            <p class="novelnote__src mono">Saber Interactive &amp; Boss Team Games · 22. Juli 2025</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="up.gN2">Und bei den Halloween Horror Nights 2026 der Universal Studios soll Hellraiser als
+            eigenes Haunted House durch die Nebelmaschinen wandern.</p>
+            <p class="novelnote__src mono">Revelations-Archiv · Games and Attractions</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- IN THE SHADOWS -->
+  <section class="noveldetail" id="schatten">
+    <div class="section__head">
+      <span class="section__num mono">UP–04</span>
+      <h2 class="section__title" data-i18n="up.sH">Im <em>Schatten</em></h2>
+    </div>
+    <div class="noveldetail__grid noveldetail__grid--noimg">
+      <div class="noveldetail__text">
+        <h2 class="noveldetail__h mono" data-i18n="novel.synopsis">Worum es geht</h2>
+        <p class="noveldetail__syn" data-i18n="up.sSyn">Der größere Teil der Rubrik gehört den Geistern: an die achtzig
+        Projekte, die angekündigt, entwickelt, verhandelt — und nie realisiert wurden. Das Archiv sammelt sie als
+        Chronik der ungeschriebenen Bibliothek und des ungedrehten Kinos.</p>
+        <h2 class="noveldetail__h mono" data-i18n="up.ghosts">Die berühmtesten Geister</h2>
+        <ul class="novelnotes">
+          <li class="novelnote reveal-news">
+            <p data-i18n="up.sN1">Bücher: ein Galilee 2, Cabal 2 und 3, ein Everville für Kinder, The Everything oder
+            die Comedy of Comedies — Fortsetzungen und Ideen, die Barker in Interviews versprach und wieder verwarf.</p>
+            <p class="novelnote__src mono">Revelations-Archiv · Books</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="up.sN2">Film: Nightbreed 2 und 3, Midnight Meat Train 2 und 3, Barkers Version von The Mummy,
+            Zombies vs. Gladiators — und ein Thief of Always als Animationsfilm.</p>
+            <p class="novelnote__src mono">Revelations-Archiv · Films</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="up.sN3">Fernsehen: gleich mehrere Anläufe zu den Books of Blood, zwei Hellraiser-Serien (1995
+            und 2012), Ectokid, Coldheart Canyon und die Damnation-Game-Miniserie, mit der alles begann.</p>
+            <p class="novelnote__src mono">Revelations-Archiv · Television</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="up.sN4">Und dazwischen alles andere: ein Hellraiser-Theaterstück, eine Oper nach The History
+            of the Devil, Spiele von Demonik bis zum Ectosphere-Game, Comics wie Mythonaut oder Pandemonium 2.</p>
+            <p class="novelnote__src mono">Revelations-Archiv · Other Media</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <p class="coversection__credit mono">Abbildungen: Revelations-Archiv (clivebarker.info) · Artwork © Clive Barker bzw. der jeweiligen Rechteinhaber</p>
+    <p class="news-backwrap"><a class="news-backlink mono" href="index.html#upcoming" data-i18n="up.back">← Zurück zur Übersicht</a></p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__meta mono">
+      <p data-i18n="footer.m1">Sämtliche Gemälde &amp; Zeichnungen © Clive Barker · mit Dank an das Revelations-Archiv (clivebarker.info)</p>
+      <p data-i18n="footer.m2">Konzept, Text, Code &amp; Motion: Claude Fable 5 · Anthropic · 2026 — inoffizielles Fan-Projekt</p>
+    </div>
+  </footer>
+
+</main>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <div class="lightbox__backdrop" id="lightboxBackdrop"></div>
+  <figure class="lightbox__figure">
+    <img src="" alt="" id="lightboxImg" />
+    <figcaption>
+      <span class="lightbox__title" id="lightboxTitle"></span>
+      <span class="lightbox__meta mono" id="lightboxMeta"></span>
+      <span class="lightbox__credit mono">Revelations-Archiv · clivebarker.info</span>
+    </figcaption>
+  </figure>
+  <button class="lightbox__close mono" id="lightboxClose" aria-label="Schließen" data-i18n="lb.close">Schließen ✕</button>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.158.0/three.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="js/i18n.js?v=10"></script>
+<script src="js/scene.js"></script>
+<script src="js/upcoming.js"></script>
+</body>
+</html>

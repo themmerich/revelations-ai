@@ -13,6 +13,7 @@ window.TRANSLATIONS = {
   "nav.bio":     { de: "Biografie", en: "Biography" },
   "nav.werke":   { de: "Werke", en: "Works" },
   "nav.film":    { de: "Film", en: "Film" },
+  "nav.upcoming": { de: "Upcoming", en: "Upcoming" },
   "nav.galerie": { de: "Galerie", en: "Gallery" },
   "nav.interviews": { de: "Interviews", en: "Interviews" },
   "nav.news":    { de: "News", en: "News" },
@@ -486,6 +487,114 @@ window.TRANSLATIONS = {
   "pr.cR4": { de: "Gauntlet Press, USA, 2001 · 12 Exemplare", en: "Gauntlet Press, USA, 2001 · 12 copies" },
   "pr.cR5": { de: "Earthling, USA, 2005 · A4-Proof, 7 Exemplare", en: "Earthling, USA, 2005 · A4 proof, 7 copies" },
   "pr.cR6": { de: "Weird Tales No 292, 1988 · Einzelstück", en: "Weird Tales No 292, 1988 · single copy" },
+
+  /* Upcoming page */
+  "title.upcoming": {
+    de: "Upcoming — Revelations · The official Clive Barker Website",
+    en: "Upcoming — Revelations · The official Clive Barker Website"
+  },
+  "up.eyebrow": {
+    de: "Upcoming · in Arbeit &amp; im Schatten · nach dem Revelations-Archiv",
+    en: "Upcoming · in progress &amp; in the shadows · after the Revelations archive"
+  },
+  "up.title": { de: "Was <em>kommt</em>", en: "What&rsquo;s <em>Coming</em>" },
+  "up.lede": {
+    de: "Seit den Achtzigern erzählt Barker in jedem Interview von hundertundein Projekten, die er in Arbeit hat. Manche werden Welterfolge — andere lauern bis heute im Schatten. Das Archiv führt beides: die Werke in Arbeit und die Geister der Angekündigten.",
+    en: "Since the eighties, every interview has had Barker talking about the hundred and one projects he has in the works. Some become worldwide successes — others are still lurking in the shadows. The archive keeps track of both: the works in progress and the ghosts of the announced."
+  },
+  "up.projects": { de: "Die Projekte", en: "The projects" },
+  "up.bH": { de: "Bücher <em>in Arbeit</em>", en: "Books <em>in Progress</em>" },
+  "up.bLead": { de: "The Tribe Rests · Abarat-Gemälde © Clive Barker", en: "The Tribe Rests · Abarat painting © Clive Barker" },
+  "up.bSyn": {
+    de: "Nach Jahren der Krankheit und Stille meldete sich Barker 2020 zurück — mit gleich vier Buchprojekten: einem neuen Roman, einer großen Erzählsammlung, einem halben Jahrhundert Poesie und den letzten beiden Abarat-Bänden.",
+    en: "After years of illness and silence, Barker announced his return in 2020 — with four book projects at once: a new novel, a major story collection, half a century of poetry and the final two Abarat volumes."
+  },
+  "up.bN1": {
+    de: "Deep Hill begann als Halloween-Roman mit dem Arbeitstitel Scarebaby. Als Barker das redigierte Manuskript zurückbekam, erkannte er sein Buch nicht wieder, zog es zurück und begann von vorn: größer, dunkler, eine unheimliche Invasion in einer Kleinstadt in Pennsylvania — eines der beängstigendsten Bücher, sagt er, die er je geschrieben habe, getrieben von der Wut über den Verfall unserer Kultur.",
+    en: "Deep Hill began as a Halloween novel under the working title Scarebaby. When Barker got the edited manuscript back he didn't recognise his own book, withdrew it and started over: bigger, darker, a strange invasion of a small Pennsylvania town — one of the scariest things he has ever written, he says, driven by rage at the decay of our culture."
+  },
+  "up.bN2": {
+    de: "Fear Eternal sammelt verstreute und neue Kurzgeschichten samt der Novelle Mercy and the Jackal — von den Nightbreed Chronicles über die Tortured-Souls-Erzählungen bis Chiliad. Barker nennt es das Nächste an einem Books of Blood, das er seit den Books of Blood geschrieben hat.",
+    en: "Fear Eternal gathers scattered and brand-new short fiction plus the novella Mercy and the Jackal — from the Nightbreed Chronicles and the Tortured Souls tales to Chiliad. Barker calls it the closest thing to a Books of Blood he has written since the Books of Blood."
+  },
+  "up.bN3": {
+    de: "The Presence of This Breath versammelt über 250 Gedichte aus fünf Jahrzehnten, herausgegeben von Paulo Andreas Lorca. Eine Kostprobe las Barker vorab am Telefon ein — mit gelegentlichen Einwürfen seines Papageis Malingo.",
+    en: "The Presence of This Breath collects more than 250 poems from five decades, edited by Paulo Andreas Lorca. Barker recorded a preview selection over the phone — with occasional interjections from his parrot Malingo."
+  },
+  "up.bN4": {
+    de: "Und die Abarat-Saga wartet auf ihre Vollendung: Band vier trägt den Arbeitstitel Kry Rising, Band fünf Until The End Of Time — im Atelier stapeln sich weit über 500 fertige Gemälde für die Inseln.",
+    en: "And the Abarat saga awaits its completion: book four carries the working title Kry Rising, book five Until The End Of Time — with well over 500 finished paintings for the islands stacked in the studio."
+  },
+  "up.fH": { de: "Film &amp; TV <em>in Arbeit</em>", en: "Film &amp; TV <em>in Progress</em>" },
+  "up.fLead": { de: "Die Vorlage: The Damnation Game · seit 2001 als Kinofilm in Entwicklung", en: "The source: The Damnation Game · in development as a feature since 2001" },
+  "up.fSyn": {
+    de: "Fürs Kino sind Adaptionen von The Damnation Game, Abarat, The Thief of Always, Mr. Maximillian Bacchus und Tortured Souls in Entwicklung; fürs Fernsehen Serien zu Hellraiser, Nightbreed, Theatre of Blood, Weaveworld, Imajica und Lord of Illusions.",
+    en: "For the cinema, adaptations of The Damnation Game, Abarat, The Thief of Always, Mr. Maximillian Bacchus and Tortured Souls are in development; for television, series based on Hellraiser, Nightbreed, Theatre of Blood, Weaveworld, Imajica and Lord of Illusions."
+  },
+  "up.fN1": {
+    de: "HBO entwickelt seit 2020 eine Hellraiser-Serie: David Gordon Green soll den Piloten inszenieren, Mark Verheiden und Michael Dougherty schreiben. Kurz vor Halloween 2020 stieg Barker selbst als Executive Producer ein — die Mythologie solle zu ihren Wurzeln zurückkehren, zur dunkelsten Form des Bösen und der Kraft, ihr zu widerstehen.",
+    en: "HBO has been developing a Hellraiser series since 2020: David Gordon Green is set to direct the pilot, with Mark Verheiden and Michael Dougherty writing. Just before Halloween 2020 Barker himself joined as executive producer — the mythology, he said, should go back to its roots: the darkest evil, and the power in ourselves to resist it."
+  },
+  "up.fN2": {
+    de: "Nightbreed soll als Serie auferstehen: Seit 2018 arbeiten Morgan Creek, Syfy und Universal Cable Productions daran, Michael Dougherty schreibt und inszeniert, Barker produziert. Die Kultur, sagt er, habe endlich zu Nightbreed aufgeschlossen — sie sei bereit, die Monster zu umarmen.",
+    en: "Nightbreed is set to rise again as a series: Morgan Creek, Syfy and Universal Cable Productions have been working on it since 2018, with Michael Dougherty writing and directing and Barker producing. The culture, he says, has finally caught up with Nightbreed — it is ready to embrace the monsters."
+  },
+  "up.fN3": {
+    de: "Der Dauerläufer: The Damnation Game wurde 2001 von Phoenix Pictures gekauft und wanderte zu Warner — samt 40-Millionen-Gerüchten um Paul Newman und Sean Connery, die Barker selbst amüsiert bezweifelte. Für ihn bleibt der Stoff ideal fürs Kino: ein Faust ohne Teufel, der auf altmodische Art erschrecken soll.",
+    en: "The marathon runner: The Damnation Game was bought by Phoenix Pictures in 2001 and moved to Warner — complete with $40-million rumours about Paul Newman and Sean Connery that an amused Barker doubted himself. For him the material remains ideal for the screen: a Faust story without the Devil, out to scare people the old-fashioned way."
+  },
+  "up.gH": { de: "Games &amp; <em>Attraktionen</em>", en: "Games &amp; <em>Attractions</em>" },
+  "up.gLead": { de: "Hellraiser: Revival · Collector&rsquo;s Editions, Boss Team Games, 2025", en: "Hellraiser: Revival · collector&rsquo;s editions, Boss Team Games, 2025" },
+  "up.gSyn": {
+    de: "Die Cenobiten wechseln das Medium: Im Juli 2025 kündigten Saber Interactive und Boss Team Games mit Hellraiser: Revival das erste große Hellraiser-Spiel an — und für 2026 ist die Mythologie bei Universals Halloween Horror Nights angekündigt.",
+    en: "The Cenobites are changing medium: in July 2025 Saber Interactive and Boss Team Games announced Hellraiser: Revival, the first major Hellraiser game — and for 2026 the mythology is set to appear at Universal's Halloween Horror Nights."
+  },
+  "up.gN1": {
+    de: "Hellraiser: Revival wird ein Single-Player-Spiel für PC, PlayStation 5 und Xbox Series: Spieler Aidan muss mit der Macht einer mysteriösen Puzzle-Box — der Genesis Configuration — seine Freundin aus dem Labyrinth befreien und sich dem Kult der Cenobiten stellen. Barker beschreibt die Arbeit am ersten echten Hellraiser-Spiel als Expedition in die dunkelsten Winkel seiner Vorstellung.",
+    en: "Hellraiser: Revival will be a single-player game for PC, PlayStation 5 and Xbox Series: as Aidan, players must use the power of a mysterious puzzle box — the Genesis Configuration — to free his girlfriend from the Labyrinth and face the cult devoted to the Cenobites. Barker describes working on the first true Hellraiser game as a venture into the darkest recesses of his imaginings."
+  },
+  "up.gN2": {
+    de: "Und bei den Halloween Horror Nights 2026 der Universal Studios soll Hellraiser als eigenes Haunted House durch die Nebelmaschinen wandern.",
+    en: "And at Universal Studios' Halloween Horror Nights 2026, Hellraiser is set to walk the fog as a haunted house of its own."
+  },
+  "up.sH": { de: "Im <em>Schatten</em>", en: "In the <em>Shadows</em>" },
+  "up.sSyn": {
+    de: "Der größere Teil der Rubrik gehört den Geistern: an die achtzig Projekte, die angekündigt, entwickelt, verhandelt — und nie realisiert wurden. Das Archiv sammelt sie als Chronik der ungeschriebenen Bibliothek und des ungedrehten Kinos.",
+    en: "The larger part of the section belongs to the ghosts: some eighty projects that were announced, developed, negotiated — and never made. The archive keeps them as a chronicle of the unwritten library and the unfilmed cinema."
+  },
+  "up.ghosts": { de: "Die berühmtesten Geister", en: "The most famous ghosts" },
+  "up.sN1": {
+    de: "Bücher: ein Galilee 2, Cabal 2 und 3, ein Everville für Kinder, The Everything oder die Comedy of Comedies — Fortsetzungen und Ideen, die Barker in Interviews versprach und wieder verwarf.",
+    en: "Books: a Galilee 2, Cabal 2 and 3, an Everville for children, The Everything or the Comedy of Comedies — sequels and ideas Barker promised in interviews and abandoned again."
+  },
+  "up.sN2": {
+    de: "Film: Nightbreed 2 und 3, Midnight Meat Train 2 und 3, Barkers Version von The Mummy, Zombies vs. Gladiators — und ein Thief of Always als Animationsfilm.",
+    en: "Film: Nightbreed 2 and 3, Midnight Meat Train 2 and 3, Barker's version of The Mummy, Zombies vs. Gladiators — and a Thief of Always animated feature."
+  },
+  "up.sN3": {
+    de: "Fernsehen: gleich mehrere Anläufe zu den Books of Blood, zwei Hellraiser-Serien (1995 und 2012), Ectokid, Coldheart Canyon und die Damnation-Game-Miniserie, mit der alles begann.",
+    en: "Television: several runs at the Books of Blood, two Hellraiser series (1995 and 2012), Ectokid, Coldheart Canyon and the Damnation Game mini-series where it all began."
+  },
+  "up.sN4": {
+    de: "Und dazwischen alles andere: ein Hellraiser-Theaterstück, eine Oper nach The History of the Devil, Spiele von Demonik bis zum Ectosphere-Game, Comics wie Mythonaut oder Pandemonium 2.",
+    en: "And everything in between: a Hellraiser stage play, an opera based on The History of the Devil, games from Demonik to the Ectosphere game, comics like Mythonaut or Pandemonium 2."
+  },
+  "up.back": { de: "← Zurück zur Übersicht", en: "← Back to the overview" },
+
+  /* Upcoming section (home) */
+  "uph.title": { de: "Was <em>kommt</em>", en: "What&rsquo;s <em>Coming</em>" },
+  "uph.intro": {
+    de: "Werke in Arbeit und Werke im Schatten: der neue Roman Deep Hill, die Erzählsammlung Fear Eternal, Serien, Spiele — und die berühmten hundertundein Projekte, die nie erschienen sind.",
+    en: "Works in progress and works in the shadows: the new novel Deep Hill, the story collection Fear Eternal, series, games — and the famous hundred and one projects that never appeared."
+  },
+  "uph.c1":  { de: "Bücher in Arbeit", en: "Books in progress" },
+  "uph.c1m": { de: "Deep Hill, Fear Eternal, Poesie &amp; Abarat · eigene Seite", en: "Deep Hill, Fear Eternal, poetry &amp; Abarat · own page" },
+  "uph.c2":  { de: "Film &amp; TV in Arbeit", en: "Film &amp; TV in progress" },
+  "uph.c2m": { de: "Hellraiser, Nightbreed &amp; The Damnation Game · eigene Seite", en: "Hellraiser, Nightbreed &amp; The Damnation Game · own page" },
+  "uph.c3":  { de: "Games &amp; Attraktionen", en: "Games &amp; attractions" },
+  "uph.c3m": { de: "Hellraiser: Revival &amp; Horror Nights · eigene Seite", en: "Hellraiser: Revival &amp; Horror Nights · own page" },
+  "uph.c4":  { de: "Im Schatten", en: "In the shadows" },
+  "uph.c4m": { de: "Die nie realisierten Projekte · eigene Seite", en: "The projects never made · own page" },
 
   /* Interviews page */
   "title.interviews": {
