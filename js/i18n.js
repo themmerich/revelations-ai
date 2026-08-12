@@ -263,6 +263,112 @@ window.TRANSLATIONS = {
   "anth.cBbNum": { de: "Dark Regions Press, USA, 2017 · 500 signierte, nummerierte Ex.", en: "Dark Regions Press, USA, 2017 · 500 signed, numbered copies" },
   "anth.cBbLet": { de: "Dark Regions Press, USA, 2017 · 13 Ex. in Schmuckkassette", en: "Dark Regions Press, USA, 2017 · 13 traycased copies" },
 
+  /* Non-fiction page */
+  "title.nonfiction": {
+    de: "Sachbücher — Revelations · The official Clive Barker Website",
+    en: "Non-Fiction — Revelations · The official Clive Barker Website"
+  },
+  "nf.eyebrow": {
+    de: "Sachbücher · The Painter, Einleitungen &amp; Essays · nach dem Revelations-Archiv",
+    en: "Non-fiction · The Painter, introductions &amp; essays · after the Revelations archive"
+  },
+  "nf.title": { de: "Die <em>Sachbücher</em>", en: "The <em>Non-Fiction</em>" },
+  "nf.lede": {
+    de: "Der Erzähler als Kommentator: fünfundzwanzig Jahre Einleitungen, Vor- und Nachworte, Tribute und Zeitschriftenessays — gesammelt in einem Band und verstreut über Bücher anderer, von Gigers Necronomicon bis zur eigenen Bildbiografie.",
+    en: "The storyteller as commentator: twenty-five years of introductions, forewords and afterwords, tributes and magazine essays — gathered into one volume and scattered across other people's books, from Giger's Necronomicon to his own pictorial biography."
+  },
+  "nf.pSyn": {
+    de: "Barkers gesammelte Sachtexte aus fünfundzwanzig Jahren: Einleitungen zu eigenen und fremden Büchern, Zeitungsartikel, Würdigungen und Fundstücke aus dem Privatarchiv — zusammengetragen von seinen Archivaren Phil und Sarah Stokes, mit Barkers Skizzen zwischen den Kapiteln. Earthling Publications, 2011; 2018 folgte das Taschenbuch beim Clive Barker Archive.",
+    en: "Barker's collected non-fiction from twenty-five years: introductions to his own books and those of others, newspaper articles, tributes and finds from his private archive — compiled by his archivists Phil and Sarah Stokes, with Barker's sketches between the chapters. Earthling Publications, 2011; a paperback from The Clive Barker Archive followed in 2018."
+  },
+  "nf.pN1": {
+    de: "Im Vorwort nennt Barker die Sammlung eine bittersüße Erinnerung an den Mann, der er einmal war und nie wieder sein wird — Brotkrumen, unbemerkt auf den Waldboden gefallen, die seinen Weg nachzeichnen: durch das eigene Leben und durch das der Freunde und Vorbilder, deren Stimmen ihn jeden Morgen an den Schreibtisch rufen.",
+    en: "In his foreword Barker calls the collection a bittersweet memory of the man he once was and will never be again — breadcrumbs dropped unknowingly on the forest floor, tracing his journey: through his own life and through those of the friends and heroes whose voices take him to his desk each morning."
+  },
+  "nf.pN2": {
+    de: "Das Cover ist Barkers eigenes Gemälde — sein Lieblingscover überhaupt: ein im Kern schwarzweißes Bild, aus dem dort, wo der Verstand sitzt, die Farbe ausbricht. Darunter liegen zwei oder drei aufgegebene Gemälde; er strich die Leinwand weiß und zog dann einen blauschwarzen Pinsel über die Grate des alten Farbauftrags. Die Lüge des Titels steckt schon in der Oberfläche.",
+    en: "The cover is Barker's own painting — his favourite cover of any book: an essentially black-and-white picture with an eruption of colour where the mind sits. Beneath it lie two or three abandoned paintings; he primed the canvas white, then drew a blue-black brush across the ridges of the old impasto. The lie of the title is right there in the surface."
+  },
+  "nf.pN3": {
+    de: "Die Los Angeles Times befand: Was bei anderen Autoren wie Resteverwertung wirke, sei hier eine Provokation, ihn endlich zu lesen — durch alle Texte laufe ein doppeltes Thema, Schöpfung und Berufung.",
+    en: "The Los Angeles Times found that what reads like leftovers in other writers' collections is here a provocation to finally read him — with a double theme running through every piece: creation and calling."
+  },
+  "nf.pN4": {
+    de: "Und Fangoria urteilte: Der Band zeige Barker ungeschützter als jeder Roman, jeder Film — und selbst als seine Biografie The Dark Fantastic.",
+    en: "And Fangoria's verdict: the volume shows Barker more fully exposed than any novel or film — more, even, than his biography The Dark Fantastic."
+  },
+  "nf.cPPages": { de: "Earthling, USA, 2011 · ungebundene Korrekturseiten", en: "Earthling, USA, 2011 · unbound page proofs" },
+  "nf.cPArc": { de: "Earthling, USA, 2011 · Vorabexemplar", en: "Earthling, USA, 2011 · advance reading copy" },
+  "nf.cPNum": { de: "Earthling, USA, 2011 · signierte, nummerierte Ausgabe", en: "Earthling, USA, 2011 · signed, numbered edition" },
+  "nf.cPLet": { de: "Earthling, USA, 2015 · 26 signierte Ex. mit Buchstaben", en: "Earthling, USA, 2015 · 26 signed, lettered copies" },
+  "nf.cPUkPb": { de: "The Clive Barker Archive, UK, 2018 · Taschenbuch", en: "The Clive Barker Archive, UK, 2018 · paperback" },
+  "nf.iH": { de: "Einleitungen, Vor- <em>&amp; Nachworte</em>", en: "Introductions, Forewords <em>&amp; Afterwords</em>" },
+  "nf.iLead": { de: "H.R. Giger&rsquo;s Necronomicon · Einleitung von Barker, 1992", en: "H.R. Giger&rsquo;s Necronomicon · introduction by Barker, 1992" },
+  "nf.iSyn": {
+    de: "Seit den Achtzigern öffnet Barker fremde Bücher: Einleitungen für Gigers Necronomicon und Miévilles King Rat, Vorworte zu 30 Days of Night, zur Studie Horror Video Games und zum Drehbuch von Gods and Monsters — zuletzt das Nachwort zur eigenen Bildbiografie Dark Worlds. Das Revelations-Archiv verzeichnet Dutzende solcher Beiträge; hier eine Auswahl.",
+    en: "Since the eighties Barker has been opening other people's books: introductions for Giger's Necronomicon and Miéville's King Rat, forewords to 30 Days of Night, to the study Horror Video Games and to the Gods and Monsters shooting script — most recently the afterword to his own pictorial biography Dark Worlds. The Revelations archive lists dozens of such contributions; a selection."
+  },
+  "nf.cliveIn": { de: "Clive in fremden Büchern", en: "Clive in other people&rsquo;s books" },
+  "nf.iN1": {
+    de: "Giger nur den „Künstler von Alien&ldquo; zu nennen, schreibt Barker, sei wie Michelangelo zum Ausstatter eines Films zu erklären: Die Gemälde seien das eigentliche Geschenk an die Imagination — wer ihre Codes erst gelernt habe, dem werde das Fremde vertraut.",
+    en: "To call Giger merely &lsquo;the artist of Alien&rsquo;, Barker writes, is like calling Michelangelo a film's set designer: the paintings are his true gift to the imagination — and once you learn their codes, the strange becomes familiar."
+  },
+  "nf.iN2": {
+    de: "Im Herzen von King Rat stehe nicht der König, sondern der verlorene Prinz — und Miéville habe die tiefe Einfachheit des Märchens zur Hand, ohne Ironie, ohne Anbiederung.",
+    en: "At the heart of King Rat, he finds, is not the King but the lost prince — and Miéville has the profound simplicity of the fairy tale at his elbow, with no irony and nothing ingratiating."
+  },
+  "nf.iN3": {
+    de: "Sir Gawain and the Green Knight legte ihm als Schüler einen Schalter im Kopf um: die mühelose Ehe von Realem und Fantastischem — der Grüne Ritter als Metapher für die unwiderstehliche Kraft der Natur, mit Wurzeln tief im Unbewussten.",
+    en: "Sir Gawain and the Green Knight flipped a switch in his schoolboy brain: the effortless marriage of the real and the fantastic — the Green Knight as a metaphor for the irresistible power of nature, its roots deep in the subconscious."
+  },
+  "nf.iN4": {
+    de: "Videospiele nehmen ihre Spieler tiefer in die Pflicht als jedes Kino, warnt er im Vorwort zu Horror Video Games: Wo das Andere so leicht dämonisiert und zum Abschuss freigegeben wird, beginne gefährliches Terrain.",
+    en: "Video games implicate their players far more deeply than any cinema, he warns in his foreword to Horror Video Games: where Otherness is so easily demonised and made fodder for the gun, dangerous territory begins."
+  },
+  "nf.iN5": {
+    de: "Das schwerste Stück war das eigene: Für das Nachwort zu Dark Worlds, der Bildbiografie seines Lebens, fand er den bewundernden Ton seiner fremden Vorworte unbrauchbar — und schrieb stattdessen über Freundschaften, die vierzig, fünfzig Jahre Arbeit überdauert haben.",
+    en: "The hardest piece was his own: for the afterword to Dark Worlds, the pictorial biography of his life, the admiring tone of his forewords for others proved useless — so he wrote instead about friendships that have survived forty, fifty years of work."
+  },
+  "nf.books": { de: "Die Bücher", en: "The books" },
+  "nf.cI1": { de: "H.R. Giger&rsquo;s Necronomicon · Einleitung, 1992", en: "H.R. Giger&rsquo;s Necronomicon · introduction, 1992" },
+  "nf.cI2": { de: "King Rat (China Miéville), Earthling, 2005 · Einleitung", en: "King Rat (China Miéville), Earthling, 2005 · introduction" },
+  "nf.cI3": { de: "30 Days of Night, IDW · Einleitung &bdquo;Cold Blood&ldquo;", en: "30 Days of Night, IDW · introduction &lsquo;Cold Blood&rsquo;" },
+  "nf.cI4": { de: "Horror Video Games (Hg. Perron), 2009 · Vorwort", en: "Horror Video Games (ed. Perron), 2009 · foreword" },
+  "nf.cI5": { de: "Clive Barker&rsquo;s Dark Worlds, 2022 · Nachwort", en: "Clive Barker&rsquo;s Dark Worlds, 2022 · afterword" },
+  "nf.eH": { de: "Weitere <em>Essays</em>", en: "Other <em>Essays</em>" },
+  "nf.eLead": { de: "Reading Stephen King, Cemetery Dance, 2017 · mit Barkers Rede von 2007", en: "Reading Stephen King, Cemetery Dance, 2017 · with Barker&rsquo;s 2007 speech" },
+  "nf.eSyn": {
+    de: "Neben den Büchern stehen die Streuschriften: Reden und Tribute, Zeitschriftenessays, Liner Notes, Ausstellungs- und Werbetexte. Von der Rede auf Stephen King in Toronto über ein Time-Porträt Cornelia Funkes bis zu den Liner Notes der Candyman-Vinylausgabe — vieles davon später im Painter gesammelt.",
+    en: "Alongside the books stand the scattered pieces: speeches and tributes, magazine essays, liner notes, exhibition and promotional texts. From the Stephen King speech in Toronto to a Time portrait of Cornelia Funke and the liner notes for the Candyman vinyl — much of it later collected in The Painter."
+  },
+  "nf.selection": { de: "Eine Auswahl", en: "A selection" },
+  "nf.eN1": {
+    de: "Als die Books of Blood in England auf höfliches, vernichtendes Schweigen stießen, war es Stephen Kings Stimme, die alles änderte — aus purer Großzügigkeit, sagt Barker in seiner Toronto-Rede: Heute versuche er, das Paket weiterzureichen und selbst eine Stimme für die Nächsten zu sein.",
+    en: "When the Books of Blood met a polite, devastating silence in England, it was Stephen King's voice that changed everything — out of pure generosity of spirit, Barker says in his Toronto speech: today he tries to pass the parcel along and be a voice for the next generation himself."
+  },
+  "nf.eN2": {
+    de: "Sein Prüfstein unter den Bildern: Géricaults Floß der Medusa, als Teenager im Louvre entdeckt, kurz bevor er das Museum übersättigt verlassen wollte — es verfolgt seine Vorstellungskraft bis heute.",
+    en: "His touchstone among paintings: Géricault's Raft of the Medusa, discovered in the Louvre as a teenager just as he was about to leave the museum, sated — it has haunted his imagination ever since."
+  },
+  "nf.eN3": {
+    de: "Im Nachruf auf H.R. Giger schreibt er: Die Dunkelheit erkundet jeder allein — umso kostbarer der seltene Weggefährte, der den Abgrund besucht hat und davon erzählen kann.",
+    en: "In his remembrance of H.R. Giger he writes: exploring the darkness is a lonely path — which makes the rare fellow traveller who has visited the abyss and lived to tell the tale all the more precious."
+  },
+  "nf.eN4": {
+    de: "Für Time erklärte er Cornelia Funke zur möglichen nächsten J.K. Rowling: Inkheart beweise, dass die Imagination die Verachtung überwiegt, die das Erwachsensein dem Fantastischen entgegenbringt — und bereitsteht, zu heilen, wenn man zurückkehrt.",
+    en: "For Time he named Cornelia Funke a possible next J.K. Rowling: Inkheart proves that imagination outweighs the contempt for the fantastic that adulthood demands — and stands ready to heal and redeem when we come back to find it."
+  },
+  "nf.eN5": {
+    de: "Zum Start seines Marvel-Imprints Razorline beschrieb er die vier Serien als Türen zu zehn neuen Wirklichkeiten — den Decamundi, von Verleger Carl Potts augenzwinkernd &bdquo;Barkerverse&ldquo; getauft.",
+    en: "Launching his Marvel imprint Razorline, he described the four titles as doors to ten new realities — the Decamundi, which editor Carl Potts wittily dubbed the &lsquo;Barkerverse&rsquo;."
+  },
+  "nf.appeared": { de: "Erschienen in", en: "As published in" },
+  "nf.cE1": { de: "Reading Stephen King, Cemetery Dance, 2017 · Toronto-Rede", en: "Reading Stephen King, Cemetery Dance, 2017 · Toronto speech" },
+  "nf.cE2": { de: "Time 100 Special Issue, 2005 · über Cornelia Funke", en: "Time 100 Special Issue, 2005 · on Cornelia Funke" },
+  "nf.cE3": { de: "Rue Morgue, No 41, 2004 · Raft Of The Medusa", en: "Rue Morgue, No 41, 2004 · Raft Of The Medusa" },
+  "nf.cE4": { de: "Hi-Fructose, Vol. 33, 2014 · Giger-Nachruf", en: "Hi-Fructose, Vol. 33, 2014 · Giger remembrance" },
+  "nf.cE5": { de: "Candyman auf Vinyl, One Way Static, 2014 · Liner Notes", en: "Candyman on vinyl, One Way Static, 2014 · liner notes" },
+
   /* Interviews page */
   "title.interviews": {
     de: "Interviews — Revelations · The official Clive Barker Website",
@@ -457,6 +563,7 @@ window.TRANSLATIONS = {
   "werke.c4m": { de: "Illustrator, Visions &amp; Imaginer · eigene Seite", en: "Illustrator, Visions &amp; Imaginer · own page" },
   "werke.c5":  { de: "Graphic Novels &amp; Comics", en: "Graphic Novels &amp; Comics" },
   "werke.c6":  { de: "Sachbücher", en: "Non-Fiction" },
+  "werke.c6m": { de: "The Painter, Einleitungen &amp; Essays · eigene Seite", en: "The Painter, introductions &amp; essays · own page" },
   "werke.c7":  { de: "Anthologien", en: "Anthologies" },
   "werke.c7m": { de: "4 Sammelbände · 1999–2017 · eigene Seite", en: "4 collections · 1999–2017 · own page" },
   "werke.c8":  { de: "Theater", en: "Theatre" },
