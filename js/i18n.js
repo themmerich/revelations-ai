@@ -5,8 +5,8 @@
 
 window.TRANSLATIONS = {
   "title.page": {
-    de: "Revelations — Clive Barker × Fable 5",
-    en: "Revelations — Clive Barker × Fable 5"
+    de: "Revelations — The official Clive Barker Website",
+    en: "Revelations — The official Clive Barker Website"
   },
 
   /* Nav */
@@ -20,8 +20,8 @@ window.TRANSLATIONS = {
 
   /* Novels pages */
   "title.novels": {
-    de: "Die Romane — Revelations · Clive Barker × Fable 5",
-    en: "The Novels — Revelations · Clive Barker × Fable 5"
+    de: "Die Romane — Revelations · The official Clive Barker Website",
+    en: "The Novels — Revelations · The official Clive Barker Website"
   },
   "novels.eyebrow": {
     de: "Vierzehn Romane · 1985 — 2015 · nach dem Revelations-Archiv",
@@ -48,8 +48,8 @@ window.TRANSLATIONS = {
 
   /* Stories pages */
   "title.stories": {
-    de: "Erzählungen & Novellen — Revelations · Clive Barker × Fable 5",
-    en: "Short Stories & Novellas — Revelations · Clive Barker × Fable 5"
+    de: "Erzählungen & Novellen — Revelations · The official Clive Barker Website",
+    en: "Short Stories & Novellas — Revelations · The official Clive Barker Website"
   },
   "stories.eyebrow": {
     de: "25 Titel · 1984 — 2015 · nach dem Revelations-Archiv",
@@ -65,8 +65,8 @@ window.TRANSLATIONS = {
 
   /* Poetry page */
   "title.poetry": {
-    de: "Poesie — Revelations · Clive Barker × Fable 5",
-    en: "Poetry — Revelations · Clive Barker × Fable 5"
+    de: "Poesie — Revelations · The official Clive Barker Website",
+    en: "Poetry — Revelations · The official Clive Barker Website"
   },
   "poetry.eyebrow": {
     de: "Lyrik · Rare Flesh & einzeln veröffentlichte Gedichte · nach dem Revelations-Archiv",
@@ -107,8 +107,8 @@ window.TRANSLATIONS = {
 
   /* Art books page */
   "title.artbooks": {
-    de: "Kunstbücher — Revelations · Clive Barker × Fable 5",
-    en: "Art Books — Revelations · Clive Barker × Fable 5"
+    de: "Kunstbücher — Revelations · The official Clive Barker Website",
+    en: "Art Books — Revelations · The official Clive Barker Website"
   },
   "art.eyebrow": {
     de: "Kunstbücher · Illustrator, Visions of Heaven and Hell &amp; Imaginer · nach dem Revelations-Archiv",
@@ -191,8 +191,8 @@ window.TRANSLATIONS = {
 
   /* Anthologies page */
   "title.anthologies": {
-    de: "Anthologien — Revelations · Clive Barker × Fable 5",
-    en: "Anthologies — Revelations · Clive Barker × Fable 5"
+    de: "Anthologien — Revelations · The official Clive Barker Website",
+    en: "Anthologies — Revelations · The official Clive Barker Website"
   },
   "anth.eyebrow": {
     de: "Anthologien · The Essential, First Tales, Tonight, Again &amp; The Body Book · nach dem Revelations-Archiv",
@@ -265,8 +265,8 @@ window.TRANSLATIONS = {
 
   /* Interviews page */
   "title.interviews": {
-    de: "Interviews — Revelations · Clive Barker × Fable 5",
-    en: "Interviews — Revelations · Clive Barker × Fable 5"
+    de: "Interviews — Revelations · The official Clive Barker Website",
+    en: "Interviews — Revelations · The official Clive Barker Website"
   },
   "interviews.eyebrow": {
     de: "37 Gespräche · 1998 — 2022 · nach dem Revelations-Archiv",
@@ -318,8 +318,8 @@ window.TRANSLATIONS = {
 
   /* Theatre page */
   "title.theatre": {
-    de: "Theater — Revelations · Clive Barker × Fable 5",
-    en: "Theatre — Revelations · Clive Barker × Fable 5"
+    de: "Theater — Revelations · The official Clive Barker Website",
+    en: "Theatre — Revelations · The official Clive Barker Website"
   },
   "theatre.eyebrow": {
     de: "Bühne · Incarnations, Forms of Heaven & Playscripts · nach dem Revelations-Archiv",
@@ -365,8 +365,8 @@ window.TRANSLATIONS = {
 
   /* News page */
   "title.news": {
-    de: "News — Revelations · Clive Barker × Fable 5",
-    en: "News — Revelations · Clive Barker × Fable 5"
+    de: "News — Revelations · The official Clive Barker Website",
+    en: "News — Revelations · The official Clive Barker Website"
   },
   "news.eyebrow": {
     de: "Aus dem Revelations-Archiv · clivebarker.info",
@@ -533,8 +533,8 @@ window.TRANSLATIONS = {
 
   /* Galerie-Seite (gallery.html) */
   "title.gallery": {
-    de: "Galerie — Revelations · Clive Barker × Fable 5",
-    en: "Gallery — Revelations · Clive Barker × Fable 5"
+    de: "Galerie — Revelations · The official Clive Barker Website",
+    en: "Gallery — Revelations · The official Clive Barker Website"
   },
   "gal.eyebrow": {
     de: "Malerei &amp; Zeichnung · kuratiert aus dem Revelations-Archiv",
