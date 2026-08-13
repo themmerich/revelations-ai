@@ -13,6 +13,7 @@ window.TRANSLATIONS = {
   "nav.bio":     { de: "Biografie", en: "Biography" },
   "nav.werke":   { de: "Werke", en: "Works" },
   "nav.film":    { de: "Film", en: "Film" },
+  "nav.games": { de: "Games", en: "Games" },
   "nav.upcoming": { de: "Upcoming", en: "Upcoming" },
   "nav.galerie": { de: "Galerie", en: "Gallery" },
   "nav.interviews": { de: "Interviews", en: "Interviews" },
@@ -662,6 +663,138 @@ window.TRANSLATIONS = {
   "le.cA4": { de: "Abarat, Deluxe Nr. 22 · ganzseitige Skizze, 2002", en: "Abarat, deluxe No. 22 · full-page sketch, 2002" },
   "le.cA5": { de: "Abarat, Deluxe Nr. 25 · ganzseitige Skizze, 2002", en: "Abarat, deluxe No. 25 · full-page sketch, 2002" },
 
+  /* Games page */
+  "title.games": {
+    de: "Games — Revelations · The official Clive Barker Website",
+    en: "Games — Revelations · The official Clive Barker Website"
+  },
+  "gm.eyebrow": {
+    de: "Games · spielbar, sammelbar, begehbar · nach dem Revelations-Archiv",
+    en: "Games · playable, collectable, walkable · after the Revelations archive"
+  },
+  "gm.title": { de: "Die <em>Spiele</em>", en: "The <em>Games</em>" },
+  "gm.lede": {
+    de: "Barkers Universum lässt sich nicht nur lesen und sehen — man kann es spielen, sammeln und betreten: von Undying und Jericho über Sammelkarten und ein Hellraiser-Monopoly bis zu den Mazes der Halloween Horror Nights.",
+    en: "Barker's universe isn't just for reading and watching — you can play it, collect it and walk through it: from Undying and Jericho via trading cards and a Hellraiser Monopoly to the Halloween Horror Nights mazes."
+  },
+  "gm.projects": { de: "Die Spiele", en: "The games" },
+  "gm.selected": { de: "Aus dem Archiv", en: "From the archive" },
+  "gm.back": { de: "← Zurück zur Übersicht", en: "← Back to the overview" },
+  "gm.vH": { de: "Video<em>spiele</em>", en: "Video <em>Games</em>" },
+  "gm.vLead": { de: "Clive Barker&rsquo;s Undying, EA / DreamWorks Interactive, 2001", en: "Clive Barker&rsquo;s Undying, EA / DreamWorks Interactive, 2001" },
+  "gm.vSyn": {
+    de: "Zwei große Titel tragen Barkers Namen im Titel: Undying (2001) und Jericho (2007). Davor standen die frühen Nightbreed-Spiele von Ocean, daneben ein Online-Labyrinth für junge Abarat-Leser — und mit Hellraiser: Revival ist das nächste Kapitel angekündigt.",
+    en: "Two major titles carry Barker's name: Undying (2001) and Jericho (2007). Before them came Ocean's early Nightbreed games, alongside an online labyrinth for young Abarat readers — and with Hellraiser: Revival the next chapter has been announced."
+  },
+  "gm.vN1": {
+    de: "Für Undying überarbeitete Barker ein halbfertiges DreamWorks-Projekt: Er schärfte die Geschichte um die Familie Covenant — mehr Geheimnisse als die Kennedys, nur dunkler —, verpasste dem Helden Namen und Gesicht neu (aus Count Magnus Wolfram wurde Patrick Galloway) und sprach selbst die Rolle des Ambrose. Trotz guter Kritiken blieb der Verkauf schwach; Fortsetzungen kamen nie.",
+    en: "For Undying, Barker overhauled a half-finished DreamWorks project: he sharpened the story of the Covenant family — more secrets than the Kennedys, and a good deal darker —, gave the hero a new name and face (Count Magnus Wolfram became Patrick Galloway) and voiced the role of Ambrose himself. Despite good reviews, sales stayed weak; sequels never came."
+  },
+  "gm.vN2": {
+    de: "Jericho schickte 2007 eine Special-Forces-Einheit mit konventionellen und arkanen Waffen in eine wiederaufgetauchte Wüstenstadt, hinab durch Zeitalter-Kammern bis zum Firstborn — mit Squad-Wechsel als Spielprinzip und einem Soundtrack von Cris Velasco, den Barker selbst auswählte.",
+    en: "In 2007 Jericho sent a special forces squad with conventional and arcane weapons into a lost desert city, down through age-spanning chambers to the Firstborn — with squad-switching as the core mechanic and a soundtrack by Cris Velasco, chosen by Barker himself."
+  },
+  "gm.vN3": {
+    de: "Die Frühgeschichte: Ocean Software brachte 1990 Nightbreed als Action Game und als Interactive Movie mit Filmausschnitten — Teil drei der geplanten Trilogie fiel dem Kinoergebnis des Films zum Opfer.",
+    en: "The early history: in 1990 Ocean Software released Nightbreed as an Action Game and as an Interactive Movie with film footage — part three of the planned trilogy fell victim to the film's box office."
+  },
+  "gm.vN4": {
+    de: "Und für die jüngsten Leser steuerte HarperCollins das Online-Spiel The Labyrinth of The Abarat bei: mit dem rotbäuchigen Boot durch ein Piraten-Labyrinth, sechs magische Bücher suchen — sonst macht Christopher Carrion weiter sein finsteres Werk.",
+    en: "And for the youngest readers HarperCollins added the online game The Labyrinth of The Abarat: pilot the red-bottomed boat through a pirate-infested maze in search of six magic books — or Christopher Carrion continues his evil works."
+  },
+  "gm.cV1": { de: "EA / DreamWorks, 2001 · PC-Cover", en: "EA / DreamWorks, 2001 · PC cover" },
+  "gm.cV2": { de: "Westlake / Aspyr, 2002 · Mac-Version", en: "Westlake / Aspyr, 2002 · Mac version" },
+  "gm.cV3": { de: "Codemasters, 2007 · PC, Xbox 360 &amp; PS3", en: "Codemasters, 2007 · PC, Xbox 360 &amp; PS3" },
+  "gm.cV4": { de: "Ocean, 1990 · The Action Game", en: "Ocean, 1990 · The Action Game" },
+  "gm.cV5": { de: "Ocean, 1990 · The Interactive Movie", en: "Ocean, 1990 · The Interactive Movie" },
+  "gm.cV6": { de: "HarperCollins, 2004 · Online-Labyrinth", en: "HarperCollins, 2004 · online labyrinth" },
+  "gm.kH": { de: "Karten- &amp; <em>Brettspiele</em>", en: "Card &amp; <em>Board Games</em>" },
+  "gm.kLead": { de: "Imajica CCG, Zehrapushu Inc., 1997 · Regelbuch", en: "Imajica CCG, Zehrapushu Inc., 1997 · rulebook" },
+  "gm.kSyn": {
+    de: "Vom ambitionierten Sammelkartenspiel zu den fünf Dominions der Imajica über Trading Cards mit Barkers Kunst und Hellraiser-Stills bis zu Kuriositäten wie dem Candyman-Brettspiel und einem inoffiziellen Hellraiser-Monopoly, bei dem Seelen die Währung sind.",
+    en: "From the ambitious collectable card game of Imajica's five Dominions via trading cards with Barker's art and Hellraiser stills to curiosities like the Candyman board game and an unofficial Hellraiser Monopoly where souls are the currency."
+  },
+  "gm.kN1": {
+    de: "Für das Imajica-Sammelkartenspiel schuf Zehrapushu fast 350 Karten mit Künstlern wie H.R. Giger, Eric Dinyer und Ted McKeever — in Absprache mit Barker, der im Regelbuch schrieb, hier werde sein Roman glorreich rückgängig gemacht: Der Zufall, den ein Buch austreibt, sitze im Fall einer Karte wieder im Herzen des Abenteuers. Kurz vor der geplanten In-Ovo-Erweiterung stoppte die Produktion für immer.",
+    en: "For the Imajica CCG, Zehrapushu created nearly 350 cards with artists like H.R. Giger, Eric Dinyer and Ted McKeever — in consultation with Barker, who wrote in the rulebook that it was a glorious undoing of his labours: the chance a book steadily ousts is once again, in the fall of a card, at the heart of the adventure. Just before the planned In Ovo expansion, production stopped for good."
+  },
+  "gm.kN2": {
+    de: "Fantaco druckte 1993 fünfzig Trading Cards mit Barkers Artwork — von den Theaterstücken bis Thief of Always, dazu eine signierte Deluxe-Ausgabe mit vier Goldkarten. Eclipse hatte 1992 bereits 108 Hellraiser-Karten aufgelegt, mit Folienkarten und einer superseltenen Autogrammkarte; 2026 legt Fright Rags mit einem neuen Set samt Sketch-Karten von Ashley Laurence nach.",
+    en: "In 1993 Fantaco printed fifty trading cards with Barker's artwork — from the plays to Thief of Always, plus a signed deluxe edition with four gold cards. Eclipse had already issued 108 Hellraiser cards in 1992, with foil cards and a super-rare autographed card; in 2026 Fright Rags follows up with a new set including sketch cards by Ashley Laurence."
+  },
+  "gm.kN3": {
+    de: "Zum Kinostart von Farewell to the Flesh gab es ein Candyman-Brettspiel: Wer die Familienvilla erreicht, lüftet das Geheimnis von Candymans Macht — auf der St. Louis Street setzt man aus, um tote Verwandte zu besuchen.",
+    en: "The release of Farewell to the Flesh brought a Candyman board game: whoever reaches the family mansion unlocks the secret of the Candyman's power — on St Louis Street you lose a turn to visit a dead relative."
+  },
+  "gm.kN4": {
+    de: "Das Prunkstück der inoffiziellen Ecke: Brian Sharps handgefertigtes Hellraiser-Monopoly — statt Straßen die Dominien der Hölle, statt Geld Seelen, mit Lament-Configuration-Würfeln und Bronzefiguren. Serie eins: vier Exemplare, Serie zwei: neun.",
+    en: "The showpiece of the unofficial corner: Brian Sharp's hand-made Hellraiser Monopoly — dominions of hell instead of real estate, souls instead of money, with Lament Configuration dice and bronze playing pieces. Series one: four sets, series two: nine."
+  },
+  "gm.cK1": { de: "Imajica CCG · Hugger-Mussus-Karte", en: "Imajica CCG · Hugger Mussus card" },
+  "gm.cK2": { de: "Fantaco, 1993 · signierte Deluxe-Edition", en: "Fantaco, 1993 · signed deluxe edition" },
+  "gm.cK3": { de: "Eclipse, 1992 · 108-Karten-Set", en: "Eclipse, 1992 · 108-card set" },
+  "gm.cK4": { de: "Eclipse, 1992 · Pinhead in Goldfolie", en: "Eclipse, 1992 · Pinhead in gold foil" },
+  "gm.cK5": { de: "Promo zu Farewell to the Flesh · 1995", en: "Promo for Farewell to the Flesh · 1995" },
+  "gm.cK6": { de: "Brian Sharp, 2002 · 4 + 9 Exemplare", en: "Brian Sharp, 2002 · 4 + 9 sets" },
+  "gm.mdH": { de: "Modelle &amp; <em>Figuren</em>", en: "Models &amp; <em>Figures</em>" },
+  "gm.mdLead": { de: "Screamin&rsquo; · Female Cenobite, Modellbausatz im Viertelmaßstab", en: "Screamin&rsquo; · Female Cenobite, quarter-scale model kit" },
+  "gm.mdSyn": {
+    de: "Von den lizenzierten Modellbausätzen der Screamin'-Reihe bis zu Plüschwesen aus Barkers eigener Bilderwelt: Das Archiv konzentriert sich auf die offiziellen Modelle — samt Stimmen der Bildhauer, die sie geformt haben.",
+    en: "From the licensed model kits of the Screamin' series to plush creatures from Barker's own painted world: the archive concentrates on the official models — with the voices of the sculptors who shaped them."
+  },
+  "gm.mdN1": {
+    de: "Screamin' brachte zwischen 1989 und 1997 acht Hellraiser-Bausätze heraus — drei Pinheads, Chatterer, Butterball, die Female Cenobite, Doctor Channard und eine Lament Configuration, geformt von Tom Kuntz und Jeff Brower. Barker freute sich öffentlich: Pinhead halte die Aufmerksamkeit ohne Witzeleien und Duschszenen — ein Stück mit Klasse.",
+    en: "Between 1989 and 1997 Screamin' issued eight Hellraiser kits — three Pinheads, Chatterer, Butterball, the Female Cenobite, Doctor Channard and a Lament Configuration, sculpted by Tom Kuntz and Jeff Brower. Barker was publicly delighted: Pinhead holds people's attention without witticisms or shower scenes — a class act."
+  },
+  "gm.mdN2": {
+    de: "Die Jump Tribe entsprang einem fünf Leinwände breiten Gemälde: The Bestiary mit 240 Miniaturwesen. Art Asylum machte daraus Plüschfiguren — jeder „Jumper&ldquo; von Barker benannt und mit eigener kleiner Geschichte; Yaboo bekam sogar ein eigenes, von Barker geschriebenes und illustriertes Buch.",
+    en: "The Jump Tribe sprang from a painting five canvases wide: The Bestiary, with 240 miniature creatures. Art Asylum turned them into plush figures — each 'Jumper' named by Barker with its own short story; Yaboo even got his own book, written and illustrated by Barker."
+  },
+  "gm.cM1": { de: "Screamin&rsquo; · Butterball, von Jeff Brower", en: "Screamin&rsquo; · Butterball, by Jeff Brower" },
+  "gm.cM2": { de: "Screamin&rsquo; · Chatterer, von Tom Kuntz", en: "Screamin&rsquo; · Chatterer, by Tom Kuntz" },
+  "gm.cM3": { de: "Art Asylum, 2005 · Yaboo", en: "Art Asylum, 2005 · Yaboo" },
+  "gm.cM4": { de: "Art Asylum, 2005 · Kungu Nah", en: "Art Asylum, 2005 · Kungu Nah" },
+  "gm.mH": { de: "Halloween <em>Horror Nights</em>", en: "Halloween <em>Horror Nights</em>" },
+  "gm.mLead": { de: "Clive Barker&rsquo;s Freakz, Universal Studios, 1998", en: "Clive Barker&rsquo;s Freakz, Universal Studios, 1998" },
+  "gm.mSyn": {
+    de: "Drei Jahre in Folge baute Barker für Universals Halloween Horror Nights begehbare Alpträume — vier Minuten Theater in Endlosschleife, wie er es nannte. 2026 kehrt die Mythologie mit einem Hellraiser-Haus zurück — mehr dazu unter <a href=\"upcoming.html#games\">Upcoming</a>.",
+    en: "Three years in a row Barker built walk-through nightmares for Universal's Halloween Horror Nights — a four-minute piece of theatre that loops, as he called it. In 2026 the mythology returns with a Hellraiser house — more under <a href=\"upcoming.html#games\">Upcoming</a>."
+  },
+  "gm.mN1": {
+    de: "Freakz (1998): zwölf Räume auf einer Soundstage, 35 Darsteller, General Santiago als Führer — Barker schrieb, storyboardete und legte selbst bei den Masken Hand an. Sein Ziel: eine Kunstschau mit Buh-Faktor.",
+    en: "Freakz (1998): twelve rooms on a soundstage, 35 actors, General Santiago as the guide — Barker scripted, storyboarded and even turned his hand to the make-up. His goal: an art show with a 'Boo!' factor."
+  },
+  "gm.mN2": {
+    de: "Hell (1999) profitierte vom Vorjahres-Ruf: Bis zu drei Stunden Wartezeit schlängelten sich durch den Park. Barker verglich die Mazes mit Skulpturen — und zog selbst jedes Jahr mit Freunden los, um die Konkurrenz zu studieren.",
+    en: "Hell (1999) profited from the previous year's reputation: queues of up to three hours wove through the park. Barker compared the mazes to sculptures — and went out with friends every year to study the competition."
+  },
+  "gm.mN3": {
+    de: "Harvest (2000), angeblich einem echten Albtraum entsprungen: ein zombieverseuchter Friedhof mit tastenden Alien-Tentakeln — sein Job als Maze-Designer sei es, die verstörendste Erfahrung zu liefern, die man geben kann. Die Leute gehen lachend rein, schreien sich die Seele aus dem Leib und kommen breiter lächelnd wieder heraus.",
+    en: "Harvest (2000), allegedly born of a real nightmare: a zombie-infested cemetery with groping alien tentacles — his job as a maze designer, he said, was to commit to the most troubling experience you can give. People walk in laughing, scream their heads off, and come out smiling wider."
+  },
+  "gm.mN4": {
+    de: "2026 folgt das Hellraiser Haunted House in Orlando und Hollywood: Der Einstieg führt durch die Lament Configuration in das Labyrinth, alle Cenobiten der ersten beiden Filme laufen frei — und das Team bekam einen handgeschriebenen Brief von Barker, wie spektakulär alles aussehe.",
+    en: "2026 brings the Hellraiser Haunted House to Orlando and Hollywood: entry leads through the Lament Configuration into the Labyrinth, all the Cenobites of the first two films roam free — and the team received a handwritten letter from Barker saying how spectacular it all looks."
+  },
+  "gm.cH1": { de: "Universal Studios, 1999 · Hell", en: "Universal Studios, 1999 · Hell" },
+  "gm.cH2": { de: "Universal Studios, 2000 · Harvest", en: "Universal Studios, 2000 · Harvest" },
+  "gm.cH3": { de: "Universal Studios, 2026 · Hellraiser", en: "Universal Studios, 2026 · Hellraiser" },
+
+  /* Games section (home) */
+  "gmh.title": { de: "Spielbare <em>Welten</em>", en: "Playable <em>Worlds</em>" },
+  "gmh.intro": {
+    de: "Barkers Universum zum Anfassen: Videospiele von Undying bis Jericho, Sammelkarten und Brettspiele, Modelle und Plüschwesen — und die begehbaren Alpträume der Halloween Horror Nights.",
+    en: "Barker's universe, hands-on: video games from Undying to Jericho, trading cards and board games, models and plush creatures — and the walk-through nightmares of the Halloween Horror Nights."
+  },
+  "gmh.c1":  { de: "Videospiele", en: "Video games" },
+  "gmh.c1m": { de: "Undying, Jericho &amp; Nightbreed · eigene Seite", en: "Undying, Jericho &amp; Nightbreed · own page" },
+  "gmh.c2":  { de: "Karten- &amp; Brettspiele", en: "Card &amp; board games" },
+  "gmh.c2m": { de: "Imajica CCG, Trading Cards &amp; Kurioses · eigene Seite", en: "Imajica CCG, trading cards &amp; curiosities · own page" },
+  "gmh.c3":  { de: "Modelle &amp; Figuren", en: "Models &amp; figures" },
+  "gmh.c3m": { de: "Screamin&rsquo;-Kits &amp; Jump Tribe · eigene Seite", en: "Screamin&rsquo; kits &amp; Jump Tribe · own page" },
+  "gmh.c4":  { de: "Halloween Horror Nights", en: "Halloween Horror Nights" },
+  "gmh.c4m": { de: "Freakz, Hell, Harvest &amp; Hellraiser · eigene Seite", en: "Freakz, Hell, Harvest &amp; Hellraiser · own page" },
+
   /* Upcoming page */
   "title.upcoming": {
     de: "Upcoming — Revelations · The official Clive Barker Website",
@@ -720,8 +853,8 @@ window.TRANSLATIONS = {
   "up.gH": { de: "Games &amp; <em>Attraktionen</em>", en: "Games &amp; <em>Attractions</em>" },
   "up.gLead": { de: "Hellraiser: Revival · Collector&rsquo;s Editions, Boss Team Games, 2025", en: "Hellraiser: Revival · collector&rsquo;s editions, Boss Team Games, 2025" },
   "up.gSyn": {
-    de: "Die Cenobiten wechseln das Medium: Im Juli 2025 kündigten Saber Interactive und Boss Team Games mit Hellraiser: Revival das erste große Hellraiser-Spiel an — und für 2026 ist die Mythologie bei Universals Halloween Horror Nights angekündigt.",
-    en: "The Cenobites are changing medium: in July 2025 Saber Interactive and Boss Team Games announced Hellraiser: Revival, the first major Hellraiser game — and for 2026 the mythology is set to appear at Universal's Halloween Horror Nights."
+    de: "Die Cenobiten wechseln das Medium: Im Juli 2025 kündigten Saber Interactive und Boss Team Games mit Hellraiser: Revival das erste große Hellraiser-Spiel an — und für 2026 ist die Mythologie bei Universals Halloween Horror Nights angekündigt. Den historischen Katalog — von Undying bis zu den Mazes — versammelt die <a href=\"games.html\">Games-Seite</a>.",
+    en: "The Cenobites are changing medium: in July 2025 Saber Interactive and Boss Team Games announced Hellraiser: Revival, the first major Hellraiser game — and for 2026 the mythology is set to appear at Universal's Halloween Horror Nights. The historical catalogue — from Undying to the mazes — lives on the <a href=\"games.html\">Games page</a>."
   },
   "up.gN1": {
     de: "Hellraiser: Revival wird ein Single-Player-Spiel für PC, PlayStation 5 und Xbox Series: Spieler Aidan muss mit der Macht einer mysteriösen Puzzle-Box — der Genesis Configuration — seine Freundin aus dem Labyrinth befreien und sich dem Kult der Cenobiten stellen. Barker beschreibt die Arbeit am ersten echten Hellraiser-Spiel als Expedition in die dunkelsten Winkel seiner Vorstellung.",
