@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Limited Editions — Revelations · The official Clive Barker Website</title>
+<meta name="description" content="Clive Barkers limitierte Ausgaben: signierte und nummerierte Editionen der Romane, Books of Blood, Novellen und Graphic Novels — samt Originalskizzen. Nach dem Revelations-Archiv." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=IBM+Plex+Mono:wght@300;400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+<link rel="stylesheet" href="css/style.css?v=11" />
+</head>
+<body>
+
+<!-- Fixed Three.js stage -->
+<canvas id="stage"></canvas>
+
+<!-- Grain overlay -->
+<div class="grain" aria-hidden="true"></div>
+
+<!-- Custom cursor -->
+<div class="cursor" id="cursor" aria-hidden="true"><span class="cursor__label" id="cursorLabel"></span></div>
+
+<!-- Navigation -->
+<header class="nav" id="nav">
+  <a class="nav__logo" href="index.html">C·B</a>
+  <nav class="nav__links">
+    <a href="news.html" data-i18n="nav.news">News</a>
+    <a href="index.html#bio" data-i18n="nav.bio">Biografie</a>
+    <a href="index.html#werke" data-i18n="nav.werke">Werke</a>
+    <a href="index.html#film" data-i18n="nav.film">Film</a>
+    <a href="index.html#upcoming" data-i18n="nav.upcoming">Upcoming</a>
+    <a href="index.html#interviews" data-i18n="nav.interviews">Interviews</a>
+    <a href="index.html#galerie" data-i18n="nav.galerie">Galerie</a>
+    <a href="index.html#contact" class="nav__contact" data-i18n="nav.contact">Kontakt</a>
+    <button class="nav__lang mono" id="langToggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+
+<main>
+
+  <!-- LIMITED EDITIONS HERO -->
+  <section class="newshero">
+    <p class="hero__eyebrow mono reveal-line" data-i18n="le.eyebrow">Limited Editions · signiert, nummeriert, traycased · nach dem Revelations-Archiv</p>
+    <h1 class="newshero__title reveal-line" data-i18n="le.title">Die <em>Limitierten</em></h1>
+    <div class="newshero__sub">
+      <p class="newshero__lede reveal-line" data-i18n="le.lede">Seit der ersten signierten Damnation-Game-Kassette von
+      1985 begleitet fast jedes Werk eine limitierte Ausgabe: nummeriert oder mit Buchstaben, in Leder, Schubern und
+      Holzboxen — vom 25-Pfund-Schuber bis zur 5.000-Dollar-Kassette.</p>
+    </div>
+  </section>
+
+  <!-- NOVELS -->
+  <section class="noveldetail">
+    <div class="section__head">
+      <span class="section__num mono">LE–01</span>
+      <h2 class="section__title" data-i18n="le.nH">Die <em>Romane</em></h2>
+    </div>
+    <div class="noveldetail__grid">
+      <figure class="noveldetail__leadwrap reveal-news">
+        <div class="bio__imgwrap"><img src="assets/covers/limited/gassukl1.JPG" alt="The Great and Secret Show — UK-Vorzugsausgabe in Ganzleder, Collins, 1989" /></div>
+        <figcaption class="mono" data-i18n="le.nLead">The Great and Secret Show, Collins, UK, 1989 · Ganzleder in samtgefütterter Kassette</figcaption>
+      </figure>
+      <div class="noveldetail__text">
+        <h2 class="noveldetail__h mono" data-i18n="novel.synopsis">Worum es geht</h2>
+        <p class="noveldetail__syn" data-i18n="le.nSyn">Von The Damnation Game (1985) bis zu den Suntup-Bänden von 2022
+        erscheint fast jeder Roman auch als Vorzugsausgabe: signiert und nummeriert, dazu die raren
+        Buchstaben-Exemplare, die nie in den Handel gehen. Das Revelations-Archiv verzeichnet sie samt Auflagen,
+        Originalpreisen und Sammlerwerten.</p>
+        <h2 class="noveldetail__h mono" data-i18n="pr.archiveNotes">Aus dem Archiv</h2>
+        <ul class="novelnotes">
+          <li class="novelnote reveal-news">
+            <p data-i18n="le.nN1">Den Anfang machte Weidenfeld &amp; Nicolson 1985: 250 signierte, nummerierte Exemplare
+            von The Damnation Game, leinengebunden im Schuber für 25 Pfund — der Archiv-Preisführer notiert sie heute
+            bei 250 bis 300 Dollar.</p>
+            <p class="novelnote__src mono">Weidenfeld &amp; Nicolson, UK · 1985</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="le.nN2">Das Markenzeichen von B.E. Trice aus New Orleans: Schuber mit ausgestanztem Fenster,
+            durch das Barkers eingelegtes Artwork sichtbar wird — bei Galilee, Coldheart Canyon und den ersten beiden
+            Abarat-Bänden.</p>
+            <p class="novelnote__src mono">B.E. Trice, USA · 1998–2004</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="le.nN3">Die aufwendigste Neuausgabe kam 2022 von Suntup Editions: Imajica in drei Stufen bis
+            zur 26er-Buchstabenausgabe — zwei Bände in Büffelleder-Kassette für 4.995 Dollar, restlos ausverkauft.</p>
+            <p class="novelnote__src mono">Suntup Editions, USA · 2022</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="le.nN4">Auch Deutschland sammelt mit: Edition Phantasia band Spiel des Verderbens (300 Ex.,
+            seidenbezogen im marmorierten Schuber), Der Dieb der Zeit und Das Sakrament — und Heyne legte die
+            Abarat-Bände als nummerierte 2.000er-Schuberausgaben auf.</p>
+            <p class="novelnote__src mono">Edition Phantasia · Heyne · 1987–2005</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="coversection">
+      <div class="coversection__head">
+        <h2 class="section__title section__title--small" data-i18n="le.selected">Ausgewählte Ausgaben</h2>
+        <p class="mono coversection__hint" data-i18n="novel.coverHint">Klick vergrößert das Cover</p>
+      </div>
+      <div class="coverrow">
+        <figure class="coverfig" data-title="The Damnation Game">
+          <img src="assets/covers/limited/damnatukl1.JPG" alt="The Damnation Game — UK-Vorzugsausgabe, Weidenfeld &amp; Nicolson, 1985" loading="lazy" />
+          <figcaption class="mono" data-i18n="le.cN1">Weidenfeld &amp; Nicolson, UK, 1985 · 250 signierte Ex.</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Spiel des Verderbens">
+          <img src="assets/covers/limited/spielltd.JPG" alt="Spiel des Verderbens — deutsche Vorzugsausgabe, Edition Phantasia, 1987" loading="lazy" />
+          <figcaption class="mono" data-i18n="le.cN2">Edition Phantasia, 1987 · 300 Ex., Seide im Marmorschuber</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Weaveworld">
+          <img src="assets/covers/limited/weaveukl1.JPG" alt="Weaveworld — UK-Vorzugsausgabe, Collins, 1987" loading="lazy" />
+          <figcaption class="mono" data-i18n="le.cN3">Collins, UK, 1987 · 500 Ex., Halbleder mit Goldschnitt</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Weaveworld — 25th Anniversary">
+          <img src="assets/covers/limited/weave25tray.jpg" alt="Weaveworld — 25th-Anniversary-Ausgabe in Traycase, Earthling, 2013" loading="lazy" />
+          <figcaption class="mono" data-i18n="le.cN4">Earthling, USA, 2013 · Jubiläumsausgabe im Traycase</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Imajica">
+          <img src="assets/covers/limited/imajicausl2.JPG" alt="Imajica — US-Vorzugsausgabe, HarperCollins, 1991" loading="lazy" />
+          <figcaption class="mono" data-i18n="le.cN5">HarperCollins, USA, 1991 · 500 signierte Ex.</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="The Thief of Always">
+          <img src="assets/covers/limited/thiefusl1.JPG" alt="The Thief of Always — US-Vorzugsausgabe, HarperCollins, 1992" loading="lazy" />
+          <figcaption class="mono" data-i18n="le.cN6">HarperCollins, USA, 1992 · 500 Ex., Schuber mit Barker-Artwork</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Galilee">
+          <img src="assets/covers/limited/galileeusl2.JPG" alt="Galilee — US-Buchstabenausgabe, B.E. Trice, 1998" loading="lazy" />
+          <figcaption class="mono" data-i18n="le.cN7">B.E. Trice, USA, 1998 · 26 Ex. mit Buchstaben</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Abarat">
+          <img src="assets/covers/limited/abaratusl2c.JPG" alt="Abarat — Deluxe-Ausgabe im Cutaway-Schuber, B.E. Trice, 2002" loading="lazy" />
+          <figcaption class="mono" data-i18n="le.cN8">B.E. Trice, USA, 2002 · Deluxe, Schuber mit Fenster</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOOKS OF BLOOD -->
+  <section class="noveldetail">
+    <div class="section__head">
+      <span class="section__num mono">LE–02</span>
+      <h2 class="section__title">Books <em>of Blood</em></h2>
+    </div>
+    <div class="noveldetail__grid">
+      <figure class="noveldetail__leadwrap reveal-news">
+        <div class="bio__imgwrap"><img src="assets/covers/limited/bobstealthl2.JPG" alt="Books of Blood 1–6 — Buchstabenausgabe in Holzbox mit Messingplatte, Stealth Press, 2001" /></div>
+        <figcaption class="mono" data-i18n="le.bLead">Books of Blood 1–6, Stealth Press, USA, 2001 · Holzbox mit gravierter Messingplatte</figcaption>
+      </figure>
+      <div class="noveldetail__text">
+        <h2 class="noveldetail__h mono" data-i18n="novel.synopsis">Worum es geht</h2>
+        <p class="noveldetail__syn" data-i18n="le.bSyn">Die Blutbücher sind das Sammelfeld schlechthin: signierte
+        Dreierboxen von 1985, Lederbände von Scream Press, deutsche Phantasia-Ausgaben — und immer neue Gesamtausgaben,
+        von der Holzbox bei Stealth bis zu den Subterranean-Kassetten von 2014.</p>
+        <h2 class="noveldetail__h mono" data-i18n="pr.archiveNotes">Aus dem Archiv</h2>
+        <ul class="novelnotes">
+          <li class="novelnote reveal-news">
+            <p data-i18n="le.bN1">Weidenfeld &amp; Nicolson legte 1985 je 200 signierte Exemplare der sechs Bände auf,
+            verkauft in Dreierboxen für 45 Pfund — heute stehen die Sets bei 300 bis 350 Dollar.</p>
+            <p class="novelnote__src mono">Weidenfeld &amp; Nicolson, UK · 1985</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="le.bN2">Scream Press band die Bände vier bis sechs 1988 in Vollleder mit dekorierten Schubern
+            — je 333 Exemplare, signiert von Barker und Illustrator Harry O. Morris.</p>
+            <p class="novelnote__src mono">Scream Press, USA · 1988</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="le.bN3">Stealth Press vereinte 2001 alle sechs Bände in goldgeprägtem Vollleder; die 52
+            Buchstaben-Exemplare kamen in einer eigens gefertigten Holzbox mit gravierter Messingplatte und
+            zusätzlicher signierter Fotografie.</p>
+            <p class="novelnote__src mono">Stealth Press, USA · 2001</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="le.bN4">Kuriosum am Rande: Eclipse zerlegte The Book of Blood 1993 in 32 Sammelkarten — 1.000
+            nummerierte Sets in goldgeprägter Stoffbox, signiert von Barker und Zeichner Tristen Schane.</p>
+            <p class="novelnote__src mono">Clive Barker&rsquo;s Box of Blood, Eclipse · 1993</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="coversection">
+      <div class="coversection__head">
+        <h2 class="section__title section__title--small" data-i18n="le.selected">Ausgewählte Ausgaben</h2>
+        <p class="mono coversection__hint" data-i18n="novel.coverHint">Klick vergrößert das Cover</p>
+      </div>
+      <div class="coverrow">
+        <figure class="coverfig" data-title="Books of Blood, Volume 1">
+          <img src="assets/covers/limited/bob1ukh1.JPG" alt="Books of Blood Volume 1 — UK-Vorzugsausgabe, Weidenfeld &amp; Nicolson, 1985" loading="lazy" />
+          <figcaption class="mono" data-i18n="le.cB1">Weidenfeld &amp; Nicolson, UK, 1985 · 200 signierte Ex.</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Books of Blood, Volume 4">
+          <img src="assets/covers/limited/bob4usl1.JPG" alt="Books of Blood Volume 4 — Ledereinband, Scream Press, 1988" loading="lazy" />
+          <figcaption class="mono" data-i18n="le.cB2">Scream Press, USA, 1988 · 333 Ex. in Vollleder</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Books of Blood 1–3">
+          <img src="assets/covers/limited/bob123ush1.JPG" alt="Books of Blood 1–3 — US-Vorzugsausgabe, Scream Press, 1985" loading="lazy" />
+          <figcaption class="mono" data-i18n="le.cB3">Scream Press, USA, 1985 · 250 Ex., mit Potter &amp; Morris signiert</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Books of Blood 1–6">
+          <img src="assets/covers/limited/bobstealthl1.JPG" alt="Books of Blood 1–6 — nummerierte Lederausgabe, Stealth Press, 2001" loading="lazy" />
+          <figcaption class="mono" data-i18n="le.cB4">Stealth Press, USA, 2001 · 500 Ex. in Vollleder</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Books of Blood 1–6 — Subterranean">
+          <img src="assets/covers/limited/bobuslslip.jpg" alt="Books of Blood — Schuber-Design, Subterranean Press, 2014" loading="lazy" />
+          <figcaption class="mono" data-i18n="le.cB5">Subterranean Press, USA, 2014 · Schuber-Set, 500 Ex.</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Clive Barker's Box of Blood">
+          <img src="assets/covers/limited/boxltd.JPG" alt="Clive Barker's Box of Blood — 32 Sammelkarten in Stoffbox, Eclipse, 1993" loading="lazy" />
+          <figcaption class="mono" data-i18n="le.cB6">Eclipse, USA, 1993 · Erzählung auf 32 Sammelkarten</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- SHORT STORIES & NOVELLAS -->
+  <section class="noveldetail">
+    <div class="section__head">
+      <span class="section__num mono">LE–03</span>
+      <h2 class="section__title" data-i18n="le.sH">Erzählungen &amp; <em>Novellen</em></h2>
+    </div>
+    <div class="noveldetail__grid">
+      <figure class="noveldetail__leadwrap reveal-news">
+        <div class="bio__imgwrap"><img src="assets/covers/limited/cabal1.JPG" alt="Cabal — Vollleder-Vorzugsausgabe, Poseidon, 1988" /></div>
+        <figcaption class="mono" data-i18n="le.sLead">Cabal, Poseidon, USA, 1988 · 750 Ex. in geprägtem Vollleder</figcaption>
+      </figure>
+      <div class="noveldetail__text">
+        <h2 class="noveldetail__h mono" data-i18n="novel.synopsis">Worum es geht</h2>
+        <p class="noveldetail__syn" data-i18n="le.sSyn">Auch die kurze Form bekommt ihre Vorzugsausgaben — oft über
+        Anthologien, in denen Barker neben Kollegen signiert: von Night Visions 3 über Prime Evil bis zu den
+        Subterranean-Bänden der Tortured Souls und Infernal Parade.</p>
+        <h2 class="noveldetail__h mono" data-i18n="pr.archiveNotes">Aus dem Archiv</h2>
+        <ul class="novelnotes">
+          <li class="novelnote reveal-news">
+            <p data-i18n="le.sN1">Cabal erschien 1988 bei Poseidon in 750 signierten Exemplaren — Vollleder mit
+            Goldprägung nach Barkers eigenem Artwork, im Schuber.</p>
+            <p class="novelnote__src mono">Poseidon Press, USA · 1988</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="le.sN2">The Hellbound Heart debütierte in Night Visions 3, herausgegeben von George R.R.
+            Martin (400 Ex.); zum zwanzigsten Jubiläum band Earthling die Novelle in Leder — die 26
+            Buchstaben-Exemplare mit Original-Artwork, zusätzlich signiert von Peter Atkins und Ashley Laurence.</p>
+            <p class="novelnote__src mono">Dark Harvest 1986 · Earthling 2007</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="le.sN3">Die wertvollste Anthologie ist Prime Evil (mit Coming to Grief): Die britische
+            250er-Ausgabe in goldgeprägtem Vollleder, von fünfzehn Autoren signiert, steht heute bei 350 bis 450
+            Dollar.</p>
+            <p class="novelnote__src mono">Bantam Press, UK · 1988</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="le.sN4">Chiliad erschien 1997 in Revelations mit dreizehn weiteren Signaturen; 2013/14 holte
+            Subterranean die Novelle, Tortured Souls und Infernal Parade als eigene nummerierte Lederbände nach.</p>
+            <p class="novelnote__src mono">CD Publications 1997 · Subterranean 2013–2017</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="coversection">
+      <div class="coversection__head">
+        <h2 class="section__title section__title--small" data-i18n="le.selected">Ausgewählte Ausgaben</h2>
+        <p class="mono coversection__hint" data-i18n="novel.coverHint">Klick vergrößert das Cover</p>
+      </div>
+      <div class="coverrow">
+        <figure class="coverfig" data-title="Night Visions 3 — The Hellbound Heart">
+          <img src="assets/covers/limited/hellboundhush1.JPG" alt="Night Visions 3 mit The Hellbound Heart — Dark Harvest, 1986" loading="lazy" />
+          <figcaption class="mono" data-i18n="le.cS1">Dark Harvest, USA, 1986 · 400 Ex., hg. von G.R.R. Martin</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="The Hellbound Heart — 20th Anniversary">
+          <img src="assets/covers/limited/hbh20th.jpg" alt="The Hellbound Heart — Jubiläumsausgabe, Earthling, 2007" loading="lazy" />
+          <figcaption class="mono" data-i18n="le.cS2">Earthling, USA, 2007 · Leder, 250 + 26 Ex.</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Prime Evil">
+          <img src="assets/covers/limited/comingtoltd.JPG" alt="Prime Evil — UK-Vorzugsausgabe in Vollleder, Bantam Press, 1988" loading="lazy" />
+          <figcaption class="mono" data-i18n="le.cS3">Bantam Press, UK, 1988 · 250 Ex. in Vollleder</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Revelations — Chiliad">
+          <img src="assets/covers/limited/chiliadusl.JPG" alt="Revelations mit Chiliad — nummerierte Ausgabe, CD Publications, 1997" loading="lazy" />
+          <figcaption class="mono" data-i18n="le.cS4">CD Publications, USA, 1997 · 500 Ex., 14 Signaturen</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Tortured Souls">
+          <img src="assets/covers/limited/torturedsoulsushb1.jpg" alt="Tortured Souls — nummerierte Ausgabe, Subterranean Press, 2015" loading="lazy" />
+          <figcaption class="mono" data-i18n="le.cS5">Subterranean Press, USA, 2015 · 500 signierte Ex.</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Mr. Maximillian Bacchus">
+          <img src="assets/covers/limited/bacchusl2.jpg" alt="The Adventures of Mr. Maximillian Bacchus — Buchstabenausgabe im Traycase, Bad Moon Books, 2009" loading="lazy" />
+          <figcaption class="mono" data-i18n="le.cS6">Bad Moon Books, USA, 2009 · 26 Ex. im Traycase</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- GRAPHIC NOVELS -->
+  <section class="noveldetail">
+    <div class="section__head">
+      <span class="section__num mono">LE–04</span>
+      <h2 class="section__title" data-i18n="le.gH">Graphic <em>Novels</em></h2>
+    </div>
+    <div class="noveldetail__grid">
+      <figure class="noveldetail__leadwrap reveal-news">
+        <div class="bio__imgwrap"><img src="assets/covers/limited/hell1grltd1.JPG" alt="Hellraiser Volume 1 — signierte Vorzugsausgabe, Graffitti Designs, 1990" /></div>
+        <figcaption class="mono" data-i18n="le.gLead">Hellraiser Vol. 1, Graffitti Designs, USA, 1990 · signiert von Barker, Bisley &amp; Bolton</figcaption>
+      </figure>
+      <div class="noveldetail__text">
+        <h2 class="noveldetail__h mono" data-i18n="novel.synopsis">Worum es geht</h2>
+        <p class="noveldetail__syn" data-i18n="le.gSyn">Auch die Comic-Adaptionen erschienen limitiert: die
+        Hellraiser-Bände von Graffitti Designs mit den Signaturen der Zeichner, die Eclipse-Ausgabe von The Yattering
+        and Jack — und Ledersammelbände von Checker mit sinnigen Auflagenzahlen.</p>
+        <h2 class="noveldetail__h mono" data-i18n="pr.archiveNotes">Aus dem Archiv</h2>
+        <ul class="novelnotes">
+          <li class="novelnote reveal-news">
+            <p data-i18n="le.gN1">Graffitti Designs legte die drei Hellraiser-Bände 1990 doppelt auf: je 500 von Barker
+            und den Künstlern — Simon Bisley, John Bolton, Scott Hampton, Ted McKeever — signierte Exemplare, dazu
+            größere Auflagen nur mit den Künstler-Signaturen.</p>
+            <p class="novelnote__src mono">Graffitti Designs, USA · 1990</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="le.gN2">Checker band 2002 die Sammelbände in Leder — Tapping the Vein in einer Auflage mit
+            Ansage: 666 Exemplare.</p>
+            <p class="novelnote__src mono">Checker, USA · 2002</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="le.gN3">IDWs Comic-Fassung von The Thief of Always erschien 2005 auch als von Barker
+            signierte 500er-Ausgabe.</p>
+            <p class="novelnote__src mono">IDW, USA · 2005</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="coversection">
+      <div class="coversection__head">
+        <h2 class="section__title section__title--small" data-i18n="le.selected">Ausgewählte Ausgaben</h2>
+        <p class="mono coversection__hint" data-i18n="novel.coverHint">Klick vergrößert das Cover</p>
+      </div>
+      <div class="coverrow">
+        <figure class="coverfig" data-title="Night of the Living Dead: London">
+          <img src="assets/covers/limited/nold1grltd.JPG" alt="Night of the Living Dead: London Volume 1 — signierte Ausgabe, Fantaco, 1993" loading="lazy" />
+          <figcaption class="mono" data-i18n="le.cG1">Fantaco, USA, 1993 · 250 Ex., mit Steve Niles signiert</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="The Yattering and Jack">
+          <img src="assets/covers/limited/yatteringgrltd.JPG" alt="The Yattering and Jack — signierte Ausgabe, Eclipse, 1991" loading="lazy" />
+          <figcaption class="mono" data-i18n="le.cG2">Eclipse, USA, 1991 · 250 Ex., mit John Bolton signiert</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Clive Barker's Tapping the Vein">
+          <img src="assets/covers/limited/checkertappingltd.JPG" alt="Tapping the Vein — Lederausgabe, Checker, 2002" loading="lazy" />
+          <figcaption class="mono" data-i18n="le.cG3">Checker, USA, 2002 · 666 Ex. in Leder</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="The Thief of Always — IDW">
+          <img src="assets/covers/limited/thiefidwltd.jpg" alt="The Thief of Always — signierte IDW-Ausgabe, 2005" loading="lazy" />
+          <figcaption class="mono" data-i18n="le.cG4">IDW, USA, 2005 · 500 signierte Ex.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTRIBUTIONS & RELATED BOOKS -->
+  <section class="noveldetail">
+    <div class="section__head">
+      <span class="section__num mono">LE–05</span>
+      <h2 class="section__title" data-i18n="le.rH">Beiträge &amp; <em>verwandte Bücher</em></h2>
+    </div>
+    <div class="noveldetail__grid">
+      <figure class="noveldetail__leadwrap reveal-news">
+        <div class="bio__imgwrap"><img src="assets/covers/limited/darkcarnivallttd.JPG" alt="Dark Carnival von Ray Bradbury — Buchstabenausgabe im Traycase, Gauntlet Press, 2001" /></div>
+        <figcaption class="mono" data-i18n="le.rLead">Dark Carnival (Ray Bradbury), Gauntlet, USA, 2001 · Buchstabenausgabe im Traycase</figcaption>
+      </figure>
+      <div class="noveldetail__text">
+        <h2 class="noveldetail__h mono" data-i18n="novel.synopsis">Worum es geht</h2>
+        <p class="noveldetail__syn" data-i18n="le.rSyn">Wo Barker Vorworte schreibt, folgen Vorzugsausgaben: Bradburys
+        Dark Carnival, Miévilles King Rat, Gigers Necronomicon oder die Anthologien der Achtziger — Bücher, in denen
+        seine Signatur neben denen der Autoren und Künstler steht.</p>
+        <h2 class="noveldetail__h mono" data-i18n="pr.archiveNotes">Aus dem Archiv</h2>
+        <ul class="novelnotes">
+          <li class="novelnote reveal-news">
+            <p data-i18n="le.rN1">Für die Gauntlet-Ausgabe von Dark Carnival signierten Barker und Ray Bradbury
+            gemeinsam: 700 nummerierte Exemplare samt Bradbury-Chapbook, dazu 52 Buchstaben-Exemplare für 1.000
+            Dollar.</p>
+            <p class="novelnote__src mono">Gauntlet Press, USA · 2001</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="le.rN2">Von Earthlings King Rat existieren nur 15 Buchstaben-Exemplare — handgebunden in
+            Ziegenleder, signiert von Barker, China Miéville und Richard Kirk.</p>
+            <p class="novelnote__src mono">Earthling Publications, USA · 2005</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="le.rN3">Gigers Necronomicon, mit Barkers Einleitung, erschien bei Morpheus in einer
+            Auflage, die zum Haus passt: 666 Exemplare in Vollleder, signiert vom Künstler.</p>
+            <p class="novelnote__src mono">Morpheus International · 1992</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="le.rN4">Und in den Anthologie-Klassikern der Achtziger — Night Visions 4, Scared Stiff,
+            Silver Scream — steht Barkers Name neben Koontz, Campbell und McCammon auf den Signaturseiten.</p>
+            <p class="novelnote__src mono">Dark Harvest · Scream Press · 1986–1988</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="coversection">
+      <div class="coversection__head">
+        <h2 class="section__title section__title--small" data-i18n="le.selected">Ausgewählte Ausgaben</h2>
+        <p class="mono coversection__hint" data-i18n="novel.coverHint">Klick vergrößert das Cover</p>
+      </div>
+      <div class="coverrow">
+        <figure class="coverfig" data-title="Dark Carnival — Ray Bradbury">
+          <img src="assets/covers/limited/darkcarnivalslip.JPG" alt="Dark Carnival — nummerierte Ausgabe im Lederschuber, Gauntlet Press, 2001" loading="lazy" />
+          <figcaption class="mono" data-i18n="le.cR1">Gauntlet, USA, 2001 · 700 Ex., von Barker &amp; Bradbury signiert</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="King Rat — China Miéville">
+          <img src="assets/covers/limited/kingratusl2a.jpg" alt="King Rat — Buchstabenausgabe in Ziegenleder, Earthling, 2005" loading="lazy" />
+          <figcaption class="mono" data-i18n="le.cR2">Earthling, USA, 2005 · 15 Ex. in Ziegenleder</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="H.R. Giger's Necronomicon I &amp; II">
+          <img src="assets/covers/limited/gigerltd.JPG" alt="H.R. Giger's Necronomicon — Vollleder-Vorzugsausgabe, Morpheus, 1992" loading="lazy" />
+          <figcaption class="mono" data-i18n="le.cR3">Morpheus, USA, 1992 · 666 Ex., von Giger signiert</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Scared Stiff — Ramsey Campbell">
+          <img src="assets/covers/limited/scaredstiffltd.JPG" alt="Scared Stiff — Vorzugsausgabe, Scream Press, 1987" loading="lazy" />
+          <figcaption class="mono" data-i18n="le.cR4">Scream Press, USA, 1987 · 250 nummerierte Ex.</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Night Visions 4">
+          <img src="assets/covers/limited/nvisions4.JPG" alt="Night Visions 4 — Vorzugsausgabe, Dark Harvest, 1987" loading="lazy" />
+          <figcaption class="mono" data-i18n="le.cR5">Dark Harvest, USA, 1987 · 500 Ex., u. a. mit Koontz</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ORIGINAL ART IN LIMITED EDITIONS -->
+  <section class="noveldetail">
+    <div class="section__head">
+      <span class="section__num mono">LE–06</span>
+      <h2 class="section__title" data-i18n="le.aH">Original-Kunst <em>in den Limitierten</em></h2>
+    </div>
+    <div class="noveldetail__grid">
+      <figure class="noveldetail__leadwrap reveal-news">
+        <div class="bio__imgwrap"><img src="assets/covers/limited/illustrltd27.jpg" alt="Illustrator, Exemplar Nr. 27 — Original-Skizze von Clive Barker auf der Limitierungsseite, 1990" /></div>
+        <figcaption class="mono" data-i18n="le.aLead">Illustrator, Nr. 27, 1990 · Original-Skizze auf der Limitierungsseite</figcaption>
+      </figure>
+      <div class="noveldetail__text">
+        <h2 class="noveldetail__h mono" data-i18n="novel.synopsis">Worum es geht</h2>
+        <p class="noveldetail__syn" data-i18n="le.aSyn">Die Königsklasse der Limitierten: Ausgaben, in die Barker in
+        jedes einzelne Exemplar eine Original-Skizze zeichnet. Den Anfang machte 1990 der Illustrator-Band mit über 200
+        verschiedenen Zeichnungen — seither macht jede Skizze ihr Exemplar zum Unikat.</p>
+        <h2 class="noveldetail__h mono" data-i18n="pr.archiveNotes">Aus dem Archiv</h2>
+        <ul class="novelnotes">
+          <li class="novelnote reveal-news">
+            <p data-i18n="le.aN1">Im 200er-Schuberband von Illustrator (Arcane/Eclipse, 1990) zeichnete Barker in ein
+            vorgedrucktes Feld der Limitierungsseite — mehr als 200 verschiedene Skizzen, die das Archiv seit Jahren
+            nachverfolgt und katalogisiert.</p>
+            <p class="novelnote__src mono">Arcane / Eclipse, USA · 1990</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="le.aN2">Für die 50 Deluxe-Exemplare von Abarat entstand je eine ganzseitige Originalskizze
+            gegenüber der Limitierungsseite — 2004 wiederholt für Days of Magic, Nights of War.</p>
+            <p class="novelnote__src mono">B.E. Trice, USA · 2002–2004</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="le.aN3">Seither gehört die einmontierte Originalzeichnung zum Standard der
+            Buchstaben-Ausgaben: The Hellbound Heart, Maximillian Bacchus, The Painter, The Midnight Meat Train, The
+            Body Book und Tonight, Again.</p>
+            <p class="novelnote__src mono">Revelations-Archiv · Original Sketches</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="coversection">
+      <div class="coversection__head">
+        <h2 class="section__title section__title--small" data-i18n="le.sketches">Skizzen aus den Ausgaben</h2>
+        <p class="mono coversection__hint" data-i18n="novel.coverHint">Klick vergrößert das Bild</p>
+      </div>
+      <div class="coverrow">
+        <figure class="coverfig" data-title="Illustrator — Nr. 45">
+          <img src="assets/covers/limited/illustrltd45.jpg" alt="Illustrator, Exemplar Nr. 45 — Original-Skizze von Clive Barker" loading="lazy" />
+          <figcaption class="mono" data-i18n="le.cA1">Illustrator, Nr. 45 · Original-Skizze, 1990</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Illustrator — Nr. 55">
+          <img src="assets/covers/limited/illustrltd55.jpg" alt="Illustrator, Exemplar Nr. 55 — Original-Skizze von Clive Barker" loading="lazy" />
+          <figcaption class="mono" data-i18n="le.cA2">Illustrator, Nr. 55 · Original-Skizze, 1990</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Abarat — Deluxe Nr. 6">
+          <img src="assets/covers/limited/abaratdeluxe6.jpg" alt="Abarat, Deluxe-Exemplar Nr. 6 — ganzseitige Original-Skizze" loading="lazy" />
+          <figcaption class="mono" data-i18n="le.cA3">Abarat, Deluxe Nr. 6 · ganzseitige Skizze, 2002</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Abarat — Deluxe Nr. 22">
+          <img src="assets/covers/limited/abaratdeluxe22.jpg" alt="Abarat, Deluxe-Exemplar Nr. 22 — ganzseitige Original-Skizze" loading="lazy" />
+          <figcaption class="mono" data-i18n="le.cA4">Abarat, Deluxe Nr. 22 · ganzseitige Skizze, 2002</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Abarat — Deluxe Nr. 25">
+          <img src="assets/covers/limited/abaratdeluxe25.jpg" alt="Abarat, Deluxe-Exemplar Nr. 25 — ganzseitige Original-Skizze" loading="lazy" />
+          <figcaption class="mono" data-i18n="le.cA5">Abarat, Deluxe Nr. 25 · ganzseitige Skizze, 2002</figcaption>
+        </figure>
+      </div>
+    </div>
+    <p class="coversection__credit mono">Cover-Abbildungen: Revelations-Archiv (clivebarker.info) · Artwork © Clive Barker bzw. der jeweiligen Verlage</p>
+    <p class="news-backwrap"><a class="news-backlink mono" href="index.html#werke" data-i18n="art.back">← Zurück zu den Werken</a></p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__meta mono">
+      <p data-i18n="footer.m1">Sämtliche Gemälde &amp; Zeichnungen © Clive Barker · mit Dank an das Revelations-Archiv (clivebarker.info)</p>
+      <p data-i18n="footer.m2">Konzept, Text, Code &amp; Motion: Claude Fable 5 · Anthropic · 2026 — inoffizielles Fan-Projekt</p>
+    </div>
+  </footer>
+
+</main>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <div class="lightbox__backdrop" id="lightboxBackdrop"></div>
+  <figure class="lightbox__figure">
+    <img src="" alt="" id="lightboxImg" />
+    <figcaption>
+      <span class="lightbox__title" id="lightboxTitle"></span>
+      <span class="lightbox__meta mono" id="lightboxMeta"></span>
+      <span class="lightbox__credit mono">Revelations-Archiv · clivebarker.info</span>
+    </figcaption>
+  </figure>
+  <button class="lightbox__close mono" id="lightboxClose" aria-label="Schließen" data-i18n="lb.close">Schließen ✕</button>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.158.0/three.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="js/i18n.js?v=10"></script>
+<script src="js/scene.js"></script>
+<script src="js/limited.js"></script>
+</body>
+</html>
