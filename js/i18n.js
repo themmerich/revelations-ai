@@ -488,6 +488,180 @@ window.TRANSLATIONS = {
   "pr.cR5": { de: "Earthling, USA, 2005 · A4-Proof, 7 Exemplare", en: "Earthling, USA, 2005 · A4 proof, 7 copies" },
   "pr.cR6": { de: "Weird Tales No 292, 1988 · Einzelstück", en: "Weird Tales No 292, 1988 · single copy" },
 
+  /* Limited editions page */
+  "title.limited": {
+    de: "Limited Editions — Revelations · The official Clive Barker Website",
+    en: "Limited Editions — Revelations · The official Clive Barker Website"
+  },
+  "le.eyebrow": {
+    de: "Limited Editions · signiert, nummeriert, traycased · nach dem Revelations-Archiv",
+    en: "Limited editions · signed, numbered, traycased · after the Revelations archive"
+  },
+  "le.title": { de: "Die <em>Limitierten</em>", en: "The <em>Limited Editions</em>" },
+  "le.lede": {
+    de: "Seit der ersten signierten Damnation-Game-Kassette von 1985 begleitet fast jedes Werk eine limitierte Ausgabe: nummeriert oder mit Buchstaben, in Leder, Schubern und Holzboxen — vom 25-Pfund-Schuber bis zur 5.000-Dollar-Kassette.",
+    en: "Since the first signed, slipcased Damnation Game of 1985, almost every work has been shadowed by a limited edition: numbered or lettered, in leather, slipcases and wooden boxes — from the £25 slipcase to the $5,000 traycase."
+  },
+  "le.selected": { de: "Ausgewählte Ausgaben", en: "Selected editions" },
+  "le.nH": { de: "Die <em>Romane</em>", en: "The <em>Novels</em>" },
+  "le.nLead": { de: "The Great and Secret Show, Collins, UK, 1989 · Ganzleder in samtgefütterter Kassette", en: "The Great and Secret Show, Collins, UK, 1989 · full leather in a velvet-lined folding box" },
+  "le.nSyn": {
+    de: "Von The Damnation Game (1985) bis zu den Suntup-Bänden von 2022 erscheint fast jeder Roman auch als Vorzugsausgabe: signiert und nummeriert, dazu die raren Buchstaben-Exemplare, die nie in den Handel gehen. Das Revelations-Archiv verzeichnet sie samt Auflagen, Originalpreisen und Sammlerwerten.",
+    en: "From The Damnation Game (1985) to the Suntup volumes of 2022, almost every novel also appears as a fine edition: signed and numbered, plus the rare lettered copies that never reach the shops. The Revelations archive records them with print runs, original prices and collectors' values."
+  },
+  "le.nN1": {
+    de: "Den Anfang machte Weidenfeld &amp; Nicolson 1985: 250 signierte, nummerierte Exemplare von The Damnation Game, leinengebunden im Schuber für 25 Pfund — der Archiv-Preisführer notiert sie heute bei 250 bis 300 Dollar.",
+    en: "Weidenfeld &amp; Nicolson led the way in 1985: 250 signed, numbered copies of The Damnation Game, clothbound in a slipcase at £25 — the archive's price guide now lists them at $250 to $300."
+  },
+  "le.nN2": {
+    de: "Das Markenzeichen von B.E. Trice aus New Orleans: Schuber mit ausgestanztem Fenster, durch das Barkers eingelegtes Artwork sichtbar wird — bei Galilee, Coldheart Canyon und den ersten beiden Abarat-Bänden.",
+    en: "The trademark of New Orleans publisher B.E. Trice: slipcases with a cutaway window revealing Barker artwork inserted inside — for Galilee, Coldheart Canyon and the first two Abarat volumes."
+  },
+  "le.nN3": {
+    de: "Die aufwendigste Neuausgabe kam 2022 von Suntup Editions: Imajica in drei Stufen bis zur 26er-Buchstabenausgabe — zwei Bände in Büffelleder-Kassette für 4.995 Dollar, restlos ausverkauft.",
+    en: "The most elaborate new edition came from Suntup Editions in 2022: Imajica in three states up to the 26-copy lettered edition — two volumes in a buffalo-leather clamshell case at $4,995, completely sold out."
+  },
+  "le.nN4": {
+    de: "Auch Deutschland sammelt mit: Edition Phantasia band Spiel des Verderbens (300 Ex., seidenbezogen im marmorierten Schuber), Der Dieb der Zeit und Das Sakrament — und Heyne legte die Abarat-Bände als nummerierte 2.000er-Schuberausgaben auf.",
+    en: "Germany collects too: Edition Phantasia bound Spiel des Verderbens (300 copies, silk-clad in a marbled slipcase), Der Dieb der Zeit and Das Sakrament — and Heyne issued the Abarat volumes as numbered slipcased editions of 2,000."
+  },
+  "le.cN1": { de: "Weidenfeld &amp; Nicolson, UK, 1985 · 250 signierte Ex.", en: "Weidenfeld &amp; Nicolson, UK, 1985 · 250 signed copies" },
+  "le.cN2": { de: "Edition Phantasia, 1987 · 300 Ex., Seide im Marmorschuber", en: "Edition Phantasia, 1987 · 300 copies, silk in marbled slipcase" },
+  "le.cN3": { de: "Collins, UK, 1987 · 500 Ex., Halbleder mit Goldschnitt", en: "Collins, UK, 1987 · 500 copies, quarter leather, gilt edges" },
+  "le.cN4": { de: "Earthling, USA, 2013 · Jubiläumsausgabe im Traycase", en: "Earthling, USA, 2013 · anniversary edition in traycase" },
+  "le.cN5": { de: "HarperCollins, USA, 1991 · 500 signierte Ex.", en: "HarperCollins, USA, 1991 · 500 signed copies" },
+  "le.cN6": { de: "HarperCollins, USA, 1992 · 500 Ex., Schuber mit Barker-Artwork", en: "HarperCollins, USA, 1992 · 500 copies, slipcase with Barker artwork" },
+  "le.cN7": { de: "B.E. Trice, USA, 1998 · 26 Ex. mit Buchstaben", en: "B.E. Trice, USA, 1998 · 26 lettered copies" },
+  "le.cN8": { de: "B.E. Trice, USA, 2002 · Deluxe, Schuber mit Fenster", en: "B.E. Trice, USA, 2002 · deluxe, cutaway slipcase" },
+  "le.bLead": { de: "Books of Blood 1–6, Stealth Press, USA, 2001 · Holzbox mit gravierter Messingplatte", en: "Books of Blood 1–6, Stealth Press, USA, 2001 · wooden box with engraved brass plate" },
+  "le.bSyn": {
+    de: "Die Blutbücher sind das Sammelfeld schlechthin: signierte Dreierboxen von 1985, Lederbände von Scream Press, deutsche Phantasia-Ausgaben — und immer neue Gesamtausgaben, von der Holzbox bei Stealth bis zu den Subterranean-Kassetten von 2014.",
+    en: "The Books of Blood are the collecting field par excellence: signed boxed sets from 1985, Scream Press leather bindings, German Phantasia editions — and ever new collected sets, from the Stealth wooden box to the 2014 Subterranean cases."
+  },
+  "le.bN1": {
+    de: "Weidenfeld &amp; Nicolson legte 1985 je 200 signierte Exemplare der sechs Bände auf, verkauft in Dreierboxen für 45 Pfund — heute stehen die Sets bei 300 bis 350 Dollar.",
+    en: "In 1985 Weidenfeld &amp; Nicolson issued 200 signed copies of each of the six volumes, sold in boxed sets of three at £45 — the sets now stand at $300 to $350."
+  },
+  "le.bN2": {
+    de: "Scream Press band die Bände vier bis sechs 1988 in Vollleder mit dekorierten Schubern — je 333 Exemplare, signiert von Barker und Illustrator Harry O. Morris.",
+    en: "In 1988 Scream Press bound volumes four to six in full leather with decorated slipcases — 333 copies each, signed by Barker and illustrator Harry O. Morris."
+  },
+  "le.bN3": {
+    de: "Stealth Press vereinte 2001 alle sechs Bände in goldgeprägtem Vollleder; die 52 Buchstaben-Exemplare kamen in einer eigens gefertigten Holzbox mit gravierter Messingplatte und zusätzlicher signierter Fotografie.",
+    en: "In 2001 Stealth Press united all six volumes in gilt-stamped full leather; the 52 lettered copies came in a custom-made wooden box with an engraved brass title plate and an additional signed photograph."
+  },
+  "le.bN4": {
+    de: "Kuriosum am Rande: Eclipse zerlegte The Book of Blood 1993 in 32 Sammelkarten — 1.000 nummerierte Sets in goldgeprägter Stoffbox, signiert von Barker und Zeichner Tristen Schane.",
+    en: "A curiosity on the side: in 1993 Eclipse split The Book of Blood across 32 trading cards — 1,000 numbered sets in a gilt-decorated cloth box, signed by Barker and artist Tristen Schane."
+  },
+  "le.cB1": { de: "Weidenfeld &amp; Nicolson, UK, 1985 · 200 signierte Ex.", en: "Weidenfeld &amp; Nicolson, UK, 1985 · 200 signed copies" },
+  "le.cB2": { de: "Scream Press, USA, 1988 · 333 Ex. in Vollleder", en: "Scream Press, USA, 1988 · 333 copies in full leather" },
+  "le.cB3": { de: "Scream Press, USA, 1985 · 250 Ex., mit Potter &amp; Morris signiert", en: "Scream Press, USA, 1985 · 250 copies, signed with Potter &amp; Morris" },
+  "le.cB4": { de: "Stealth Press, USA, 2001 · 500 Ex. in Vollleder", en: "Stealth Press, USA, 2001 · 500 copies in full leather" },
+  "le.cB5": { de: "Subterranean Press, USA, 2014 · Schuber-Set, 500 Ex.", en: "Subterranean Press, USA, 2014 · slipcased set, 500 copies" },
+  "le.cB6": { de: "Eclipse, USA, 1993 · Erzählung auf 32 Sammelkarten", en: "Eclipse, USA, 1993 · the story across 32 trading cards" },
+  "le.sH": { de: "Erzählungen &amp; <em>Novellen</em>", en: "Short Stories &amp; <em>Novellas</em>" },
+  "le.sLead": { de: "Cabal, Poseidon, USA, 1988 · 750 Ex. in geprägtem Vollleder", en: "Cabal, Poseidon, USA, 1988 · 750 copies in stamped full leather" },
+  "le.sSyn": {
+    de: "Auch die kurze Form bekommt ihre Vorzugsausgaben — oft über Anthologien, in denen Barker neben Kollegen signiert: von Night Visions 3 über Prime Evil bis zu den Subterranean-Bänden der Tortured Souls und Infernal Parade.",
+    en: "The short form gets its fine editions too — often via anthologies in which Barker signs alongside his peers: from Night Visions 3 and Prime Evil to the Subterranean volumes of Tortured Souls and Infernal Parade."
+  },
+  "le.sN1": {
+    de: "Cabal erschien 1988 bei Poseidon in 750 signierten Exemplaren — Vollleder mit Goldprägung nach Barkers eigenem Artwork, im Schuber.",
+    en: "Cabal appeared from Poseidon in 1988 in 750 signed copies — full leather with gilt-stamped decoration after Barker's own artwork, slipcased."
+  },
+  "le.sN2": {
+    de: "The Hellbound Heart debütierte in Night Visions 3, herausgegeben von George R.R. Martin (400 Ex.); zum zwanzigsten Jubiläum band Earthling die Novelle in Leder — die 26 Buchstaben-Exemplare mit Original-Artwork, zusätzlich signiert von Peter Atkins und Ashley Laurence.",
+    en: "The Hellbound Heart debuted in Night Visions 3, edited by George R.R. Martin (400 copies); for its twentieth anniversary Earthling bound the novella in leather — the 26 lettered copies with original artwork, additionally signed by Peter Atkins and Ashley Laurence."
+  },
+  "le.sN3": {
+    de: "Die wertvollste Anthologie ist Prime Evil (mit Coming to Grief): Die britische 250er-Ausgabe in goldgeprägtem Vollleder, von fünfzehn Autoren signiert, steht heute bei 350 bis 450 Dollar.",
+    en: "The most valuable anthology is Prime Evil (with Coming to Grief): the British edition of 250 in gilt-stamped full leather, signed by fifteen authors, now stands at $350 to $450."
+  },
+  "le.sN4": {
+    de: "Chiliad erschien 1997 in Revelations mit dreizehn weiteren Signaturen; 2013/14 holte Subterranean die Novelle, Tortured Souls und Infernal Parade als eigene nummerierte Lederbände nach.",
+    en: "Chiliad appeared in Revelations in 1997 with thirteen further signatures; in 2013/14 Subterranean followed up with the novella, Tortured Souls and Infernal Parade as numbered leather volumes of their own."
+  },
+  "le.cS1": { de: "Dark Harvest, USA, 1986 · 400 Ex., hg. von G.R.R. Martin", en: "Dark Harvest, USA, 1986 · 400 copies, ed. G.R.R. Martin" },
+  "le.cS2": { de: "Earthling, USA, 2007 · Leder, 250 + 26 Ex.", en: "Earthling, USA, 2007 · leather, 250 + 26 copies" },
+  "le.cS3": { de: "Bantam Press, UK, 1988 · 250 Ex. in Vollleder", en: "Bantam Press, UK, 1988 · 250 copies in full leather" },
+  "le.cS4": { de: "CD Publications, USA, 1997 · 500 Ex., 14 Signaturen", en: "CD Publications, USA, 1997 · 500 copies, 14 signatures" },
+  "le.cS5": { de: "Subterranean Press, USA, 2015 · 500 signierte Ex.", en: "Subterranean Press, USA, 2015 · 500 signed copies" },
+  "le.cS6": { de: "Bad Moon Books, USA, 2009 · 26 Ex. im Traycase", en: "Bad Moon Books, USA, 2009 · 26 copies in traycase" },
+  "le.gH": { de: "Graphic <em>Novels</em>", en: "Graphic <em>Novels</em>" },
+  "le.gLead": { de: "Hellraiser Vol. 1, Graffitti Designs, USA, 1990 · signiert von Barker, Bisley &amp; Bolton", en: "Hellraiser Vol. 1, Graffitti Designs, USA, 1990 · signed by Barker, Bisley &amp; Bolton" },
+  "le.gSyn": {
+    de: "Auch die Comic-Adaptionen erschienen limitiert: die Hellraiser-Bände von Graffitti Designs mit den Signaturen der Zeichner, die Eclipse-Ausgabe von The Yattering and Jack — und Ledersammelbände von Checker mit sinnigen Auflagenzahlen.",
+    en: "The comic adaptations went limited too: the Graffitti Designs Hellraiser volumes with the artists' signatures, the Eclipse edition of The Yattering and Jack — and leather-bound Checker collections with fitting print runs."
+  },
+  "le.gN1": {
+    de: "Graffitti Designs legte die drei Hellraiser-Bände 1990 doppelt auf: je 500 von Barker und den Künstlern — Simon Bisley, John Bolton, Scott Hampton, Ted McKeever — signierte Exemplare, dazu größere Auflagen nur mit den Künstler-Signaturen.",
+    en: "In 1990 Graffitti Designs issued the three Hellraiser volumes in two states: 500 copies each signed by Barker and the artists — Simon Bisley, John Bolton, Scott Hampton, Ted McKeever — plus larger runs with the artists' signatures only."
+  },
+  "le.gN2": {
+    de: "Checker band 2002 die Sammelbände in Leder — Tapping the Vein in einer Auflage mit Ansage: 666 Exemplare.",
+    en: "In 2002 Checker bound the collected volumes in leather — Tapping the Vein in a print run with a message: 666 copies."
+  },
+  "le.gN3": {
+    de: "IDWs Comic-Fassung von The Thief of Always erschien 2005 auch als von Barker signierte 500er-Ausgabe.",
+    en: "IDW's comic version of The Thief of Always also appeared in 2005 as a Barker-signed edition of 500."
+  },
+  "le.cG1": { de: "Fantaco, USA, 1993 · 250 Ex., mit Steve Niles signiert", en: "Fantaco, USA, 1993 · 250 copies, signed with Steve Niles" },
+  "le.cG2": { de: "Eclipse, USA, 1991 · 250 Ex., mit John Bolton signiert", en: "Eclipse, USA, 1991 · 250 copies, signed with John Bolton" },
+  "le.cG3": { de: "Checker, USA, 2002 · 666 Ex. in Leder", en: "Checker, USA, 2002 · 666 copies in leather" },
+  "le.cG4": { de: "IDW, USA, 2005 · 500 signierte Ex.", en: "IDW, USA, 2005 · 500 signed copies" },
+  "le.rH": { de: "Beiträge &amp; <em>verwandte Bücher</em>", en: "Contributions &amp; <em>Related Books</em>" },
+  "le.rLead": { de: "Dark Carnival (Ray Bradbury), Gauntlet, USA, 2001 · Buchstabenausgabe im Traycase", en: "Dark Carnival (Ray Bradbury), Gauntlet, USA, 2001 · lettered edition in traycase" },
+  "le.rSyn": {
+    de: "Wo Barker Vorworte schreibt, folgen Vorzugsausgaben: Bradburys Dark Carnival, Miévilles King Rat, Gigers Necronomicon oder die Anthologien der Achtziger — Bücher, in denen seine Signatur neben denen der Autoren und Künstler steht.",
+    en: "Where Barker writes introductions, fine editions follow: Bradbury's Dark Carnival, Miéville's King Rat, Giger's Necronomicon or the anthologies of the eighties — books where his signature sits beside those of the authors and artists."
+  },
+  "le.rN1": {
+    de: "Für die Gauntlet-Ausgabe von Dark Carnival signierten Barker und Ray Bradbury gemeinsam: 700 nummerierte Exemplare samt Bradbury-Chapbook, dazu 52 Buchstaben-Exemplare für 1.000 Dollar.",
+    en: "For the Gauntlet edition of Dark Carnival, Barker and Ray Bradbury signed together: 700 numbered copies with a Bradbury chapbook, plus 52 lettered copies at $1,000."
+  },
+  "le.rN2": {
+    de: "Von Earthlings King Rat existieren nur 15 Buchstaben-Exemplare — handgebunden in Ziegenleder, signiert von Barker, China Miéville und Richard Kirk.",
+    en: "Only 15 lettered copies of Earthling's King Rat exist — handbound in goatskin leather, signed by Barker, China Miéville and Richard Kirk."
+  },
+  "le.rN3": {
+    de: "Gigers Necronomicon, mit Barkers Einleitung, erschien bei Morpheus in einer Auflage, die zum Haus passt: 666 Exemplare in Vollleder, signiert vom Künstler.",
+    en: "Giger's Necronomicon, with Barker's introduction, appeared from Morpheus in a print run to match the house: 666 copies in full leather, signed by the artist."
+  },
+  "le.rN4": {
+    de: "Und in den Anthologie-Klassikern der Achtziger — Night Visions 4, Scared Stiff, Silver Scream — steht Barkers Name neben Koontz, Campbell und McCammon auf den Signaturseiten.",
+    en: "And in the classic anthologies of the eighties — Night Visions 4, Scared Stiff, Silver Scream — Barker's name sits beside Koontz, Campbell and McCammon on the signature pages."
+  },
+  "le.cR1": { de: "Gauntlet, USA, 2001 · 700 Ex., von Barker &amp; Bradbury signiert", en: "Gauntlet, USA, 2001 · 700 copies, signed by Barker &amp; Bradbury" },
+  "le.cR2": { de: "Earthling, USA, 2005 · 15 Ex. in Ziegenleder", en: "Earthling, USA, 2005 · 15 copies in goatskin leather" },
+  "le.cR3": { de: "Morpheus, USA, 1992 · 666 Ex., von Giger signiert", en: "Morpheus, USA, 1992 · 666 copies, signed by Giger" },
+  "le.cR4": { de: "Scream Press, USA, 1987 · 250 nummerierte Ex.", en: "Scream Press, USA, 1987 · 250 numbered copies" },
+  "le.cR5": { de: "Dark Harvest, USA, 1987 · 500 Ex., u. a. mit Koontz", en: "Dark Harvest, USA, 1987 · 500 copies, incl. Koontz" },
+  "le.aH": { de: "Original-Kunst <em>in den Limitierten</em>", en: "Original Art <em>in the Limited Editions</em>" },
+  "le.aLead": { de: "Illustrator, Nr. 27, 1990 · Original-Skizze auf der Limitierungsseite", en: "Illustrator, No. 27, 1990 · original sketch on the limitation page" },
+  "le.aSyn": {
+    de: "Die Königsklasse der Limitierten: Ausgaben, in die Barker in jedes einzelne Exemplar eine Original-Skizze zeichnet. Den Anfang machte 1990 der Illustrator-Band mit über 200 verschiedenen Zeichnungen — seither macht jede Skizze ihr Exemplar zum Unikat.",
+    en: "The top tier of the limiteds: editions in which Barker draws an original sketch into every single copy. The Illustrator volume led the way in 1990 with more than 200 different drawings — ever since, each sketch makes its copy unique."
+  },
+  "le.aN1": {
+    de: "Im 200er-Schuberband von Illustrator (Arcane/Eclipse, 1990) zeichnete Barker in ein vorgedrucktes Feld der Limitierungsseite — mehr als 200 verschiedene Skizzen, die das Archiv seit Jahren nachverfolgt und katalogisiert.",
+    en: "In the 200-copy slipcased Illustrator (Arcane/Eclipse, 1990) Barker drew inside a pre-printed square on the limitation page — more than 200 different sketches the archive has been tracking and cataloguing for years."
+  },
+  "le.aN2": {
+    de: "Für die 50 Deluxe-Exemplare von Abarat entstand je eine ganzseitige Originalskizze gegenüber der Limitierungsseite — 2004 wiederholt für Days of Magic, Nights of War.",
+    en: "Each of the 50 deluxe copies of Abarat received a full-page original sketch opposite the limitation page — repeated in 2004 for Days of Magic, Nights of War."
+  },
+  "le.aN3": {
+    de: "Seither gehört die einmontierte Originalzeichnung zum Standard der Buchstaben-Ausgaben: The Hellbound Heart, Maximillian Bacchus, The Painter, The Midnight Meat Train, The Body Book und Tonight, Again.",
+    en: "Since then the enclosed original drawing has become standard for the lettered editions: The Hellbound Heart, Maximillian Bacchus, The Painter, The Midnight Meat Train, The Body Book and Tonight, Again."
+  },
+  "le.sketches": { de: "Skizzen aus den Ausgaben", en: "Sketches from the editions" },
+  "le.cA1": { de: "Illustrator, Nr. 45 · Original-Skizze, 1990", en: "Illustrator, No. 45 · original sketch, 1990" },
+  "le.cA2": { de: "Illustrator, Nr. 55 · Original-Skizze, 1990", en: "Illustrator, No. 55 · original sketch, 1990" },
+  "le.cA3": { de: "Abarat, Deluxe Nr. 6 · ganzseitige Skizze, 2002", en: "Abarat, deluxe No. 6 · full-page sketch, 2002" },
+  "le.cA4": { de: "Abarat, Deluxe Nr. 22 · ganzseitige Skizze, 2002", en: "Abarat, deluxe No. 22 · full-page sketch, 2002" },
+  "le.cA5": { de: "Abarat, Deluxe Nr. 25 · ganzseitige Skizze, 2002", en: "Abarat, deluxe No. 25 · full-page sketch, 2002" },
+
   /* Upcoming page */
   "title.upcoming": {
     de: "Upcoming — Revelations · The official Clive Barker Website",
@@ -797,6 +971,8 @@ window.TRANSLATIONS = {
   "werke.c8m": { de: "Incarnations, Forms of Heaven & Playscripts · eigene Seite", en: "Incarnations, Forms of Heaven & playscripts · own page" },
   "werke.c9":  { de: "Proofs", en: "Proofs" },
   "werke.c9m": { de: "Korrekturfahnen &amp; Vorabdrucke · eigene Seite", en: "Uncorrected proofs &amp; advance copies · own page" },
+  "werke.c10":  { de: "Limited Editions", en: "Limited Editions" },
+  "werke.c10m": { de: "Signiert &amp; nummeriert · 1985–2022 · eigene Seite", en: "Signed &amp; numbered · 1985–2022 · own page" },
   "werke.archive": { de: "Revelations-Archiv ↗", en: "Revelations archive ↗" },
 
   /* Interviews section (home) */
