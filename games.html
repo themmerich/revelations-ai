@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Games — Revelations · The official Clive Barker Website</title>
+<meta name="description" content="Clive Barkers spielbare Welten: Undying und Jericho, Karten- und Brettspiele, Modelle und Figuren — und die Halloween-Horror-Nights-Mazes. Nach dem Revelations-Archiv." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=IBM+Plex+Mono:wght@300;400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+<link rel="stylesheet" href="css/style.css?v=11" />
+</head>
+<body>
+
+<!-- Fixed Three.js stage -->
+<canvas id="stage"></canvas>
+
+<!-- Grain overlay -->
+<div class="grain" aria-hidden="true"></div>
+
+<!-- Custom cursor -->
+<div class="cursor" id="cursor" aria-hidden="true"><span class="cursor__label" id="cursorLabel"></span></div>
+
+<!-- Navigation -->
+<header class="nav" id="nav">
+  <a class="nav__logo" href="index.html">C·B</a>
+  <nav class="nav__links">
+    <a href="news.html" data-i18n="nav.news">News</a>
+    <a href="index.html#bio" data-i18n="nav.bio">Biografie</a>
+    <a href="index.html#werke" data-i18n="nav.werke">Werke</a>
+    <a href="index.html#film" data-i18n="nav.film">Film</a>
+    <a href="index.html#games" data-i18n="nav.games">Games</a>
+    <a href="index.html#upcoming" data-i18n="nav.upcoming">Upcoming</a>
+    <a href="index.html#interviews" data-i18n="nav.interviews">Interviews</a>
+    <a href="index.html#galerie" data-i18n="nav.galerie">Galerie</a>
+    <a href="index.html#contact" class="nav__contact" data-i18n="nav.contact">Kontakt</a>
+    <button class="nav__lang mono" id="langToggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+
+<main>
+
+  <!-- GAMES HERO -->
+  <section class="newshero">
+    <p class="hero__eyebrow mono reveal-line" data-i18n="gm.eyebrow">Games · spielbar, sammelbar, begehbar · nach dem Revelations-Archiv</p>
+    <h1 class="newshero__title reveal-line" data-i18n="gm.title">Die <em>Spiele</em></h1>
+    <div class="newshero__sub">
+      <p class="newshero__lede reveal-line" data-i18n="gm.lede">Barkers Universum lässt sich nicht nur lesen und sehen —
+      man kann es spielen, sammeln und betreten: von Undying und Jericho über Sammelkarten und ein Hellraiser-Monopoly
+      bis zu den Mazes der Halloween Horror Nights.</p>
+    </div>
+  </section>
+
+  <!-- VIDEO GAMES -->
+  <section class="noveldetail" id="video">
+    <div class="section__head">
+      <span class="section__num mono">G–01</span>
+      <h2 class="section__title" data-i18n="gm.vH">Video<em>spiele</em></h2>
+    </div>
+    <div class="noveldetail__grid">
+      <figure class="noveldetail__leadwrap reveal-news">
+        <div class="bio__imgwrap"><img src="assets/covers/games/undying.JPG" alt="Clive Barker's Undying — Cover-Artwork, Electronic Arts, 2001" /></div>
+        <figcaption class="mono" data-i18n="gm.vLead">Clive Barker&rsquo;s Undying, EA / DreamWorks Interactive, 2001</figcaption>
+      </figure>
+      <div class="noveldetail__text">
+        <h2 class="noveldetail__h mono" data-i18n="novel.synopsis">Worum es geht</h2>
+        <p class="noveldetail__syn" data-i18n="gm.vSyn">Zwei große Titel tragen Barkers Namen im Titel: Undying (2001)
+        und Jericho (2007). Davor standen die frühen Nightbreed-Spiele von Ocean, daneben ein Online-Labyrinth für
+        junge Abarat-Leser — und mit Hellraiser: Revival ist das nächste Kapitel angekündigt.</p>
+        <h2 class="noveldetail__h mono" data-i18n="gm.projects">Die Spiele</h2>
+        <ul class="novelnotes">
+          <li class="novelnote reveal-news">
+            <p data-i18n="gm.vN1">Für Undying überarbeitete Barker ein halbfertiges DreamWorks-Projekt: Er schärfte
+            die Geschichte um die Familie Covenant — mehr Geheimnisse als die Kennedys, nur dunkler —, verpasste dem
+            Helden Namen und Gesicht neu (aus Count Magnus Wolfram wurde Patrick Galloway) und sprach selbst die Rolle
+            des Ambrose. Trotz guter Kritiken blieb der Verkauf schwach; Fortsetzungen kamen nie.</p>
+            <p class="novelnote__src mono">EA / DreamWorks Interactive · 2001</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="gm.vN2">Jericho schickte 2007 eine Special-Forces-Einheit mit konventionellen und arkanen
+            Waffen in eine wiederaufgetauchte Wüstenstadt, hinab durch Zeitalter-Kammern bis zum Firstborn — mit
+            Squad-Wechsel als Spielprinzip und einem Soundtrack von Cris Velasco, den Barker selbst auswählte.</p>
+            <p class="novelnote__src mono">Codemasters / MercurySteam · 2007</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="gm.vN3">Die Frühgeschichte: Ocean Software brachte 1990 Nightbreed als Action Game und als
+            Interactive Movie mit Filmausschnitten — Teil drei der geplanten Trilogie fiel dem Kinoergebnis des Films
+            zum Opfer.</p>
+            <p class="novelnote__src mono">Ocean Software · 1990</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="gm.vN4">Und für die jüngsten Leser steuerte HarperCollins das Online-Spiel The Labyrinth of
+            The Abarat bei: mit dem rotbäuchigen Boot durch ein Piraten-Labyrinth, sechs magische Bücher suchen — sonst
+            macht Christopher Carrion weiter sein finsteres Werk.</p>
+            <p class="novelnote__src mono">HarperCollins / bonus.com · 2004</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="coversection">
+      <div class="coversection__head">
+        <h2 class="section__title section__title--small" data-i18n="gm.selected">Aus dem Archiv</h2>
+        <p class="mono coversection__hint" data-i18n="novel.coverHint">Klick vergrößert das Bild</p>
+      </div>
+      <div class="coverrow">
+        <figure class="coverfig" data-title="Clive Barker's Undying">
+          <img src="assets/covers/games/undying.JPG" alt="Clive Barker's Undying — Cover-Artwork, 2001" loading="lazy" />
+          <figcaption class="mono" data-i18n="gm.cV1">EA / DreamWorks, 2001 · PC-Cover</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Clive Barker's Undying — Mac">
+          <img src="assets/covers/games/undyingmac.JPG" alt="Clive Barker's Undying — Mac-Version, Aspyr, 2002" loading="lazy" />
+          <figcaption class="mono" data-i18n="gm.cV2">Westlake / Aspyr, 2002 · Mac-Version</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Clive Barker's Jericho">
+          <img src="assets/covers/games/jericho.jpg" alt="Clive Barker's Jericho — Key-Art, Codemasters, 2007" loading="lazy" />
+          <figcaption class="mono" data-i18n="gm.cV3">Codemasters, 2007 · PC, Xbox 360 &amp; PS3</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Nightbreed: The Action Game">
+          <img src="assets/covers/games/nightbreedgame3.JPG" alt="Nightbreed: The Action Game — Cover, Ocean, 1990" loading="lazy" />
+          <figcaption class="mono" data-i18n="gm.cV4">Ocean, 1990 · The Action Game</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Nightbreed: The Interactive Movie">
+          <img src="assets/covers/games/nightbreedgame4.JPG" alt="Nightbreed: The Interactive Movie — Cover, Ocean, 1990" loading="lazy" />
+          <figcaption class="mono" data-i18n="gm.cV5">Ocean, 1990 · The Interactive Movie</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="The Labyrinth of The Abarat">
+          <img src="assets/covers/games/abaratgame1.jpg" alt="The Labyrinth of The Abarat — Online-Spiel, 2004" loading="lazy" />
+          <figcaption class="mono" data-i18n="gm.cV6">HarperCollins, 2004 · Online-Labyrinth</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- CARD & BOARD GAMES -->
+  <section class="noveldetail" id="karten">
+    <div class="section__head">
+      <span class="section__num mono">G–02</span>
+      <h2 class="section__title" data-i18n="gm.kH">Karten- &amp; <em>Brettspiele</em></h2>
+    </div>
+    <div class="noveldetail__grid">
+      <figure class="noveldetail__leadwrap reveal-news">
+        <div class="bio__imgwrap"><img src="assets/covers/games/imajicarule1.JPG" alt="Imajica CCG — Regelbuch des Sammelkartenspiels, 1997" /></div>
+        <figcaption class="mono" data-i18n="gm.kLead">Imajica CCG, Zehrapushu Inc., 1997 · Regelbuch</figcaption>
+      </figure>
+      <div class="noveldetail__text">
+        <h2 class="noveldetail__h mono" data-i18n="novel.synopsis">Worum es geht</h2>
+        <p class="noveldetail__syn" data-i18n="gm.kSyn">Vom ambitionierten Sammelkartenspiel zu den fünf Dominions der
+        Imajica über Trading Cards mit Barkers Kunst und Hellraiser-Stills bis zu Kuriositäten wie dem
+        Candyman-Brettspiel und einem inoffiziellen Hellraiser-Monopoly, bei dem Seelen die Währung sind.</p>
+        <h2 class="noveldetail__h mono" data-i18n="gm.projects">Die Spiele</h2>
+        <ul class="novelnotes">
+          <li class="novelnote reveal-news">
+            <p data-i18n="gm.kN1">Für das Imajica-Sammelkartenspiel schuf Zehrapushu fast 350 Karten mit Künstlern wie
+            H.R. Giger, Eric Dinyer und Ted McKeever — in Absprache mit Barker, der im Regelbuch schrieb, hier werde
+            sein Roman glorreich rückgängig gemacht: Der Zufall, den ein Buch austreibt, sitze im Fall einer Karte
+            wieder im Herzen des Abenteuers. Kurz vor der geplanten In-Ovo-Erweiterung stoppte die Produktion für
+            immer.</p>
+            <p class="novelnote__src mono">Zehrapushu Inc. · 1997</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="gm.kN2">Fantaco druckte 1993 fünfzig Trading Cards mit Barkers Artwork — von den
+            Theaterstücken bis Thief of Always, dazu eine signierte Deluxe-Ausgabe mit vier Goldkarten. Eclipse
+            hatte 1992 bereits 108 Hellraiser-Karten aufgelegt, mit Folienkarten und einer superseltenen
+            Autogrammkarte; 2026 legt Fright Rags mit einem neuen Set samt Sketch-Karten von Ashley Laurence nach.</p>
+            <p class="novelnote__src mono">Fantaco 1993 · Eclipse 1992 · Fright Rags 2026</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="gm.kN3">Zum Kinostart von Farewell to the Flesh gab es ein Candyman-Brettspiel: Wer die
+            Familienvilla erreicht, lüftet das Geheimnis von Candymans Macht — auf der St. Louis Street setzt man aus,
+            um tote Verwandte zu besuchen.</p>
+            <p class="novelnote__src mono">Promo-Artikel · 1995</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="gm.kN4">Das Prunkstück der inoffiziellen Ecke: Brian Sharps handgefertigtes
+            Hellraiser-Monopoly — statt Straßen die Dominien der Hölle, statt Geld Seelen, mit Lament-Configuration-
+            Würfeln und Bronzefiguren. Serie eins: vier Exemplare, Serie zwei: neun.</p>
+            <p class="novelnote__src mono">Brian Sharp · 2002</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="coversection">
+      <div class="coversection__head">
+        <h2 class="section__title section__title--small" data-i18n="gm.selected">Aus dem Archiv</h2>
+        <p class="mono coversection__hint" data-i18n="novel.coverHint">Klick vergrößert das Bild</p>
+      </div>
+      <div class="coverrow">
+        <figure class="coverfig" data-title="Imajica CCG — Hugger Mussus">
+          <img src="assets/covers/games/imajicahugger.jpg" alt="Imajica CCG — Hugger-Mussus-Karte" loading="lazy" />
+          <figcaption class="mono" data-i18n="gm.cK1">Imajica CCG · Hugger-Mussus-Karte</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Clive Barker Trading Cards">
+          <img src="assets/covers/games/tradingltd.JPG" alt="Clive Barker Trading Cards — Deluxe-Edition, Fantaco, 1993" loading="lazy" />
+          <figcaption class="mono" data-i18n="gm.cK2">Fantaco, 1993 · signierte Deluxe-Edition</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Hellraiser Trading Cards">
+          <img src="assets/covers/games/hrcardbox.JPG" alt="Hellraiser Trading Cards — Kartenbox, Eclipse, 1992" loading="lazy" />
+          <figcaption class="mono" data-i18n="gm.cK3">Eclipse, 1992 · 108-Karten-Set</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Hellraiser Trading Cards — Pinhead">
+          <img src="assets/covers/games/hrpingold.JPG" alt="Hellraiser Trading Cards — Pinhead-Goldfolienkarte" loading="lazy" />
+          <figcaption class="mono" data-i18n="gm.cK4">Eclipse, 1992 · Pinhead in Goldfolie</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Candyman — Brettspiel">
+          <img src="assets/covers/games/candygame1.JPG" alt="Candyman-Brettspiel — Cover-Artwork, 1995" loading="lazy" />
+          <figcaption class="mono" data-i18n="gm.cK5">Promo zu Farewell to the Flesh · 1995</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Hellraiser Monopoly">
+          <img src="assets/covers/games/hellboard1.JPG" alt="Hellraiser Monopoly — handgefertigtes Brettspiel von Brian Sharp" loading="lazy" />
+          <figcaption class="mono" data-i18n="gm.cK6">Brian Sharp, 2002 · 4 + 9 Exemplare</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- MODELS & FIGURES -->
+  <section class="noveldetail" id="modelle">
+    <div class="section__head">
+      <span class="section__num mono">G–03</span>
+      <h2 class="section__title" data-i18n="gm.mdH">Modelle &amp; <em>Figuren</em></h2>
+    </div>
+    <div class="noveldetail__grid">
+      <figure class="noveldetail__leadwrap reveal-news">
+        <div class="bio__imgwrap"><img src="assets/covers/games/femscream.JPG" alt="Screamin' — Female-Cenobite-Modellbausatz" /></div>
+        <figcaption class="mono" data-i18n="gm.mdLead">Screamin&rsquo; · Female Cenobite, Modellbausatz im Viertelmaßstab</figcaption>
+      </figure>
+      <div class="noveldetail__text">
+        <h2 class="noveldetail__h mono" data-i18n="novel.synopsis">Worum es geht</h2>
+        <p class="noveldetail__syn" data-i18n="gm.mdSyn">Von den lizenzierten Modellbausätzen der Screamin'-Reihe bis zu
+        Plüschwesen aus Barkers eigener Bilderwelt: Das Archiv konzentriert sich auf die offiziellen Modelle — samt
+        Stimmen der Bildhauer, die sie geformt haben.</p>
+        <h2 class="noveldetail__h mono" data-i18n="gm.projects">Die Stücke</h2>
+        <ul class="novelnotes">
+          <li class="novelnote reveal-news">
+            <p data-i18n="gm.mdN1">Screamin' brachte zwischen 1989 und 1997 acht Hellraiser-Bausätze heraus — drei
+            Pinheads, Chatterer, Butterball, die Female Cenobite, Doctor Channard und eine Lament Configuration,
+            geformt von Tom Kuntz und Jeff Brower. Barker freute sich öffentlich: Pinhead halte die Aufmerksamkeit
+            ohne Witzeleien und Duschszenen — ein Stück mit Klasse.</p>
+            <p class="novelnote__src mono">Screamin&rsquo; Products · 1989–1997</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="gm.mdN2">Die Jump Tribe entsprang einem fünf Leinwände breiten Gemälde: The Bestiary mit 240
+            Miniaturwesen. Art Asylum machte daraus Plüschfiguren — jeder „Jumper" von Barker benannt und mit eigener
+            kleiner Geschichte; Yaboo bekam sogar ein eigenes, von Barker geschriebenes und illustriertes Buch.</p>
+            <p class="novelnote__src mono">Art Asylum · 2005</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="coversection">
+      <div class="coversection__head">
+        <h2 class="section__title section__title--small" data-i18n="gm.selected">Aus dem Archiv</h2>
+        <p class="mono coversection__hint" data-i18n="novel.coverHint">Klick vergrößert das Bild</p>
+      </div>
+      <div class="coverrow">
+        <figure class="coverfig" data-title="Screamin' — Butterball">
+          <img src="assets/covers/games/butterscream.JPG" alt="Screamin' — Butterball-Modellbausatz" loading="lazy" />
+          <figcaption class="mono" data-i18n="gm.cM1">Screamin&rsquo; · Butterball, von Jeff Brower</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Screamin' — Chatterer">
+          <img src="assets/covers/games/chatscream.JPG" alt="Screamin' — Chatterer-Modellbausatz" loading="lazy" />
+          <figcaption class="mono" data-i18n="gm.cM2">Screamin&rsquo; · Chatterer, von Tom Kuntz</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Jump Tribe — Yaboo">
+          <img src="assets/covers/games/jumptribe2.jpg" alt="Jump Tribe — Yaboo, Plüschfigur von Art Asylum" loading="lazy" />
+          <figcaption class="mono" data-i18n="gm.cM3">Art Asylum, 2005 · Yaboo</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Jump Tribe — Kungu Nah">
+          <img src="assets/covers/games/jtkungutfair.jpg" alt="Jump Tribe — Kungu Nah, Plüschfigur von Art Asylum" loading="lazy" />
+          <figcaption class="mono" data-i18n="gm.cM4">Art Asylum, 2005 · Kungu Nah</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- HALLOWEEN HORROR NIGHTS -->
+  <section class="noveldetail" id="mazes">
+    <div class="section__head">
+      <span class="section__num mono">G–04</span>
+      <h2 class="section__title" data-i18n="gm.mH">Halloween <em>Horror Nights</em></h2>
+    </div>
+    <div class="noveldetail__grid">
+      <figure class="noveldetail__leadwrap reveal-news">
+        <div class="bio__imgwrap"><img src="assets/covers/games/freakz.JPG" alt="Clive Barker's Freakz — Halloween Horror Nights, Universal Studios, 1998" /></div>
+        <figcaption class="mono" data-i18n="gm.mLead">Clive Barker&rsquo;s Freakz, Universal Studios, 1998</figcaption>
+      </figure>
+      <div class="noveldetail__text">
+        <h2 class="noveldetail__h mono" data-i18n="novel.synopsis">Worum es geht</h2>
+        <p class="noveldetail__syn" data-i18n="gm.mSyn">Drei Jahre in Folge baute Barker für Universals Halloween Horror
+        Nights begehbare Alpträume — vier Minuten Theater in Endlosschleife, wie er es nannte. 2026 kehrt die
+        Mythologie mit einem Hellraiser-Haus zurück — mehr dazu unter <a href="upcoming.html#games">Upcoming</a>.</p>
+        <h2 class="noveldetail__h mono" data-i18n="gm.projects">Die Mazes</h2>
+        <ul class="novelnotes">
+          <li class="novelnote reveal-news">
+            <p data-i18n="gm.mN1">Freakz (1998): zwölf Räume auf einer Soundstage, 35 Darsteller, General Santiago als
+            Führer — Barker schrieb, storyboardete und legte selbst bei den Masken Hand an. Sein Ziel: eine Kunstschau
+            mit Buh-Faktor.</p>
+            <p class="novelnote__src mono">Universal Studios · 1998</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="gm.mN2">Hell (1999) profitierte vom Vorjahres-Ruf: Bis zu drei Stunden Wartezeit schlängelten
+            sich durch den Park. Barker verglich die Mazes mit Skulpturen — und zog selbst jedes Jahr mit Freunden los,
+            um die Konkurrenz zu studieren.</p>
+            <p class="novelnote__src mono">Universal Studios · 1999</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="gm.mN3">Harvest (2000), angeblich einem echten Albtraum entsprungen: ein zombieverseuchter
+            Friedhof mit tastenden Alien-Tentakeln — sein Job als Maze-Designer sei es, die verstörendste Erfahrung zu
+            liefern, die man geben kann. Die Leute gehen lachend rein, schreien sich die Seele aus dem Leib und kommen
+            breiter lächelnd wieder heraus.</p>
+            <p class="novelnote__src mono">Universal Studios · 2000</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="gm.mN4">2026 folgt das Hellraiser Haunted House in Orlando und Hollywood: Der Einstieg führt
+            durch die Lament Configuration in das Labyrinth, alle Cenobiten der ersten beiden Filme laufen frei — und
+            das Team bekam einen handgeschriebenen Brief von Barker, wie spektakulär alles aussehe.</p>
+            <p class="novelnote__src mono">SFX, No 408 · 2026</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="coversection">
+      <div class="coversection__head">
+        <h2 class="section__title section__title--small" data-i18n="gm.selected">Aus dem Archiv</h2>
+        <p class="mono coversection__hint" data-i18n="novel.coverHint">Klick vergrößert das Bild</p>
+      </div>
+      <div class="coverrow">
+        <figure class="coverfig" data-title="Clive Barker's Hell">
+          <img src="assets/covers/games/horrorhell.JPG" alt="Clive Barker's Hell — Halloween-Horror-Nights-Poster, 1999" loading="lazy" />
+          <figcaption class="mono" data-i18n="gm.cH1">Universal Studios, 1999 · Hell</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Clive Barker's Harvest">
+          <img src="assets/covers/games/harvestlogo.JPG" alt="Clive Barker's Harvest — Halloween Horror Nights, 2000" loading="lazy" />
+          <figcaption class="mono" data-i18n="gm.cH2">Universal Studios, 2000 · Harvest</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Hellraiser — Halloween Horror Nights 2026">
+          <img src="assets/covers/games/hrhorrornights2026.jpg" alt="Hellraiser Haunted House — Halloween Horror Nights, 2026" loading="lazy" />
+          <figcaption class="mono" data-i18n="gm.cH3">Universal Studios, 2026 · Hellraiser</figcaption>
+        </figure>
+      </div>
+    </div>
+    <p class="coversection__credit mono">Abbildungen: Revelations-Archiv (clivebarker.info) · Artwork © Clive Barker bzw. der jeweiligen Rechteinhaber</p>
+    <p class="news-backwrap"><a class="news-backlink mono" href="index.html#games" data-i18n="gm.back">← Zurück zur Übersicht</a></p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__meta mono">
+      <p data-i18n="footer.m1">Sämtliche Gemälde &amp; Zeichnungen © Clive Barker · mit Dank an das Revelations-Archiv (clivebarker.info)</p>
+      <p data-i18n="footer.m2">Konzept, Text, Code &amp; Motion: Claude Fable 5 · Anthropic · 2026 — inoffizielles Fan-Projekt</p>
+    </div>
+  </footer>
+
+</main>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <div class="lightbox__backdrop" id="lightboxBackdrop"></div>
+  <figure class="lightbox__figure">
+    <img src="" alt="" id="lightboxImg" />
+    <figcaption>
+      <span class="lightbox__title" id="lightboxTitle"></span>
+      <span class="lightbox__meta mono" id="lightboxMeta"></span>
+      <span class="lightbox__credit mono">Revelations-Archiv · clivebarker.info</span>
+    </figcaption>
+  </figure>
+  <button class="lightbox__close mono" id="lightboxClose" aria-label="Schließen" data-i18n="lb.close">Schließen ✕</button>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.158.0/three.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="js/i18n.js?v=10"></script>
+<script src="js/scene.js"></script>
+<script src="js/games.js"></script>
+</body>
+</html>
