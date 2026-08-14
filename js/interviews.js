@@ -31,7 +31,7 @@
   var INTERVIEWS = [
     { slug: "fear-love-story-and-time", title: "Fear, Love, Story... and Time", ext: "intsrevel37.html", local: true, date: { de: "Frühjahr 2022", en: "Spring 2022" } },
     { slug: "talking-of-the-painting-of-the-abarat", title: "Talking Of The Painting Of The Abarat", ext: "intsrevel36.html", local: true, date: { de: "März 2021", en: "March 2021" } },
-    { slug: "on-the-way-to-heaven", title: "On The Way To Heaven, We Had A Picnic Of Ideas...", ext: "intsrevel35.html", date: { de: "November 2020", en: "November 2020" } },
+    { slug: "on-the-way-to-heaven", title: "On The Way To Heaven, We Had A Picnic Of Ideas...", ext: "intsrevel35.html", local: true, date: { de: "November 2020", en: "November 2020" } },
     { slug: "plucking-apples-of-silver-and-gold", title: "Plucking Apples Of Silver And Gold", ext: "intsrevel34.html", date: { de: "April 2020", en: "April 2020" } },
     { slug: "out-of-the-depths", title: "Out Of The Depths", ext: "intsrevel33.html", date: { de: "Januar 2019", en: "January 2019" } },
     { slug: "artist-and-imaginer", title: "Artist And Imaginer", ext: "intsrevel32.html", date: { de: "September 2017", en: "September 2017" } },
@@ -136,6 +136,35 @@
         { anchor: { en: "it isn't, it's a philosopher", de: "es ist ein philosoph" }, pos: "left", imgs: [{ f: "goodanimal.jpg", t: "The Good Animal", c: "© Clive Barker" }] },
         { anchor: { en: "sails away without her", de: "segelt ohne sie davon" }, pos: "right", imgs: [{ f: "plainship.jpg", t: "Captain Plain’s Ship", c: "© Clive Barker" }] },
         { anchor: { en: "a sense of that's a breaking wave", de: "eindruck einer brechenden welle" }, pos: "center", imgs: [{ f: "chickentownsale.jpg", t: "The Sea Comes to Chickentown", c: "© Clive Barker" }] }
+      ]
+    },
+    /* Bildfolge wie auf der Archivseite; die 41 Gemälde der
+       Artwork-Suchanzeige folgen unverankert am Textende. */
+    "on-the-way-to-heaven": {
+      placements: [
+        { anchor: "almost three decades", pos: "left", imgs: [{ f: "hrnolimitsposter.jpg", t: "Hellraiser", c: "Poster · 1987" }] },
+        { anchor: "petty but i can't", pos: "right", imgs: [{ f: "hellbreed.jpg", t: "Hellbreed", c: "Magazine cover" }] },
+        {
+          anchor: "or the great and secret show", pos: "row",
+          imgs: [
+            { f: "weaveukcollins.jpg", t: "Weaveworld", c: "Collins, UK" },
+            { f: "gassukcollins.jpg", t: "The Great and Secret Show", c: "Collins, UK" }
+          ]
+        },
+        { anchor: "very fast", pos: "right", imgs: [{ f: "sk7316-web.jpg", t: "Sketch", c: "© Clive Barker" }] },
+        { anchor: "as well as kids", pos: "left", imgs: [{ f: "cliveandkemis1953.jpg", t: "Clive with Kemis, June 1953", c: "© Clive Barker" }] },
+        { anchor: "pure celebration", pos: "right", imgs: [{ f: "sacramentusharper.jpg", t: "Sacrament", c: "HarperCollins, USA" }] },
+        { anchor: "book you're familiar with", pos: "left", imgs: [{ f: "calvinoinvisible.jpg", t: "Le Città Invisibili", c: "Italo Calvino" }] },
+        { anchor: "advertising the commexo kid", pos: "right", imgs: [{ f: "mercyfolder.jpg", t: "Mercy and The Jackal", c: "© Clive Barker" }] },
+        { anchor: "having no beginning will have no end", pos: "center", imgs: [{ f: "abaratfolders.jpg", t: "Abarat 4 and 5 in progress", c: "© Clive Barker" }] },
+        { anchor: "now i know where to put that", pos: "left", imgs: [{ f: "abarat4note.jpg", t: "Note for Abarat 4", c: "© Clive Barker" }] },
+        { anchor: "and as ever, thank you, clive", pos: "row", imgs: [{ f: "art1.jpg", t: "Artwork request", c: "© Clive Barker" }, { f: "art2.jpg", t: "Artwork request", c: "© Clive Barker" }, { f: "art3.jpg", t: "Artwork request", c: "© Clive Barker" }, { f: "art4.jpg", t: "Artwork request", c: "© Clive Barker" }, { f: "art5.jpg", t: "Artwork request", c: "© Clive Barker" }, { f: "art6.jpg", t: "Artwork request", c: "© Clive Barker" }] },
+        { anchor: "and as ever, thank you, clive", pos: "row", imgs: [{ f: "art7.jpg", t: "Artwork request", c: "© Clive Barker" }, { f: "art8.jpg", t: "Artwork request", c: "© Clive Barker" }, { f: "art9.jpg", t: "Artwork request", c: "© Clive Barker" }, { f: "art10.jpg", t: "Artwork request", c: "© Clive Barker" }, { f: "art11.jpg", t: "Artwork request", c: "© Clive Barker" }, { f: "art12.jpg", t: "Artwork request", c: "© Clive Barker" }] },
+        { anchor: "and as ever, thank you, clive", pos: "row", imgs: [{ f: "art13.jpg", t: "Artwork request", c: "© Clive Barker" }, { f: "art14.jpg", t: "Artwork request", c: "© Clive Barker" }, { f: "art15.jpg", t: "Artwork request", c: "© Clive Barker" }, { f: "art16.jpg", t: "Artwork request", c: "© Clive Barker" }, { f: "art17.jpg", t: "Artwork request", c: "© Clive Barker" }, { f: "art18.jpg", t: "Artwork request", c: "© Clive Barker" }] },
+        { anchor: "and as ever, thank you, clive", pos: "row", imgs: [{ f: "art19.jpg", t: "Artwork request", c: "© Clive Barker" }, { f: "art20.jpg", t: "Artwork request", c: "© Clive Barker" }, { f: "art21.jpg", t: "Artwork request", c: "© Clive Barker" }, { f: "art22.jpg", t: "Artwork request", c: "© Clive Barker" }, { f: "art23.jpg", t: "Artwork request", c: "© Clive Barker" }, { f: "art24.jpg", t: "Artwork request", c: "© Clive Barker" }] },
+        { anchor: "and as ever, thank you, clive", pos: "row", imgs: [{ f: "art25.jpg", t: "Artwork request", c: "© Clive Barker" }, { f: "art26.jpg", t: "Artwork request", c: "© Clive Barker" }, { f: "art27.jpg", t: "Artwork request", c: "© Clive Barker" }, { f: "art28.jpg", t: "Artwork request", c: "© Clive Barker" }, { f: "art29.jpg", t: "Artwork request", c: "© Clive Barker" }, { f: "art30.jpg", t: "Artwork request", c: "© Clive Barker" }] },
+        { anchor: "and as ever, thank you, clive", pos: "row", imgs: [{ f: "art31.jpg", t: "Artwork request", c: "© Clive Barker" }, { f: "art32.jpg", t: "Artwork request", c: "© Clive Barker" }, { f: "art33.jpg", t: "Artwork request", c: "© Clive Barker" }, { f: "art34.jpg", t: "Artwork request", c: "© Clive Barker" }, { f: "art35.jpg", t: "Artwork request", c: "© Clive Barker" }, { f: "art36.jpg", t: "Artwork request", c: "© Clive Barker" }] },
+        { anchor: "and as ever, thank you, clive", pos: "row", imgs: [{ f: "art37.jpg", t: "Artwork request", c: "© Clive Barker" }, { f: "art38.jpg", t: "Artwork request", c: "© Clive Barker" }, { f: "art39.jpg", t: "Artwork request", c: "© Clive Barker" }, { f: "art40.jpg", t: "Artwork request", c: "© Clive Barker" }, { f: "art41.jpg", t: "Artwork request", c: "© Clive Barker" }] }
       ]
     }
   };
