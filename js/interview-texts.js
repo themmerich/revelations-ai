@@ -647,3 +647,211 @@ Clive : "Well, let me say this and we’ll maybe close; it’s two things. First
 
 Revelations : "And as ever, thank you, Clive!"
 `;
+
+/* ------------------------------------------------------------
+   Deutsche Fassung (vom Auftraggeber geliefert)
+   ------------------------------------------------------------ */
+window.INTERVIEW_TEXTS["on-the-way-to-heaven:de"] = `
+Von Phil & Sarah Stokes, 10. November 2020
+
+Vor dem folgenden Gespräch hatte Clive die Ordner mit den aktuellen Entwürfen von Abarat Vier und Fünf auf seinem Schreibtisch ausgelegt und uns ein paar Fotos geschickt, um uns einen Einblick in seine abaratischen Fortschritte zu geben. Wir sprachen über einige Handlungspunkte, die wir vorerst aus dem folgenden Text entfernen mussten, die wir aber hier wieder einfügen werden, sobald die Bücher veröffentlicht sind.
+
+Er hatte uns außerdem den finalen Entwurf eines neuen Romans, Mercy and The Jackal, geschickt, den er für eine Erzählsammlung mit dem Titel Fear Eternal geschrieben hat. Auch hier werden wir die besprochenen Spoiler-Handlungspunkte wieder einfügen, sobald das Buch erschienen ist.
+
+Revelations: „Die Ankündigung Ende letzten Monats, dass du möglicherweise aktiv an einer neuen Hellraiser-Fernsehserie beteiligt sein wirst, hat viel Begeisterung ausgelöst – was können wir den Leuten sagen?"
+
+Clive: „Tja, weißt du, wer weiß? Aber es sieht plausibel aus. Ich meine, ich weiß es nicht… ich weiß es einfach nicht mehr. Es ist viel im Gange, und der Kampf um die Kontrolle über die Sache ist das, was mich beschäftigt. Ich habe jede Menge Ideen, was wir mit der Hellraiser-Erzählung im Fernsehen anstellen könnten, und die Frage ist, wie viel – ich will nicht das Wort Macht benutzen, nicht einmal das Wort Autorität – wie viel Mitgestaltung mir möglich sein wird, denn an diesem Projekt sind viele Leute beteiligt, von denen ich die meisten nicht kenne… Ich kann es genauso gut einfach gestehen: Ich bin hin- und hergerissen. Ein Teil von mir sagt, weißt du, ich habe das erschaffen, und in den letzten 25 Jahren ist kein Monat vergangen, ohne dass mir etwas eingefallen wäre, das ich damit machen möchte. Währenddessen haben ein Haufen anderer Leute, die ich nicht kannte, Filme gemacht und die Mythologie benutzt, und ich möchte gewissermaßen zurück zu den Wurzeln, ich möchte zurück zu diesen ersten zwei, drei Filmen und mir ansehen, was funktioniert hat, und das als Ausgangspunkt für einige wirklich, wirklich finstere, herrlich perverse Erzählungen nehmen – und die Frage ist, wie viel Freiheit man mir dafür lassen wird, und das weiß ich schlicht nicht.
+
+„Es wird nicht am mangelnden Versuch scheitern, wenn ich es nicht schaffe – ich werde es verdammt noch mal versuchen, das werde ich ganz sicher, einfach weil ich mich – und es ist dumm, das zu sagen – besitzergreifend fühle, was das angeht. Aber ich habe das Gefühl, dass ich viele Dinge über diese Erzählungen und diese Figuren weiß, die ich nie teilen konnte, und deshalb habe ich einige wirklich, wie ich finde, umwerfende Ideen, die daher rühren, dass ich fast drei Jahrzehnte lang gewissermaßen über diese Erzählung meditiert habe."
+
+Revelations: „Das ist nicht das erste Mal, dass jemand zu dir kommt und sagt: Na komm, Clive, machen wir das, packen wir die Sache beim Schopf und drehen noch mal eine Runde damit."
+
+Clive: „Du hast recht – und deshalb, Sarah, denke ich, es wäre naiv von mir anzunehmen, dass diese Situation anders verlaufen wird als die früheren Enttäuschungen. Und mit Enttäuschungen meine ich – und ich kann nicht genau erklären, warum das passiert, aber es passiert in Hollywood ständig – dass die Urheber von Ideen die Ersten sind, die über Bord geworfen werden. Ich muss nicht aufzählen, wie vielen Leuten das widerfahren ist, es ist endemisch. Ich glaube, das hat zwei Gründe: Zum einen liegt es am Geld, natürlich – wenn man etwas Erfolgreiches hat und es Geld eingebracht hat, springen andere auf, weil sie Geld verdienen wollen; aber ich glaube auch – und das finde ich weitaus bedrückender – die Leute wollen sich den Ruhm stehlen, etwas erschaffen zu haben, obwohl sie es nicht getan haben."
+
+Revelations: „Vielleicht sind die Leute mit den Ideen, die Urheber der Ideen, oft die Ersten, die gehen müssen, weil Ideen gefährlich sind..."
+
+Clive: „Können wir da einen Moment verweilen? Ich habe wunderbare Erfahrungen gemacht, wunderbare Zusammenarbeiten beim Film, wirklich großartige. Aber sehr oft sind es die Leute, die eigentlich keine Kreativen sind, die die Probleme verursachen. Ich hatte eine wunderbare Beziehung zu Bernard Rose, wunderbare Zusammenarbeiten mit Schauspielern und Maskenbildnern und, weißt du, Designern: Steve Hardie und natürlich Bob Keen bei all den Hellraiser-Sachen und auch bei Nightbreed. Die Leute, die ihre Finger in den Kuchen stecken – und sehr oft sind es schmutzige Finger –, um den Kuchen zu stehlen, sind Leute, die keine einzige originelle Idee im Kopf haben, aber, wie ich glaube, die Kreativität beneiden. Ich denke irgendwie, Gott gibt einem die Kreativität: Man wird damit geboren oder nicht, man kann sie nicht erlernen und man kann sie nicht stehlen, denn was sehr oft passiert, ist, dass Leute sagen: ‚Oh, ich übernehme das jetzt', und die Ergebnisse sind entweder Mist, oder sie rufen einen auf halbem Weg zu Hilfe – und das ist oft passiert, und das kann ich nicht, und ich kann Leuten nicht verzeihen, die mir das antun. Vielleicht ist das kleinlich, aber ich kann es nicht."
+
+Revelations: „Wir haben schon einmal darüber gesprochen, dass Kreativität für jeden, der sie selbst nicht besitzt, eine Art Magie ist – wie du es über Medien sagen würdest, in denen du nicht arbeitest; ich meine, du findest Musik magisch."
+
+Clive: „Musik ist Magie, ganz sicher. Ich meine, mein Gott, eine Melodie zusammensetzen zu können und sie in einer Art Code auf ein Blatt Papier zu schreiben – sodass jemand eine Flöte oder eine Posaune oder was auch immer zur Hand nehmen kann, oder singen, und das in etwas verwandelt, das mich zum Weinen bringt – das ist Magie. Das einzige Mal, dass ich je Musik schreiben kann, ist in Träumen. Das, was ich nicht kann, tue ich in Träumen, leidenschaftlich, und ich wache mit einer verdammten Symphonie im Kopf auf, und dann ist natürlich alles weg... Ich bin ein großer Sibelius-Fan, und deshalb stelle ich meist fest, dass ich in meiner Traumversion Sibelius geplündert habe – aber was will man machen?
+
+„Mir wurde von der Schöpfung – von Schöpfern – der Zugang zu einer Reihe von Prozessen gewährt, weißt du: Theaterstücke und Filme schreiben und malen und so weiter, und natürlich sind die Dinge, auf die man immer neidisch ist, die, die man nicht kann! Und deshalb wäre es in gewisser Weise grausam von mir zu sagen, dass ich mich nicht mit Leuten identifizieren kann, die ein Stück von dem wollen, was ich gerade erschaffe – es ist nur so, dass sie in ihrem Eifer, es zu besitzen, sehr oft sehr grausam sein können."
+
+Revelations: „Bei Hellraiser bist du bei einigen Gelegenheiten zur Mythologie zurückgekehrt."
+
+Clive: „Das bin ich."
+
+Revelations: „Neben den paar Treatments, die du für nie verwirklichte Hellraiser-Filme geschrieben hast, warst du auch an einigen Handlungssträngen für Comics beteiligt: Es ist, als hättest du nach dem richtigen Weg zurück gesucht..."
+
+Clive: „Ich denke, das trifft es genau, Phil – der Weg zurück, der bedeutet, dass ich nicht ein Jahr meiner Zeit verschwende, um am Ende eine Enttäuschung zu produzieren. Ich bin achtundsechzig, ich habe keine Zeit zu verschwenden mit politischen Spielchen mit Leuten, die ohnehin gewinnen werden, denn – um es mit den unsterblichen Worten von Jim Robinson von Morgan Creek zu sagen: ‚Ich glaube an die Goldene Regel: Ich habe das Gold, also mache ich die Regeln.' Das ist schrecklich unverblümt, nicht wahr? Deshalb gehe ich jetzt sehr geizig mit meiner Zeit um – wobei ‚jetzt' das falsche Ende des Lebens ist, wenn man so will –, um so voller Ideen zu sein, wie ich es derzeit bin. Es gibt so viel, das ich tun möchte, und ich nehme an, man muss damit rechnen, mit zu vielen Ideen zu sterben: Das wäre ein guter Abgang."
+
+Revelations: „Nimm dir ein paar mit auf die Reise, Clive."
+
+Clive: „Genau richtig. Pack sie in Sandwiches, weißt du, und dazu eine Thermoskanne voller Ideen."
+
+Revelations: „Das ist eine sehr englische Vorstellung!"
+
+Clive: „Nicht wahr? Ein Picknick der Ideen unterwegs: ‚Auf dem Weg in den Himmel machten wir ein Picknick...'"
+
+Revelations: „Als angekündigt wurde, dass du am Hellraiser-Fernsehprojekt beteiligt bist, spaltete sich die Reaktion in zwei Lager: Das eine sagte: ‚Großartig, das wird Hellraiser als Serie hervorragend machen', und das andere: ‚Ja, schön, aber ich würde lieber Weaveworld sehen, oder Imajica, oder The Great and Secret Show…'"
+
+Clive: „Ich auch!"
+
+Revelations: „Glaubst du, die Zeit für Fernsehen und Clive Barker ist gekommen?"
+
+Clive: „Das ist die große Frage, nicht wahr, die 64.000-Dollar-Frage. Ich habe keine Ahnung. Die Zukunft wird es zeigen, denke ich, Phil. Wenn ich aus meiner Beteiligung an verschiedenen Medien etwas gelernt habe, dann, dass keines davon sonderlich vorhersehbar ist. Weißt du: The Thief of Always wollten sie nicht veröffentlichen, also kauften sie es für einen Dollar oder so; als ich Weaveworld ablieferte, gab es einen Moment der Enttäuschung, dass es kein Horrorbuch war; bei Imajica hieß es: ‚Oh, Moment, da ist etwas, das sein Geschlecht wechselt...'; und bei Sacrament: ‚Oh... Moment...'! Ich meine, es gibt so viele Geschichten, die ich euch erzählt oder mit euch geteilt habe, und die ihr sicher mit anderen geteilt habt, über die Tatsache, dass fast nichts, was ich mache, einhellige Zustimmung bekommt, weil es wahrscheinlich anders ist als das, was ich zuletzt gemacht habe."
+
+Revelations: „Das liegt daran, dass es ‚Ideen' hat."
+
+Clive: „Lass mich noch einen Schritt weitergehen, wenn ich darf, und sagen: eine Idee, die nicht wie die vorherige Idee ist."
+
+Revelations: „Ja, genau das meine ich – eine, für deren Vermarktung man neu denken muss."
+
+Clive: „Ja, aber Leser sind so viel klüger als Verleger. Die Leser – meine Leser – haben fast alles, was ich ihnen gebracht habe, mit offenen Armen angenommen, und das ist einer der Gründe, warum ich sie liebe, einer der Gründe, warum es immer noch wunderbar ist, zu Conventions zu gehen, denn dort stehen Menschen jeden erdenklichen Alters, jeder Gestalt, Größe, Ethnie und sexuellen Leidenschaft Schlange und erzählen mir jedes Mal etwas anderes darüber, was ihnen gefällt. Es ist interessant, denn ihr seht davon wahrscheinlich mehr als ich, von dieser Vielfalt der Begeisterungen, wenn ich es so nennen darf, ja? Ich weiß nicht, ob das stimmt, es ist wahrscheinlich Übertreibung, aber mir scheint, dass keine zwei Menschen ganz dieselbe Kombination von Dingen mögen, die ich mache – nicht einmal ich selbst. Und ihr wisst, dass das stimmt, da bin ich sicher, denn ich bin vor drei Tagen die acht Bände von Imaginer durchgegangen, und es gibt keine, wie soll ich sagen, Kohärenz: Es gibt keinen Stil, keine Bildsprache, keinen Geschmack, keinen Ton, der von Seite zu Seite gleich bliebe. Selbst wenn sie alle zu den Abarat-Büchern gehören, sind sie unterschiedlich: Manche sind komisch und derb, manche sehr, sehr düster, manche sind Totalen, manche Nahaufnahmen.
+
+„Vielfalt war schon immer mein Ding, und ich glaube, das geht mit meiner Ungeduld einher. Ich war nie ein sehr geduldiger Mensch – außer wenn ich Patient bin… dann bin ich merkwürdig geduldig. Als ich das letzte Mal im Krankenhaus war und der Chirurg kam, sich meinen Fuß ansah und sagte: ‚Wir müssen innerhalb von zwei Tagen etwas daran machen, sonst sind Sie tot' – es war ein Dienstag, und er sagte: ‚Wir müssen das vor Donnerstag tun' – und dann nahm er ein Skalpell und schnitt mir einfach den Fuß auf, während ich im Bett lag, keine Narkose, gar nichts, nur ein Eimer unter dem Fuß. Und Roman sah mich an, und ich glaube, er dachte: Warum schreist du nicht Zeter und Mordio? Und die Antwort war: Wenn Menschen etwas Gutes für mich tun – und ich ging vom Besten aus –, dann erträgt man es, dann ist man geduldig. Wenn ich es für mich selbst tue, bin ich ungeduldig. Ich weiß, das ist ein schreckliches Wortspiel, aber es ist die Geduld des Patienten...
+
+„Ich gehe gerade die Zeichnungen durch, und ich schätze, es stapeln sich derzeit etwa 5.000. Gestern Abend bin ich ungefähr 400 durchgegangen und kann mich an keine einzige davon erinnern... Ich meine das wortwörtlich. Nun weiß ich nicht, ob das für uns oder die Leser hier von Interesse ist, warum das so ist – aber ich erinnere mich nicht an diese Dinge. Warum nicht? Glaubt ihr, den meisten Künstlern geht es so?"
+
+Revelations: „Das steht im Kontrast zu allem, was du über die Leinwände sagst, an die du dich sehr wohl erinnerst – und ich weiß, die dauern länger, während deine Skizzen..."
+
+Clive: „Sehr schnell sind."
+
+Revelations: „...fast beiläufige Kritzeleien sind, während du etwas anderes tust."
+
+Clive: „Ja, mein Vater hat das auf dem Telefonbuch gemacht, er hat das Telefonbuch mit solchen Kritzeleien übersät."
+
+Revelations: „Ich glaube nicht, dass er die Art von Dingen gekritzelt hat, die du zeichnest!"
+
+Clive: „Nein, das stimmt wohl – seine sahen meistens aus wie Popeye. Ich schicke euch ein paar der Skizzen, die ich gestern Abend entdeckt habe, dann seht ihr es. Ich habe zum Beispiel gestern Abend Abarat als sechszackigen Stern gefunden – habe ich euch das gezeigt? Ich schicke es euch noch heute. Ich glaube, da sind ein paar witzige Sachen dabei, aber eigentlich bin ich die 400, 500 Zeichnungen durchgegangen, um Monster für ein Projekt zu finden, über das ich gerade mit ein paar guten Leuten spreche.
+
+„Was du sagst, stimmt, Phil: Bei den Ölgemälden erinnere ich mich. Ölgemälde sind sehr arbeitsintensiv, eine sehr fließende Erfahrung – ich habe vor zwei, drei Tagen mit Brannon Braga über das Malen gesprochen. Brannon sagte, er habe in seinem Leben nur ein einziges Ölgemälde gemalt, mit sechzehn, und ich fragte: ‚Warum nur eines?', und er sagte: ‚Ich konnte Ölfarben nicht ausstehen.' Ich fragte: ‚Warum?', und er sagte: ‚Weil sie sich ständig verändern' – und das tun sie, ich meine, ihr habt mir beim Malen zugesehen, Ölfarben sind proteisch, ja? Ich würde sagen, ich erinnere mich – nicht immer –, aber ich erinnere mich daran, die Ölbilder gemalt zu haben. Aber wenn man sich manche der Ölbilder genau ansieht, sieht man, dass dahinter ein anderes Gemälde liegt – man sieht die Linien, man sieht das Gekritzel: An dieses Gemälde erinnere ich mich nicht, weißt du!
+
+„Es wäre sicherlich irgendwann ein Gespräch wert, warum... lass mich einen anderen Weg einschlagen... Ich habe keine Ahnung, was ich fühlte, als ich die Bücher schrieb, einfach weil sie zu... na ja, es dauert drei Jahre, ein Buch wie Imajica zu schreiben."
+
+Revelations: „Wobei du sehr deutlich beschrieben hast, wie du dich fühltest, als du den letzten Entwurf von Imajica abgeschlossen hast."
+
+Clive: „Was ich sagen würde, Sarah, ist, dass ich gerade genau das sagen wollte: Ich erinnere mich an die Gefühle, die mit dem Abschluss einer Erzählung verbunden sind; aber wenn du mich fragen würdest, was Dowd auf Seite 340 tut, hätte ich keinen blassen Schimmer! Auflösungen von Erzählungen bewegen mich, wenn sie funktionieren, und es ist beinahe ein Test dafür, ob eine Erzählung funktioniert: ob ich am Ende trockene Augen habe oder weine.
+
+„Ich erinnere mich, wie ich zu Harper ging und jemand gerade The Thief of Always gelesen hatte, und dieser Mann – ich nenne keinen Namen – sagte: ‚Ich hasse das Ende, nur den letzten Absatz, deshalb habe ich ihn für Sie neu entworfen', und er reichte mir seinen Entwurf, und ich enthalte mich eines Kommentars, aber – er war auch ein netter Mann, er hat es einfach überhaupt nicht verstanden. Ich habe einen ganzen Tag gebraucht, um diesen letzten Absatz zu schreiben, und wenn man sich diesen letzten Absatz ansieht, versteht man, warum es einen Tag gedauert hat, denn ich ging durch Jahreszeiten und ich ging durch Gefühle – ist das Buch da?"
+
+Revelations: „Sicher:
+Die Zeit würde von nun an kostbar sein. Sie würde natürlich weiter verstreichen, wie sie es immer getan hatte, aber Harvey war entschlossen, sie nicht mit Seufzern und Klagen zu vergeuden. Er würde jeden Augenblick mit den Jahreszeiten füllen, die er in seinem Herzen gefunden hatte. Hoffnungen wie Vögel auf einem Frühlingszweig; Glück wie eine warme Sommersonne; Magie wie aufsteigende Herbstnebel. Und das Beste von allem: Liebe – Liebe genug für tausend Weihnachten."
+
+Clive: „Liebe genug für tausend Weihnachten... ja... Alles, was in dem Buch steckt, steckt in dem, was du gerade vorgelesen hast, Phil – jede Nuance des Gefühls, die in dem Buch liegt, ist nicht nur dieser letzte Satz, sondern die Tatsache, dass es davon handelt, von seinen Eltern getrennt zu sein und eine zweite Chance zu bekommen. Es ist ein Buch über Erlösung, denke ich, und ich weiß, als Kind denkt man nicht über Erlösung nach, aber ich glaube, das ist einer der Gründe, warum das Buch für Erwachsene ebenso funktioniert wie für Kinder."
+
+Revelations: „Man denkt als Kind nicht über Erlösung nach, aber man ist sehr vertraut damit, Unrecht zu tun – und mit Vergebung."
+
+Clive: „Sehr wahr, sehr wahr, und man ist, glaube ich, auch sehr vertraut mit Verlust – welcher Junge erinnert sich nicht an das erste Haustier, das er verloren hat? Ich erinnere mich, wie meine Mutter mit dem Körper unseres Hundes Kemis auf den Armen durch die Haustür kam, und ich muss damals, ich weiß nicht, sechs gewesen sein? Tiere lehren uns so vieles, und ich glaube, eines der Dinge, die ich noch nicht getan habe und so unbedingt tun möchte, ist, über Tiere und ihren Einfluss auf mein Leben zu schreiben – ich meine nicht nur die Tiere, mit denen ich lebe, sondern auch die Tiere, die ich in einer David-Attenborough-Sendung sehe, oder die Tiere, um die wir in dieser gefährlichen Zeit unseres Planeten vielleicht bald trauern müssen, weißt du.
+
+„Sacrament begann damit, dass ich einen Film von einem Eisbären sah, dem ein Mayonnaiseglas auf der Schnauze steckte, und das kommt im Buch vor, dieses Bild, und darum ging es. Es ging darum, dass das schwindende Eisschild diese Eisbären zwang, zu äußersten Mitteln zu greifen, um Nahrung zu finden, und es ist ja gewissermaßen ein Eisbär, der die ganze Geschichte in Gang setzt – Will stirbt beinahe unter den Pranken eines Eisbären. Das hat mich beeinflusst, meine Gefühle gegenüber gefährlichen Tieren. Wir töten alles. Ich meine, mir scheint… ich kann keine David-Attenborough-Sendungen mehr sehen: Er ist gezwungen, weil er ein ehrlicher Berichterstatter und Beobachter ist, uns den bitteren Beiklang mitzugeben. Er kann, zu Recht, keine Sendung mehr machen, die reine Feier ist."
+
+Revelations: „So viele dieser Dinge berühren inzwischen menschliches Verhalten – man kann nicht über das Plastik im Meer schweigen, man kann nicht über die Auswirkungen der Rinderzucht schweigen."
+
+Clive: „Richtig, und man kommt nicht umhin zu sagen: Diese Dinge werden in zwanzig Jahren nicht mehr da sein. Joseph Steep aus Sacrament ist besessen davon, das Letzte der Dinge zu beobachten, und ich weiß nicht, ob das Buch funktioniert – ich glaube, es funktioniert stellenweise und anderswo vielleicht nicht –, aber Steep und Rosa waren als die Macbeths gedacht, doch ich konnte es nicht, mir fehlte die Hingabe an diese Schurkerei. Sie – es wäre albern zu sagen, ich hätte ihnen vergeben, so war es nicht; sie haben sich selbst vergeben, nehme ich an, die Erzählung hat ihnen vergeben, wenn man begreift, dass sie nicht nilotisch sind, sondern eine Singularität. Wenn man Rukenau begegnet und all dem am Ende – wie heißt dieser Teil noch, He Enters the House of The World, heißt der Teil so – Domus Mundi, richtig? –, da wurde einem Teil von mir klar, dass das Buch doppelt so lang sein könnte. Als ich in Domus Mundi eintauchte, wurde ich mit etwas konfrontiert, womit ich nie zuvor konfrontiert worden war – dass da ein weiteres Thema auf mich wartete, nämlich der Zustand der Welt, und ich würde es nicht behandeln können, ohne die Länge des Buches zu verdoppeln, und es hatte mich ohnehin schon ziemlich ausgelaugt. Und dann kamen natürlich noch die Schwierigkeiten, als es hieß: ‚Oh, Moment mal, in diesem Buch gibt es einen Homosexuellen...', und all das ging los.
+
+„Manchmal fühlen sich meine Bücher wie Teile von etwas viel Größerem an, und ich habe das noch nie jemandem gesagt, aber ich glaube, sie sind alle eine einzige Geschichte."
+
+Revelations: „Weißt du, welche Geschichte das ist?"
+
+Clive: „Es ist: ‚Lebend und sterbend nähren wir das Feuer.'"
+
+Revelations: „Wie du aus den Büchern Memory, Prophecy and Fantasy weißt, haben uns die roten Fäden, die wiederkehrenden Themen, schon immer fasziniert."
+
+Clive: „Ja."
+
+Revelations: „Wenn du sagst, du hättest noch nicht über Tiere geschrieben – ich denke, du hast über Tiere und ihren Platz in deinem Leben geschrieben, aber du hast offensichtlich noch mehr zu sagen. Aber wenn ich mir etwas wie die Vielgestaltigkeit der Flora und Fauna in Imajica ansehe, oder manche Inseln des Abarat, oder sogar Nightbreed, wo du eine solche Vielgestaltigkeit hattest – wie hast du es genannt – A Hymn to the Monstrous, eine Hymne an das Monströse?"
+
+Clive: „Ich glaube, du hast recht – weißt du, ich bin die letzte Person, die das erklären sollte; wie eine der Figuren in einem der Bücher an einer Stelle sagt: Bittet mich nicht um Erklärungen, ich bin nur der Künstler. Ich habe keine Ahnung, was ich eigentlich treibe, außer dass ich hin und wieder Zusammenhänge sehe: Ihr beide habt beim Lesen des Entwurfs von Mercy and The Jackal darauf hingewiesen, dass er thematisch und sogar strukturell in gewissem Maße dasselbe ist wie eine unveröffentlichte Geschichte von mir, The Knight and The Demon, richtig? Und ich grüble darüber, seit ihr das gesagt habt, denn natürlich stimmt es... und beide sind stilistisch untypisch für mich... was zum Teufel hatte ich vor? Mir wurde allerdings klar, wie viel Calvino in Mercy and The Jackal steckt, besonders Die unsichtbaren Städte. Ich weiß nicht, ob euch das Buch vertraut ist?"
+
+Revelations: „Ja, ich habe es lange nicht gelesen, aber irgendwann mal studiert."
+
+Clive: „Verstehe. Na, das löscht es garantiert aus dem Gedächtnis! Diese Idee, dass es wirklich keinen durchgehenden Erzählfaden gibt, außer dem Thema. Weißt du, in Die unsichtbaren Städte führen Kublai Khan und Marco Polo ein Gespräch, und daraus entsteht eine Reihe brillant formulierter zwei- oder dreiseitiger Beschreibungen von Städten, ja? Und ich glaube, die strukturelle Verschwendungslust von Mercy and The Jackal habe ich von Calvino gelernt. Diese Idee, dass er eine Erzählung erzählt wie niemand sonst – Borges erzählt eine andere Art von struktureller Erzählung. Keiner von beiden ist wie, sagen wir, englische Schriftsteller."
+
+Revelations: „Nein, das ist einfach eine ganz andere Tradition."
+
+Clive: „Das ist es, aber ich frage mich, ob es überhaupt eine Tradition ist oder eine Singularität, ob es borgesianisch ist oder calvinosisch… Ich meine, der Mann starb mit 61, 62, und er hatte noch so viel mehr in sich. Borges hingegen erreichte ein schönes hohes Alter. Ich bin durch Zufall, durch Glück, auf Die unsichtbaren Städte gestoßen, und – wow! Ich muss daran gedacht haben, als ich Mercy and The Jackal schrieb. Ich weiß nicht, ob das stimmt, weißt du, ich bin als Autor völlig offen für Kommentare oder Belehrung, was diese Beobachtung angeht, aber ich grüble immer noch über Mercy and The Jackal – auf gute Weise."
+
+Revelations: „Du hast dir darin jedenfalls eine Freiheit gegeben; es geht nicht von A nach Z, es folgt nicht den üblichen Takten einer Erzählstruktur."
+
+Clive: „Überhaupt nicht."
+
+Revelations: „Du hattest die Freiheit, gewissermaßen deiner Nase zu folgen und zu sagen: ‚Moment, das erinnert mich an Soundso – was machen die eigentlich – also kehren wir zu ihnen zurück', ohne den Eindruck, dass du es absichtlich tust, dass du dabei clever sein willst."
+
+Clive: „Das ist die entscheidende Beobachtung, Sarah, ich glaube, du hast recht."
+
+Revelations: „Ich weiß, wir sprechen hier über eine Geschichte, die die Leute erst lesen können, wenn Fear Eternal, die Kurzgeschichtensammlung, erscheint, aber sie ist für mich ein Beispiel für einen dieser Momente, in denen sich eine Idee aufspaltet und ihren Weg in verschiedene Erzählungen findet. In deinen Unterlagen aus den späten 1990ern gibt es den Anfang einer Geschichte, in der ein junges Mädchen namens Mercy einen Vater hat, dessen Aufgabe es ist, die Glühbirnen auf dem Dach eines Wohnhauses zu warten, die zu einem Bild angeordnet sind, das für den Commexo Kid wirbt."
+
+Clive: „Ha!"
+
+Revelations: „Der Job ihres Vaters ist es, dafür zu sorgen, dass alle Birnen jederzeit leuchten – wenn also eine Birne durchbrennt, ist es seine Verantwortung, die richtige farbige Birne wieder in diese Anzeige einzusetzen und das Bild des Kid sauber zu halten. Die ganze Welt wird von der Commexo Company kontrolliert. Mercy kennt einen älteren Mann, einen Ex-Wrestler namens The Jackal, der in einer Wohnung weiter unten an der Straße lebt, und er ist der einzige Mensch, den Mercy kennt, der irgendein Misstrauen gegenüber dem Betrieb des Commexo Kid äußert. Dann fährt eines Tages ein großes dunkles Auto vor, und jemand bittet Mercy einzusteigen... und da enden die Seiten. Mercy and The Jackal, wie es jetzt geschrieben ist, spielt in einer völlig anderen Welt; es hat einige Namen und andere Elemente aus jenem Anfang übernommen und ist dann in eine ganz andere Richtung gegangen – und das Abarat hat andere Elemente genommen und ist in eine wieder ganz andere Richtung gegangen!"
+
+Clive: „Ja. Natürlich habe ich an nichts davon eine Erinnerung! Der Wrestler-Teil – dieses Stück geht, wenn man so will, in der aktuellen Geschichte in eine dritte Richtung.
+
+„Etwas, das du gesagt hast, Sarah – dass Mercy and The Jackal eine Fabel sei –, war sehr wichtig für die Art, wie ich die Erzählung poliert habe. ‚Joseph war ein Holzfäller und ein freundlicher, sanfter Mann' – das ist der Anfang einer Fabel, nicht wahr?"
+
+Revelations: „Ein weiterer Einfluss scheint eine Kombination aus Das Dekameron, den Canterbury Tales und Erotische Geschichten aus 1001 Nacht von Pasolini zu sein."
+
+Clive: „Ich finde das hervorragend, ich finde, das trifft absolut ins Schwarze, daran hatte ich noch gar nicht gedacht. Ihr kennt meine Leidenschaft für das gesamte Werk Pasolinis, aber besonders für diese Filme, und sie waren Offenbarungen für mich, als ich sie zum ersten Mal sah, das waren sie."
+
+Revelations: „Als ich alle drei zum ersten Mal sah, konnte ich den erzählerischen roten Faden überhaupt nicht verstehen, weil viele davon Setpieces waren – wunderschön gefilmte Setpieces, aber solche, bei denen ich herauszufinden versuchen musste, warum die Figur in diese Situation geraten war und wie sie dorthin gekommen war – und davon steckt ein wenig in Mercy and The Jackal, wo es zum nächsten Teil der Erzählung springt und man denkt: Oh, das ist irgendwie interessant, jetzt sind sie also hier..?"
+
+Clive: „Und doch fügt sich am Ende alles zusammen, auch wenn es wie ein Flipperautomat wirkt, fast willkürlich. Meine Stimme, meine Fabulisten-Stimme, wenn man so will – im Gegensatz zu meiner geradlinigen Erzählstimme etwa in Coldheart Canyon –, ist die eigentliche Figur der Erzählung. Es ist fast, als wäre dies der Bericht eines Zeugen, wie es vielleicht alle Fabeln sind – man vertieft sich nicht in die Einzelheiten irgendeiner bestimmten Figur oder Gruppe von Figuren. Man sagt: Dies geschah, und dann geschah dies, und dann geschah das, und ich als Erzähler bin vielleicht selbst ein wenig erstaunt, dass es sich befriedigend schließen lässt, ohne dass ich versuche, Emotionen in Figuren zu zwingen, über die ich nicht emotional geschrieben habe. Ergibt das Sinn?"
+
+Revelations: „Wenn du es so schriebest, wäre es wertend. Es wäre deine Sache, und du würdest sagen: Das sollt ihr daraus mitnehmen."
+
+Clive: „Nun, das Interessante daran ist: Genau das waren Fabeln früher. Die von Äsop zum Beispiel sind Lehren, nicht wahr, Lehren in Form von Erzählungen. Ich habe allerdings das äsopische Modell benutzt und die Lehre herausgenommen."
+
+Revelations: „Ja, du hast nicht den erhobenen Zeigefinger, aber du hast trotzdem: Wahrheit ist gut, für Menschen einzustehen ist gut, Liebe ist gut – du sagst diese Dinge also weiterhin. Krieg ist schlecht..."
+
+Clive: „Ja, das sind nicht gerade Tiefsinnigkeiten, weißt du! Aber ja, dein Punkt ist berechtigt. Die Haltungen, die ich einnehme, sind Haltungen, die ich auch in einem anderen Buch einnehmen würde, aber ich statte die Figuren nicht mit diesen Gefühlen aus. Am Ende, glaube ich, verabschieden wir uns von den Figuren nicht so, wie wir uns von Gentle und Pie verabschieden. Ich bin bewusst distanziert von ihnen, in der Art, wie ich die Geschichte erzähle. Ich investiere meine Emotionen nicht. Ich hätte am Ende von Mercy and The Jackal nicht weinen können, aber ‚wir werden ihm alle nach und nach folgen' am Ende von Imajica oder ‚und diese Geschichte, die keinen Anfang hat, wird kein Ende haben' – das waren Dinge, die mich, als ich entdeckte, dass sie auf mich warteten, schluchzen ließen wie ein Baby. Zum Teil, weil ich einen Roman mit der Herausforderung begonnen hatte, etwas zu tun, was Melville mit ‚Call me Ishmael' getan hat: ‚Nichts beginnt jemals' – drei Worte in einem Satz. Ich wollte etwas, das zu einem der Autoren aufblickt, die ich am meisten auf der Welt bewundere, und sagt: ‚Kann ich einen Roman mit drei Worten beginnen und es funktionieren lassen?' – und erst 700 Seiten später entdecken, dass es auch das Ende war. Ich hatte das Ende nicht geplant. Ich habe nicht angefangen im Wissen, was es mir am Ende schenken würde, und das ist, glaube ich, ein Hinweis darauf, warum ich mich an Dinge nicht erinnere: Das sind Geschenke, und ich habe euch das viele Male gesagt, ich weiß es und ihr wisst es. ‚Das Leben ist kurz und die Freuden sind rar...' ‚Bruder Plato...' – das sind Erzählungen, die ich nachts geschrieben und dann auf zerfledderten Zetteln neben dem Waschbecken gefunden habe, und ich denke, dass dieses… okay: Schreiben tut mir weh. Ich würde es nicht tun, wenn es mir schlimm genug wehtäte, aber es wirft mich auf eine Weise herum, über die wir nie wirklich gesprochen haben. Als ich den finalen Entwurf von Mercy and The Jackal beendet hatte, war ich erledigt – ich bin erledigt –, und ich habe versucht herauszufinden, was es am Schreiben ist, das das mit mir macht. Wo tauche ich meine Hand hinein – und ich habe darauf keine Antwort, es ist also keine rhetorische Frage –, wo tauche ich meine Hand hinein, dass es wehtut, wenn ich sie herausziehe? Ich habe keine Antworten. Ich weiß nur, dass die Fabelkonstruktion es erlaubte, dass es nicht so sehr wehtat, weil ich mich nicht in die Besonderheiten des Schmerzes der Figuren selbst investierte. Ich beobachtete sie aus der Ferne."
+
+Revelations: „Vielleicht können wir das kontrastieren, Clive, mit dem, was du für Candy empfindest? Du bist seit mehr als zwanzig Jahren in Candys Abenteuer investiert und bist immer noch dabei, den absolut richtigen Weg zu finden, ihre Geschichte abzuschließen."
+
+Clive: „Richtig, und darf ich hinzufügen: die Geschichten aller – na ja, vielleicht nicht aller –, aber Mater Motley, natürlich Carrion, Malingo, die Brüder: Es gibt, wenn man so will, eine Besetzungsliste von vielleicht dreißig Figuren, in die ich zutiefst investiert bin; und es würde euch vielleicht überraschen, manche ihrer Namen auf der Liste zu finden, aber ich weiß, was mit ihnen geschehen wird, und da ist… ich will nicht, dass das wie ein Trick klingt, denn es ist kein Trick oder eine Verschwörung, wenn man so will – es ist keine Verschwörung –, was ich meine, ist: Ich habe bestimmte Figuren in der Erzählung platziert im Wissen, dass sie bisher nicht viel zu tun hatten – aber sie haben noch viel zu tun...
+
+„Ich habe diese Ordner ausgelegt, und sie sind alle Abarat Vier und Fünf – das ist nicht das ganze Fünf, aber das ganze Vier. Es sind keine Überarbeitungen: Manche davon sind getippte Fassungen handschriftlicher Sachen, aber nicht viele. Mit anderen Worten: Es ist eine Menge geschrieben. Das war ein Buch, das zu zwei Büchern wurde, die zu vier Büchern wurden, die zu fünf Büchern wurden, und ich habe mir sehr streng auf die Finger geklopft und gesagt: Wage es ja nicht, ein weiteres daraus werden zu lassen..! Denn diese Geschichte, die keinen Anfang hat, wird kein Ende haben.
+
+„Gestern Abend war ich in dem Raum, der früher mein Schreibzimmer war und jetzt voller Gemälde steht, und ich betrachtete ein Drittel des Triptychons der Inseln und dachte: ‚In was für einer verdammten Stimmung war ich, als ich das angefangen habe?' Denn der schmerzlich vermisste Robbie hat die Treppe gebaut, um an dieses Gemälde heranzukommen, weil es so groß war, dass ich nicht bis oben reichte, und mit Ausnahme von euch beiden und vielleicht drei oder vier anderen habe ich diese Gemälde allein gemalt, sehr oft die Nacht hindurch, wie ihr wisst, nackt, tanzend, herumalbernd, und hatte eine verdammt herrliche Zeit – selbst wenn es ein Gemälde war, das ich wegwerfen würde. Aus einem Grund, den nur Gott kennt, wurde mir die Energie geschenkt, in kurzer Zeit – oder ziemlich kurzer Zeit – wirklich eine Menge Arbeit zu schaffen. Was zum Teufel hat mich sagen lassen: ‚Ich mache dieses Gemälde 25 Fuß lang und 12 Fuß hoch'? Oder wie groß das Inselgemälde auch immer ist. Weißt du, es war praktisch ein Marathon, von einem Ende des Gemäldes zum anderen zu kommen.
+
+„Ich habe mehr Zeit in das Abarat investiert als in irgendetwas anderes, das ich je unternommen habe, und ich weiß, was geschehen wird, und mir war nicht klar, wie sorgfältig ich es in meinem Unterbewusstsein geplant hatte. Ich bin einigermaßen überrascht, wo Dinge so sauber ineinandergreifen, wie sie es tun – was genau derselbe Gedanke ist wie ‚Nichts beginnt jemals' am Anfang und ‚und diese Geschichte, die keinen Anfang hat, wird kein Ende haben' am Ende.
+
+„Es ist, als würde mein erzählendes Selbst mein konventionelleres, mein prosaischeres Selbst dazu formen, sich an manche Dinge zu erinnern und andere zu vergessen – es gibt einen Grund, warum überall Notizen liegen, es gibt einen Grund, warum ich alles aufschreibe, denn sonst vergesse ich es. Ich meine, wie gefährlich ist es, eine wirklich verdammt großartige Idee zu haben – nicht um das Thema zu wechseln, aber da liegt dieser Zettel, auf dem steht: ‚Nicht verlieren: Die Lösung für Teil 3!' oder so ähnlich – ich habe keine Ahnung, was die Lösung für Teil 3 ist, weil ich sie aufgeschrieben habe, um sie mir zu merken! Ergibt das Sinn?"
+
+Revelations: „Das ergibt Sinn im Kontext von etwas anderem, worüber du gesprochen hast – du hast von den Ideen erzählt, die in deinem Kopf um Aufmerksamkeit wetteifern: Es braucht etwas Besonderes, damit sich eine lange genug festsetzt, dass du ihr eine erhebliche Menge Zeit widmest, sie muss dich wirklich packen; aber Ideen, die du Jahre zuvor hattest, kommen plötzlich zurück und finden ihre Zeit – und manchmal liegt das daran, dass du sie auf einem Zettel notiert wiedergefunden hast und sagst: ‚Ah, jetzt weiß ich, wo das hingehört!'"
+
+Clive: „Du hast so recht, so recht. Und ich habe eine Weile gebraucht, um zu begreifen, dass mein Verstand so funktioniert. Deshalb, glaube ich, war ich ein Spätzünder als Schriftsteller, als Prosaautor. Wenn man Theaterstücke schreibt, ist man im Dialog – ich habe ihn immer laut gesprochen, damit ich den Dialog hatte: Diese Stücke schrieben sich von selbst. Das klingt sehr überheblich, so meine ich es nicht; ich meine damit, dass ich dem Dialog gegenüber gewissermaßen passiv bin. Wenn ein Dialog vom Weg abkommt, weiß ich es sofort. Ich erinnere mich, wie der Regisseur von Colossus sagte: ‚Du hast das letzte Wort geändert.' Er hatte meinen handschriftlichen Entwurf gesehen, und ich hatte etwas durchgestrichen. Ich hatte geschrieben: ‚Was für eine Welt ist das?', und er dachte, die Antwort, die ich geschrieben hatte, sei ‚Goyas'. Die Antwort war nicht ‚Goyas', die Antwort war ‚Unsere'. Denn, weißt du, ich streiche Dinge sehr gründlich durch. Er glaubte, klug einen Fehler entdeckt zu haben, aber in Wahrheit: nein, nein, nein, das konnte nur auf eine Weise enden – indem der Künstler – ich – und der Künstler – Goya – (Gott, wenn nur!) die Welt den wahren Eigentümern dieser Welt zurückgeben, so wie man hofft, dass jedes Kunstwerk, das man schafft, empfangen und angenommen wird, ans Herz gedrückt von einem Schauspieler oder einem Betrachter.
+
+„Ich höre bald auf, weil ich müde werde, aber ich möchte noch eine andere Sache über das Malen sagen: Es geht um die Entdeckung, dass in den letzten etwa sieben Jahren mehr als vierzig meiner Ölgemälde ohne mein Wissen oder meine Anweisung verkauft wurden, zusammen mit unzähligen meiner Arbeiten auf Papier.
+
+„Diese Gemälde, die hier bei mir sein sollten, sind fort, und meine Verletztheit, meine Leere über ihre Abwesenheit und meine Wut – ja, eine tiefe Wut – haben in der Zeit, seit ich von ihrer Entfernung erfahren habe, keinen einzigen Moment nachgelassen. Ich weiß, sie sind in guten Händen, aber in vielen Fällen weiß ich einfach nicht, wo. Ich bin sicher, die Leute, die die Gemälde genommen und verkauft haben, werden behaupten, ich hätte davon gewusst – aber das habe ich nicht, ich hatte keine Ahnung, und keiner von ihnen hat mir irgendwelche Unterlagen gegeben, aus denen hervorgeht, wer sie gekauft hat.
+
+„Vielleicht könnt ihr beide Bilder der Gemälde zeigen, von denen ich weiß, dass sie fort sind?
+
+„Es könnten auch noch andere sein – darf ich also alle, die das lesen, um Hilfe bitten, die Lücken in meinem Wissen und Verständnis zu füllen? Wenn Sie eines dieser Gemälde – oder irgendwelche anderen – in den letzten sieben oder acht Jahren gekauft haben, könnten Sie mich bitte über Phil und Sarah kontaktieren, um mich wissen zu lassen, dass die Gemälde in Sicherheit und in liebevollen Händen sind – und würdet ihr zwei die Einzelheiten für mich zusammentragen?"
+
+Revelations: „Ja, natürlich machen wir das."
+
+Clive: „Mein Dank an alle für eure Hilfe. Danke, mehr als Worte sagen können.
+
+„Ich sollte auch sagen: Jetzt Gemälde auszuwählen, die künftig zum Verkauf stehen, ist wunderbar, denn ich weiß, dass auch sie gute Zuhause finden werden. Bei den Gemälden, über die wir gerade gesprochen haben, ist es allerdings schwer, weil ich nicht weiß, wohin sie gegangen sind. Ich möchte zwar, dass meine Gemälde in den Händen anderer Menschen sind – und es ist schön, dass ihr Gemälde besitzt, von denen ich weiß, dass ihr sie liebt, und ich weiß, bei anderen ist es genauso –, aber das einzige Mal, dass ich ein Gefühl von Verlust empfinde, ist, wenn eine Emotion an das Gemälde gebunden ist, die in den Pinselstrichen liegt. Die Gemälde, die ich mache, sind sehr unterschiedlich: Manche sind zerkratzt bis zum Gehtnichtmehr, weißt du, ich meine, ich schlage mit den Messern, die ich benutze, Löcher in die Leinwand; manche sind eher ruhig und schlicht; und ich nehme an, das hängt mit dem emotionalen Zustand zusammen, in dem ich bin, während ich sie male, ja? Aber ich habe manchmal das Gefühl, dass Gemälde mir ihr Geheimnis noch nicht preisgegeben haben – man würde denken: ‚Na, du hast es doch hineingelegt...', aber so empfinde ich es überhaupt nicht. Ich empfinde, dass von allen Dingen, die ich tue, das Malen das größte Mysterium ist. Ich meine, ich erinnere mich, wie du, Phil, zu mir sagtest, dir gefalle die untere rechte Ecke des Gemäldes von dem Kerl nicht, der den Dämon aufspießt, der Mann zu Pferde, und ich sagte zu dir: Ja, mir gefällt sie auch nicht, und ich habe das nie gelöst, ich habe das nie gelöst.
+
+„Praktisch alles, was ihr beiden mir sagt, ist mir eingeschrieben, Kommentare, die ihr macht: Du sagst vielleicht ‚Oh, es ist eine Fabel', Sarah, du wirfst das so hin, oder Phil sagt vielleicht ‚Mir gefällt diese untere Ecke nicht', und man denkt: Ach, Clive wird sich daran gar nicht erinnern – doch, tue ich! Und ich liebe es, ich nehme mir diese Dinge zu Herzen, ihr seid natürlich meine liebsten Freunde, und ich nehme mir diese Dinge zu Herzen."
+
+Revelations: „Das ist sehr gefährlich..!"
+
+Clive: „Was, sich diese Dinge zu Herzen zu nehmen?"
+
+Revelations: „Nein, uns so ernst zu nehmen!"
+
+Clive: „Nun, lasst mich Folgendes sagen, und dann schließen wir vielleicht; es sind zwei Dinge. Erstens: Wenn ich es nicht von euch ernst nehme, von wem dann? Und zweitens: In manchem Scherz steckt viel Weisheit...
+
+„Dies ist das erste Mal, dass ich wach genug bin – und ich glaube, es ist kein Zufall, dass ich dieses Wort benutze, weißt du, nachdem ich aus einem post-komatösen Zustand hervorgegangen bin – ich habe das Gefühl, jeden Tag ein bisschen mehr aufzuwachen, und ich bin leidenschaftlich geworden, was den Einsatz unserer gemeinsamen Stimmen angeht, um dafür zu sorgen, dass die Menschen wissen, dass es die Bücher da draußen gibt – in einer Welt, die sich zunehmend sogar von der Form selbst entfremdet. Weißt du, mir wurde, glaube ich, gesagt, dass 3 % der Amerikaner Romane lesen, oder vielleicht 3 % Bücher im Haus haben – es ist eine sehr kleine Zahl, und das ist mir lange im Kopf geblieben. Die Lösung dafür ist, denke ich, rauszugehen und darüber zu reden, was man tut, und ich habe das Gefühl, dieses Gespräch ist Teil eins eines viel längeren Gesprächs, denn es gibt viel zu bereden – die Gedichte, und die Gemälde, die ich gerade male, und die Art, wie, weißt du, die Tatsache, dass ich nicht mehr so stehen kann wie früher, die Art verändert, wie ich male – vieles. Also danke, wie immer."
+
+Revelations: „Und wie immer: Danke dir, Clive!"
+
+Anfrage zu Kunstwerk-Informationen
+
+Bitte kontaktieren Sie Phil und Sarah unter philandsarah@clivebarker.info bezüglich der oben gezeigten Gemälde oder mit Informationen zu anderen Leinwänden, die ab 2013 gekauft wurden – wir aktualisieren dann Clives Kunstwerk-Verzeichnis.
+`;
