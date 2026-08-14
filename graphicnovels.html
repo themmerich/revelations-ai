@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Graphic Novels — Revelations · The official Clive Barker Website</title>
+<meta name="description" content="Clive Barkers Comics und Graphic Novels: eigene Geschichten wie Seduth, die IDW-Adaptionen, die Boom!-Serien Hellraiser und Next Testament — nach dem Revelations-Archiv." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=IBM+Plex+Mono:wght@300;400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+<link rel="stylesheet" href="css/style.css?v=11" />
+</head>
+<body>
+
+<!-- Fixed Three.js stage -->
+<canvas id="stage"></canvas>
+
+<!-- Grain overlay -->
+<div class="grain" aria-hidden="true"></div>
+
+<!-- Custom cursor -->
+<div class="cursor" id="cursor" aria-hidden="true"><span class="cursor__label" id="cursorLabel"></span></div>
+
+<!-- Navigation -->
+<header class="nav" id="nav">
+  <a class="nav__logo" href="index.html">C·B</a>
+  <nav class="nav__links">
+    <a href="news.html" data-i18n="nav.news">News</a>
+    <a href="index.html#bio" data-i18n="nav.bio">Biografie</a>
+    <a href="index.html#werke" data-i18n="nav.werke">Werke</a>
+    <a href="index.html#film" data-i18n="nav.film">Film</a>
+    <a href="index.html#games" data-i18n="nav.games">Games</a>
+    <a href="index.html#upcoming" data-i18n="nav.upcoming">Upcoming</a>
+    <a href="index.html#interviews" data-i18n="nav.interviews">Interviews</a>
+    <a href="index.html#galerie" data-i18n="nav.galerie">Galerie</a>
+    <a href="index.html#contact" class="nav__contact" data-i18n="nav.contact">Kontakt</a>
+    <button class="nav__lang mono" id="langToggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+
+<main>
+
+  <!-- GRAPHIC NOVELS HERO -->
+  <section class="newshero">
+    <p class="hero__eyebrow mono reveal-line" data-i18n="gn.eyebrow">Graphic Novels &amp; Comics · von Seduth bis Boom! Studios · nach dem Revelations-Archiv</p>
+    <h1 class="newshero__title reveal-line" data-i18n="gn.title">Die <em>Graphic Novels</em></h1>
+    <div class="newshero__sub">
+      <p class="newshero__lede reveal-line" data-i18n="gn.lede">Comics begleiten Barker seit der Kindheit — als Leser
+      wie als Autor: eigene Geschichten, die es nur als Comic gibt, Adaptionen seiner Romane bei IDW, die großen
+      Boom!-Serien um Pinhead und einen abdankenden Gott — und ein Marvel-Imprint mit zehn eigenen Welten.</p>
+    </div>
+  </section>
+
+  <!-- ORIGINAL COMIC STORIES -->
+  <section class="noveldetail" id="eigene">
+    <div class="section__head">
+      <span class="section__num mono">GN–01</span>
+      <h2 class="section__title" data-i18n="gn.oH">Eigene <em>Comic-Geschichten</em></h2>
+    </div>
+    <div class="noveldetail__grid">
+      <figure class="noveldetail__leadwrap reveal-news">
+        <div class="bio__imgwrap"><img src="assets/covers/graphic/sedutha.jpg" alt="Clive Barker's Seduth — Cover von Gabriel Rodriguez, IDW, 2009" /></div>
+        <figcaption class="mono" data-i18n="gn.oLead">Seduth, IDW, 2009 · Cover von Gabriel Rodriguez</figcaption>
+      </figure>
+      <div class="noveldetail__text">
+        <h2 class="noveldetail__h mono" data-i18n="novel.synopsis">Worum es geht</h2>
+        <p class="noveldetail__syn" data-i18n="gn.oSyn">Das Archiv hebt die Geschichten hervor, die Barker eigens fürs
+        Medium Comic geschrieben hat: Seduth, The Waiting Room, Field, Primal und Night of the Living Dead: London —
+        dazu die zehn Welten der Decamundi, die er 1993 für Marvels Razorline-Imprint erfand.</p>
+        <h2 class="noveldetail__h mono" data-i18n="gn.stories">Die Geschichten</h2>
+        <ul class="novelnotes">
+          <li class="novelnote reveal-news">
+            <p data-i18n="gn.oN1">Seduth (2009): 24 Seiten über einen verseuchten Diamanten, geschrieben mit Chris
+            Monfette, gezeichnet vom Locke-&amp;-Key-Team Gabriel Rodriguez und Jay Fotos — und von 3D-Pionier Ray Zone
+            komplett für echtes 3D angelegt, weil die vierte Dimension der Geschichte nach der dritten verlangte. Für
+            Barker ein Traumprojekt: Comics seien ein Medium, das sich Risiken noch leisten kann.</p>
+            <p class="novelnote__src mono">IDW · 2009</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="gn.oN2">The Waiting Room (2004): Nachdem Voltaire in Deady die Cenobiten als „Stenobiten"
+            aus der Hölle des mittleren Managements parodiert hatte, revanchierte sich Barker — mit einem eigens für
+            den boshaften Teddy geschriebenen Albtraum, den Voltaire illustrierte.</p>
+            <p class="novelnote__src mono">Sirius Entertainment · 2004</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="gn.oN3">Die frühen Originale: Primal, mit Dark Horse 1992 als Graphic Novel und Zweiteiler
+            erschienen — und Night of the Living Dead: London bei Fantaco 1993, in zwei Bänden samt limitierter
+            Hardcover-Ausgaben.</p>
+            <p class="novelnote__src mono">Dark Horse 1992 · Fantaco 1993</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="gn.oN4">Und für Marvel entwarf Barker 1993 gleich zehn neue Wirklichkeiten: die Decamundi des
+            Razorline-Imprints mit den Serien Hyperkind, Hokum &amp; Hex, Saint Sinner und Ectokid — vom Verleger Carl
+            Potts augenzwinkernd „Barkerverse&ldquo; getauft.</p>
+            <p class="novelnote__src mono">Marvel / Razorline · 1993</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="coversection">
+      <div class="coversection__head">
+        <h2 class="section__title section__title--small" data-i18n="gn.selected">Aus dem Archiv</h2>
+        <p class="mono coversection__hint" data-i18n="novel.coverHint">Klick vergrößert das Cover</p>
+      </div>
+      <div class="coverrow">
+        <figure class="coverfig" data-title="Seduth — Rodriguez-Cover">
+          <img src="assets/covers/graphic/sedutha.jpg" alt="Seduth — Cover von Gabriel Rodriguez, IDW, 2009" loading="lazy" />
+          <figcaption class="mono" data-i18n="gn.cO1">IDW, 2009 · Cover von Gabriel Rodriguez</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Seduth — Barker-Cover">
+          <img src="assets/covers/graphic/seduthb.jpg" alt="Seduth — Cover-Variante mit Artwork von Clive Barker" loading="lazy" />
+          <figcaption class="mono" data-i18n="gn.cO2">IDW, 2009 · Cover-Variante von Barker</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Deady: The Malevolent Teddy">
+          <img src="assets/covers/graphic/waiting.jpg" alt="Deady: The Malevolent Teddy — mit Barkers The Waiting Room, 2004" loading="lazy" />
+          <figcaption class="mono" data-i18n="gn.cO3">Sirius, 2004 · mit The Waiting Room</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Primal">
+          <img src="assets/covers/graphic/primal3.GIF" alt="Primal: From the Cradle to the Grave — Dark Horse, 1992" loading="lazy" />
+          <figcaption class="mono" data-i18n="gn.cO4">Dark Horse, 1992 · Graphic Novel</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Night of the Living Dead: London">
+          <img src="assets/covers/graphic/livingdead1.JPG" alt="Night of the Living Dead: London, Book One — Fantaco, 1993" loading="lazy" />
+          <figcaption class="mono" data-i18n="gn.cO5">Fantaco, 1993 · Book One: Bloodline</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Demonic Sex, v3.0">
+          <img src="assets/covers/graphic/demonicsex3.jpg" alt="Demonic Sex v3.0 — mit Barkers Geschichte Field, 2006" loading="lazy" />
+          <figcaption class="mono" data-i18n="gn.cO6">Triple 6 Comics, 2006 · mit Field</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- IDW ADAPTATIONS -->
+  <section class="noveldetail" id="idw">
+    <div class="section__head">
+      <span class="section__num mono">GN–02</span>
+      <h2 class="section__title" data-i18n="gn.iH">Die IDW-<em>Adaptionen</em></h2>
+    </div>
+    <div class="noveldetail__grid">
+      <figure class="noveldetail__leadwrap reveal-news">
+        <div class="bio__imgwrap"><img src="assets/covers/graphic/gassidwcover2.jpg" alt="The Great and Secret Show — IDW-Cover von Gabriel Rodriguez, 2006" /></div>
+        <figcaption class="mono" data-i18n="gn.iLead">The Great and Secret Show, IDW · Cover von Gabriel Rodriguez</figcaption>
+      </figure>
+      <div class="noveldetail__text">
+        <h2 class="noveldetail__h mono" data-i18n="novel.synopsis">Worum es geht</h2>
+        <p class="noveldetail__syn" data-i18n="gn.iSyn">Mit IDW fand Barker Mitte der Nullerjahre sein Comic-Zuhause:
+        Erst adaptierten Kris Oprisko und Gabriel Hernandez The Thief of Always, dann wagte sich Chris Ryall an die
+        Quiddity-Mythologie von The Great and Secret Show — zwölf Hefte, gezeichnet von Gabriel Rodriguez.</p>
+        <h2 class="noveldetail__h mono" data-i18n="gn.stories">Die Reihen</h2>
+        <ul class="novelnotes">
+          <li class="novelnote reveal-news">
+            <p data-i18n="gn.iN1">The Thief of Always erschien 2005 als Dreiteiler und in Sammelbänden — darunter eine
+            auf 500 Exemplare limitierte, von Barker signierte Hardcover-Ausgabe. Die Fabel von 1992 war da längst
+            Schullektüre in Großbritannien und den USA.</p>
+            <p class="novelnote__src mono">IDW · 2005</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="gn.iN2">The Great and Secret Show hatte Barker schon zu Eclipse-Zeiten als Comic gewollt;
+            Chris Ryall überzeugte ihn, dass die epische Geschichte in zwölf Heften erzählbar ist, ohne ihre Größe zu
+            verlieren. Heft eins war beim Distributor sofort ausverkauft — mit Variant-Covern bis hin zu von Barker
+            signierten Sketch-Covern.</p>
+            <p class="novelnote__src mono">IDW · 2006–2007</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="gn.iN3">2011 bündelte IDW alles in einem Omnibus: Thief of Always, The Great and Secret Show
+            und Seduth in einem Band; 2016 folgte die übergroße Deluxe-Hardcover-Ausgabe der Show.</p>
+            <p class="novelnote__src mono">IDW · 2011–2016</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="coversection">
+      <div class="coversection__head">
+        <h2 class="section__title section__title--small" data-i18n="gn.selected">Aus dem Archiv</h2>
+        <p class="mono coversection__hint" data-i18n="novel.coverHint">Klick vergrößert das Cover</p>
+      </div>
+      <div class="coverrow">
+        <figure class="coverfig" data-title="The Thief of Always — Volume 1">
+          <img src="assets/covers/graphic/thiefidw.jpg" alt="The Thief of Always — IDW Volume 1, 2005" loading="lazy" />
+          <figcaption class="mono" data-i18n="gn.cI1">IDW, 2005 · Volume 1, Art: Gabriel Hernandez</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="The Thief of Always — Volume 3">
+          <img src="assets/covers/graphic/thiefidwvol3a.jpg" alt="The Thief of Always — IDW Volume 3, 2005" loading="lazy" />
+          <figcaption class="mono" data-i18n="gn.cI2">IDW, 2005 · Volume 3</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="The Great and Secret Show — Trinity-Variante">
+          <img src="assets/covers/graphic/gassidwcover2.jpg" alt="The Great and Secret Show — Heft 1, Trinity-Variantcover" loading="lazy" />
+          <figcaption class="mono" data-i18n="gn.cI3">IDW, 2006 · Heft 1, Trinity-Variante</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="The Great and Secret Show — Quiddity-Variante">
+          <img src="assets/covers/graphic/gassidwcover2a.jpg" alt="The Great and Secret Show — Heft 1, Quiddity-Variantcover" loading="lazy" />
+          <figcaption class="mono" data-i18n="gn.cI4">IDW, 2006 · Heft 1, Quiddity-Variante</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Clive Barker Omnibus">
+          <img src="assets/covers/graphic/idwomnibus.jpg" alt="Clive Barker Omnibus — Sammelband, IDW, 2011" loading="lazy" />
+          <figcaption class="mono" data-i18n="gn.cI5">IDW, 2011 · Omnibus mit Thief, Show &amp; Seduth</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="The Great and Secret Show — Deluxe">
+          <img src="assets/covers/graphic/gassidwhb.jpg" alt="The Great and Secret Show — Deluxe-Hardcover, IDW, 2016" loading="lazy" />
+          <figcaption class="mono" data-i18n="gn.cI6">IDW, 2016 · Deluxe-Hardcover</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOOM! STUDIOS -->
+  <section class="noveldetail" id="boom">
+    <div class="section__head">
+      <span class="section__num mono">GN–03</span>
+      <h2 class="section__title">Boom! <em>Studios</em></h2>
+    </div>
+    <div class="noveldetail__grid">
+      <figure class="noveldetail__leadwrap reveal-news">
+        <div class="bio__imgwrap"><img src="assets/covers/graphic/hrboomissue1c.jpg" alt="Hellraiser Heft 1 — Variantcover mit Barkers Gemälde Death's Womb, Boom! Studios, 2011" /></div>
+        <figcaption class="mono" data-i18n="gn.bLead">Hellraiser #1, Boom!, 2011 · Cover: Barkers Gemälde Death&rsquo;s Womb</figcaption>
+      </figure>
+      <div class="noveldetail__text">
+        <h2 class="noveldetail__h mono" data-i18n="novel.synopsis">Worum es geht</h2>
+        <p class="noveldetail__syn" data-i18n="gn.bSyn">Bei Boom! Studios kehrte Barker als Comic-Autor zu seinen
+        Figuren zurück: Ab 2011 schrieb er mit Chris Monfette erstmals seit Jahrzehnten wieder selbst an Pinheads
+        Geschichte, 2013 folgte mit Next Testament eine neue Schöpfung, 2014 die Nightbreed-Serie.</p>
+        <h2 class="noveldetail__h mono" data-i18n="gn.stories">Die Reihen</h2>
+        <ul class="novelnotes">
+          <li class="novelnote reveal-news">
+            <p data-i18n="gn.bN1">Die Hellraiser-Serie startete mit dem frei verfügbaren Prolog At The Tolling Of A
+            Bell und Heft eins in mehreren Variant-Covern — darunter Barkers eigenes Gemälde Death&rsquo;s Womb neben
+            Artwork von Tim Bradstreet und Nick Percival.</p>
+            <p class="novelnote__src mono">Boom! Studios · 2011</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="gn.bN2">Next Testament (2013, mit Mark Miller): zwölf Hefte über Wick, den in Farben
+            gekleideten Vater der Schöpfung, der in die Gegenwart zurückkehrt — mit Covern von Goni Montes und einer
+            limitierten Barker-Variante zum Auftakt.</p>
+            <p class="novelnote__src mono">Boom! Studios · 2013–2014</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="gn.bN3">Und Nightbreed bekam 2014 seine eigene Serie von Marc Andreyko — mit
+            Incentive-Covern, für die sich unter anderem Hellboy-Schöpfer Mike Mignola nach Midian wagte.</p>
+            <p class="novelnote__src mono">Boom! Studios · 2014–2015</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="coversection">
+      <div class="coversection__head">
+        <h2 class="section__title section__title--small" data-i18n="gn.selected">Aus dem Archiv</h2>
+        <p class="mono coversection__hint" data-i18n="novel.coverHint">Klick vergrößert das Cover</p>
+      </div>
+      <div class="coverrow">
+        <figure class="coverfig" data-title="Hellraiser — At The Tolling Of A Bell">
+          <img src="assets/covers/graphic/hrboomprelude.jpg" alt="Hellraiser: At The Tolling Of A Bell — Prolog, Boom!, 2011" loading="lazy" />
+          <figcaption class="mono" data-i18n="gn.cB1">Boom!, 2011 · Prolog, Art: Tim Bradstreet</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Hellraiser #1 — Bradstreet-Cover">
+          <img src="assets/covers/graphic/hrboomissue1a.jpg" alt="Hellraiser Heft 1 — Cover von Tim Bradstreet, Boom!, 2011" loading="lazy" />
+          <figcaption class="mono" data-i18n="gn.cB2">Boom!, 2011 · Heft 1, Cover: Bradstreet</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Next Testament #1 — Montes-Cover">
+          <img src="assets/covers/graphic/nexttest1a.jpg" alt="Next Testament Heft 1 — Cover von Goni Montes, Boom!, 2013" loading="lazy" />
+          <figcaption class="mono" data-i18n="gn.cB3">Boom!, 2013 · Heft 1, Cover: Goni Montes</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Next Testament #1 — Barker-Cover">
+          <img src="assets/covers/graphic/nexttest1c.jpg" alt="Next Testament Heft 1 — limitierte Cover-Variante von Clive Barker" loading="lazy" />
+          <figcaption class="mono" data-i18n="gn.cB4">Boom!, 2013 · Heft 1, Barker-Variante</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Nightbreed #1 — Rossmo-Cover">
+          <img src="assets/covers/graphic/nbboom1a2.jpg" alt="Nightbreed Heft 1 — Cover von Riley Rossmo, Boom!, 2014" loading="lazy" />
+          <figcaption class="mono" data-i18n="gn.cB5">Boom!, 2014 · Heft 1, Cover: Riley Rossmo</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Nightbreed #1 — Mignola-Cover">
+          <img src="assets/covers/graphic/nbboom1c2.jpg" alt="Nightbreed Heft 1 — Incentive-Cover von Mike Mignola, Boom!, 2014" loading="lazy" />
+          <figcaption class="mono" data-i18n="gn.cB6">Boom!, 2014 · Heft 1, Incentive: Mike Mignola</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- OTHER PUBLISHERS & FORMATS -->
+  <section class="noveldetail" id="weitere">
+    <div class="section__head">
+      <span class="section__num mono">GN–04</span>
+      <h2 class="section__title" data-i18n="gn.wH">Weitere Verlage <em>&amp; Formate</em></h2>
+    </div>
+    <div class="noveldetail__grid">
+      <figure class="noveldetail__leadwrap reveal-news">
+        <div class="bio__imgwrap"><img src="assets/covers/graphic/agebradstreet1.jpg" alt="Age of Desire — Schwarzweiß-Anzeige von Timothy Bradstreet, 1991" /></div>
+        <figcaption class="mono" data-i18n="gn.wLead">Age of Desire · Anzeigenmotiv von Tim Bradstreet, 1991</figcaption>
+      </figure>
+      <div class="noveldetail__text">
+        <h2 class="noveldetail__h mono" data-i18n="novel.synopsis">Worum es geht</h2>
+        <p class="noveldetail__syn" data-i18n="gn.wSyn">Jenseits der großen Reihen sammelt das Archiv die Ausreißer:
+        eine verschollene Adaption, die nach fünfzehn Jahren doch noch erschien, eine hauseigene
+        Hellraiser-Anthologie — und die Books of Blood als animierte Motion Books.</p>
+        <h2 class="noveldetail__h mono" data-i18n="gn.stories">Die Projekte</h2>
+        <ul class="novelnotes">
+          <li class="novelnote reveal-news">
+            <p data-i18n="gn.wN1">Age of Desire, adaptiert von P. Craig Russell und gezeichnet von Tim Bradstreet, war
+            Anfang der Neunziger für Eclipse fertig — dann kollabierte der Verlag und die Arbeit verschwand. Erst
+            Desperado Publishing brachte den Band Jahre später heraus, samt Nachworten beider Künstler und Russells
+            verworfenen Seiten.</p>
+            <p class="novelnote__src mono">Desperado Publishing · 2009</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="gn.wN2">2017 legte Barkers eigene Firma nach: Seraphim Comics&rsquo; Hellraiser Anthology,
+            herausgegeben von Ben Meares, mit Künstlern wie Daniele Serra und Nick Percival — die Spitze der Auflage:
+            zehn von Barker signierte und mit Skizzen versehene Exemplare.</p>
+            <p class="novelnote__src mono">Seraphim Comics · 2017</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="gn.wN3">Und bei Madefire wurden die Books of Blood beweglich: Mark Alan Miller und Sam
+            Shearon adaptierten die Blutbücher als zwölfteilige Motion-Book-Serie — beginnend mit dem Haus in der
+            Tollington Place 65.</p>
+            <p class="novelnote__src mono">Madefire Motion Books · 2015</p>
+          </li>
+          <li class="novelnote reveal-news">
+            <p data-i18n="gn.wN4">Wie aus Prosa Panels werden, zeigt das Archiv übrigens Schritt für Schritt: In der
+            „Anatomy of a Scene&ldquo; wird eine Schlüsselszene aus Son of Celluloid vom Erzähltext bis zur fertigen
+            Graphic-Novel-Seite seziert.</p>
+            <p class="novelnote__src mono">Revelations-Archiv · Anatomy of a Scene</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="coversection">
+      <div class="coversection__head">
+        <h2 class="section__title section__title--small" data-i18n="gn.selected">Aus dem Archiv</h2>
+        <p class="mono coversection__hint" data-i18n="novel.coverHint">Klick vergrößert das Cover</p>
+      </div>
+      <div class="coverrow">
+        <figure class="coverfig" data-title="Age of Desire">
+          <img src="assets/covers/graphic/agedesire1.jpg" alt="Age of Desire — Artwork von Timothy Bradstreet" loading="lazy" />
+          <figcaption class="mono" data-i18n="gn.cW1">Desperado, 2009 · Art: Tim Bradstreet</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Hellraiser Anthology — limitierte Ausgabe">
+          <img src="assets/covers/graphic/hranthousl1.jpg" alt="Seraphim's Hellraiser Anthology — limitierte Ausgabe mit Serra-Cover, 2017" loading="lazy" />
+          <figcaption class="mono" data-i18n="gn.cW2">Seraphim, 2017 · Cover: Daniele Serra</figcaption>
+        </figure>
+        <figure class="coverfig" data-title="Books of Blood — Madefire">
+          <img src="assets/covers/graphic/bob-madefirepromo.jpg" alt="Books of Blood — Madefire Motion Books, Promo-Artwork" loading="lazy" />
+          <figcaption class="mono" data-i18n="gn.cW3">Madefire, 2015 · Motion-Book-Serie</figcaption>
+        </figure>
+      </div>
+    </div>
+    <p class="coversection__credit mono">Cover-Abbildungen: Revelations-Archiv (clivebarker.info) · Artwork © Clive Barker bzw. der jeweiligen Verlage</p>
+    <p class="news-backwrap"><a class="news-backlink mono" href="index.html#werke" data-i18n="art.back">← Zurück zu den Werken</a></p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__meta mono">
+      <p data-i18n="footer.m1">Sämtliche Gemälde &amp; Zeichnungen © Clive Barker · mit Dank an das Revelations-Archiv (clivebarker.info)</p>
+      <p data-i18n="footer.m2">Konzept, Text, Code &amp; Motion: Claude Fable 5 · Anthropic · 2026 — inoffizielles Fan-Projekt</p>
+    </div>
+  </footer>
+
+</main>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <div class="lightbox__backdrop" id="lightboxBackdrop"></div>
+  <figure class="lightbox__figure">
+    <img src="" alt="" id="lightboxImg" />
+    <figcaption>
+      <span class="lightbox__title" id="lightboxTitle"></span>
+      <span class="lightbox__meta mono" id="lightboxMeta"></span>
+      <span class="lightbox__credit mono">Revelations-Archiv · clivebarker.info</span>
+    </figcaption>
+  </figure>
+  <button class="lightbox__close mono" id="lightboxClose" aria-label="Schließen" data-i18n="lb.close">Schließen ✕</button>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.158.0/three.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="js/i18n.js?v=10"></script>
+<script src="js/scene.js"></script>
+<script src="js/graphicnovels.js"></script>
+</body>
+</html>

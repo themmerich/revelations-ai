@@ -265,6 +265,123 @@ window.TRANSLATIONS = {
   "anth.cBbNum": { de: "Dark Regions Press, USA, 2017 · 500 signierte, nummerierte Ex.", en: "Dark Regions Press, USA, 2017 · 500 signed, numbered copies" },
   "anth.cBbLet": { de: "Dark Regions Press, USA, 2017 · 13 Ex. in Schmuckkassette", en: "Dark Regions Press, USA, 2017 · 13 traycased copies" },
 
+  /* Graphic novels page */
+  "title.graphicnovels": {
+    de: "Graphic Novels — Revelations · The official Clive Barker Website",
+    en: "Graphic Novels — Revelations · The official Clive Barker Website"
+  },
+  "gn.eyebrow": {
+    de: "Graphic Novels &amp; Comics · von Seduth bis Boom! Studios · nach dem Revelations-Archiv",
+    en: "Graphic novels &amp; comics · from Seduth to Boom! Studios · after the Revelations archive"
+  },
+  "gn.title": { de: "Die <em>Graphic Novels</em>", en: "The <em>Graphic Novels</em>" },
+  "gn.lede": {
+    de: "Comics begleiten Barker seit der Kindheit — als Leser wie als Autor: eigene Geschichten, die es nur als Comic gibt, Adaptionen seiner Romane bei IDW, die großen Boom!-Serien um Pinhead und einen abdankenden Gott — und ein Marvel-Imprint mit zehn eigenen Welten.",
+    en: "Comics have been with Barker since childhood — as reader and as writer: original stories that exist only as comics, adaptations of his novels at IDW, the major Boom! series about Pinhead and an abdicating god — and a Marvel imprint with ten worlds of its own."
+  },
+  "gn.stories": { de: "Die Geschichten", en: "The stories" },
+  "gn.selected": { de: "Aus dem Archiv", en: "From the archive" },
+  "gn.oH": { de: "Eigene <em>Comic-Geschichten</em>", en: "Original <em>Comic Stories</em>" },
+  "gn.oLead": { de: "Seduth, IDW, 2009 · Cover von Gabriel Rodriguez", en: "Seduth, IDW, 2009 · cover by Gabriel Rodriguez" },
+  "gn.oSyn": {
+    de: "Das Archiv hebt die Geschichten hervor, die Barker eigens fürs Medium Comic geschrieben hat: Seduth, The Waiting Room, Field, Primal und Night of the Living Dead: London — dazu die zehn Welten der Decamundi, die er 1993 für Marvels Razorline-Imprint erfand.",
+    en: "The archive singles out the stories Barker wrote specifically for the comics medium: Seduth, The Waiting Room, Field, Primal and Night of the Living Dead: London — plus the ten worlds of the Decamundi he invented for Marvel's Razorline imprint in 1993."
+  },
+  "gn.oN1": {
+    de: "Seduth (2009): 24 Seiten über einen verseuchten Diamanten, geschrieben mit Chris Monfette, gezeichnet vom Locke-&amp;-Key-Team Gabriel Rodriguez und Jay Fotos — und von 3D-Pionier Ray Zone komplett für echtes 3D angelegt, weil die vierte Dimension der Geschichte nach der dritten verlangte. Für Barker ein Traumprojekt: Comics seien ein Medium, das sich Risiken noch leisten kann.",
+    en: "Seduth (2009): 24 pages about a diseased diamond, written with Chris Monfette and drawn by the Locke &amp; Key team of Gabriel Rodriguez and Jay Fotos — designed entirely for real 3D by pioneer Ray Zone, because the story's fourth dimension called for the third. A dream project for Barker: comics, he said, are a medium that can still afford to take risks."
+  },
+  "gn.oN2": {
+    de: "The Waiting Room (2004): Nachdem Voltaire in Deady die Cenobiten als „Stenobiten&ldquo; aus der Hölle des mittleren Managements parodiert hatte, revanchierte sich Barker — mit einem eigens für den boshaften Teddy geschriebenen Albtraum, den Voltaire illustrierte.",
+    en: "The Waiting Room (2004): after Voltaire's Deady parodied the Cenobites as 'Stenobites' from the seventh circle of middle-management hell, Barker returned the favour — with a nightmare written especially for the malevolent teddy, illustrated by Voltaire."
+  },
+  "gn.oN3": {
+    de: "Die frühen Originale: Primal, mit Dark Horse 1992 als Graphic Novel und Zweiteiler erschienen — und Night of the Living Dead: London bei Fantaco 1993, in zwei Bänden samt limitierter Hardcover-Ausgaben.",
+    en: "The early originals: Primal, published by Dark Horse in 1992 as a graphic novel and two-parter — and Night of the Living Dead: London at Fantaco in 1993, in two books with limited hardcover editions."
+  },
+  "gn.oN4": {
+    de: "Und für Marvel entwarf Barker 1993 gleich zehn neue Wirklichkeiten: die Decamundi des Razorline-Imprints mit den Serien Hyperkind, Hokum &amp; Hex, Saint Sinner und Ectokid — vom Verleger Carl Potts augenzwinkernd „Barkerverse&ldquo; getauft.",
+    en: "And for Marvel, Barker designed ten new realities at once in 1993: the Decamundi of the Razorline imprint with the series Hyperkind, Hokum &amp; Hex, Saint Sinner and Ectokid — wittily dubbed the 'Barkerverse' by editor Carl Potts."
+  },
+  "gn.cO1": { de: "IDW, 2009 · Cover von Gabriel Rodriguez", en: "IDW, 2009 · cover by Gabriel Rodriguez" },
+  "gn.cO2": { de: "IDW, 2009 · Cover-Variante von Barker", en: "IDW, 2009 · variant cover by Barker" },
+  "gn.cO3": { de: "Sirius, 2004 · mit The Waiting Room", en: "Sirius, 2004 · with The Waiting Room" },
+  "gn.cO4": { de: "Dark Horse, 1992 · Graphic Novel", en: "Dark Horse, 1992 · graphic novel" },
+  "gn.cO5": { de: "Fantaco, 1993 · Book One: Bloodline", en: "Fantaco, 1993 · Book One: Bloodline" },
+  "gn.cO6": { de: "Triple 6 Comics, 2006 · mit Field", en: "Triple 6 Comics, 2006 · with Field" },
+  "gn.iH": { de: "Die IDW-<em>Adaptionen</em>", en: "The IDW <em>Adaptations</em>" },
+  "gn.iLead": { de: "The Great and Secret Show, IDW · Cover von Gabriel Rodriguez", en: "The Great and Secret Show, IDW · cover by Gabriel Rodriguez" },
+  "gn.iSyn": {
+    de: "Mit IDW fand Barker Mitte der Nullerjahre sein Comic-Zuhause: Erst adaptierten Kris Oprisko und Gabriel Hernandez The Thief of Always, dann wagte sich Chris Ryall an die Quiddity-Mythologie von The Great and Secret Show — zwölf Hefte, gezeichnet von Gabriel Rodriguez.",
+    en: "In the mid-2000s Barker found his comics home at IDW: first Kris Oprisko and Gabriel Hernandez adapted The Thief of Always, then Chris Ryall took on the Quiddity mythology of The Great and Secret Show — twelve issues, drawn by Gabriel Rodriguez."
+  },
+  "gn.iN1": {
+    de: "The Thief of Always erschien 2005 als Dreiteiler und in Sammelbänden — darunter eine auf 500 Exemplare limitierte, von Barker signierte Hardcover-Ausgabe. Die Fabel von 1992 war da längst Schullektüre in Großbritannien und den USA.",
+    en: "The Thief of Always appeared in 2005 as a three-parter and in collected editions — among them a hardcover limited to 500 copies, each signed by Barker. By then the 1992 fable had long been a set text in schools in the UK and US."
+  },
+  "gn.iN2": {
+    de: "The Great and Secret Show hatte Barker schon zu Eclipse-Zeiten als Comic gewollt; Chris Ryall überzeugte ihn, dass die epische Geschichte in zwölf Heften erzählbar ist, ohne ihre Größe zu verlieren. Heft eins war beim Distributor sofort ausverkauft — mit Variant-Covern bis hin zu von Barker signierten Sketch-Covern.",
+    en: "Barker had wanted The Great and Secret Show as a comic back in the Eclipse days; Chris Ryall convinced him the epic story could be told in twelve issues without losing its scale. Issue one sold out at the distributor immediately — with variant covers up to Barker-signed sketch covers."
+  },
+  "gn.iN3": {
+    de: "2011 bündelte IDW alles in einem Omnibus: Thief of Always, The Great and Secret Show und Seduth in einem Band; 2016 folgte die übergroße Deluxe-Hardcover-Ausgabe der Show.",
+    en: "In 2011 IDW bundled everything into an omnibus: Thief of Always, The Great and Secret Show and Seduth in one volume; 2016 brought the oversized deluxe hardcover of the Show."
+  },
+  "gn.cI1": { de: "IDW, 2005 · Volume 1, Art: Gabriel Hernandez", en: "IDW, 2005 · Volume 1, art by Gabriel Hernandez" },
+  "gn.cI2": { de: "IDW, 2005 · Volume 3", en: "IDW, 2005 · Volume 3" },
+  "gn.cI3": { de: "IDW, 2006 · Heft 1, Trinity-Variante", en: "IDW, 2006 · issue 1, Trinity variant" },
+  "gn.cI4": { de: "IDW, 2006 · Heft 1, Quiddity-Variante", en: "IDW, 2006 · issue 1, Quiddity variant" },
+  "gn.cI5": { de: "IDW, 2011 · Omnibus mit Thief, Show &amp; Seduth", en: "IDW, 2011 · omnibus with Thief, Show &amp; Seduth" },
+  "gn.cI6": { de: "IDW, 2016 · Deluxe-Hardcover", en: "IDW, 2016 · deluxe hardcover" },
+  "gn.bLead": { de: "Hellraiser #1, Boom!, 2011 · Cover: Barkers Gemälde Death&rsquo;s Womb", en: "Hellraiser #1, Boom!, 2011 · cover: Barker&rsquo;s painting Death&rsquo;s Womb" },
+  "gn.bSyn": {
+    de: "Bei Boom! Studios kehrte Barker als Comic-Autor zu seinen Figuren zurück: Ab 2011 schrieb er mit Chris Monfette erstmals seit Jahrzehnten wieder selbst an Pinheads Geschichte, 2013 folgte mit Next Testament eine neue Schöpfung, 2014 die Nightbreed-Serie.",
+    en: "At Boom! Studios Barker returned to his characters as a comics writer: from 2011, with Chris Monfette, he wrote Pinhead's story himself for the first time in decades; 2013 brought a new creation with Next Testament, 2014 the Nightbreed series."
+  },
+  "gn.bN1": {
+    de: "Die Hellraiser-Serie startete mit dem frei verfügbaren Prolog At The Tolling Of A Bell und Heft eins in mehreren Variant-Covern — darunter Barkers eigenes Gemälde Death&rsquo;s Womb neben Artwork von Tim Bradstreet und Nick Percival.",
+    en: "The Hellraiser series launched with the freely available prologue At The Tolling Of A Bell and issue one in multiple variant covers — among them Barker's own painting Death's Womb alongside artwork by Tim Bradstreet and Nick Percival."
+  },
+  "gn.bN2": {
+    de: "Next Testament (2013, mit Mark Miller): zwölf Hefte über Wick, den in Farben gekleideten Vater der Schöpfung, der in die Gegenwart zurückkehrt — mit Covern von Goni Montes und einer limitierten Barker-Variante zum Auftakt.",
+    en: "Next Testament (2013, with Mark Miller): twelve issues about Wick, the colour-clad father of creation returning to the present day — with covers by Goni Montes and a limited Barker variant for the opener."
+  },
+  "gn.bN3": {
+    de: "Und Nightbreed bekam 2014 seine eigene Serie von Marc Andreyko — mit Incentive-Covern, für die sich unter anderem Hellboy-Schöpfer Mike Mignola nach Midian wagte.",
+    en: "And in 2014 Nightbreed got its own series by Marc Andreyko — with incentive covers for which, among others, Hellboy creator Mike Mignola ventured into Midian."
+  },
+  "gn.cB1": { de: "Boom!, 2011 · Prolog, Art: Tim Bradstreet", en: "Boom!, 2011 · prologue, art by Tim Bradstreet" },
+  "gn.cB2": { de: "Boom!, 2011 · Heft 1, Cover: Bradstreet", en: "Boom!, 2011 · issue 1, cover by Bradstreet" },
+  "gn.cB3": { de: "Boom!, 2013 · Heft 1, Cover: Goni Montes", en: "Boom!, 2013 · issue 1, cover by Goni Montes" },
+  "gn.cB4": { de: "Boom!, 2013 · Heft 1, Barker-Variante", en: "Boom!, 2013 · issue 1, Barker variant" },
+  "gn.cB5": { de: "Boom!, 2014 · Heft 1, Cover: Riley Rossmo", en: "Boom!, 2014 · issue 1, cover by Riley Rossmo" },
+  "gn.cB6": { de: "Boom!, 2014 · Heft 1, Incentive: Mike Mignola", en: "Boom!, 2014 · issue 1, incentive by Mike Mignola" },
+  "gn.wH": { de: "Weitere Verlage <em>&amp; Formate</em>", en: "Other Publishers <em>&amp; Formats</em>" },
+  "gn.wLead": { de: "Age of Desire · Anzeigenmotiv von Tim Bradstreet, 1991", en: "Age of Desire · ad art by Tim Bradstreet, 1991" },
+  "gn.wSyn": {
+    de: "Jenseits der großen Reihen sammelt das Archiv die Ausreißer: eine verschollene Adaption, die nach fünfzehn Jahren doch noch erschien, eine hauseigene Hellraiser-Anthologie — und die Books of Blood als animierte Motion Books.",
+    en: "Beyond the big series the archive collects the outliers: a lost adaptation that finally appeared after fifteen years, an in-house Hellraiser anthology — and the Books of Blood as animated motion books."
+  },
+  "gn.wN1": {
+    de: "Age of Desire, adaptiert von P. Craig Russell und gezeichnet von Tim Bradstreet, war Anfang der Neunziger für Eclipse fertig — dann kollabierte der Verlag und die Arbeit verschwand. Erst Desperado Publishing brachte den Band Jahre später heraus, samt Nachworten beider Künstler und Russells verworfenen Seiten.",
+    en: "Age of Desire, adapted by P. Craig Russell and drawn by Tim Bradstreet, was ready for Eclipse in the early nineties — then the publisher collapsed and the work vanished. Only years later did Desperado Publishing release the book, complete with afterwords by both artists and Russell's rejected pages."
+  },
+  "gn.wN2": {
+    de: "2017 legte Barkers eigene Firma nach: Seraphim Comics&rsquo; Hellraiser Anthology, herausgegeben von Ben Meares, mit Künstlern wie Daniele Serra und Nick Percival — die Spitze der Auflage: zehn von Barker signierte und mit Skizzen versehene Exemplare.",
+    en: "In 2017 Barker's own company followed up: Seraphim Comics' Hellraiser Anthology, edited by Ben Meares, with artists like Daniele Serra and Nick Percival — topped by ten copies signed and sketched by Barker."
+  },
+  "gn.wN3": {
+    de: "Und bei Madefire wurden die Books of Blood beweglich: Mark Alan Miller und Sam Shearon adaptierten die Blutbücher als zwölfteilige Motion-Book-Serie — beginnend mit dem Haus in der Tollington Place 65.",
+    en: "And at Madefire the Books of Blood came alive: Mark Alan Miller and Sam Shearon adapted them as a twelve-part motion book series — beginning with the house at 65 Tollington Place."
+  },
+  "gn.wN4": {
+    de: "Wie aus Prosa Panels werden, zeigt das Archiv übrigens Schritt für Schritt: In der „Anatomy of a Scene&ldquo; wird eine Schlüsselszene aus Son of Celluloid vom Erzähltext bis zur fertigen Graphic-Novel-Seite seziert.",
+    en: "How prose becomes panels is something the archive shows step by step: its 'Anatomy of a Scene' dissects a key scene from Son of Celluloid from narrative text to finished graphic novel page."
+  },
+  "gn.cW1": { de: "Desperado, 2009 · Art: Tim Bradstreet", en: "Desperado, 2009 · art by Tim Bradstreet" },
+  "gn.cW2": { de: "Seraphim, 2017 · Cover: Daniele Serra", en: "Seraphim, 2017 · cover by Daniele Serra" },
+  "gn.cW3": { de: "Madefire, 2015 · Motion-Book-Serie", en: "Madefire, 2015 · motion book series" },
+
   /* Non-fiction page */
   "title.nonfiction": {
     de: "Sachbücher — Revelations · The official Clive Barker Website",
@@ -1084,8 +1201,8 @@ window.TRANSLATIONS = {
   /* Werke */
   "werke.title": { de: "Geschriebene <em>Welten</em>", en: "Written <em>Worlds</em>" },
   "werke.intro": {
-    de: "Barkers geschriebenes Werk, sortiert wie im Revelations-Archiv: Die Romane haben hier eigene Seiten — die übrigen Kategorien führen direkt ins Archiv.",
-    en: "Barker's written work, ordered as in the Revelations archive: the novels have their own pages here — the remaining categories lead straight into the archive."
+    de: "Barkers geschriebenes Werk, sortiert wie im Revelations-Archiv: Von den Romanen bis zu den Limited Editions hat jede Kategorie hier ihre eigene Seite.",
+    en: "Barker's written work, ordered as in the Revelations archive: from the novels to the limited editions, every category has its own page here."
   },
   "werke.c1":  { de: "Die Romane", en: "The Novels" },
   "werke.c1m": { de: "14 Romane · 1985–2015 · eigene Seiten", en: "14 novels · 1985–2015 · own pages" },
@@ -1096,6 +1213,7 @@ window.TRANSLATIONS = {
   "werke.c4":  { de: "Kunstbücher", en: "Art Books" },
   "werke.c4m": { de: "Illustrator, Visions &amp; Imaginer · eigene Seite", en: "Illustrator, Visions &amp; Imaginer · own page" },
   "werke.c5":  { de: "Graphic Novels &amp; Comics", en: "Graphic Novels &amp; Comics" },
+  "werke.c5m": { de: "Seduth, IDW &amp; Boom! Studios · eigene Seite", en: "Seduth, IDW &amp; Boom! Studios · own page" },
   "werke.c6":  { de: "Sachbücher", en: "Non-Fiction" },
   "werke.c6m": { de: "The Painter, Einleitungen &amp; Essays · eigene Seite", en: "The Painter, introductions &amp; essays · own page" },
   "werke.c7":  { de: "Anthologien", en: "Anthologies" },
