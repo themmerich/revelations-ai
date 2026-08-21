@@ -30,6 +30,7 @@
   /* ---------------- News data (newest first) ----------------
      d: "YYYY-MM" · de/en: summary · u: source link */
   var NEWS = [
+    { d: "2026-08", de: "Clive kündigt die Library of the Dead an – seine neue Horror- und Dark-Fantasy-Buchtrilogie und ein Jahr voller Aktivitäten und Events – jetzt über Kickstarter erhältlich", en: "Clive announces the Library of the Dead - his new horror and dark fantasy trilogy of books and a year of activity and events - now available through Kickstarter", u: "https://www.kickstarter.com/projects/clive-barker/three-new-books-from-clive-barker" },
     { d: "2026-08", de: "Clive wurde als Empfänger des World Fantasy Award für sein Lebenswerk angekündigt, der ihm später in diesem Jahr verliehen wird", en: "Clive has been announced as a recipient later this year of the World Fantasy Award for Lifetime Achievement", u: "https://wfc2026.org/2026-world-fantasy-awards-final-ballot/" },
     { d: "2026-08", de: "Neuigkeiten zum Hellraiser-Spukhaus bei den Halloween Horror Nights", en: "Updates on the Hellraiser haunted house at Halloween Horror Nights", u: "https://www.clivebarker.info/halloweenhorror.html#hhn2026" },
 
