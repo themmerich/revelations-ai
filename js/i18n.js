@@ -1134,7 +1134,7 @@ window.TRANSLATIONS = {
     de: "Sechs Jahre aus Barkers Kosmos — Bücher, Filme, Spiele, Kunst und Auftritte, Monat für Monat. Zusammengefasst nach dem News-Archiv von Phil &amp; Sarah; jeder Eintrag führt zur Quelle.",
     en: "Six years of Barker's cosmos — books, films, games, art and appearances, month by month. Condensed from Phil &amp; Sarah's news archive; every entry links to its source."
   },
-  "news.range": { de: "August 2020 — Juli 2026", en: "August 2020 — July 2026" },
+  "news.range": { de: "August 2020 — September 2026", en: "August 2020 — September 2026" },
   "news.back": { de: "← Zurück zur Hauptseite", en: "← Back to the main page" },
 
   /* Hero */
